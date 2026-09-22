@@ -25,6 +25,14 @@
     ],
     "requires": [
       {
+        "id": "warhammer-lib",
+        "type": "module",
+        "compatibility": {
+          "minimum": "3.4.1",
+          "verified": "3.4.1"
+        }
+      },
+      {
         "id": "wfrp4e-core",
         "type": "module",
         "compatibility": {
