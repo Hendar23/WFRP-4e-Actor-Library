@@ -1,0 +1,129 @@
+{
+  "id": "watch-sergeant",
+  "folder": "Watch",
+  "name": "Watch Sergeant",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 55,
+    "bs": 45,
+    "s": 45,
+    "t": 45,
+    "i": 50,
+    "ag": 40,
+    "dex": 35,
+    "int": 40,
+    "wp": 50,
+    "fel": 45
+  },
+  "skills": [
+    {
+      "total": 55,
+      "characteristic": "ag",
+      "ref": "skill.athletics"
+    },
+    {
+      "total": 60,
+      "characteristic": "wp",
+      "ref": "skill.cool"
+    },
+    {
+      "total": 50,
+      "characteristic": "ag",
+      "ref": "skill.dodge"
+    },
+    {
+      "total": 55,
+      "characteristic": "fel",
+      "ref": "skill.gossip"
+    },
+    {
+      "total": 60,
+      "characteristic": "s",
+      "ref": "skill.intimidate"
+    },
+    {
+      "total": 60,
+      "characteristic": "i",
+      "ref": "skill.intuition"
+    },
+    {
+      "total": 65,
+      "characteristic": "fel",
+      "ref": "skill.leadership"
+    },
+    {
+      "total": 65,
+      "characteristic": "ws",
+      "ref": "skill.meleeBasic"
+    },
+    {
+      "total": 60,
+      "characteristic": "i",
+      "ref": "skill.perception"
+    },
+    {
+      "total": 55,
+      "characteristic": "bs",
+      "ref": "skill.rangedCrossbow"
+    },
+    {
+      "total": 50,
+      "characteristic": "ag",
+      "ref": "skill.stealthUrban"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.combatAware"
+    },
+    {
+      "ref": "talent.combatReflexes"
+    },
+    {
+      "ref": "talent.drilled"
+    },
+    {
+      "ref": "talent.menacing"
+    },
+    {
+      "ref": "talent.strikeToInjure"
+    },
+    {
+      "worn": true,
+      "ref": "gear.leatherJack"
+    },
+    {
+      "worn": true,
+      "ref": "gear.mailShirt"
+    },
+    {
+      "worn": true,
+      "ref": "gear.plateOpenHelm"
+    },
+    {
+      "equipped": true,
+      "ref": "gear.sword"
+    },
+    {
+      "equipped": true,
+      "ref": "gear.shield"
+    },
+    {
+      "equipped": false,
+      "ref": "gear.crossbow"
+    },
+    {
+      "quantity": 10,
+      "ref": "gear.bolt"
+    },
+    {
+      "ref": "gear.lantern"
+    },
+    {
+      "quantity": 12,
+      "ref": "gear.silver"
+    }
+  ]
+}

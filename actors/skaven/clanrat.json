@@ -1,0 +1,79 @@
+{
+  "id": "clanrat",
+  "folder": "Skaven",
+  "name": "Clanrat",
+  "type": "creature",
+  "species": "Skaven",
+  "stats": {
+    "m": 5,
+    "ws": 35,
+    "bs": 30,
+    "s": 30,
+    "t": 30,
+    "i": 40,
+    "ag": 40,
+    "dex": 30,
+    "int": 30,
+    "wp": 25,
+    "fel": 20
+  },
+  "skills": [
+    {
+      "total": 45,
+      "characteristic": "ag",
+      "ref": "skill.athletics"
+    },
+    {
+      "total": 30,
+      "characteristic": "wp",
+      "ref": "skill.cool"
+    },
+    {
+      "total": 45,
+      "characteristic": "ag",
+      "ref": "skill.dodge"
+    },
+    {
+      "total": 45,
+      "characteristic": "ws",
+      "ref": "skill.meleeBasic"
+    },
+    {
+      "total": 50,
+      "characteristic": "i",
+      "ref": "skill.perception"
+    },
+    {
+      "total": 55,
+      "characteristic": "ag",
+      "ref": "skill.stealthUnderground"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "trait.skittish"
+    },
+    {
+      "name": "Filthy Leather Jerkin",
+      "worn": true,
+      "ref": "gear.leatherJerkin"
+    },
+    {
+      "name": "Rusty Hand Weapon",
+      "equipped": true,
+      "ref": "gear.handWeapon"
+    },
+    {
+      "name": "Scrap Shield",
+      "equipped": true,
+      "ref": "gear.shield"
+    },
+    {
+      "quantity": 2,
+      "ref": "gear.brass"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "stormvermin",
+  "folder": "Skaven",
+  "name": "Stormvermin",
+  "type": "creature",
+  "species": "Skaven",
+  "stats": {
+    "m": 5,
+    "ws": 50,
+    "bs": 35,
+    "s": 40,
+    "t": 40,
+    "i": 45,
+    "ag": 45,
+    "dex": 35,
+    "int": 30,
+    "wp": 40,
+    "fel": 25
+  },
+  "skills": [
+    {
+      "total": 55,
+      "characteristic": "ag",
+      "ref": "skill.athletics"
+    },
+    {
+      "total": 50,
+      "characteristic": "wp",
+      "ref": "skill.cool"
+    },
+    {
+      "total": 55,
+      "characteristic": "ag",
+      "ref": "skill.dodge"
+    },
+    {
+      "total": 50,
+      "characteristic": "s",
+      "ref": "skill.intimidate"
+    },
+    {
+      "total": 60,
+      "characteristic": "ws",
+      "ref": "skill.meleePolearm"
+    },
+    {
+      "total": 55,
+      "characteristic": "i",
+      "ref": "skill.perception"
+    },
+    {
+      "total": 55,
+      "characteristic": "ag",
+      "ref": "skill.stealthUnderground"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "talent.combatAware"
+    },
+    {
+      "ref": "talent.drilled"
+    },
+    {
+      "ref": "talent.strikeMightyBlow"
+    },
+    {
+      "ref": "talent.warriorBorn"
+    },
+    {
+      "name": "Black Leather Jack",
+      "worn": true,
+      "ref": "gear.leatherJack"
+    },
+    {
+      "name": "Blackened Mail Shirt",
+      "worn": true,
+      "ref": "gear.mailShirt"
+    },
+    {
+      "name": "Black Leather Skullcap",
+      "worn": true,
+      "ref": "gear.leatherSkullcap"
+    },
+    {
+      "name": "Stormvermin Halberd",
+      "equipped": true,
+      "ref": "gear.halberd"
+    },
+    {
+      "quantity": 3,
+      "ref": "gear.silver"
+    }
+  ]
+}

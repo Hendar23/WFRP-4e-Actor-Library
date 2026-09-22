@@ -1,0 +1,74 @@
+{
+  "id": "rookie-watchman",
+  "folder": "Watch",
+  "name": "Rookie Watchman",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 35,
+    "bs": 30,
+    "s": 35,
+    "t": 35,
+    "i": 35,
+    "ag": 30,
+    "dex": 30,
+    "int": 30,
+    "wp": 35,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "total": 40,
+      "characteristic": "ag",
+      "ref": "skill.athletics"
+    },
+    {
+      "total": 40,
+      "characteristic": "wp",
+      "ref": "skill.cool"
+    },
+    {
+      "total": 35,
+      "characteristic": "ag",
+      "ref": "skill.dodge"
+    },
+    {
+      "total": 35,
+      "characteristic": "fel",
+      "ref": "skill.gossip"
+    },
+    {
+      "total": 40,
+      "characteristic": "i",
+      "ref": "skill.intuition"
+    },
+    {
+      "total": 40,
+      "characteristic": "ws",
+      "ref": "skill.meleeBasic"
+    },
+    {
+      "total": 45,
+      "characteristic": "i",
+      "ref": "skill.perception"
+    }
+  ],
+  "items": [
+    {
+      "worn": true,
+      "ref": "gear.leatherJack"
+    },
+    {
+      "equipped": true,
+      "ref": "gear.club"
+    },
+    {
+      "ref": "gear.lantern"
+    },
+    {
+      "quantity": 8,
+      "ref": "gear.brass"
+    }
+  ]
+}

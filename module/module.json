@@ -1,0 +1,50 @@
+{
+  "id": "wfrp4e-quick-npc-library",
+  "title": "WFRP 4e Actor Library",
+  "description": "Creates a pilot library of twelve mechanically complete generic NPCs and creatures for WFRP4e.",
+  "version": "0.3.1",
+  "authors": [
+    {
+      "name": "Hendar23"
+    }
+  ],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "wfrp4e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "10.0.0",
+          "verified": "10.0.0"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "wfrp4e-core",
+        "type": "module",
+        "compatibility": {
+          "minimum": "8.0.0",
+          "verified": "8.0.1"
+        }
+      },
+      {
+        "id": "wfrp4e-up-in-arms",
+        "type": "module",
+        "compatibility": {
+          "minimum": "7.2.0",
+          "verified": "7.2.0"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "license": "For personal use with legally installed WFRP4e content.",
+  "readme": "README.md"
+}

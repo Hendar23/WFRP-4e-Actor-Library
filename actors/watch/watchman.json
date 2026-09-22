@@ -1,0 +1,94 @@
+{
+  "id": "watchman",
+  "folder": "Watch",
+  "name": "Watchman",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 45,
+    "bs": 35,
+    "s": 40,
+    "t": 40,
+    "i": 40,
+    "ag": 35,
+    "dex": 30,
+    "int": 35,
+    "wp": 40,
+    "fel": 35
+  },
+  "skills": [
+    {
+      "total": 50,
+      "characteristic": "ag",
+      "ref": "skill.athletics"
+    },
+    {
+      "total": 50,
+      "characteristic": "wp",
+      "ref": "skill.cool"
+    },
+    {
+      "total": 45,
+      "characteristic": "ag",
+      "ref": "skill.dodge"
+    },
+    {
+      "total": 45,
+      "characteristic": "fel",
+      "ref": "skill.gossip"
+    },
+    {
+      "total": 50,
+      "characteristic": "s",
+      "ref": "skill.intimidate"
+    },
+    {
+      "total": 50,
+      "characteristic": "i",
+      "ref": "skill.intuition"
+    },
+    {
+      "total": 55,
+      "characteristic": "ws",
+      "ref": "skill.meleeBasic"
+    },
+    {
+      "total": 55,
+      "characteristic": "i",
+      "ref": "skill.perception"
+    },
+    {
+      "total": 45,
+      "characteristic": "ag",
+      "ref": "skill.stealthUrban"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.combatAware"
+    },
+    {
+      "ref": "talent.drilled"
+    },
+    {
+      "worn": true,
+      "ref": "gear.leatherJack"
+    },
+    {
+      "equipped": true,
+      "ref": "gear.sword"
+    },
+    {
+      "equipped": true,
+      "ref": "gear.shield"
+    },
+    {
+      "ref": "gear.lantern"
+    },
+    {
+      "quantity": 4,
+      "ref": "gear.silver"
+    }
+  ]
+}

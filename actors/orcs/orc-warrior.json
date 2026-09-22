@@ -1,0 +1,99 @@
+{
+  "id": "orc-warrior",
+  "folder": "Orcs",
+  "name": "Orc Warrior",
+  "type": "creature",
+  "species": "Orc",
+  "stats": {
+    "m": 4,
+    "ws": 45,
+    "bs": 30,
+    "s": 45,
+    "t": 50,
+    "i": 35,
+    "ag": 35,
+    "dex": 30,
+    "int": 25,
+    "wp": 40,
+    "fel": 25
+  },
+  "skills": [
+    {
+      "total": 50,
+      "characteristic": "ag",
+      "ref": "skill.athletics"
+    },
+    {
+      "total": 50,
+      "characteristic": "wp",
+      "ref": "skill.cool"
+    },
+    {
+      "total": 65,
+      "characteristic": "t",
+      "ref": "skill.endurance"
+    },
+    {
+      "total": 60,
+      "characteristic": "s",
+      "ref": "skill.intimidate"
+    },
+    {
+      "total": 60,
+      "characteristic": "ws",
+      "ref": "skill.meleeBasic"
+    },
+    {
+      "total": 40,
+      "characteristic": "int",
+      "ref": "skill.outdoorSurvival"
+    },
+    {
+      "total": 45,
+      "characteristic": "i",
+      "ref": "skill.perception"
+    }
+  ],
+  "items": [
+    {
+      "specification": "Greenskins",
+      "ref": "trait.animosity"
+    },
+    {
+      "ref": "trait.belligerent"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "talent.menacing"
+    },
+    {
+      "ref": "talent.strikeMightyBlow"
+    },
+    {
+      "ref": "talent.veryStrong"
+    },
+    {
+      "ref": "talent.warriorBorn"
+    },
+    {
+      "worn": true,
+      "ref": "gear.leatherJack"
+    },
+    {
+      "name": "Choppa",
+      "equipped": true,
+      "ref": "gear.axe"
+    },
+    {
+      "name": "Looted Shield",
+      "equipped": true,
+      "ref": "gear.shield"
+    },
+    {
+      "quantity": 2,
+      "ref": "gear.silver"
+    }
+  ]
+}

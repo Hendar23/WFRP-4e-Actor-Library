@@ -1,0 +1,112 @@
+{
+  "id": "clawleader",
+  "folder": "Skaven",
+  "name": "Clawleader",
+  "type": "creature",
+  "species": "Skaven",
+  "stats": {
+    "m": 5,
+    "ws": 60,
+    "bs": 45,
+    "s": 45,
+    "t": 45,
+    "i": 55,
+    "ag": 50,
+    "dex": 40,
+    "int": 40,
+    "wp": 50,
+    "fel": 35
+  },
+  "skills": [
+    {
+      "total": 65,
+      "characteristic": "ag",
+      "ref": "skill.athletics"
+    },
+    {
+      "total": 60,
+      "characteristic": "wp",
+      "ref": "skill.cool"
+    },
+    {
+      "total": 60,
+      "characteristic": "ag",
+      "ref": "skill.dodge"
+    },
+    {
+      "total": 60,
+      "characteristic": "s",
+      "ref": "skill.intimidate"
+    },
+    {
+      "total": 60,
+      "characteristic": "fel",
+      "ref": "skill.leadership"
+    },
+    {
+      "total": 70,
+      "characteristic": "ws",
+      "ref": "skill.meleeBasic"
+    },
+    {
+      "total": 70,
+      "characteristic": "ws",
+      "ref": "skill.meleePolearm"
+    },
+    {
+      "total": 65,
+      "characteristic": "i",
+      "ref": "skill.perception"
+    },
+    {
+      "total": 65,
+      "characteristic": "ag",
+      "ref": "skill.stealthUnderground"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "talent.combatAware"
+    },
+    {
+      "ref": "talent.combatReflexes"
+    },
+    {
+      "ref": "talent.drilled"
+    },
+    {
+      "ref": "talent.menacing"
+    },
+    {
+      "ref": "talent.strikeMightyBlow"
+    },
+    {
+      "ref": "talent.strikeToInjure"
+    },
+    {
+      "ref": "talent.warriorBorn"
+    },
+    {
+      "name": "Blackened Mail Coat",
+      "worn": true,
+      "ref": "gear.mailCoat"
+    },
+    {
+      "name": "Clawleader's Helm",
+      "worn": true,
+      "ref": "gear.plateOpenHelm"
+    },
+    {
+      "name": "Clawleader's Halberd",
+      "equipped": true,
+      "ref": "gear.halberd"
+    },
+    {
+      "quantity": 10,
+      "ref": "gear.silver"
+    }
+  ]
+}

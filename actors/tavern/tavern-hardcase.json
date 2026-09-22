@@ -1,0 +1,88 @@
+{
+  "id": "tavern-hardcase",
+  "folder": "Tavern",
+  "name": "Tavern Hardcase",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 45,
+    "bs": 30,
+    "s": 40,
+    "t": 45,
+    "i": 35,
+    "ag": 35,
+    "dex": 30,
+    "int": 30,
+    "wp": 40,
+    "fel": 35
+  },
+  "skills": [
+    {
+      "total": 55,
+      "characteristic": "t",
+      "ref": "skill.consumeAlcohol"
+    },
+    {
+      "total": 55,
+      "characteristic": "wp",
+      "ref": "skill.cool"
+    },
+    {
+      "total": 45,
+      "characteristic": "ag",
+      "ref": "skill.dodge"
+    },
+    {
+      "total": 60,
+      "characteristic": "t",
+      "ref": "skill.endurance"
+    },
+    {
+      "total": 55,
+      "characteristic": "s",
+      "ref": "skill.intimidate"
+    },
+    {
+      "total": 55,
+      "characteristic": "ws",
+      "ref": "skill.meleeBasic"
+    },
+    {
+      "total": 55,
+      "characteristic": "ws",
+      "ref": "skill.meleeBrawling"
+    },
+    {
+      "total": 45,
+      "characteristic": "i",
+      "ref": "skill.perception"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.carouser"
+    },
+    {
+      "ref": "talent.dirtyFighting"
+    },
+    {
+      "ref": "talent.menacing"
+    },
+    {
+      "ref": "talent.strikeMightyBlow"
+    },
+    {
+      "worn": true,
+      "ref": "gear.leatherJack"
+    },
+    {
+      "equipped": true,
+      "ref": "gear.club"
+    },
+    {
+      "quantity": 3,
+      "ref": "gear.silver"
+    }
+  ]
+}

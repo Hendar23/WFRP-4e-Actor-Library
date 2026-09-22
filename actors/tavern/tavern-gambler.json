@@ -1,0 +1,74 @@
+{
+  "id": "tavern-gambler",
+  "folder": "Tavern",
+  "name": "Tavern Gambler",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 32,
+    "bs": 30,
+    "s": 30,
+    "t": 35,
+    "i": 40,
+    "ag": 35,
+    "dex": 40,
+    "int": 45,
+    "wp": 40,
+    "fel": 45
+  },
+  "skills": [
+    {
+      "total": 50,
+      "characteristic": "wp",
+      "ref": "skill.cool"
+    },
+    {
+      "total": 65,
+      "characteristic": "int",
+      "ref": "skill.gamble"
+    },
+    {
+      "total": 55,
+      "characteristic": "fel",
+      "ref": "skill.gossip"
+    },
+    {
+      "total": 55,
+      "characteristic": "i",
+      "ref": "skill.intuition"
+    },
+    {
+      "total": 50,
+      "characteristic": "i",
+      "ref": "skill.perception"
+    },
+    {
+      "total": 55,
+      "characteristic": "dex",
+      "ref": "skill.sleightOfHand"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.blather"
+    },
+    {
+      "ref": "talent.numismatics"
+    },
+    {
+      "ref": "talent.savvy"
+    },
+    {
+      "equipped": true,
+      "ref": "gear.dagger"
+    },
+    {
+      "ref": "gear.dice"
+    },
+    {
+      "quantity": 6,
+      "ref": "gear.silver"
+    }
+  ]
+}

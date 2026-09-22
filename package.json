@@ -1,0 +1,11 @@
+{
+  "name": "wfrp-4e-actor-library",
+  "version": "0.3.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "check": "node tools/build.mjs --check && node --check module/scripts/main.js && node --check module/scripts/data.js"
+  },
+  "engines": { "node": ">=22" }
+}

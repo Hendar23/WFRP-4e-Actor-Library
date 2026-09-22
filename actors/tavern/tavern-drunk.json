@@ -1,0 +1,66 @@
+{
+  "id": "tavern-drunk",
+  "folder": "Tavern",
+  "name": "Tavern Drunk",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 28,
+    "bs": 25,
+    "s": 30,
+    "t": 35,
+    "i": 25,
+    "ag": 25,
+    "dex": 25,
+    "int": 25,
+    "wp": 25,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "total": 55,
+      "characteristic": "t",
+      "ref": "skill.consumeAlcohol"
+    },
+    {
+      "total": 45,
+      "characteristic": "t",
+      "ref": "skill.endurance"
+    },
+    {
+      "total": 30,
+      "characteristic": "int",
+      "ref": "skill.gamble"
+    },
+    {
+      "total": 40,
+      "characteristic": "fel",
+      "ref": "skill.gossip"
+    },
+    {
+      "total": 38,
+      "characteristic": "ws",
+      "ref": "skill.meleeBrawling"
+    },
+    {
+      "total": 30,
+      "characteristic": "i",
+      "ref": "skill.perception"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.carouser"
+    },
+    {
+      "name": "Bottle",
+      "equipped": true,
+      "ref": "gear.improvisedWeapon"
+    },
+    {
+      "quantity": 4,
+      "ref": "gear.brass"
+    }
+  ]
+}

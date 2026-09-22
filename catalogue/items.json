@@ -1,0 +1,262 @@
+{
+  "skill.athletics": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+    "requires": "wfrp4e-core"
+  },
+  "skill.consumeAlcohol": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+    "requires": "wfrp4e-core"
+  },
+  "skill.cool": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+    "requires": "wfrp4e-core"
+  },
+  "skill.dodge": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+    "requires": "wfrp4e-core"
+  },
+  "skill.endurance": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+    "requires": "wfrp4e-core"
+  },
+  "skill.gamble": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.7pQo66cESWttzIlb",
+    "requires": "wfrp4e-core"
+  },
+  "skill.gossip": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+    "requires": "wfrp4e-core"
+  },
+  "skill.intimidate": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+    "requires": "wfrp4e-core"
+  },
+  "skill.intuition": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+    "requires": "wfrp4e-core"
+  },
+  "skill.leadership": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+    "requires": "wfrp4e-core"
+  },
+  "skill.meleeBasic": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+    "requires": "wfrp4e-core"
+  },
+  "skill.meleeBrawling": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.jLyoyqwmBVPjRjhM",
+    "requires": "wfrp4e-core"
+  },
+  "skill.meleeTwoHanded": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.Lst4xxUcxTYMlD3U",
+    "requires": "wfrp4e-core"
+  },
+  "skill.meleePolearm": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.PzimjNx9Ojq4g6mV",
+    "requires": "wfrp4e-core"
+  },
+  "skill.outdoorSurvival": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh",
+    "requires": "wfrp4e-core"
+  },
+  "skill.perception": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+    "requires": "wfrp4e-core"
+  },
+  "skill.rangedCrossbow": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.OuDdJRDo3W56zk0Z",
+    "requires": "wfrp4e-core"
+  },
+  "skill.rangedSling": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.KQjZ85kKz42YQGYT",
+    "requires": "wfrp4e-core"
+  },
+  "skill.sleightOfHand": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.rvd0S8Z0v2m0MHmD",
+    "requires": "wfrp4e-core"
+  },
+  "skill.stealthUnderground": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.cHbQeJQ7cVZZyDyl",
+    "requires": "wfrp4e-core"
+  },
+  "skill.stealthUrban": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.zkI6tIqbyAZvh0Th",
+    "requires": "wfrp4e-core"
+  },
+  "talent.blather": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.77p3QRKgFWakkndF",
+    "requires": "wfrp4e-core"
+  },
+  "talent.carouser": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.hTgrGkWnmIR4xhVe",
+    "requires": "wfrp4e-core"
+  },
+  "talent.combatAware": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.0LdHytqyNmg2pcAX",
+    "requires": "wfrp4e-core"
+  },
+  "talent.combatReflexes": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.tXKX29QZBdHmyMc7",
+    "requires": "wfrp4e-core"
+  },
+  "talent.dirtyFighting": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.2Nzqsc9aclP6rpnl",
+    "requires": "wfrp4e-core"
+  },
+  "talent.drilled": {
+    "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.J9MK0AIaTbvd5oF6",
+    "requires": "wfrp4e-up-in-arms"
+  },
+  "talent.menacing": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.0hn6UaKq8CoZP2zD",
+    "requires": "wfrp4e-core"
+  },
+  "talent.numismatics": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.5QcrpLQWWrsbKR79",
+    "requires": "wfrp4e-core"
+  },
+  "talent.savvy": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.QsrXxGZiHjth7RMg",
+    "requires": "wfrp4e-core"
+  },
+  "talent.strikeMightyBlow": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.4MJJCiOKPkBByYwW",
+    "requires": "wfrp4e-core"
+  },
+  "talent.strikeToInjure": {
+    "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.RWJrupj9seau0w31",
+    "requires": "wfrp4e-up-in-arms"
+  },
+  "talent.strongBack": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.FF41XPboORgyDNsv",
+    "requires": "wfrp4e-core"
+  },
+  "talent.veryResilient": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.RmY0CUjiFYZ3GEKY",
+    "requires": "wfrp4e-core"
+  },
+  "talent.veryStrong": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.Zf0vk2rjllpDh0Ua",
+    "requires": "wfrp4e-core"
+  },
+  "talent.warriorBorn": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.zGQ0ShUTSlUvVtWh",
+    "requires": "wfrp4e-core"
+  },
+  "trait.animosity": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+    "requires": "wfrp4e-core"
+  },
+  "trait.belligerent": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.GbDyBCu8ZjDp6dkj",
+    "requires": "wfrp4e-core"
+  },
+  "trait.nightVision": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm",
+    "requires": "wfrp4e-core"
+  },
+  "trait.skittish": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.IPKRMGry6WotuS1G",
+    "requires": "wfrp4e-core"
+  },
+  "gear.improvisedWeapon": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.mRU10yAWWWs5WoKt",
+    "requires": "wfrp4e-core"
+  },
+  "gear.handWeapon": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.1zaqojk0Oq1m8vYv",
+    "requires": "wfrp4e-core"
+  },
+  "gear.dagger": {
+    "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.UlL4mHSgBW3nYh2a",
+    "requires": "wfrp4e-up-in-arms"
+  },
+  "gear.club": {
+    "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.XvvHQ8amxyhTaORs",
+    "requires": "wfrp4e-up-in-arms"
+  },
+  "gear.sword": {
+    "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.erX8o1o0IcXHTX2r",
+    "requires": "wfrp4e-up-in-arms"
+  },
+  "gear.axe": {
+    "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.FaPOAjXnBXWLjQBl",
+    "requires": "wfrp4e-up-in-arms"
+  },
+  "gear.spear": {
+    "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.HxOhYpAxqdcyoSje",
+    "requires": "wfrp4e-up-in-arms"
+  },
+  "gear.halberd": {
+    "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.jxTsO0vrf53pCxCb",
+    "requires": "wfrp4e-up-in-arms"
+  },
+  "gear.greatAxe": {
+    "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.jAy9klfNkrQuL1Ru",
+    "requires": "wfrp4e-up-in-arms"
+  },
+  "gear.shield": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+    "requires": "wfrp4e-core"
+  },
+  "gear.crossbow": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.ksRqHiMVpIL07Ij1",
+    "requires": "wfrp4e-core"
+  },
+  "gear.sling": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.7Bpc5I8Arucy3w4q",
+    "requires": "wfrp4e-core"
+  },
+  "gear.bolt": {
+    "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.Ymuuf4HyF8t9h13M",
+    "requires": "wfrp4e-up-in-arms"
+  },
+  "gear.leatherJerkin": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.ipaDvYY3qS66o593",
+    "requires": "wfrp4e-core"
+  },
+  "gear.leatherJack": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.OjcHE0VOGr1aRdy9",
+    "requires": "wfrp4e-core"
+  },
+  "gear.leatherSkullcap": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.0W0kEpa2kNEcRGK0",
+    "requires": "wfrp4e-core"
+  },
+  "gear.mailShirt": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.cJdfHOVbghTf4Eo0",
+    "requires": "wfrp4e-core"
+  },
+  "gear.mailCoat": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.i76oPVM2eFEs5IBh",
+    "requires": "wfrp4e-core"
+  },
+  "gear.plateOpenHelm": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.TvUKzvXjc2VChuTT",
+    "requires": "wfrp4e-core"
+  },
+  "gear.plateBreastplate": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.oBNXxRFPh1sOT4K2",
+    "requires": "wfrp4e-core"
+  },
+  "gear.plateBracers": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.oW7wSkl4JMb5sBH8",
+    "requires": "wfrp4e-core"
+  },
+  "gear.dice": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.eZN8HuDV0OnjIWM9",
+    "requires": "wfrp4e-core"
+  },
+  "gear.lantern": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.mcJi9yqMFRJRkhJs",
+    "requires": "wfrp4e-core"
+  },
+  "gear.brass": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.0MYOJFx3vkYA95B4",
+    "requires": "wfrp4e-core"
+  },
+  "gear.silver": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.KB8HgDz56dh2w7w1",
+    "requires": "wfrp4e-core"
+  }
+}
