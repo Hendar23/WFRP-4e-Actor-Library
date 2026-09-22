@@ -1,0 +1,85 @@
+{
+  "id": "night-runner",
+  "folder": "Skaven",
+  "name": "Night Runner",
+  "type": "creature",
+  "species": "Skaven",
+  "stats": {
+    "m": 5,
+    "ws": 35,
+    "bs": 35,
+    "s": 30,
+    "t": 30,
+    "i": 45,
+    "ag": 50,
+    "dex": 40,
+    "int": 30,
+    "wp": 30,
+    "fel": 20
+  },
+  "skills": [
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 50
+    },
+    {
+      "ref": "skill.rangedSling",
+      "characteristic": "bs",
+      "total": 50
+    },
+    {
+      "ref": "skill.stealthUrban",
+      "characteristic": "ag",
+      "total": 70
+    },
+    {
+      "ref": "skill.stealthUnderground",
+      "characteristic": "ag",
+      "total": 70
+    },
+    {
+      "ref": "skill.climb",
+      "characteristic": "s",
+      "total": 45
+    },
+    {
+      "ref": "skill.dodge",
+      "characteristic": "ag",
+      "total": 70
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 60
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.dagger",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.sling",
+      "equipped": false,
+      "ammo": "gear.stoneBullet",
+      "ugly": true
+    },
+    {
+      "ref": "gear.stoneBullet",
+      "quantity": 10
+    },
+    {
+      "ref": "gear.leatherJerkin",
+      "worn": true,
+      "ugly": true
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "talent.shadow"
+    }
+  ]
+}

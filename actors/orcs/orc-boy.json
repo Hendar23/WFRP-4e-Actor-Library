@@ -70,12 +70,14 @@
     },
     {
       "worn": true,
-      "ref": "gear.leatherJerkin"
+      "ref": "gear.leatherJerkin",
+      "ugly": true
     },
     {
       "name": "Choppa",
       "equipped": true,
-      "ref": "gear.axe"
+      "ref": "gear.axe",
+      "ugly": true
     },
     {
       "quantity": 3,

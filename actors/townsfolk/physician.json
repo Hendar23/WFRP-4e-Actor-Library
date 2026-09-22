@@ -1,0 +1,75 @@
+{
+  "id": "physician",
+  "folder": "Townsfolk",
+  "name": "Physician",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 25,
+    "bs": 25,
+    "s": 25,
+    "t": 30,
+    "i": 40,
+    "ag": 30,
+    "dex": 45,
+    "int": 50,
+    "wp": 45,
+    "fel": 35
+  },
+  "skills": [
+    {
+      "ref": "skill.heal",
+      "characteristic": "int",
+      "total": 70
+    },
+    {
+      "ref": "skill.research",
+      "characteristic": "int",
+      "total": 60
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 50
+    },
+    {
+      "ref": "skill.cool",
+      "characteristic": "wp",
+      "total": 55
+    },
+    {
+      "ref": "skill.charm",
+      "characteristic": "fel",
+      "total": 45
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 35
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.bandage",
+      "quantity": 5
+    },
+    {
+      "ref": "gear.medicineBook"
+    },
+    {
+      "ref": "gear.dagger",
+      "equipped": true
+    },
+    {
+      "ref": "gear.brass",
+      "quantity": 16
+    },
+    {
+      "ref": "talent.readWrite"
+    },
+    {
+      "ref": "talent.fieldDressing"
+    }
+  ]
+}

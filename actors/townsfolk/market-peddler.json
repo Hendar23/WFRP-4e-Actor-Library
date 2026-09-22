@@ -1,0 +1,72 @@
+{
+  "id": "market-peddler",
+  "folder": "Townsfolk",
+  "name": "Market Peddler",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 25,
+    "bs": 25,
+    "s": 25,
+    "t": 30,
+    "i": 35,
+    "ag": 30,
+    "dex": 35,
+    "int": 40,
+    "wp": 35,
+    "fel": 40
+  },
+  "skills": [
+    {
+      "ref": "skill.haggle",
+      "characteristic": "fel",
+      "total": 50
+    },
+    {
+      "ref": "skill.evaluate",
+      "characteristic": "int",
+      "total": 50
+    },
+    {
+      "ref": "skill.gossip",
+      "characteristic": "fel",
+      "total": 45
+    },
+    {
+      "ref": "skill.intuition",
+      "characteristic": "i",
+      "total": 40
+    },
+    {
+      "ref": "skill.charm",
+      "characteristic": "fel",
+      "total": 45
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 30
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.abacus"
+    },
+    {
+      "ref": "gear.silver",
+      "quantity": 10
+    },
+    {
+      "ref": "gear.dagger",
+      "equipped": true
+    },
+    {
+      "ref": "gear.brass",
+      "quantity": 8
+    },
+    {
+      "ref": "talent.dealmaker"
+    }
+  ]
+}

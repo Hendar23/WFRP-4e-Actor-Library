@@ -73,22 +73,26 @@
     {
       "name": "Black Leather Jack",
       "worn": true,
-      "ref": "gear.leatherJack"
+      "ref": "gear.leatherJack",
+      "ugly": true
     },
     {
       "name": "Blackened Mail Shirt",
       "worn": true,
-      "ref": "gear.mailShirt"
+      "ref": "gear.mailShirt",
+      "ugly": true
     },
     {
       "name": "Black Leather Skullcap",
       "worn": true,
-      "ref": "gear.leatherSkullcap"
+      "ref": "gear.leatherSkullcap",
+      "ugly": true
     },
     {
       "name": "Stormvermin Halberd",
       "equipped": true,
-      "ref": "gear.halberd"
+      "ref": "gear.halberd",
+      "ugly": true
     },
     {
       "quantity": 3,

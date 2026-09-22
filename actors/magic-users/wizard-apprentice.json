@@ -1,0 +1,80 @@
+{
+  "id": "wizard-apprentice",
+  "folder": "Magic Users",
+  "name": "Wizard Apprentice",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 25,
+    "bs": 25,
+    "s": 25,
+    "t": 30,
+    "i": 35,
+    "ag": 30,
+    "dex": 35,
+    "int": 40,
+    "wp": 40,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.languageMagick",
+      "characteristic": "int",
+      "total": 50
+    },
+    {
+      "ref": "skill.loreMagick",
+      "characteristic": "int",
+      "total": 50
+    },
+    {
+      "ref": "skill.research",
+      "characteristic": "int",
+      "total": 50
+    },
+    {
+      "ref": "skill.cool",
+      "characteristic": "wp",
+      "total": 50
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 30
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.quarterstaff",
+      "equipped": true
+    },
+    {
+      "ref": "gear.robes"
+    },
+    {
+      "ref": "gear.magicBook"
+    },
+    {
+      "ref": "talent.pettyMagic"
+    },
+    {
+      "ref": "talent.secondSight"
+    },
+    {
+      "ref": "talent.readWrite"
+    },
+    {
+      "ref": "spell.light",
+      "memorized": true
+    },
+    {
+      "ref": "spell.dart",
+      "memorized": true
+    },
+    {
+      "ref": "spell.sounds",
+      "memorized": true
+    }
+  ]
+}

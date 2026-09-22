@@ -1,0 +1,65 @@
+{
+  "id": "armoured-skeleton",
+  "folder": "Undead",
+  "name": "Armoured Skeleton",
+  "type": "creature",
+  "species": "Skeleton",
+  "stats": {
+    "m": 4,
+    "ws": 35,
+    "bs": 20,
+    "s": 35,
+    "t": 35,
+    "i": 20,
+    "ag": 20,
+    "dex": 25,
+    "int": 5,
+    "wp": 35,
+    "fel": 5
+  },
+  "skills": [
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 50
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 25
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.sword",
+      "equipped": true
+    },
+    {
+      "ref": "gear.shield",
+      "equipped": true
+    },
+    {
+      "ref": "trait.undead"
+    },
+    {
+      "ref": "trait.unstable"
+    },
+    {
+      "ref": "trait.construct"
+    },
+    {
+      "ref": "trait.painless"
+    },
+    {
+      "ref": "trait.immunitytoPsychology"
+    },
+    {
+      "ref": "trait.fear",
+      "specification": 1
+    },
+    {
+      "ref": "gear.mailShirt",
+      "worn": true
+    }
+  ]
+}

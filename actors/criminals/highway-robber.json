@@ -1,0 +1,78 @@
+{
+  "id": "highway-robber",
+  "folder": "Criminals",
+  "name": "Highway Robber",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 35,
+    "bs": 40,
+    "s": 30,
+    "t": 35,
+    "i": 40,
+    "ag": 40,
+    "dex": 35,
+    "int": 35,
+    "wp": 35,
+    "fel": 40
+  },
+  "skills": [
+    {
+      "ref": "skill.rangedBlackpowder",
+      "characteristic": "bs",
+      "total": 50
+    },
+    {
+      "ref": "skill.intimidate",
+      "characteristic": "s",
+      "total": 40
+    },
+    {
+      "ref": "skill.rideHorse",
+      "characteristic": "ag",
+      "total": 45
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 40
+    },
+    {
+      "ref": "skill.cool",
+      "characteristic": "wp",
+      "total": 40
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 45
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.leatherJerkin",
+      "worn": true
+    },
+    {
+      "ref": "gear.dagger",
+      "equipped": true
+    },
+    {
+      "ref": "gear.silver",
+      "quantity": 2
+    },
+    {
+      "ref": "gear.pistol",
+      "equipped": false,
+      "ammo": "gear.bulletAndPowder"
+    },
+    {
+      "ref": "gear.bulletAndPowder",
+      "quantity": 10
+    },
+    {
+      "ref": "talent.criminal"
+    }
+  ]
+}

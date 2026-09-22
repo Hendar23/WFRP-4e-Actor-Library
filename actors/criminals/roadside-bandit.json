@@ -1,0 +1,78 @@
+{
+  "id": "roadside-bandit",
+  "folder": "Criminals",
+  "name": "Roadside Bandit",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 35,
+    "bs": 35,
+    "s": 35,
+    "t": 35,
+    "i": 35,
+    "ag": 35,
+    "dex": 30,
+    "int": 30,
+    "wp": 35,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 45
+    },
+    {
+      "ref": "skill.rangedBow",
+      "characteristic": "bs",
+      "total": 45
+    },
+    {
+      "ref": "skill.intimidate",
+      "characteristic": "s",
+      "total": 40
+    },
+    {
+      "ref": "skill.outdoorSurvival",
+      "characteristic": "int",
+      "total": 35
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 40
+    },
+    {
+      "ref": "skill.cool",
+      "characteristic": "wp",
+      "total": 40
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.leatherJerkin",
+      "worn": true
+    },
+    {
+      "ref": "gear.dagger",
+      "equipped": true
+    },
+    {
+      "ref": "gear.silver",
+      "quantity": 2
+    },
+    {
+      "ref": "gear.bow",
+      "equipped": false,
+      "ammo": "gear.arrow"
+    },
+    {
+      "ref": "gear.arrow",
+      "quantity": 12
+    },
+    {
+      "ref": "talent.criminal"
+    }
+  ]
+}

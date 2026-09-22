@@ -1,0 +1,81 @@
+{
+  "id": "bandit",
+  "folder": "Criminals",
+  "name": "Bandit",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 40,
+    "bs": 40,
+    "s": 35,
+    "t": 35,
+    "i": 35,
+    "ag": 35,
+    "dex": 30,
+    "int": 30,
+    "wp": 40,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 60
+    },
+    {
+      "ref": "skill.rangedBow",
+      "characteristic": "bs",
+      "total": 60
+    },
+    {
+      "ref": "skill.intimidate",
+      "characteristic": "s",
+      "total": 45
+    },
+    {
+      "ref": "skill.outdoorSurvival",
+      "characteristic": "int",
+      "total": 40
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 45
+    },
+    {
+      "ref": "skill.cool",
+      "characteristic": "wp",
+      "total": 50
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.leatherJack",
+      "worn": true
+    },
+    {
+      "ref": "gear.sword",
+      "equipped": true
+    },
+    {
+      "ref": "gear.silver",
+      "quantity": 6
+    },
+    {
+      "ref": "gear.bow",
+      "equipped": false,
+      "ammo": "gear.arrow"
+    },
+    {
+      "ref": "gear.arrow",
+      "quantity": 12
+    },
+    {
+      "ref": "talent.criminal"
+    },
+    {
+      "ref": "talent.combatAware"
+    }
+  ]
+}

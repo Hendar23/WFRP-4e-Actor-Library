@@ -1,0 +1,73 @@
+{
+  "id": "boat-hand",
+  "folder": "Townsfolk",
+  "name": "Boat Hand",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 30,
+    "bs": 30,
+    "s": 35,
+    "t": 35,
+    "i": 35,
+    "ag": 35,
+    "dex": 35,
+    "int": 30,
+    "wp": 35,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.row",
+      "characteristic": "s",
+      "total": 45
+    },
+    {
+      "ref": "skill.swim",
+      "characteristic": "s",
+      "total": 45
+    },
+    {
+      "ref": "skill.navigation",
+      "characteristic": "int",
+      "total": 35
+    },
+    {
+      "ref": "skill.athletics",
+      "characteristic": "ag",
+      "total": 40
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 40
+    },
+    {
+      "ref": "skill.leadership",
+      "characteristic": "fel",
+      "total": 35
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 35
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.rope"
+    },
+    {
+      "ref": "gear.dagger",
+      "equipped": true
+    },
+    {
+      "ref": "gear.brass",
+      "quantity": 8
+    },
+    {
+      "ref": "talent.waterman"
+    }
+  ]
+}

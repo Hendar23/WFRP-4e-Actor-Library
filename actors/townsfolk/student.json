@@ -1,0 +1,76 @@
+{
+  "id": "student",
+  "folder": "Townsfolk",
+  "name": "Student",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 25,
+    "bs": 25,
+    "s": 25,
+    "t": 30,
+    "i": 35,
+    "ag": 30,
+    "dex": 35,
+    "int": 45,
+    "wp": 40,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.research",
+      "characteristic": "int",
+      "total": 55
+    },
+    {
+      "ref": "skill.loreLaw",
+      "characteristic": "int",
+      "total": 55
+    },
+    {
+      "ref": "skill.languageClassical",
+      "characteristic": "int",
+      "total": 50
+    },
+    {
+      "ref": "skill.evaluate",
+      "characteristic": "int",
+      "total": 50
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 40
+    },
+    {
+      "ref": "skill.cool",
+      "characteristic": "wp",
+      "total": 45
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 30
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.writingKit"
+    },
+    {
+      "ref": "gear.lawBook"
+    },
+    {
+      "ref": "gear.dagger",
+      "equipped": true
+    },
+    {
+      "ref": "gear.brass",
+      "quantity": 8
+    },
+    {
+      "ref": "talent.readWrite"
+    }
+  ]
+}

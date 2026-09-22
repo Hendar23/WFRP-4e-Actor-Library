@@ -1,0 +1,78 @@
+{
+  "id": "recruit-archer",
+  "folder": "Soldiers",
+  "name": "Recruit Archer",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 35,
+    "bs": 35,
+    "s": 35,
+    "t": 35,
+    "i": 35,
+    "ag": 35,
+    "dex": 30,
+    "int": 30,
+    "wp": 35,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.rangedBow",
+      "characteristic": "bs",
+      "total": 45
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 40
+    },
+    {
+      "ref": "skill.cool",
+      "characteristic": "wp",
+      "total": 40
+    },
+    {
+      "ref": "skill.endurance",
+      "characteristic": "t",
+      "total": 40
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 40
+    },
+    {
+      "ref": "skill.dodge",
+      "characteristic": "ag",
+      "total": 40
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.bow",
+      "equipped": true,
+      "ammo": "gear.arrow"
+    },
+    {
+      "ref": "gear.leatherJack",
+      "worn": true
+    },
+    {
+      "ref": "gear.leatherSkullcap",
+      "worn": true
+    },
+    {
+      "ref": "gear.arrow",
+      "quantity": 20
+    },
+    {
+      "ref": "gear.dagger",
+      "equipped": false
+    },
+    {
+      "ref": "talent.drilled"
+    }
+  ]
+}

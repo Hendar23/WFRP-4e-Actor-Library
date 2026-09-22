@@ -59,17 +59,20 @@
     {
       "name": "Filthy Leather Jerkin",
       "worn": true,
-      "ref": "gear.leatherJerkin"
+      "ref": "gear.leatherJerkin",
+      "ugly": true
     },
     {
       "name": "Rusty Hand Weapon",
       "equipped": true,
-      "ref": "gear.handWeapon"
+      "ref": "gear.handWeapon",
+      "ugly": true
     },
     {
       "name": "Scrap Shield",
       "equipped": true,
-      "ref": "gear.shield"
+      "ref": "gear.shield",
+      "ugly": true
     },
     {
       "quantity": 2,

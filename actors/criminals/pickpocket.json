@@ -1,0 +1,77 @@
+{
+  "id": "pickpocket",
+  "folder": "Criminals",
+  "name": "Pickpocket",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 30,
+    "bs": 30,
+    "s": 30,
+    "t": 30,
+    "i": 40,
+    "ag": 40,
+    "dex": 45,
+    "int": 35,
+    "wp": 35,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.sleightOfHand",
+      "characteristic": "dex",
+      "total": 55
+    },
+    {
+      "ref": "skill.pickLock",
+      "characteristic": "dex",
+      "total": 55
+    },
+    {
+      "ref": "skill.stealthUrban",
+      "characteristic": "ag",
+      "total": 50
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 45
+    },
+    {
+      "ref": "skill.climb",
+      "characteristic": "s",
+      "total": 35
+    },
+    {
+      "ref": "skill.dodge",
+      "characteristic": "ag",
+      "total": 45
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 35
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.lockPicks"
+    },
+    {
+      "ref": "gear.leatherJerkin",
+      "worn": true
+    },
+    {
+      "ref": "gear.dagger",
+      "equipped": true
+    },
+    {
+      "ref": "gear.silver",
+      "quantity": 2
+    },
+    {
+      "ref": "talent.criminal"
+    }
+  ]
+}

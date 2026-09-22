@@ -1,0 +1,68 @@
+{
+  "id": "recruit-swordsman",
+  "folder": "Soldiers",
+  "name": "Recruit Swordsman",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 35,
+    "bs": 35,
+    "s": 35,
+    "t": 35,
+    "i": 35,
+    "ag": 35,
+    "dex": 30,
+    "int": 30,
+    "wp": 35,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 45
+    },
+    {
+      "ref": "skill.cool",
+      "characteristic": "wp",
+      "total": 40
+    },
+    {
+      "ref": "skill.endurance",
+      "characteristic": "t",
+      "total": 40
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 40
+    },
+    {
+      "ref": "skill.dodge",
+      "characteristic": "ag",
+      "total": 40
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.sword",
+      "equipped": true
+    },
+    {
+      "ref": "gear.leatherJack",
+      "worn": true
+    },
+    {
+      "ref": "gear.leatherSkullcap",
+      "worn": true
+    },
+    {
+      "ref": "gear.shield",
+      "equipped": true
+    },
+    {
+      "ref": "talent.drilled"
+    }
+  ]
+}

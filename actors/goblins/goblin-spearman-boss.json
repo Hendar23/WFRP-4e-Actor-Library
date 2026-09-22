@@ -1,0 +1,81 @@
+{
+  "id": "goblin-spearman-boss",
+  "folder": "Goblins",
+  "name": "Goblin Spearman Boss",
+  "type": "creature",
+  "species": "Goblin",
+  "stats": {
+    "m": 4,
+    "ws": 35,
+    "bs": 30,
+    "s": 25,
+    "t": 30,
+    "i": 35,
+    "ag": 45,
+    "dex": 30,
+    "int": 25,
+    "wp": 35,
+    "fel": 20
+  },
+  "skills": [
+    {
+      "ref": "skill.meleePolearm",
+      "characteristic": "ws",
+      "total": 65
+    },
+    {
+      "ref": "skill.dodge",
+      "characteristic": "ag",
+      "total": 60
+    },
+    {
+      "ref": "skill.stealthRural",
+      "characteristic": "ag",
+      "total": 60
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 50
+    },
+    {
+      "ref": "skill.cool",
+      "characteristic": "wp",
+      "total": 50
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 50
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.spear",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.leatherJerkin",
+      "worn": true,
+      "ugly": true
+    },
+    {
+      "ref": "trait.animosity",
+      "specification": "Greenskins"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "trait.size",
+      "specification": "Small"
+    },
+    {
+      "ref": "talent.combatAware"
+    },
+    {
+      "ref": "talent.dirtyFighting"
+    }
+  ]
+}

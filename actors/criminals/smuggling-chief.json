@@ -1,0 +1,89 @@
+{
+  "id": "smuggling-chief",
+  "folder": "Criminals",
+  "name": "Smuggling Chief",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 30,
+    "bs": 35,
+    "s": 30,
+    "t": 35,
+    "i": 40,
+    "ag": 50,
+    "dex": 35,
+    "int": 45,
+    "wp": 35,
+    "fel": 45
+  },
+  "skills": [
+    {
+      "ref": "skill.stealthRural",
+      "characteristic": "ag",
+      "total": 80
+    },
+    {
+      "ref": "skill.bribery",
+      "characteristic": "fel",
+      "total": 75
+    },
+    {
+      "ref": "skill.row",
+      "characteristic": "s",
+      "total": 45
+    },
+    {
+      "ref": "skill.navigation",
+      "characteristic": "int",
+      "total": 60
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 55
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 45
+    },
+    {
+      "ref": "skill.rangedCrossbow",
+      "characteristic": "bs",
+      "total": 50
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.leatherJack",
+      "worn": true
+    },
+    {
+      "ref": "gear.sword",
+      "equipped": true
+    },
+    {
+      "ref": "gear.silver",
+      "quantity": 10
+    },
+    {
+      "ref": "gear.crossbow",
+      "equipped": false,
+      "ammo": "gear.bolt"
+    },
+    {
+      "ref": "gear.bolt",
+      "quantity": 10
+    },
+    {
+      "ref": "talent.criminal"
+    },
+    {
+      "ref": "talent.shadow"
+    },
+    {
+      "ref": "talent.dealmaker"
+    }
+  ]
+}

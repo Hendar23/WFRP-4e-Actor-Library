@@ -1,0 +1,68 @@
+{
+  "id": "foreman",
+  "folder": "Townsfolk",
+  "name": "Foreman",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 30,
+    "bs": 25,
+    "s": 50,
+    "t": 45,
+    "i": 30,
+    "ag": 30,
+    "dex": 30,
+    "int": 25,
+    "wp": 30,
+    "fel": 40
+  },
+  "skills": [
+    {
+      "ref": "skill.athletics",
+      "characteristic": "ag",
+      "total": 60
+    },
+    {
+      "ref": "skill.endurance",
+      "characteristic": "t",
+      "total": 75
+    },
+    {
+      "ref": "skill.climb",
+      "characteristic": "s",
+      "total": 65
+    },
+    {
+      "ref": "skill.intimidate",
+      "characteristic": "s",
+      "total": 65
+    },
+    {
+      "ref": "skill.leadership",
+      "characteristic": "fel",
+      "total": 55
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 45
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.rope"
+    },
+    {
+      "ref": "gear.dagger",
+      "equipped": true
+    },
+    {
+      "ref": "gear.brass",
+      "quantity": 24
+    },
+    {
+      "ref": "talent.strongBack"
+    }
+  ]
+}

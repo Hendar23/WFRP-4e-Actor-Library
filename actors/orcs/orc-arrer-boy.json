@@ -1,0 +1,81 @@
+{
+  "id": "orc-arrer-boy",
+  "folder": "Orcs",
+  "name": "Orc Arrer Boy",
+  "type": "creature",
+  "species": "Orc",
+  "stats": {
+    "m": 4,
+    "ws": 35,
+    "bs": 30,
+    "s": 40,
+    "t": 45,
+    "i": 30,
+    "ag": 30,
+    "dex": 25,
+    "int": 20,
+    "wp": 30,
+    "fel": 20
+  },
+  "skills": [
+    {
+      "ref": "skill.rangedBow",
+      "characteristic": "bs",
+      "total": 40
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 40
+    },
+    {
+      "ref": "skill.endurance",
+      "characteristic": "t",
+      "total": 50
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 35
+    },
+    {
+      "ref": "skill.cool",
+      "characteristic": "wp",
+      "total": 35
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.bow",
+      "equipped": true,
+      "name": "Orc Bow",
+      "ammo": "gear.arrow",
+      "ugly": true
+    },
+    {
+      "ref": "gear.arrow",
+      "quantity": 20
+    },
+    {
+      "ref": "gear.axe",
+      "name": "Choppa",
+      "equipped": false,
+      "ugly": true
+    },
+    {
+      "ref": "gear.leatherJerkin",
+      "worn": true,
+      "ugly": true
+    },
+    {
+      "ref": "trait.animosity",
+      "specification": "Greenskins"
+    },
+    {
+      "ref": "trait.belligerent"
+    },
+    {
+      "ref": "trait.nightVision"
+    }
+  ]
+}

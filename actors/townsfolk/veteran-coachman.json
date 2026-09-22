@@ -1,0 +1,82 @@
+{
+  "id": "veteran-coachman",
+  "folder": "Townsfolk",
+  "name": "Veteran Coachman",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 30,
+    "bs": 45,
+    "s": 30,
+    "t": 35,
+    "i": 50,
+    "ag": 35,
+    "dex": 45,
+    "int": 30,
+    "wp": 35,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.drive",
+      "characteristic": "dex",
+      "total": 75
+    },
+    {
+      "ref": "skill.rangedBlackpowder",
+      "characteristic": "bs",
+      "total": 75
+    },
+    {
+      "ref": "skill.animalCare",
+      "characteristic": "int",
+      "total": 45
+    },
+    {
+      "ref": "skill.navigation",
+      "characteristic": "int",
+      "total": 45
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 65
+    },
+    {
+      "ref": "skill.cool",
+      "characteristic": "wp",
+      "total": 50
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 45
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.map"
+    },
+    {
+      "ref": "gear.dagger",
+      "equipped": true
+    },
+    {
+      "ref": "gear.brass",
+      "quantity": 24
+    },
+    {
+      "ref": "gear.pistol",
+      "equipped": false,
+      "ammo": "gear.bulletAndPowder"
+    },
+    {
+      "ref": "gear.bulletAndPowder",
+      "quantity": 10
+    },
+    {
+      "ref": "talent.seasonedTraveller"
+    }
+  ]
+}

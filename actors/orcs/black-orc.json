@@ -1,0 +1,84 @@
+{
+  "id": "black-orc",
+  "folder": "Orcs",
+  "name": "Black Orc",
+  "type": "creature",
+  "species": "Orc",
+  "stats": {
+    "m": 4,
+    "ws": 50,
+    "bs": 30,
+    "s": 50,
+    "t": 55,
+    "i": 35,
+    "ag": 30,
+    "dex": 30,
+    "int": 25,
+    "wp": 45,
+    "fel": 25
+  },
+  "skills": [
+    {
+      "ref": "skill.meleeTwoHanded",
+      "characteristic": "ws",
+      "total": 70
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 65
+    },
+    {
+      "ref": "skill.endurance",
+      "characteristic": "t",
+      "total": 75
+    },
+    {
+      "ref": "skill.intimidate",
+      "characteristic": "s",
+      "total": 70
+    },
+    {
+      "ref": "skill.cool",
+      "characteristic": "wp",
+      "total": 60
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 45
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.greatAxe",
+      "equipped": true,
+      "name": "Heavy Choppa",
+      "ugly": true
+    },
+    {
+      "ref": "gear.plateBreastplate",
+      "worn": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.plateBracers",
+      "worn": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.plateOpenHelm",
+      "worn": true,
+      "ugly": true
+    },
+    {
+      "ref": "talent.strikeMightyBlow"
+    },
+    {
+      "ref": "talent.menacing"
+    },
+    {
+      "ref": "trait.nightVision"
+    }
+  ]
+}

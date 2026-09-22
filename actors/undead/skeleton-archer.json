@@ -1,0 +1,66 @@
+{
+  "id": "skeleton-archer",
+  "folder": "Undead",
+  "name": "Skeleton Archer",
+  "type": "creature",
+  "species": "Skeleton",
+  "stats": {
+    "m": 4,
+    "ws": 25,
+    "bs": 30,
+    "s": 30,
+    "t": 30,
+    "i": 20,
+    "ag": 20,
+    "dex": 25,
+    "int": 5,
+    "wp": 30,
+    "fel": 5
+  },
+  "skills": [
+    {
+      "ref": "skill.rangedBow",
+      "characteristic": "bs",
+      "total": 40
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 30
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.bow",
+      "equipped": true,
+      "ammo": "gear.arrow"
+    },
+    {
+      "ref": "gear.arrow",
+      "quantity": 20
+    },
+    {
+      "ref": "gear.dagger",
+      "equipped": false
+    },
+    {
+      "ref": "trait.undead"
+    },
+    {
+      "ref": "trait.unstable"
+    },
+    {
+      "ref": "trait.construct"
+    },
+    {
+      "ref": "trait.painless"
+    },
+    {
+      "ref": "trait.immunitytoPsychology"
+    },
+    {
+      "ref": "trait.fear",
+      "specification": 1
+    }
+  ]
+}

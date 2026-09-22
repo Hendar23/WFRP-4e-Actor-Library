@@ -1,0 +1,79 @@
+{
+  "id": "learned-scholar",
+  "folder": "Townsfolk",
+  "name": "Learned Scholar",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 25,
+    "bs": 25,
+    "s": 25,
+    "t": 30,
+    "i": 45,
+    "ag": 30,
+    "dex": 35,
+    "int": 55,
+    "wp": 50,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.research",
+      "characteristic": "int",
+      "total": 85
+    },
+    {
+      "ref": "skill.loreLaw",
+      "characteristic": "int",
+      "total": 85
+    },
+    {
+      "ref": "skill.languageClassical",
+      "characteristic": "int",
+      "total": 70
+    },
+    {
+      "ref": "skill.evaluate",
+      "characteristic": "int",
+      "total": 70
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 60
+    },
+    {
+      "ref": "skill.cool",
+      "characteristic": "wp",
+      "total": 65
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 40
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.writingKit"
+    },
+    {
+      "ref": "gear.lawBook"
+    },
+    {
+      "ref": "gear.dagger",
+      "equipped": true
+    },
+    {
+      "ref": "gear.brass",
+      "quantity": 24
+    },
+    {
+      "ref": "talent.readWrite"
+    },
+    {
+      "ref": "talent.bookish"
+    }
+  ]
+}

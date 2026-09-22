@@ -1,0 +1,68 @@
+{
+  "id": "casual-labourer",
+  "folder": "Townsfolk",
+  "name": "Casual Labourer",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 30,
+    "bs": 25,
+    "s": 40,
+    "t": 35,
+    "i": 30,
+    "ag": 30,
+    "dex": 30,
+    "int": 25,
+    "wp": 30,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.athletics",
+      "characteristic": "ag",
+      "total": 40
+    },
+    {
+      "ref": "skill.endurance",
+      "characteristic": "t",
+      "total": 45
+    },
+    {
+      "ref": "skill.climb",
+      "characteristic": "s",
+      "total": 45
+    },
+    {
+      "ref": "skill.intimidate",
+      "characteristic": "s",
+      "total": 45
+    },
+    {
+      "ref": "skill.leadership",
+      "characteristic": "fel",
+      "total": 35
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 35
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.rope"
+    },
+    {
+      "ref": "gear.dagger",
+      "equipped": true
+    },
+    {
+      "ref": "gear.brass",
+      "quantity": 8
+    },
+    {
+      "ref": "talent.strongBack"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "street-tough",
+  "folder": "Criminals",
+  "name": "Street Tough",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 35,
+    "bs": 25,
+    "s": 40,
+    "t": 35,
+    "i": 30,
+    "ag": 30,
+    "dex": 30,
+    "int": 25,
+    "wp": 35,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 45
+    },
+    {
+      "ref": "skill.intimidate",
+      "characteristic": "s",
+      "total": 50
+    },
+    {
+      "ref": "skill.meleeBrawling",
+      "characteristic": "ws",
+      "total": 40
+    },
+    {
+      "ref": "skill.endurance",
+      "characteristic": "t",
+      "total": 40
+    },
+    {
+      "ref": "skill.cool",
+      "characteristic": "wp",
+      "total": 40
+    },
+    {
+      "ref": "skill.leadership",
+      "characteristic": "fel",
+      "total": 35
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.leatherJerkin",
+      "worn": true
+    },
+    {
+      "ref": "gear.club",
+      "equipped": true
+    },
+    {
+      "ref": "gear.silver",
+      "quantity": 2
+    },
+    {
+      "ref": "talent.criminal"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "skaven-slinger",
+  "folder": "Skaven",
+  "name": "Skaven Slinger",
+  "type": "creature",
+  "species": "Skaven",
+  "stats": {
+    "m": 5,
+    "ws": 30,
+    "bs": 30,
+    "s": 30,
+    "t": 30,
+    "i": 40,
+    "ag": 40,
+    "dex": 30,
+    "int": 30,
+    "wp": 25,
+    "fel": 20
+  },
+  "skills": [
+    {
+      "ref": "skill.rangedSling",
+      "characteristic": "bs",
+      "total": 40
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 35
+    },
+    {
+      "ref": "skill.stealthUnderground",
+      "characteristic": "ag",
+      "total": 45
+    },
+    {
+      "ref": "skill.dodge",
+      "characteristic": "ag",
+      "total": 45
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 45
+    },
+    {
+      "ref": "skill.cool",
+      "characteristic": "wp",
+      "total": 30
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.sling",
+      "equipped": true,
+      "ammo": "gear.stoneBullet",
+      "ugly": true
+    },
+    {
+      "ref": "gear.stoneBullet",
+      "quantity": 20
+    },
+    {
+      "ref": "gear.dagger",
+      "equipped": false,
+      "ugly": true
+    },
+    {
+      "ref": "gear.leatherJerkin",
+      "worn": true,
+      "ugly": true
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "trait.skittish"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "smuggler-lookout",
+  "folder": "Criminals",
+  "name": "Smuggler Lookout",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 30,
+    "bs": 35,
+    "s": 30,
+    "t": 35,
+    "i": 40,
+    "ag": 40,
+    "dex": 35,
+    "int": 35,
+    "wp": 35,
+    "fel": 35
+  },
+  "skills": [
+    {
+      "ref": "skill.stealthRural",
+      "characteristic": "ag",
+      "total": 50
+    },
+    {
+      "ref": "skill.bribery",
+      "characteristic": "fel",
+      "total": 45
+    },
+    {
+      "ref": "skill.row",
+      "characteristic": "s",
+      "total": 35
+    },
+    {
+      "ref": "skill.navigation",
+      "characteristic": "int",
+      "total": 40
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 45
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 35
+    },
+    {
+      "ref": "skill.rangedCrossbow",
+      "characteristic": "bs",
+      "total": 40
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.leatherJerkin",
+      "worn": true
+    },
+    {
+      "ref": "gear.dagger",
+      "equipped": true
+    },
+    {
+      "ref": "gear.silver",
+      "quantity": 2
+    },
+    {
+      "ref": "gear.crossbow",
+      "equipped": false,
+      "ammo": "gear.bolt"
+    },
+    {
+      "ref": "gear.bolt",
+      "quantity": 10
+    },
+    {
+      "ref": "talent.criminal"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "bandit-leader",
+  "folder": "Criminals",
+  "name": "Bandit Leader",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 45,
+    "bs": 45,
+    "s": 35,
+    "t": 35,
+    "i": 35,
+    "ag": 35,
+    "dex": 30,
+    "int": 30,
+    "wp": 45,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 75
+    },
+    {
+      "ref": "skill.rangedBow",
+      "characteristic": "bs",
+      "total": 75
+    },
+    {
+      "ref": "skill.intimidate",
+      "characteristic": "s",
+      "total": 50
+    },
+    {
+      "ref": "skill.outdoorSurvival",
+      "characteristic": "int",
+      "total": 45
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 50
+    },
+    {
+      "ref": "skill.cool",
+      "characteristic": "wp",
+      "total": 60
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.leatherJack",
+      "worn": true
+    },
+    {
+      "ref": "gear.sword",
+      "equipped": true
+    },
+    {
+      "ref": "gear.silver",
+      "quantity": 10
+    },
+    {
+      "ref": "gear.bow",
+      "equipped": false,
+      "ammo": "gear.arrow"
+    },
+    {
+      "ref": "gear.arrow",
+      "quantity": 12
+    },
+    {
+      "ref": "talent.criminal"
+    },
+    {
+      "ref": "talent.combatAware"
+    },
+    {
+      "ref": "talent.menacing"
+    }
+  ]
+}

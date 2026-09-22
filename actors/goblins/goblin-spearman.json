@@ -1,0 +1,75 @@
+{
+  "id": "goblin-spearman",
+  "folder": "Goblins",
+  "name": "Goblin Spearman",
+  "type": "creature",
+  "species": "Goblin",
+  "stats": {
+    "m": 4,
+    "ws": 25,
+    "bs": 30,
+    "s": 25,
+    "t": 30,
+    "i": 35,
+    "ag": 35,
+    "dex": 30,
+    "int": 25,
+    "wp": 25,
+    "fel": 20
+  },
+  "skills": [
+    {
+      "ref": "skill.meleePolearm",
+      "characteristic": "ws",
+      "total": 35
+    },
+    {
+      "ref": "skill.dodge",
+      "characteristic": "ag",
+      "total": 40
+    },
+    {
+      "ref": "skill.stealthRural",
+      "characteristic": "ag",
+      "total": 40
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 40
+    },
+    {
+      "ref": "skill.cool",
+      "characteristic": "wp",
+      "total": 30
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 30
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.spear",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.leatherJerkin",
+      "worn": true,
+      "ugly": true
+    },
+    {
+      "ref": "trait.animosity",
+      "specification": "Greenskins"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "trait.size",
+      "specification": "Small"
+    }
+  ]
+}

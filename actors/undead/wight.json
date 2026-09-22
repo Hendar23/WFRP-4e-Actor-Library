@@ -1,0 +1,75 @@
+{
+  "id": "wight",
+  "folder": "Undead",
+  "name": "Wight",
+  "type": "creature",
+  "species": "Wight",
+  "stats": {
+    "m": 4,
+    "ws": 45,
+    "bs": 30,
+    "s": 45,
+    "t": 45,
+    "i": 30,
+    "ag": 30,
+    "dex": 30,
+    "int": 20,
+    "wp": 45,
+    "fel": 10
+  },
+  "skills": [
+    {
+      "ref": "skill.meleeTwoHanded",
+      "characteristic": "ws",
+      "total": 60
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 60
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 40
+    },
+    {
+      "ref": "skill.leadership",
+      "characteristic": "fel",
+      "total": 20
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.greatAxe",
+      "equipped": true
+    },
+    {
+      "ref": "gear.mailCoat",
+      "worn": true
+    },
+    {
+      "ref": "gear.plateOpenHelm",
+      "worn": true
+    },
+    {
+      "ref": "talent.strikeMightyBlow"
+    },
+    {
+      "ref": "trait.undead"
+    },
+    {
+      "ref": "trait.unstable"
+    },
+    {
+      "ref": "trait.painless"
+    },
+    {
+      "ref": "trait.immunitytoPsychology"
+    },
+    {
+      "ref": "trait.fear",
+      "specification": 1
+    }
+  ]
+}

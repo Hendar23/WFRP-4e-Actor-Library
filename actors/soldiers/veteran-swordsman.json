@@ -1,0 +1,78 @@
+{
+  "id": "veteran-swordsman",
+  "folder": "Soldiers",
+  "name": "Veteran Swordsman",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 45,
+    "bs": 35,
+    "s": 35,
+    "t": 45,
+    "i": 35,
+    "ag": 35,
+    "dex": 30,
+    "int": 30,
+    "wp": 45,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 75
+    },
+    {
+      "ref": "skill.cool",
+      "characteristic": "wp",
+      "total": 60
+    },
+    {
+      "ref": "skill.endurance",
+      "characteristic": "t",
+      "total": 60
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 50
+    },
+    {
+      "ref": "skill.dodge",
+      "characteristic": "ag",
+      "total": 50
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.sword",
+      "equipped": true
+    },
+    {
+      "ref": "gear.leatherJack",
+      "worn": true
+    },
+    {
+      "ref": "gear.shield",
+      "equipped": true
+    },
+    {
+      "ref": "gear.mailShirt",
+      "worn": true
+    },
+    {
+      "ref": "gear.plateOpenHelm",
+      "worn": true
+    },
+    {
+      "ref": "talent.drilled"
+    },
+    {
+      "ref": "talent.combatAware"
+    },
+    {
+      "ref": "talent.combatReflexes"
+    }
+  ]
+}

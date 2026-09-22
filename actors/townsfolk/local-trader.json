@@ -1,0 +1,72 @@
+{
+  "id": "local-trader",
+  "folder": "Townsfolk",
+  "name": "Local Trader",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 25,
+    "bs": 25,
+    "s": 25,
+    "t": 30,
+    "i": 35,
+    "ag": 30,
+    "dex": 35,
+    "int": 45,
+    "wp": 40,
+    "fel": 45
+  },
+  "skills": [
+    {
+      "ref": "skill.haggle",
+      "characteristic": "fel",
+      "total": 65
+    },
+    {
+      "ref": "skill.evaluate",
+      "characteristic": "int",
+      "total": 65
+    },
+    {
+      "ref": "skill.gossip",
+      "characteristic": "fel",
+      "total": 55
+    },
+    {
+      "ref": "skill.intuition",
+      "characteristic": "i",
+      "total": 45
+    },
+    {
+      "ref": "skill.charm",
+      "characteristic": "fel",
+      "total": 55
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 35
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.abacus"
+    },
+    {
+      "ref": "gear.silver",
+      "quantity": 10
+    },
+    {
+      "ref": "gear.dagger",
+      "equipped": true
+    },
+    {
+      "ref": "gear.brass",
+      "quantity": 16
+    },
+    {
+      "ref": "talent.dealmaker"
+    }
+  ]
+}

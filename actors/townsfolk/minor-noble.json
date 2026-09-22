@@ -1,0 +1,71 @@
+{
+  "id": "minor-noble",
+  "folder": "Townsfolk",
+  "name": "Minor Noble",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 30,
+    "bs": 30,
+    "s": 30,
+    "t": 30,
+    "i": 35,
+    "ag": 35,
+    "dex": 35,
+    "int": 35,
+    "wp": 35,
+    "fel": 45
+  },
+  "skills": [
+    {
+      "ref": "skill.charm",
+      "characteristic": "fel",
+      "total": 55
+    },
+    {
+      "ref": "skill.leadership",
+      "characteristic": "fel",
+      "total": 55
+    },
+    {
+      "ref": "skill.bribery",
+      "characteristic": "fel",
+      "total": 50
+    },
+    {
+      "ref": "skill.gossip",
+      "characteristic": "fel",
+      "total": 50
+    },
+    {
+      "ref": "skill.intuition",
+      "characteristic": "i",
+      "total": 40
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 35
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.courtlyGarb"
+    },
+    {
+      "ref": "gear.signetRing"
+    },
+    {
+      "ref": "gear.brass",
+      "quantity": 8
+    },
+    {
+      "ref": "gear.sword",
+      "equipped": true
+    },
+    {
+      "ref": "talent.nobleBlood"
+    }
+  ]
+}

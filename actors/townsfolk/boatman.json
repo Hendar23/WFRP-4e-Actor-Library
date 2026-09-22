@@ -1,0 +1,73 @@
+{
+  "id": "boatman",
+  "folder": "Townsfolk",
+  "name": "Boatman",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 30,
+    "bs": 30,
+    "s": 40,
+    "t": 35,
+    "i": 35,
+    "ag": 40,
+    "dex": 35,
+    "int": 35,
+    "wp": 35,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.row",
+      "characteristic": "s",
+      "total": 60
+    },
+    {
+      "ref": "skill.swim",
+      "characteristic": "s",
+      "total": 60
+    },
+    {
+      "ref": "skill.navigation",
+      "characteristic": "int",
+      "total": 45
+    },
+    {
+      "ref": "skill.athletics",
+      "characteristic": "ag",
+      "total": 50
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 45
+    },
+    {
+      "ref": "skill.leadership",
+      "characteristic": "fel",
+      "total": 40
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 40
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.rope"
+    },
+    {
+      "ref": "gear.dagger",
+      "equipped": true
+    },
+    {
+      "ref": "gear.brass",
+      "quantity": 16
+    },
+    {
+      "ref": "talent.waterman"
+    }
+  ]
+}

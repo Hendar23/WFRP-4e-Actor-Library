@@ -1,0 +1,88 @@
+{
+  "id": "gutter-runner",
+  "folder": "Skaven",
+  "name": "Gutter Runner",
+  "type": "creature",
+  "species": "Skaven",
+  "stats": {
+    "m": 5,
+    "ws": 45,
+    "bs": 45,
+    "s": 35,
+    "t": 35,
+    "i": 50,
+    "ag": 60,
+    "dex": 50,
+    "int": 30,
+    "wp": 40,
+    "fel": 20
+  },
+  "skills": [
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 70
+    },
+    {
+      "ref": "skill.rangedSling",
+      "characteristic": "bs",
+      "total": 60
+    },
+    {
+      "ref": "skill.stealthUrban",
+      "characteristic": "ag",
+      "total": 90
+    },
+    {
+      "ref": "skill.stealthUnderground",
+      "characteristic": "ag",
+      "total": 80
+    },
+    {
+      "ref": "skill.climb",
+      "characteristic": "s",
+      "total": 50
+    },
+    {
+      "ref": "skill.dodge",
+      "characteristic": "ag",
+      "total": 80
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 65
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.dagger",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.sling",
+      "equipped": false,
+      "ammo": "gear.stoneBullet",
+      "ugly": true
+    },
+    {
+      "ref": "gear.stoneBullet",
+      "quantity": 10
+    },
+    {
+      "ref": "gear.leatherJerkin",
+      "worn": true,
+      "ugly": true
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "talent.shadow"
+    },
+    {
+      "ref": "talent.combatReflexes"
+    }
+  ]
+}

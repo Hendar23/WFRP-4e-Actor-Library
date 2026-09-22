@@ -1,0 +1,75 @@
+{
+  "id": "courtier",
+  "folder": "Townsfolk",
+  "name": "Courtier",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 30,
+    "bs": 30,
+    "s": 30,
+    "t": 30,
+    "i": 35,
+    "ag": 35,
+    "dex": 35,
+    "int": 40,
+    "wp": 40,
+    "fel": 50
+  },
+  "skills": [
+    {
+      "ref": "skill.charm",
+      "characteristic": "fel",
+      "total": 70
+    },
+    {
+      "ref": "skill.leadership",
+      "characteristic": "fel",
+      "total": 70
+    },
+    {
+      "ref": "skill.bribery",
+      "characteristic": "fel",
+      "total": 60
+    },
+    {
+      "ref": "skill.gossip",
+      "characteristic": "fel",
+      "total": 60
+    },
+    {
+      "ref": "skill.intuition",
+      "characteristic": "i",
+      "total": 45
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 40
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.courtlyGarb"
+    },
+    {
+      "ref": "gear.signetRing"
+    },
+    {
+      "ref": "gear.brass",
+      "quantity": 16
+    },
+    {
+      "ref": "gear.sword",
+      "equipped": true
+    },
+    {
+      "ref": "talent.nobleBlood"
+    },
+    {
+      "ref": "talent.etiquette",
+      "name": "Etiquette (Nobles)"
+    }
+  ]
+}

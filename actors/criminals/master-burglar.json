@@ -1,0 +1,83 @@
+{
+  "id": "master-burglar",
+  "folder": "Criminals",
+  "name": "Master Burglar",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 30,
+    "bs": 30,
+    "s": 30,
+    "t": 30,
+    "i": 50,
+    "ag": 50,
+    "dex": 55,
+    "int": 35,
+    "wp": 35,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.sleightOfHand",
+      "characteristic": "dex",
+      "total": 85
+    },
+    {
+      "ref": "skill.pickLock",
+      "characteristic": "dex",
+      "total": 85
+    },
+    {
+      "ref": "skill.stealthUrban",
+      "characteristic": "ag",
+      "total": 80
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 65
+    },
+    {
+      "ref": "skill.climb",
+      "characteristic": "s",
+      "total": 45
+    },
+    {
+      "ref": "skill.dodge",
+      "characteristic": "ag",
+      "total": 65
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 45
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.lockPicks"
+    },
+    {
+      "ref": "gear.leatherJack",
+      "worn": true
+    },
+    {
+      "ref": "gear.sword",
+      "equipped": true
+    },
+    {
+      "ref": "gear.silver",
+      "quantity": 10
+    },
+    {
+      "ref": "talent.criminal"
+    },
+    {
+      "ref": "talent.shadow"
+    },
+    {
+      "ref": "talent.breakandEnter"
+    }
+  ]
+}

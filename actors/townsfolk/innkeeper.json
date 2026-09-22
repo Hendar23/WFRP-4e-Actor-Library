@@ -1,0 +1,68 @@
+{
+  "id": "innkeeper",
+  "folder": "Townsfolk",
+  "name": "Innkeeper",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 30,
+    "bs": 25,
+    "s": 30,
+    "t": 35,
+    "i": 35,
+    "ag": 30,
+    "dex": 35,
+    "int": 40,
+    "wp": 40,
+    "fel": 45
+  },
+  "skills": [
+    {
+      "ref": "skill.gossip",
+      "characteristic": "fel",
+      "total": 65
+    },
+    {
+      "ref": "skill.haggle",
+      "characteristic": "fel",
+      "total": 65
+    },
+    {
+      "ref": "skill.consumeAlcohol",
+      "characteristic": "t",
+      "total": 45
+    },
+    {
+      "ref": "skill.charm",
+      "characteristic": "fel",
+      "total": 55
+    },
+    {
+      "ref": "skill.intuition",
+      "characteristic": "i",
+      "total": 45
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 40
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.cards"
+    },
+    {
+      "ref": "gear.dagger",
+      "equipped": true
+    },
+    {
+      "ref": "gear.brass",
+      "quantity": 16
+    },
+    {
+      "ref": "talent.carouser"
+    }
+  ]
+}

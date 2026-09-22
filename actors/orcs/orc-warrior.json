@@ -79,17 +79,20 @@
     },
     {
       "worn": true,
-      "ref": "gear.leatherJack"
+      "ref": "gear.leatherJack",
+      "ugly": true
     },
     {
       "name": "Choppa",
       "equipped": true,
-      "ref": "gear.axe"
+      "ref": "gear.axe",
+      "ugly": true
     },
     {
       "name": "Looted Shield",
       "equipped": true,
-      "ref": "gear.shield"
+      "ref": "gear.shield",
+      "ugly": true
     },
     {
       "quantity": 2,

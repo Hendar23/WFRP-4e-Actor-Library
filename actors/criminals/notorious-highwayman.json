@@ -1,0 +1,84 @@
+{
+  "id": "notorious-highwayman",
+  "folder": "Criminals",
+  "name": "Notorious Highwayman",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 45,
+    "bs": 50,
+    "s": 30,
+    "t": 35,
+    "i": 40,
+    "ag": 40,
+    "dex": 35,
+    "int": 35,
+    "wp": 35,
+    "fel": 50
+  },
+  "skills": [
+    {
+      "ref": "skill.rangedBlackpowder",
+      "characteristic": "bs",
+      "total": 80
+    },
+    {
+      "ref": "skill.intimidate",
+      "characteristic": "s",
+      "total": 60
+    },
+    {
+      "ref": "skill.rideHorse",
+      "characteristic": "ag",
+      "total": 55
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 60
+    },
+    {
+      "ref": "skill.cool",
+      "characteristic": "wp",
+      "total": 50
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 55
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.leatherJack",
+      "worn": true
+    },
+    {
+      "ref": "gear.sword",
+      "equipped": true
+    },
+    {
+      "ref": "gear.silver",
+      "quantity": 10
+    },
+    {
+      "ref": "gear.pistol",
+      "equipped": false,
+      "ammo": "gear.bulletAndPowder"
+    },
+    {
+      "ref": "gear.bulletAndPowder",
+      "quantity": 10
+    },
+    {
+      "ref": "talent.criminal"
+    },
+    {
+      "ref": "talent.combatAware"
+    },
+    {
+      "ref": "talent.accurateShot"
+    }
+  ]
+}

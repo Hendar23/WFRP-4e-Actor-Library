@@ -112,7 +112,8 @@
     },
     {
       "equipped": false,
-      "ref": "gear.crossbow"
+      "ref": "gear.crossbow",
+      "ammo": "gear.bolt"
     },
     {
       "quantity": 10,

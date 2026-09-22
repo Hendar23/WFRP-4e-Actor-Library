@@ -1,0 +1,69 @@
+{
+  "id": "renowned-entertainer",
+  "folder": "Townsfolk",
+  "name": "Renowned Entertainer",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 25,
+    "bs": 25,
+    "s": 25,
+    "t": 30,
+    "i": 35,
+    "ag": 35,
+    "dex": 50,
+    "int": 35,
+    "wp": 45,
+    "fel": 55
+  },
+  "skills": [
+    {
+      "ref": "skill.entertainSinging",
+      "characteristic": "fel",
+      "total": 85
+    },
+    {
+      "ref": "skill.playLute",
+      "characteristic": "dex",
+      "total": 80
+    },
+    {
+      "ref": "skill.charm",
+      "characteristic": "fel",
+      "total": 70
+    },
+    {
+      "ref": "skill.gossip",
+      "characteristic": "fel",
+      "total": 70
+    },
+    {
+      "ref": "skill.sleightOfHand",
+      "characteristic": "dex",
+      "total": 65
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 40
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.instrument",
+      "name": "Lute"
+    },
+    {
+      "ref": "gear.dagger",
+      "equipped": true
+    },
+    {
+      "ref": "gear.brass",
+      "quantity": 24
+    },
+    {
+      "ref": "talent.publicSpeaker"
+    }
+  ]
+}

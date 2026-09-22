@@ -1,0 +1,88 @@
+{
+  "id": "veteran-archer",
+  "folder": "Soldiers",
+  "name": "Veteran Archer",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 35,
+    "bs": 45,
+    "s": 35,
+    "t": 45,
+    "i": 35,
+    "ag": 35,
+    "dex": 30,
+    "int": 30,
+    "wp": 45,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.rangedBow",
+      "characteristic": "bs",
+      "total": 75
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 50
+    },
+    {
+      "ref": "skill.cool",
+      "characteristic": "wp",
+      "total": 60
+    },
+    {
+      "ref": "skill.endurance",
+      "characteristic": "t",
+      "total": 60
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 50
+    },
+    {
+      "ref": "skill.dodge",
+      "characteristic": "ag",
+      "total": 50
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.bow",
+      "equipped": true,
+      "ammo": "gear.arrow"
+    },
+    {
+      "ref": "gear.leatherJack",
+      "worn": true
+    },
+    {
+      "ref": "gear.arrow",
+      "quantity": 20
+    },
+    {
+      "ref": "gear.dagger",
+      "equipped": false
+    },
+    {
+      "ref": "gear.mailShirt",
+      "worn": true
+    },
+    {
+      "ref": "gear.plateOpenHelm",
+      "worn": true
+    },
+    {
+      "ref": "talent.drilled"
+    },
+    {
+      "ref": "talent.accurateShot"
+    },
+    {
+      "ref": "talent.combatReflexes"
+    }
+  ]
+}

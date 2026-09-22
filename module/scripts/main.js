@@ -1,8 +1,46 @@
 import { MODULE_ID, PROFILES, UUID } from "./data.js";
 
 const PACK_NAME = "wfrp4e-quick-npc-library";
-const PACK_LABEL = "WFRP4e Quick NPC Library";
-const BUILD_VERSION = 4;
+const PACK_LABEL = "WFRP 4e Actor Library";
+const sourceCache = new Map();
+let initialSkills;
+
+// preCreate is synchronous. World folders are prepared at ready, before use.
+Hooks.on("preCreateActor", (actor, data) => {
+  if (actor.pack || actor.parent) return;
+  const category = data.flags?.[MODULE_ID]?.category;
+  if (!category || !data.flags?.[MODULE_ID]?.profileId) return;
+  // Respect an explicitly chosen world folder.
+  if (data.folder && game.folders.get(data.folder)?.type === "Actor") return;
+  const folder = game.folders.find(f => f.type === "Actor" && f.getFlag(MODULE_ID, "category") === category);
+  if (folder) actor.updateSource({ folder: folder.id });
+});
+
+async function ensureWorldFolders() {
+  let root = game.folders.find(f => f.type === "Actor" && f.getFlag(MODULE_ID, "root"));
+  if (!root) root = await Folder.implementation.create({
+    name: "WFRP 4e Actor Library", type: "Actor", sorting: "a", flags: { [MODULE_ID]: { root: true } }
+  });
+  for (const category of new Set(PROFILES.map(p => p.folder))) {
+    if (!game.folders.find(f => f.type === "Actor" && f.getFlag(MODULE_ID, "category") === category)) {
+      await Folder.implementation.create({ name: category, type: "Actor", folder: root.id,
+        sorting: "a", flags: { [MODULE_ID]: { category } } });
+    }
+  }
+}
+
+async function ensurePackFolders(pack) {
+  const result = new Map();
+  for (const category of new Set(PROFILES.map(p => p.folder))) {
+    let folder = pack.folders.find(f => f.getFlag(MODULE_ID, "category") === category || f.name === category);
+    if (!folder) [folder] = await Folder.implementation.createDocuments([
+      { name: category, type: "Actor", sorting: "a", flags: { [MODULE_ID]: { category } } }
+    ], { pack: pack.collection });
+    result.set(category, folder.id);
+  }
+  return result;
+}
+const BUILD_VERSION = 5;
 
 Hooks.once("ready", async () => {
   if (!game.user?.isGM || game.system.id !== "wfrp4e") return;
@@ -13,6 +51,7 @@ Hooks.once("ready", async () => {
   if (firstActiveGM?.id !== game.user.id) return;
 
   try {
+    await ensureWorldFolders();
     let pack = game.packs.get(`world.${PACK_NAME}`);
     const newPack = !pack;
     if (!pack) {
@@ -41,13 +80,19 @@ Hooks.once("ready", async () => {
     const wasLocked = pack.locked;
     if (wasLocked) await pack.configure({ locked: false });
 
-    const report = { created: [], replaced: [], failed: [] };
+    const report = { created: [], replaced: [], skipped: [], failed: [] };
     try {
+      const folders = await ensurePackFolders(pack);
       for (const profile of pending) {
+        const missing = (profile.requires || []).filter(id => !game.modules.get(id)?.active);
+        if (missing.length) {
+          report.skipped.push({ actor: profile.name, requires: missing.join(", ") });
+          continue;
+        }
         try {
           const oldActor = generated.get(profile.id);
           // Build and validate first so a failed rebuild retains the previous actor.
-          await createCompendiumActor(profile, pack.collection);
+          await createCompendiumActor(profile, pack.collection, folders.get(profile.folder));
           if (oldActor) {
             await Actor.implementation.deleteDocuments([oldActor.id], { pack: pack.collection });
             report.replaced.push(profile.name);
@@ -66,11 +111,12 @@ Hooks.once("ready", async () => {
     console.log("Created", report.created);
     if (report.replaced.length) console.log("Replaced", report.replaced);
     if (report.failed.length) console.table(report.failed);
+    if (report.skipped.length) console.table(report.skipped);
     console.groupEnd();
 
-    if (report.failed.length) {
+    if (report.failed.length || report.skipped.length) {
       ui.notifications.warn(
-        `Quick NPC Library built ${report.created.length} actors; ${report.failed.length} failed. Press F12 for details.`
+        `Quick NPC Library built ${report.created.length} actors; ${report.failed.length} failed, ${report.skipped.length} skipped for missing supplements. Press F12 for details.`
       );
     } else {
       ui.notifications.info(`Quick NPC Library is ready with ${report.created.length} new actors.`);
@@ -149,10 +195,14 @@ function normaliseWeaponFormula(data) {
 }
 
 async function cloneSourceItem(entry, profile, isSkill = false) {
-  const sourceDocument = await fromUuid(entry.uuid);
-  if (!sourceDocument) throw new Error(`Required compendium item did not resolve: ${entry.uuid}`);
-
-  const data = sourceDocument.toObject();
+  if (!sourceCache.has(entry.uuid)) {
+    sourceCache.set(entry.uuid, (async () => {
+      const document = await fromUuid(entry.uuid);
+      if (!document) throw new Error(`Required compendium item did not resolve: ${entry.uuid}`);
+      return document.toObject();
+    })());
+  }
+  const data = foundry.utils.deepClone(await sourceCache.get(entry.uuid));
   delete data._id;
   delete data.folder;
   delete data.ownership;
@@ -164,6 +214,13 @@ async function cloneSourceItem(entry, profile, isSkill = false) {
   applyEquipped(data, entry.equipped);
   applyLoaded(data, entry.loaded);
   normaliseWeaponFormula(data);
+  if (entry.ugly && ["weapon", "armour"].includes(data.type)) {
+    const flaws = data.system.flaws.value;
+    if (!flaws.some(f => f.name === "ugly")) flaws.push({ name: "ugly" });
+  }
+  if (data.type === "spell" && entry.memorized !== undefined) {
+    foundry.utils.setProperty(data, "system.memorized.value", entry.memorized);
+  }
 
   data.flags ??= {};
   data.flags[MODULE_ID] = {
@@ -180,7 +237,7 @@ async function cloneSourceItem(entry, profile, isSkill = false) {
   return data;
 }
 
-async function createCompendiumActor(profile, packId) {
+async function createCompendiumActor(profile, packId, folderId) {
   const embedded = [];
   for (const entry of profile.skills) embedded.push(await cloneSourceItem(entry, profile, true));
   for (const entry of profile.items) embedded.push(await cloneSourceItem(entry, profile, false));
@@ -191,6 +248,7 @@ async function createCompendiumActor(profile, packId) {
       [{
         name: profile.name,
         type: profile.type,
+        folder: folderId,
         system: { settings: { autoCalc: { wounds: false } } },
         flags: {
           [MODULE_ID]: {
@@ -229,7 +287,8 @@ async function createCompendiumActor(profile, packId) {
     foundry.utils.setProperty(update, "system.details.species.value", profile.species);
 
     await actor.update(update);
-    const initialItems = await actor.system.getInitialItems(false);
+    initialSkills ??= (await actor.system.getInitialItems(false)).filter(i => i.type === "skill");
+    const initialItems = initialSkills;
     const skillNames = new Set(embedded.filter(i => i.type === "skill").map(i => i.name));
     for (const initial of initialItems) {
       if (initial.type !== "skill" || skillNames.has(initial.name)) continue;
@@ -250,10 +309,11 @@ async function createCompendiumActor(profile, packId) {
       }
     }
 
-    const ammo = createdItems.find(i => i.getFlag(MODULE_ID, "sourceUuid") === UUID.gear.bolt);
-    const crossbow = createdItems.find(i => i.getFlag(MODULE_ID, "sourceUuid") === UUID.gear.crossbow);
-    if (ammo && crossbow) {
-      await crossbow.update({ "system.currentAmmo.value": ammo.id });
+    for (const entry of profile.items.filter(i => i.ammoUuid)) {
+      const weapon = createdItems.find(i => i.getFlag(MODULE_ID, "sourceUuid") === entry.uuid);
+      const ammo = createdItems.find(i => i.getFlag(MODULE_ID, "sourceUuid") === entry.ammoUuid);
+      if (!weapon || !ammo) throw new Error("Missing weapon or ammunition for ammunition selection.");
+      await weapon.update({ "system.currentAmmo.value": ammo.id });
     }
 
     actor = await saveCalculatedWounds(actor);

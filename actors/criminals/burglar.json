@@ -1,0 +1,80 @@
+{
+  "id": "burglar",
+  "folder": "Criminals",
+  "name": "Burglar",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 30,
+    "bs": 30,
+    "s": 30,
+    "t": 30,
+    "i": 45,
+    "ag": 45,
+    "dex": 50,
+    "int": 35,
+    "wp": 35,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.sleightOfHand",
+      "characteristic": "dex",
+      "total": 70
+    },
+    {
+      "ref": "skill.pickLock",
+      "characteristic": "dex",
+      "total": 70
+    },
+    {
+      "ref": "skill.stealthUrban",
+      "characteristic": "ag",
+      "total": 65
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 55
+    },
+    {
+      "ref": "skill.climb",
+      "characteristic": "s",
+      "total": 40
+    },
+    {
+      "ref": "skill.dodge",
+      "characteristic": "ag",
+      "total": 55
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 40
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.lockPicks"
+    },
+    {
+      "ref": "gear.leatherJack",
+      "worn": true
+    },
+    {
+      "ref": "gear.sword",
+      "equipped": true
+    },
+    {
+      "ref": "gear.silver",
+      "quantity": 6
+    },
+    {
+      "ref": "talent.criminal"
+    },
+    {
+      "ref": "talent.shadow"
+    }
+  ]
+}

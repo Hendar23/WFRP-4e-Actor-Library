@@ -107,22 +107,26 @@
     {
       "name": "Spiky Breastplate",
       "worn": true,
-      "ref": "gear.plateBreastplate"
+      "ref": "gear.plateBreastplate",
+      "ugly": true
     },
     {
       "name": "Spiky Open Helm",
       "worn": true,
-      "ref": "gear.plateOpenHelm"
+      "ref": "gear.plateOpenHelm",
+      "ugly": true
     },
     {
       "name": "Spiky Bracers",
       "worn": true,
-      "ref": "gear.plateBracers"
+      "ref": "gear.plateBracers",
+      "ugly": true
     },
     {
       "name": "Massive Choppa",
       "equipped": true,
-      "ref": "gear.greatAxe"
+      "ref": "gear.greatAxe",
+      "ugly": true
     },
     {
       "quantity": 8,

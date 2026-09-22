@@ -1,0 +1,65 @@
+{
+  "id": "apprentice-smith",
+  "folder": "Townsfolk",
+  "name": "Apprentice Smith",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 30,
+    "bs": 25,
+    "s": 40,
+    "t": 35,
+    "i": 30,
+    "ag": 30,
+    "dex": 40,
+    "int": 30,
+    "wp": 35,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.tradeSmith",
+      "characteristic": "dex",
+      "total": 50
+    },
+    {
+      "ref": "skill.evaluate",
+      "characteristic": "int",
+      "total": 40
+    },
+    {
+      "ref": "skill.endurance",
+      "characteristic": "t",
+      "total": 40
+    },
+    {
+      "ref": "skill.intimidate",
+      "characteristic": "s",
+      "total": 45
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 35
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.tools",
+      "name": "Smithing Tools"
+    },
+    {
+      "ref": "gear.dagger",
+      "equipped": true
+    },
+    {
+      "ref": "gear.brass",
+      "quantity": 8
+    },
+    {
+      "ref": "talent.craftsman",
+      "name": "Craftsman (Smith)"
+    }
+  ]
+}

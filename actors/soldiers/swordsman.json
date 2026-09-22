@@ -1,0 +1,75 @@
+{
+  "id": "swordsman",
+  "folder": "Soldiers",
+  "name": "Swordsman",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 40,
+    "bs": 35,
+    "s": 35,
+    "t": 40,
+    "i": 35,
+    "ag": 35,
+    "dex": 30,
+    "int": 30,
+    "wp": 40,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 60
+    },
+    {
+      "ref": "skill.cool",
+      "characteristic": "wp",
+      "total": 50
+    },
+    {
+      "ref": "skill.endurance",
+      "characteristic": "t",
+      "total": 50
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 45
+    },
+    {
+      "ref": "skill.dodge",
+      "characteristic": "ag",
+      "total": 45
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.sword",
+      "equipped": true
+    },
+    {
+      "ref": "gear.leatherJack",
+      "worn": true
+    },
+    {
+      "ref": "gear.leatherSkullcap",
+      "worn": true
+    },
+    {
+      "ref": "gear.shield",
+      "equipped": true
+    },
+    {
+      "ref": "gear.mailShirt",
+      "worn": true
+    },
+    {
+      "ref": "talent.drilled"
+    },
+    {
+      "ref": "talent.combatAware"
+    }
+  ]
+}

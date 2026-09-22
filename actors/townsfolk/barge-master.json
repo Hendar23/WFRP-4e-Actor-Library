@@ -1,0 +1,73 @@
+{
+  "id": "barge-master",
+  "folder": "Townsfolk",
+  "name": "Barge Master",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 30,
+    "bs": 30,
+    "s": 45,
+    "t": 35,
+    "i": 35,
+    "ag": 45,
+    "dex": 35,
+    "int": 40,
+    "wp": 35,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.row",
+      "characteristic": "s",
+      "total": 75
+    },
+    {
+      "ref": "skill.swim",
+      "characteristic": "s",
+      "total": 75
+    },
+    {
+      "ref": "skill.navigation",
+      "characteristic": "int",
+      "total": 55
+    },
+    {
+      "ref": "skill.athletics",
+      "characteristic": "ag",
+      "total": 60
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 50
+    },
+    {
+      "ref": "skill.leadership",
+      "characteristic": "fel",
+      "total": 45
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 45
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.rope"
+    },
+    {
+      "ref": "gear.dagger",
+      "equipped": true
+    },
+    {
+      "ref": "gear.brass",
+      "quantity": 24
+    },
+    {
+      "ref": "talent.waterman"
+    }
+  ]
+}

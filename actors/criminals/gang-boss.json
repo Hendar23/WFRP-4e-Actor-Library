@@ -1,0 +1,75 @@
+{
+  "id": "gang-boss",
+  "folder": "Criminals",
+  "name": "Gang Boss",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 45,
+    "bs": 25,
+    "s": 50,
+    "t": 35,
+    "i": 30,
+    "ag": 30,
+    "dex": 30,
+    "int": 25,
+    "wp": 45,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 75
+    },
+    {
+      "ref": "skill.intimidate",
+      "characteristic": "s",
+      "total": 80
+    },
+    {
+      "ref": "skill.meleeBrawling",
+      "characteristic": "ws",
+      "total": 60
+    },
+    {
+      "ref": "skill.endurance",
+      "characteristic": "t",
+      "total": 50
+    },
+    {
+      "ref": "skill.cool",
+      "characteristic": "wp",
+      "total": 60
+    },
+    {
+      "ref": "skill.leadership",
+      "characteristic": "fel",
+      "total": 45
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.leatherJack",
+      "worn": true
+    },
+    {
+      "ref": "gear.club",
+      "equipped": true
+    },
+    {
+      "ref": "gear.silver",
+      "quantity": 10
+    },
+    {
+      "ref": "talent.criminal"
+    },
+    {
+      "ref": "talent.dirtyFighting"
+    },
+    {
+      "ref": "talent.menacing"
+    }
+  ]
+}

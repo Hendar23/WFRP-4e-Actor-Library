@@ -1,0 +1,91 @@
+{
+  "id": "goblin-archer-boss",
+  "folder": "Goblins",
+  "name": "Goblin Archer Boss",
+  "type": "creature",
+  "species": "Goblin",
+  "stats": {
+    "m": 4,
+    "ws": 25,
+    "bs": 40,
+    "s": 25,
+    "t": 30,
+    "i": 35,
+    "ag": 45,
+    "dex": 30,
+    "int": 25,
+    "wp": 35,
+    "fel": 20
+  },
+  "skills": [
+    {
+      "ref": "skill.rangedBow",
+      "characteristic": "bs",
+      "total": 70
+    },
+    {
+      "ref": "skill.dodge",
+      "characteristic": "ag",
+      "total": 60
+    },
+    {
+      "ref": "skill.stealthRural",
+      "characteristic": "ag",
+      "total": 60
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 50
+    },
+    {
+      "ref": "skill.cool",
+      "characteristic": "wp",
+      "total": 50
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 40
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.shortbow",
+      "equipped": true,
+      "ammo": "gear.arrow",
+      "ugly": true
+    },
+    {
+      "ref": "gear.leatherJerkin",
+      "worn": true,
+      "ugly": true
+    },
+    {
+      "ref": "trait.animosity",
+      "specification": "Greenskins"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "trait.size",
+      "specification": "Small"
+    },
+    {
+      "ref": "gear.arrow",
+      "quantity": 15
+    },
+    {
+      "ref": "gear.dagger",
+      "equipped": false,
+      "ugly": true
+    },
+    {
+      "ref": "talent.combatAware"
+    },
+    {
+      "ref": "talent.dirtyFighting"
+    }
+  ]
+}

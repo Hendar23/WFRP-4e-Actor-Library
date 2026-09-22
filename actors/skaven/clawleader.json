@@ -92,17 +92,20 @@
     {
       "name": "Blackened Mail Coat",
       "worn": true,
-      "ref": "gear.mailCoat"
+      "ref": "gear.mailCoat",
+      "ugly": true
     },
     {
       "name": "Clawleader's Helm",
       "worn": true,
-      "ref": "gear.plateOpenHelm"
+      "ref": "gear.plateOpenHelm",
+      "ugly": true
     },
     {
       "name": "Clawleader's Halberd",
       "equipped": true,
-      "ref": "gear.halberd"
+      "ref": "gear.halberd",
+      "ugly": true
     },
     {
       "quantity": 10,

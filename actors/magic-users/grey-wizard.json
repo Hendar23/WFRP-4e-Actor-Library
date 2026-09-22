@@ -1,0 +1,104 @@
+{
+  "id": "grey-wizard",
+  "folder": "Magic Users",
+  "name": "Grey Wizard",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 30,
+    "bs": 30,
+    "s": 30,
+    "t": 35,
+    "i": 45,
+    "ag": 35,
+    "dex": 40,
+    "int": 55,
+    "wp": 55,
+    "fel": 35
+  },
+  "skills": [
+    {
+      "ref": "skill.languageMagick",
+      "characteristic": "int",
+      "total": 80
+    },
+    {
+      "ref": "skill.channellingUlgu",
+      "characteristic": "wp",
+      "total": 75
+    },
+    {
+      "ref": "skill.loreMagick",
+      "characteristic": "int",
+      "total": 75
+    },
+    {
+      "ref": "skill.research",
+      "characteristic": "int",
+      "total": 70
+    },
+    {
+      "ref": "skill.cool",
+      "characteristic": "wp",
+      "total": 75
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 40
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.quarterstaff",
+      "equipped": true
+    },
+    {
+      "ref": "gear.robes"
+    },
+    {
+      "ref": "gear.magicBook"
+    },
+    {
+      "ref": "talent.pettyMagic"
+    },
+    {
+      "ref": "talent.arcaneMagic",
+      "name": "Arcane Magic (Shadow)"
+    },
+    {
+      "ref": "talent.secondSight"
+    },
+    {
+      "ref": "talent.readWrite"
+    },
+    {
+      "ref": "talent.aethyricAttunement"
+    },
+    {
+      "ref": "spell.light",
+      "memorized": true
+    },
+    {
+      "ref": "spell.dart",
+      "memorized": true
+    },
+    {
+      "ref": "spell.sounds",
+      "memorized": true
+    },
+    {
+      "ref": "spell.boltShadow",
+      "memorized": true
+    },
+    {
+      "ref": "spell.shadowstep",
+      "memorized": true
+    },
+    {
+      "ref": "spell.bewilder",
+      "memorized": true
+    }
+  ]
+}

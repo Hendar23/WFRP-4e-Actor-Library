@@ -1,0 +1,61 @@
+{
+  "id": "skeleton-warrior",
+  "folder": "Undead",
+  "name": "Skeleton Warrior",
+  "type": "creature",
+  "species": "Skeleton",
+  "stats": {
+    "m": 4,
+    "ws": 25,
+    "bs": 20,
+    "s": 30,
+    "t": 30,
+    "i": 20,
+    "ag": 20,
+    "dex": 25,
+    "int": 5,
+    "wp": 30,
+    "fel": 5
+  },
+  "skills": [
+    {
+      "ref": "skill.meleeBasic",
+      "characteristic": "ws",
+      "total": 30
+    },
+    {
+      "ref": "skill.perception",
+      "characteristic": "i",
+      "total": 25
+    }
+  ],
+  "items": [
+    {
+      "ref": "gear.sword",
+      "equipped": true
+    },
+    {
+      "ref": "gear.shield",
+      "equipped": true
+    },
+    {
+      "ref": "trait.undead"
+    },
+    {
+      "ref": "trait.unstable"
+    },
+    {
+      "ref": "trait.construct"
+    },
+    {
+      "ref": "trait.painless"
+    },
+    {
+      "ref": "trait.immunitytoPsychology"
+    },
+    {
+      "ref": "trait.fear",
+      "specification": 1
+    }
+  ]
+}
