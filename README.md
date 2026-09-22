@@ -13,6 +13,18 @@ A collection of generic NPCs and creatures for the official WFRP Foundry VTT sys
 
 Install and enable the required modules in the world. Core Rulebook and Up in Arms are paid content modules and must be owned separately. This library uses their installed compendium items; it does not include their content. Later versions have not all been tested.
 
+## Install and update through Foundry
+
+After the first release is published, open **Foundry Setup → Add-on Modules → Install Module**, paste this into **Manifest URL**, and click **Install**:
+
+```text
+https://github.com/Hendar23/WFRP-4e-Actor-Library/releases/latest/download/module.json
+```
+
+Enable the module and its dependencies in your world. Use **Update** or **Update All** in Foundry Setup for later releases. Updates follow published version numbers, not every commit. Keep the same internal module ID so pilot installations continue to use their existing compendium.
+
+If you installed an earlier version manually, install from this manifest to register the update address. If Foundry refuses because it is already installed, uninstall the module from Setup and reinstall using the URL. The generated world compendium and imported world actors are separate from the module's files.
+
 ## Install the development version
 
 Copy the contents of `module/` into `Data/modules/wfrp4e-quick-npc-library/`, restart Foundry and enable **WFRP 4e Actor Library**. The internal module ID and existing compendium name are retained to preserve compatibility with pilot installations.
@@ -41,3 +53,12 @@ Validation checks fields, unique IDs, references and skill totals. Runtime check
 ## Project status
 
 Unofficial community project. No affiliation with the publishers of Warhammer Fantasy Roleplay or Foundry VTT. The pilot's existing personal-use notice remains in the module manifest; a project-wide contribution and distribution licence has not yet been selected.
+
+## Publishing an update
+
+1. Make and test your changes. For actor changes, increment `BUILD_VERSION` in `module/scripts/main.js` as well.
+2. Run `npm run build` and commit the generated data with the source definitions.
+3. Increment the version in both `module/module.json` and `package.json`. Update the versioned ZIP `download` URL in the manifest and write `RELEASE_NOTES.md`.
+4. Push to `main`. The **Publish Foundry release** workflow validates and packages the module, creates a draft release, uploads both assets, then publishes it. If any step fails, inspect the Actions log and rerun after correcting it.
+
+The stable `manifest` URL stays unchanged. Published versions are not overwritten; use a new version for changes. The workflow can also be run manually from Actions on `main`.

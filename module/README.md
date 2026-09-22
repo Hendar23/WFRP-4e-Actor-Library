@@ -1,37 +1,64 @@
-# WFRP4e Quick NPC Library 0.3.1
+# WFRP 4e Actor Library
 
-Twelve generic pilot actors: Tavern Drunk, Tavern Gambler, Tavern Hardcase, Rookie Watchman, Watchman, Watch Sergeant, Orc Boy, Orc Warrior, Veteran Orc, Clanrat, Stormvermin and Clawleader.
+A collection of generic NPCs and creatures for the official WFRP Foundry VTT system.
+
 
 ## Requirements
 
-Foundry VTT 14, WFRP system 10.0.0, Core Rulebook 8.0.1 and Up in Arms 7.2.0. Source review targets Warhammer Library 3.4.1. Uses content already installed in your world; no official content is bundled.
+- **Foundry VTT 14**
+- **WFRP system 10.0.0 or newer**
+- **Warhammer Library 3.4.1 or newer**
+- **WFRP4e Core Rulebook 8.0.0 or newer** (tested with 8.0.1)
+- **WFRP4e Up in Arms 7.2.0 or newer**
 
-## Update and use
+Install and enable the required modules in the world. Core Rulebook and Up in Arms are paid content modules and must be owned separately. This library uses their installed compendium items; it does not include their content. Later versions have not all been tested.
 
-1. Close Foundry and replace the old `Data/modules/wfrp4e-quick-npc-library` folder with the folder from this ZIP.
-2. Restart Foundry and open the world as GM, with the module enabled.
-3. Wait for the build notification. The module rebuilds its twelve compendium entries automatically.
-4. Test a fresh Watch Sergeant or Veteran Orc dragged from **Compendium Packs > WFRP4e Quick NPC Library** onto a scene.
+## Install and update through Foundry
 
-Existing world actors and placed tokens are not updated. Test fresh compendium entries, rather than old world copies. No importer macro is needed. If a build fails, its old entry is retained and the console reports the cause.
+After the first release is published, open **Foundry Setup → Add-on Modules → Install Module**, paste this into **Manifest URL**, and click **Install**:
 
-## Fix in 0.3.1
+```text
+https://github.com/Hendar23/WFRP-4e-Actor-Library/releases/latest/download/module.json
+```
 
-Fixes the 0.3.0 rebuild failure: WFRP's `computeWounds()` returns the existing maximum when automatic Wounds calculation is disabled. The builder now enables calculation on the compendium actor first, then explicitly saves both current and maximum Wounds. The validation remains in place and now reports the actual values if it fails. Failed 0.3.0 builds retained the old actors, which explains the unchanged adventure armour.
+Enable the module and its dependencies in your world. Use **Update** or **Update All** in Foundry Setup for later releases. Updates follow published version numbers, not every commit. Keep the same internal module ID so pilot installations continue to use their existing compendium.
 
-## Changes
+If you installed an earlier version manually, install from this manifest to register the update address. If Foundry refuses because it is already installed, uninstall the module from Setup and reinstall using the URL. The generated world compendium and imported world actors are separate from the module's files.
 
-- Enables automatic recalculation after talents are applied, then saves system-calculated current and maximum Wounds. Previous manually assigned Wounds disagreed with the system for nine of the twelve actors, potentially causing database updates during import.
-- Saves any system-generated encumbrance condition into the compendium entry, avoiding a missing-condition creation request on import.
-- Restores the Watch Sergeant's crossbow, Crossbow skill and ten bolts. The crossbow is carried, unequipped, with its ammunition selected; sword and shield are equipped.
-- Uses ordinary core plate for the Veteran Orc, cosmetically named spiky. Removes the adventure-specific armour and its malformed property. Ubersreik Adventures I is no longer required.
-- Adds the Veteran Orc's Two-Handed skill for the Massive Choppa.
-- Accounts for +5 characteristic talents once, preserving intended skill totals.
-- Adds missing basic skills at zero advances without prompting. Fixes the species field assignment.
-- Validates saved Wounds, trained skill totals, equipment hand requirements and unnamed weapon/armour properties during building.
+## Install the development version
 
-No art, narrative details or roll tables. Real weapons and armour replace abstract Weapon/Armour traits.
+Copy the contents of `module/` into `Data/modules/wfrp4e-quick-npc-library/`, restart Foundry and enable **WFRP 4e Actor Library**. The internal module ID and existing compendium name are retained to preserve compatibility with pilot installations.
 
-## Verification limits
+The GM's first login builds missing or outdated actors into the world compendium **WFRP4e Quick NPC Library**. Drag actors into the world or onto a scene. Existing world copies are not automatically updated.
 
-Syntax, compendium UUID references and WFRP 10.0.0 wound-recalculation behaviour were checked outside Foundry. This release has not been run in a live Foundry world. The corrected Wounds address a concrete import-time update trigger; resolution of the reported server `semaphore` error still needs a fresh-actor scene-drop test. The separate Warhammer Library `keepId` warning is not patched by this module.
+## Add an actor
+
+See [CONTRIBUTING.md](CONTRIBUTING.md). Normally, copy an actor JSON file, change its mechanical values and rebuild. No module programming is needed.
+
+- `actors/`: one JSON definition per actor, grouped by category.
+- `catalogue/items.json`: shared readable identifiers and official compendium references.
+- `tools/build.mjs`: validates definitions and generates the module data.
+- `module/`: installable Foundry module.
+- `.github/workflows/validate.yml`: contribution checks on pushes and pull requests.
+
+Use Node.js 22 or newer. There are no npm dependencies:
+
+```sh
+npm run build
+npm run check
+```
+
+Validation checks fields, unique IDs, references and skill totals. Runtime checks also verify Wounds, encumbrance conditions and equipped hand requirements. CI cannot verify that an official compendium UUID still resolves or that an actor works in Foundry; contributors must test those in their installed game.
+
+## Project status
+
+Unofficial community project. No affiliation with the publishers of Warhammer Fantasy Roleplay or Foundry VTT. The pilot's existing personal-use notice remains in the module manifest; a project-wide contribution and distribution licence has not yet been selected.
+
+## Publishing an update
+
+1. Make and test your changes. For actor changes, increment `BUILD_VERSION` in `module/scripts/main.js` as well.
+2. Run `npm run build` and commit the generated data with the source definitions.
+3. Increment the version in both `module/module.json` and `package.json`. Update the versioned ZIP `download` URL in the manifest and write `RELEASE_NOTES.md`.
+4. Push to `main`. The **Publish Foundry release** workflow validates and packages the module, creates a draft release, uploads both assets, then publishes it. If any step fails, inspect the Actions log and rerun after correcting it.
+
+The stable `manifest` URL stays unchanged. Published versions are not overwritten; use a new version for changes. The workflow can also be run manually from Actions on `main`.

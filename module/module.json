@@ -2,7 +2,7 @@
   "id": "wfrp4e-quick-npc-library",
   "title": "WFRP 4e Actor Library",
   "description": "Creates a pilot library of twelve mechanically complete generic NPCs and creatures for WFRP4e.",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "authors": [
     {
       "name": "Hendar23"
@@ -54,5 +54,8 @@
     "scripts/main.js"
   ],
   "license": "For personal use with legally installed WFRP4e content.",
-  "readme": "README.md"
+  "readme": "README.md",
+  "url": "https://github.com/Hendar23/WFRP-4e-Actor-Library",
+  "manifest": "https://github.com/Hendar23/WFRP-4e-Actor-Library/releases/latest/download/module.json",
+  "download": "https://github.com/Hendar23/WFRP-4e-Actor-Library/releases/download/v0.3.2/wfrp4e-quick-npc-library.zip"
 }

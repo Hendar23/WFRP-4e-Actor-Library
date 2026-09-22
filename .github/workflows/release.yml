@@ -1,0 +1,46 @@
+name: Publish Foundry release
+on:
+  push:
+    branches: [main]
+    paths:
+      - module/module.json
+      - .github/workflows/release.yml
+      - tools/package.mjs
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: foundry-release
+  cancel-in-progress: false
+jobs:
+  release:
+    if: github.repository == 'Hendar23/WFRP-4e-Actor-Library' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm run check
+      - run: npm run package
+      - name: Publish versioned ZIP and update manifest
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          version=$(node -p "JSON.parse(require('fs').readFileSync('module/module.json','utf8')).version")
+          tag="v${version}"
+          if gh release view "$tag" --json isDraft > release-state.json 2>/dev/null; then
+            if node -e "process.exit(JSON.parse(require('fs').readFileSync('release-state.json','utf8')).isDraft ? 1 : 0)"; then
+              echo "Release $tag is already published. Increment the version for a new release."
+              exit 0
+            fi
+          else
+            gh release create "$tag" --target "$GITHUB_SHA" --draft --title "WFRP 4e Actor Library $tag" --notes-file RELEASE_NOTES.md
+          fi
+          gh release upload "$tag" dist/module.json dist/wfrp4e-quick-npc-library.zip --clobber
+          gh release edit "$tag" --draft=false --latest
