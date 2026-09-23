@@ -31,14 +31,13 @@ Copy the contents of `module/` into `Data/modules/wfrp4e-quick-npc-library/`, re
 
 The GM's first login builds missing or outdated actors into the world compendium **WFRP4e Quick NPC Library**. Drag actors into the world or onto a scene. The module creates matching folders in the Actors directory for imported actors. Existing world copies are not automatically updated.
 
-## Included actors (101)
+## Included actors (102)
 
 | Group | Actors |
 | --- | --- |
-| Tavern (3) | Tavern Drunk, Tavern Gambler, Tavern Hardcase |
+| Tavern (10) | Tavern Patron, Tavern Drunk, Tavern Gambler, Tavern Hardcase, Tavern Server, Experienced Tavern Server, Cook, Innkeeper, Experienced Innkeeper, Prosperous Innkeeper |
 | Town Workers (8) | Day Labourer, Work Gang Foreman, Household Servant, Head Servant, Beggar, Rat Catcher, Washer, Gravedigger |
 | Trade (15) | Hawker, Market Trader, Apprentice Artisan, Artisan, Master Artisan, Smith's Apprentice, Blacksmith, Master Blacksmith, Shop Assistant, Shopkeeper, Established Shopkeeper, Trader, Merchant, Master Merchant, Guildmaster |
-| Hospitality (6) | Tavern Server, Experienced Tavern Server, Cook, Innkeeper, Experienced Innkeeper, Prosperous Innkeeper |
 | Town Officials (7) | Clerk, Senior Clerk, Town Councillor, Burgomeister, Toll Keeper, Town Crier, Bailiff |
 | Villagers (7) | Peasant, Farmer, Prosperous Farmer, Herder, Woodsman, Miller, Village Elder |
 | Faith and Medicine (5) | Initiate, Priest, Herbalist, Physician, Apothecary |

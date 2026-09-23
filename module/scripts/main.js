@@ -4,19 +4,38 @@ const PACK_NAME = "wfrp4e-quick-npc-library";
 const PACK_LABEL = "WFRP4e Quick NPC Library";
 const BUILD_VERSION = 7;
 
-// Dragging a generated actor into the world puts it in its library category.
-// Leave deliberate placements in an existing world folder untouched.
-Hooks.on("preCreateActor", (actor, data) => {
-  if (actor.pack || !data.flags?.[MODULE_ID]?.profileId || !game.user?.isGM) return;
-  if (data.folder && game.folders.get(data.folder)) return;
+// Only sort actors created by this library. A folder explicitly chosen by the
+// GM always takes precedence, including when an actor is dragged into it.
+function libraryCategory(actor, data) {
+  if (actor.pack || !game.user?.isGM) return null;
+  const profileId = actor.getFlag(MODULE_ID, "profileId") ?? data?.flags?.[MODULE_ID]?.profileId;
+  const profile = PROFILES.find(entry => entry.id === profileId);
+  return profile?.folder ?? null;
+}
+
+function findCategoryFolder(name) {
   const root = game.folders.find(folder => folder.type === "Actor" &&
     folder.name === PACK_LABEL && !folder.folder);
-  const category = game.folders.find(folder => folder.type === "Actor" &&
-    folder.folder?.id === root?.id && folder.name === data.flags[MODULE_ID].category);
-  if (category) actor.updateSource({folder: category.id});
+  return game.folders.find(folder => folder.type === "Actor" &&
+    folder.folder?.id === root?.id && folder.name === name);
+}
+
+Hooks.on("preCreateActor", (actor, data) => {
+  const category = libraryCategory(actor, data);
+  if (!category || data.folder || actor.folder) return;
+  const folder = findCategoryFolder(category);
+  if (folder) actor.updateSource({folder: folder.id});
 });
 
+let foldersPromise;
 async function ensureWorldFolders() {
+  if (foldersPromise) return foldersPromise;
+  foldersPromise = createWorldFolders();
+  try { return await foldersPromise; }
+  finally { foldersPromise = null; }
+}
+
+async function createWorldFolders() {
   let root = game.folders.find(folder => folder.type === "Actor" &&
     folder.name === PACK_LABEL && !folder.folder);
   if (!root) root = await Folder.create({name: PACK_LABEL, type: "Actor"});
@@ -24,6 +43,42 @@ async function ensureWorldFolders() {
     if (game.folders.some(folder => folder.type === "Actor" &&
       folder.folder?.id === root.id && folder.name === name)) continue;
     await Folder.create({name, type: "Actor", folder: root.id});
+  }
+}
+
+// Foundry may finish a compendium import without applying the pre-create
+// folder. Sort that world copy as soon as it exists.
+Hooks.on("createActor", async (actor, options, userId) => {
+  if (game.user.id !== userId || actor.folder || !libraryCategory(actor)) return;
+  try {
+    await ensureWorldFolders();
+    if (actor.folder) return;
+    const folder = findCategoryFolder(libraryCategory(actor));
+    if (folder) await actor.update({folder: folder.id});
+  } catch (error) {
+    console.error(`${MODULE_ID} could not file imported actor ${actor.name}`, error);
+  }
+});
+
+async function organiseExistingWorldActors() {
+  // Earlier versions filed the six inn and kitchen actors under Hospitality.
+  // Move only tagged library actors out of that old category, and leave any
+  // actors the GM deliberately placed in another folder alone.
+  const root = game.folders.find(folder => folder.type === "Actor" &&
+    folder.name === PACK_LABEL && !folder.folder);
+  const oldHospitality = game.folders.find(folder => folder.type === "Actor" &&
+    folder.name === "Hospitality" && folder.folder?.id === root?.id);
+  const misplaced = game.actors.filter(actor => libraryCategory(actor) &&
+    (!actor.folder || (actor.folder.id === oldHospitality?.id && libraryCategory(actor) === "Tavern")));
+  if (misplaced.length) {
+    await Actor.updateDocuments(misplaced.flatMap(actor => {
+      const folder = findCategoryFolder(libraryCategory(actor));
+      return folder ? [{_id: actor.id, folder: folder.id}] : [];
+    }));
+  }
+  if (oldHospitality && !game.actors.some(actor => actor.folder?.id === oldHospitality.id) &&
+      !game.folders.some(folder => folder.folder?.id === oldHospitality.id)) {
+    await oldHospitality.delete();
   }
 }
 
@@ -37,6 +92,7 @@ Hooks.once("ready", async () => {
 
   try {
     await ensureWorldFolders();
+    await organiseExistingWorldActors();
     let pack = game.packs.get(`world.${PACK_NAME}`);
     const newPack = !pack;
     if (!pack) {

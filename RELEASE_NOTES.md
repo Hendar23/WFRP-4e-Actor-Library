@@ -1,3 +1,9 @@
+## 0.3.6: Actor folders and tavern patrons
+
+- File imported library actors under the library folder and their category, including imports that bypass the pre-create folder assignment. Move earlier library imports left at the Actors root into the right category without moving actors deliberately placed elsewhere.
+- Put all six hospitality actors in the Tavern category and move tagged library copies from the former Hospitality folder. Remove that former folder if it is empty.
+- Add an ordinary Tavern Patron with everyday skills and basic trappings, for 102 actors total. Existing world actor statistics are not changed.
+
 ## 0.3.5: Townsfolk
 
 - Add 52 ready-to-use humans across town workers, trade, hospitality, town officials, villages, faith and medicine, and road and river, for 101 actors in total.

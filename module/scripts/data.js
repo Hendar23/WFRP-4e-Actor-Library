@@ -2128,7 +2128,7 @@ export const PROFILES = [
   },
   {
     "id": "cook",
-    "folder": "Hospitality",
+    "folder": "Tavern",
     "name": "Cook",
     "type": "npc",
     "species": "Human",
@@ -2202,7 +2202,7 @@ export const PROFILES = [
   },
   {
     "id": "experienced-innkeeper",
-    "folder": "Hospitality",
+    "folder": "Tavern",
     "name": "Experienced Innkeeper",
     "type": "npc",
     "species": "Human",
@@ -2307,7 +2307,7 @@ export const PROFILES = [
   },
   {
     "id": "experienced-tavern-server",
-    "folder": "Hospitality",
+    "folder": "Tavern",
     "name": "Experienced Tavern Server",
     "type": "npc",
     "species": "Human",
@@ -2403,7 +2403,7 @@ export const PROFILES = [
   },
   {
     "id": "innkeeper",
-    "folder": "Hospitality",
+    "folder": "Tavern",
     "name": "Innkeeper",
     "type": "npc",
     "species": "Human",
@@ -2487,7 +2487,7 @@ export const PROFILES = [
   },
   {
     "id": "prosperous-innkeeper",
-    "folder": "Hospitality",
+    "folder": "Tavern",
     "name": "Prosperous Innkeeper",
     "type": "npc",
     "species": "Human",
@@ -2601,7 +2601,7 @@ export const PROFILES = [
   },
   {
     "id": "tavern-server",
-    "folder": "Hospitality",
+    "folder": "Tavern",
     "name": "Tavern Server",
     "type": "npc",
     "species": "Human",
@@ -5970,6 +5970,70 @@ export const PROFILES = [
       },
       {
         "uuid": "Compendium.wfrp4e-core.items.Item.jt0DmVK9IiF6Sd2h"
+      }
+    ]
+  },
+  {
+    "id": "tavern-patron",
+    "folder": "Tavern",
+    "name": "Tavern Patron",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 30,
+      "bs": 29,
+      "s": 30,
+      "t": 30,
+      "i": 30,
+      "ag": 30,
+      "dex": 30,
+      "int": 30,
+      "wp": 30,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 35,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 35,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 40,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 35,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.jLyoyqwmBVPjRjhM",
+        "total": 35,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 35,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.VIq5ronFVkpzF8Vb"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0MYOJFx3vkYA95B4",
+        "quantity": 6
       }
     ]
   },
