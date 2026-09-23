@@ -38,8 +38,6 @@ The GM's first login builds missing or outdated actors into the world compendium
 | Hobgoblins (4) | Hobgoblin Mercenary, Hobgoblin Archer, Hobgoblin Wolf Rider, Hobgoblin Boss |
 | Mounts (3) | War Boar, Giant Wolf, Giant Spider |
 
-Orcs and Goblin-kind use the creature profiles and applicable templates from *Tribes and Tribulations* (pp. 8-12, 16-17); mounts use p. 19. The Soldier and Elite templates include Resolute. The Night Goblin Net Carrier has a net and carried club, without a shield. You need the purchased book separately to consult its rules. See [proposed future actors](FUTURE_ACTORS.md) for shamans and specialists under consideration.
-
 ## Add an actor
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Normally, copy an actor JSON file, change its mechanical values and rebuild. No module programming is needed.
