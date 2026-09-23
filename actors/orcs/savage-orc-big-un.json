@@ -1,56 +1,56 @@
 {
-  "id": "orc-boy",
+  "id": "savage-orc-big-un",
   "folder": "Orcs",
-  "name": "Orc Boy",
+  "name": "Savage Orc Big 'Un",
   "type": "creature",
-  "species": "Orc",
+  "species": "Savage Orc",
   "stats": {
     "m": 4,
-    "ws": 35,
+    "ws": 45,
     "bs": 30,
-    "s": 35,
-    "t": 45,
-    "i": 20,
-    "ag": 25,
+    "s": 45,
+    "t": 55,
+    "i": 40,
+    "ag": 35,
     "dex": 20,
     "int": 20,
-    "wp": 35,
+    "wp": 50,
     "fel": 20
   },
   "skills": [
     {
-      "ref": "skill.athletics",
-      "total": 25,
-      "characteristic": "ag"
-    },
-    {
       "ref": "skill.cool",
-      "total": 35,
+      "total": 65,
       "characteristic": "wp"
     },
     {
       "ref": "skill.dodge",
-      "total": 25,
+      "total": 50,
       "characteristic": "ag"
     },
     {
-      "ref": "skill.endurance",
-      "total": 45,
-      "characteristic": "t"
-    },
-    {
       "ref": "skill.intimidate",
-      "total": 35,
+      "total": 55,
       "characteristic": "s"
     },
     {
+      "ref": "skill.leadership",
+      "total": 25,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.meleeTwoHanded",
+      "total": 65,
+      "characteristic": "ws"
+    },
+    {
       "ref": "skill.meleeBasic",
-      "total": 35,
+      "total": 45,
       "characteristic": "ws"
     },
     {
       "ref": "skill.perception",
-      "total": 20,
+      "total": 40,
       "characteristic": "i"
     }
   ],
@@ -72,27 +72,27 @@
       "ref": "trait.nightVision"
     },
     {
-      "ref": "gear.axe",
-      "name": "Choppa",
+      "ref": "trait.frenzy"
+    },
+    {
+      "ref": "trait.ward",
+      "specification": "10"
+    },
+    {
+      "ref": "talent.combatAware"
+    },
+    {
+      "ref": "talent.combatReflexes"
+    },
+    {
+      "ref": "talent.resolute"
+    },
+    {
+      "ref": "gear.greatAxe",
+      "name": "Stone Axe",
       "equipped": true,
       "ugly": true,
-      "damage": "SB+5"
-    },
-    {
-      "ref": "gear.shield",
-      "name": "Shield",
-      "equipped": true,
-      "ugly": true
-    },
-    {
-      "ref": "gear.leatherJack",
-      "worn": true,
-      "ugly": true
-    },
-    {
-      "ref": "gear.mailShirt",
-      "worn": true,
-      "ugly": true
+      "damage": "SB+6"
     }
   ]
 }

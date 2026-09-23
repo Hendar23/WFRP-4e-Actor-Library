@@ -1,57 +1,58 @@
 {
-  "id": "orc-boy",
+  "id": "orc-boar-boy-big-un",
   "folder": "Orcs",
-  "name": "Orc Boy",
+  "name": "Orc Boar Boy Big 'Un",
   "type": "creature",
   "species": "Orc",
   "stats": {
     "m": 4,
-    "ws": 35,
+    "ws": 45,
     "bs": 30,
-    "s": 35,
-    "t": 45,
-    "i": 20,
-    "ag": 25,
+    "s": 45,
+    "t": 55,
+    "i": 40,
+    "ag": 35,
     "dex": 20,
     "int": 20,
-    "wp": 35,
+    "wp": 50,
     "fel": 20
   },
   "skills": [
     {
-      "ref": "skill.athletics",
-      "total": 25,
-      "characteristic": "ag"
-    },
-    {
       "ref": "skill.cool",
-      "total": 35,
+      "total": 65,
       "characteristic": "wp"
     },
     {
       "ref": "skill.dodge",
-      "total": 25,
+      "total": 50,
       "characteristic": "ag"
     },
     {
-      "ref": "skill.endurance",
-      "total": 45,
-      "characteristic": "t"
-    },
-    {
       "ref": "skill.intimidate",
-      "total": 35,
+      "total": 55,
       "characteristic": "s"
     },
     {
-      "ref": "skill.meleeBasic",
-      "total": 35,
-      "characteristic": "ws"
+      "ref": "skill.leadership",
+      "total": 25,
+      "characteristic": "fel"
     },
     {
       "ref": "skill.perception",
-      "total": 20,
+      "total": 40,
       "characteristic": "i"
+    },
+    {
+      "ref": "skill.ride",
+      "name": "Ride (War Boar)",
+      "total": 50,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.meleePolearm",
+      "total": 65,
+      "characteristic": "ws"
     }
   ],
   "items": [
@@ -72,11 +73,19 @@
       "ref": "trait.nightVision"
     },
     {
-      "ref": "gear.axe",
-      "name": "Choppa",
+      "ref": "talent.combatAware"
+    },
+    {
+      "ref": "talent.combatReflexes"
+    },
+    {
+      "ref": "talent.resolute"
+    },
+    {
+      "ref": "gear.spear",
+      "name": "Orc Spear",
       "equipped": true,
-      "ugly": true,
-      "damage": "SB+5"
+      "ugly": true
     },
     {
       "ref": "gear.shield",
@@ -85,12 +94,14 @@
       "ugly": true
     },
     {
-      "ref": "gear.leatherJack",
-      "worn": true,
-      "ugly": true
+      "ref": "gear.axe",
+      "name": "Choppa",
+      "equipped": false,
+      "ugly": true,
+      "damage": "SB+5"
     },
     {
-      "ref": "gear.mailShirt",
+      "ref": "gear.leatherJack",
       "worn": true,
       "ugly": true
     }

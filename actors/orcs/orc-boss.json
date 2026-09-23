@@ -1,41 +1,62 @@
 {
-  "id": "orc-warrior",
+  "id": "orc-boss",
   "folder": "Orcs",
-  "name": "Orc Warrior",
+  "name": "Orc Boss",
   "type": "creature",
   "species": "Orc",
   "stats": {
     "m": 4,
-    "ws": 40,
-    "bs": 30,
-    "s": 40,
-    "t": 50,
-    "i": 30,
-    "ag": 25,
+    "ws": 60,
+    "bs": 40,
+    "s": 50,
+    "t": 60,
+    "i": 45,
+    "ag": 45,
     "dex": 20,
-    "int": 20,
-    "wp": 40,
-    "fel": 20
+    "int": 30,
+    "wp": 60,
+    "fel": 30
   },
   "skills": [
     {
       "ref": "skill.cool",
-      "total": 50,
+      "total": 75,
       "characteristic": "wp"
     },
     {
       "ref": "skill.dodge",
-      "total": 35,
+      "total": 60,
       "characteristic": "ag"
     },
     {
+      "ref": "skill.intimidate",
+      "total": 70,
+      "characteristic": "s"
+    },
+    {
+      "ref": "skill.intuition",
+      "total": 60,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.leadership",
+      "total": 45,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.loreWarfare",
+      "total": 40,
+      "characteristic": "int",
+      "name": "Lore (Warfare)"
+    },
+    {
       "ref": "skill.meleeBasic",
-      "total": 50,
+      "total": 75,
       "characteristic": "ws"
     },
     {
       "ref": "skill.perception",
-      "total": 30,
+      "total": 55,
       "characteristic": "i"
     }
   ],
@@ -57,10 +78,22 @@
       "ref": "trait.nightVision"
     },
     {
+      "ref": "talent.combatAware"
+    },
+    {
       "ref": "talent.combatReflexes"
     },
     {
+      "ref": "talent.furiousAssault"
+    },
+    {
+      "ref": "talent.inspiring"
+    },
+    {
       "ref": "talent.resolute"
+    },
+    {
+      "ref": "talent.warLeader"
     },
     {
       "ref": "gear.axe",
@@ -76,14 +109,21 @@
       "ugly": true
     },
     {
-      "ref": "gear.leatherJack",
+      "ref": "gear.mailShirt",
       "worn": true,
       "ugly": true
     },
     {
-      "ref": "gear.mailShirt",
+      "ref": "gear.plateBreastplate",
       "worn": true,
-      "ugly": true
+      "ugly": true,
+      "name": "Spiky Breastplate"
+    },
+    {
+      "ref": "gear.plateOpenHelm",
+      "worn": true,
+      "ugly": true,
+      "name": "Spiky Helm"
     }
   ]
 }

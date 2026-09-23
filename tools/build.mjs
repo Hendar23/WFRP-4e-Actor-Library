@@ -29,7 +29,7 @@ const profiles=files(path.join(root,'actors')).map(file=>{
  assert(Array.isArray(actor.skills)&&Array.isArray(actor.items),`${actor.id}: skills and items must be arrays`);
  function resolve(entry,skill){
   assert(catalogue[entry.ref],`${actor.id}: missing reference ${entry.ref}`);
-  const keys=skill?['ref','total','characteristic']:['ref','name','specification','quantity','worn','equipped','loaded'];
+  const keys=skill?['ref','total','characteristic','name']:['ref','name','specification','quantity','worn','equipped','loaded','ugly','damage','ammoRef'];
   for(const key of Object.keys(entry))assert(keys.includes(key),`${actor.id}: unsupported entry field ${key}`);
   if(skill){
    assert(entry.ref.startsWith('skill.'),`${actor.id}: wrong skill reference`);
@@ -37,10 +37,13 @@ const profiles=files(path.join(root,'actors')).map(file=>{
    assert(Number.isInteger(entry.total)&&entry.total>=actor.stats[entry.characteristic],`${actor.id}: invalid skill total`);
   }else{
    assert(!entry.ref.startsWith('skill.'),`${actor.id}: put skills in skills array`);
-   for(const key of ['equipped','worn','loaded'])if(key in entry)assert(typeof entry[key]==='boolean',`${actor.id}: ${key} must be boolean`);
+   for(const key of ['equipped','worn','loaded','ugly'])if(key in entry)assert(typeof entry[key]==='boolean',`${actor.id}: ${key} must be boolean`);
    if('quantity' in entry)assert(Number.isInteger(entry.quantity)&&entry.quantity>=0,`${actor.id}: invalid quantity`);
+   if('damage' in entry)assert(typeof entry.damage==='string'&&/^(SB\+\d+|\+\d+)$/.test(entry.damage),`${actor.id}: invalid damage`);
+   if('ammoRef' in entry)assert(entry.ref.startsWith('gear.')&&catalogue[entry.ammoRef]&&actor.items.some(i=>i.ref===entry.ammoRef),`${actor.id}: ammunition must be present in inventory`);
   }
-  const {ref,...options}=entry;return {uuid:catalogue[ref].uuid,...options};
+  const {ref,ammoRef,...options}=entry;
+  return {uuid:catalogue[ref].uuid,...options,...(ammoRef?{ammoUuid:catalogue[ammoRef].uuid}:{})};
  }
  for(const group of [actor.skills,actor.items])assert.equal(new Set(group.map(e=>e.ref)).size,group.length,`${actor.id}: duplicate item reference`);
  return {...actor,skills:actor.skills.map(e=>resolve(e,true)),items:actor.items.map(e=>resolve(e,false))};

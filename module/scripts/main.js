@@ -2,7 +2,30 @@ import { MODULE_ID, PROFILES, UUID } from "./data.js";
 
 const PACK_NAME = "wfrp4e-quick-npc-library";
 const PACK_LABEL = "WFRP4e Quick NPC Library";
-const BUILD_VERSION = 4;
+const BUILD_VERSION = 5;
+
+// Dragging a generated actor into the world puts it in its library category.
+// Leave deliberate placements in an existing world folder untouched.
+Hooks.on("preCreateActor", (actor, data) => {
+  if (actor.pack || !data.flags?.[MODULE_ID]?.profileId || !game.user?.isGM) return;
+  if (data.folder && game.folders.get(data.folder)) return;
+  const root = game.folders.find(folder => folder.type === "Actor" &&
+    folder.name === PACK_LABEL && !folder.folder);
+  const category = game.folders.find(folder => folder.type === "Actor" &&
+    folder.folder?.id === root?.id && folder.name === data.flags[MODULE_ID].category);
+  if (category) actor.updateSource({folder: category.id});
+});
+
+async function ensureWorldFolders() {
+  let root = game.folders.find(folder => folder.type === "Actor" &&
+    folder.name === PACK_LABEL && !folder.folder);
+  if (!root) root = await Folder.create({name: PACK_LABEL, type: "Actor"});
+  for (const name of new Set(PROFILES.map(profile => profile.folder))) {
+    if (game.folders.some(folder => folder.type === "Actor" &&
+      folder.folder?.id === root.id && folder.name === name)) continue;
+    await Folder.create({name, type: "Actor", folder: root.id});
+  }
+}
 
 Hooks.once("ready", async () => {
   if (!game.user?.isGM || game.system.id !== "wfrp4e") return;
@@ -13,6 +36,7 @@ Hooks.once("ready", async () => {
   if (firstActiveGM?.id !== game.user.id) return;
 
   try {
+    await ensureWorldFolders();
     let pack = game.packs.get(`world.${PACK_NAME}`);
     const newPack = !pack;
     if (!pack) {
@@ -41,7 +65,7 @@ Hooks.once("ready", async () => {
     const wasLocked = pack.locked;
     if (wasLocked) await pack.configure({ locked: false });
 
-    const report = { created: [], replaced: [], failed: [] };
+    const report = { created: [], replaced: [], retired: [], failed: [] };
     try {
       for (const profile of pending) {
         try {
@@ -58,6 +82,14 @@ Hooks.once("ready", async () => {
           report.failed.push({ actor: profile.name, reason: error.message });
         }
       }
+      // The old Veteran Orc profile has been superseded by Orc Big 'Un.
+      // Delete only the module's tagged compendium original, never world copies.
+      if (generated.has("veteran-orc") &&
+          (report.created.includes("Orc Big 'Un") ||
+            (await pack.getDocuments()).some(actor => actor.getFlag(MODULE_ID, "profileId") === "orc-big-un"))) {
+        await Actor.implementation.deleteDocuments([generated.get("veteran-orc").id], {pack: pack.collection});
+        report.retired.push("Veteran Orc");
+      }
     } finally {
       if (wasLocked || newPack) await pack.configure({ locked: true });
     }
@@ -65,6 +97,7 @@ Hooks.once("ready", async () => {
     console.group("WFRP4e Quick NPC Library build report");
     console.log("Created", report.created);
     if (report.replaced.length) console.log("Replaced", report.replaced);
+    if (report.retired.length) console.log("Retired", report.retired);
     if (report.failed.length) console.table(report.failed);
     console.groupEnd();
 
@@ -131,6 +164,21 @@ function applyLoaded(data, loaded) {
   setOnItem(data, ["system.loaded.value", "system.loaded"], loaded, "system.loaded.value");
 }
 
+function applyUgly(data, ugly) {
+  if (!ugly || !["weapon", "armour"].includes(data.type)) return;
+  const path = "system.flaws.value";
+  const flaws = foundry.utils.getProperty(data, path) ?? [];
+  if (!flaws.some(flaw => flaw?.name === "ugly")) {
+    foundry.utils.setProperty(data, path, [...flaws, {name: "ugly"}]);
+  }
+}
+
+function applyDamage(data, damage) {
+  if (damage === undefined) return;
+  if (data.type !== "weapon") throw new Error(`Cannot assign damage to ${data.type}`);
+  foundry.utils.setProperty(data, "system.damage.value", damage);
+}
+
 function applySkillAdvances(data, advances) {
   setOnItem(
     data,
@@ -164,12 +212,15 @@ async function cloneSourceItem(entry, profile, isSkill = false) {
   applyEquipped(data, entry.equipped);
   applyLoaded(data, entry.loaded);
   normaliseWeaponFormula(data);
+  applyDamage(data, entry.damage);
+  applyUgly(data, entry.ugly);
 
   data.flags ??= {};
   data.flags[MODULE_ID] = {
     desiredEquipped: Boolean(entry.equipped),
     desiredWorn: Boolean(entry.worn),
-    sourceUuid: entry.uuid
+    sourceUuid: entry.uuid,
+    ...(entry.ammoUuid ? { ammoUuid: entry.ammoUuid } : {})
   };
 
   if (isSkill) {
@@ -250,10 +301,13 @@ async function createCompendiumActor(profile, packId) {
       }
     }
 
-    const ammo = createdItems.find(i => i.getFlag(MODULE_ID, "sourceUuid") === UUID.gear.bolt);
-    const crossbow = createdItems.find(i => i.getFlag(MODULE_ID, "sourceUuid") === UUID.gear.crossbow);
-    if (ammo && crossbow) {
-      await crossbow.update({ "system.currentAmmo.value": ammo.id });
+    for (const weapon of createdItems.filter(i => i.type === "weapon")) {
+      const ammoUuid = weapon.getFlag(MODULE_ID, "ammoUuid") ??
+        (weapon.getFlag(MODULE_ID, "sourceUuid") === UUID.gear.crossbow ? UUID.gear.bolt : null);
+      if (!ammoUuid) continue;
+      const ammunition = createdItems.find(i => i.getFlag(MODULE_ID, "sourceUuid") === ammoUuid);
+      if (!ammunition) throw new Error(`Missing ammunition for ${weapon.name}`);
+      await weapon.update({ "system.currentAmmo.value": ammunition.id });
     }
 
     actor = await saveCalculatedWounds(actor);

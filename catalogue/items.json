@@ -258,5 +258,105 @@
   "gear.silver": {
     "uuid": "Compendium.wfrp4e-core.items.Item.KB8HgDz56dh2w7w1",
     "requires": "wfrp4e-core"
+  },
+  "skill.rangedBow": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.ZQSm2AwrgT2cHG0C",
+    "requires": "wfrp4e-core"
+  },
+  "skill.stealthRural": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.Xk5tp3aasPNtk4zt",
+    "requires": "wfrp4e-core"
+  },
+  "skill.loreWarfare": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+    "requires": "wfrp4e-core"
+  },
+  "skill.ride": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.MeXCAQ3wqJzX07X7",
+    "requires": "wfrp4e-core"
+  },
+  "talent.accurateShot": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.XIcDsaW4D8wScezw",
+    "requires": "wfrp4e-core"
+  },
+  "talent.flee": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.jrFIFLhyOYwcyMUl",
+    "requires": "wfrp4e-core"
+  },
+  "talent.resolute": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.uRvOg8AnCcP2ufx8",
+    "requires": "wfrp4e-core"
+  },
+  "talent.furiousAssault": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.BlHVzfs0Ow6IYEDw",
+    "requires": "wfrp4e-core"
+  },
+  "talent.inspiring": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.WCXnFSV4WOSmzzc4",
+    "requires": "wfrp4e-core"
+  },
+  "talent.luck": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.u0CFf3xwiyidD9T5",
+    "requires": "wfrp4e-core"
+  },
+  "talent.unshakable": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.8oWhzlcw7oiHGMFu",
+    "requires": "wfrp4e-core"
+  },
+  "talent.warLeader": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.vCgEAetBMngR53aT",
+    "requires": "wfrp4e-core"
+  },
+  "trait.dieHard": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.UsJ2uIOOtHA7JqD5",
+    "requires": "wfrp4e-core"
+  },
+  "trait.infected": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW",
+    "requires": "wfrp4e-core"
+  },
+  "trait.frenzy": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.yRhhOlt18COq4e1q",
+    "requires": "wfrp4e-core"
+  },
+  "trait.ward": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.Bvd2aZ0gQUXHfCTh",
+    "requires": "wfrp4e-core"
+  },
+  "trait.armour": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.VUJUZVN3VYhOaPjj",
+    "requires": "wfrp4e-core"
+  },
+  "trait.bestial": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.AGcJl5rHjkyIQBPP",
+    "requires": "wfrp4e-core"
+  },
+  "trait.horns": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.BqPZn6q3VHn9HUrW",
+    "requires": "wfrp4e-core"
+  },
+  "trait.size": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.8slW8CJ2oVTxeQ6q",
+    "requires": "wfrp4e-core"
+  },
+  "trait.stride": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.UmxGZRV0Lw3TZ0Kx",
+    "requires": "wfrp4e-core"
+  },
+  "trait.trained": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.V0naR1YbYCl0KIxp",
+    "requires": "wfrp4e-core"
+  },
+  "trait.weapon": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.AtpAudHA4ybXVlWM",
+    "requires": "wfrp4e-core"
+  },
+  "gear.bow": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.U94l3IDj3xfIc78i",
+    "requires": "wfrp4e-core"
+  },
+  "gear.arrow": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.6GNNpWIGxO9CkTCR",
+    "requires": "wfrp4e-core"
   }
 }

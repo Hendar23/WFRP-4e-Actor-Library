@@ -1,9 +1,9 @@
 {
-  "id": "orc-boy",
+  "id": "savage-orc-boy",
   "folder": "Orcs",
-  "name": "Orc Boy",
+  "name": "Savage Orc Boy",
   "type": "creature",
-  "species": "Orc",
+  "species": "Savage Orc",
   "stats": {
     "m": 4,
     "ws": 35,
@@ -72,26 +72,23 @@
       "ref": "trait.nightVision"
     },
     {
+      "ref": "trait.frenzy"
+    },
+    {
+      "ref": "trait.ward",
+      "specification": "10"
+    },
+    {
       "ref": "gear.axe",
-      "name": "Choppa",
+      "name": "Stone Axe",
       "equipped": true,
       "ugly": true,
-      "damage": "SB+5"
+      "damage": "SB+4"
     },
     {
       "ref": "gear.shield",
-      "name": "Shield",
+      "name": "Rawhide Shield",
       "equipped": true,
-      "ugly": true
-    },
-    {
-      "ref": "gear.leatherJack",
-      "worn": true,
-      "ugly": true
-    },
-    {
-      "ref": "gear.mailShirt",
-      "worn": true,
       "ugly": true
     }
   ]

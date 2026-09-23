@@ -1,57 +1,47 @@
 {
-  "id": "orc-boy",
+  "id": "orc-arrer-boy",
   "folder": "Orcs",
-  "name": "Orc Boy",
+  "name": "Orc Arrer Boy",
   "type": "creature",
   "species": "Orc",
   "stats": {
     "m": 4,
     "ws": 35,
-    "bs": 30,
+    "bs": 35,
     "s": 35,
-    "t": 45,
-    "i": 20,
+    "t": 55,
+    "i": 30,
     "ag": 25,
     "dex": 20,
     "int": 20,
-    "wp": 35,
+    "wp": 40,
     "fel": 20
   },
   "skills": [
     {
-      "ref": "skill.athletics",
-      "total": 25,
-      "characteristic": "ag"
-    },
-    {
-      "ref": "skill.cool",
-      "total": 35,
-      "characteristic": "wp"
-    },
-    {
       "ref": "skill.dodge",
-      "total": 25,
+      "total": 35,
       "characteristic": "ag"
     },
     {
-      "ref": "skill.endurance",
-      "total": 45,
-      "characteristic": "t"
+      "ref": "skill.perception",
+      "total": 40,
+      "characteristic": "i"
     },
     {
-      "ref": "skill.intimidate",
+      "ref": "skill.rangedBow",
+      "total": 45,
+      "characteristic": "bs"
+    },
+    {
+      "ref": "skill.stealthRural",
       "total": 35,
-      "characteristic": "s"
+      "characteristic": "ag"
     },
     {
       "ref": "skill.meleeBasic",
       "total": 35,
       "characteristic": "ws"
-    },
-    {
-      "ref": "skill.perception",
-      "total": 20,
-      "characteristic": "i"
     }
   ],
   "items": [
@@ -72,25 +62,30 @@
       "ref": "trait.nightVision"
     },
     {
+      "ref": "talent.accurateShot"
+    },
+    {
+      "ref": "talent.flee"
+    },
+    {
+      "ref": "gear.bow",
+      "equipped": true,
+      "ammoRef": "gear.arrow",
+      "ugly": true
+    },
+    {
+      "ref": "gear.arrow",
+      "quantity": 12
+    },
+    {
       "ref": "gear.axe",
       "name": "Choppa",
-      "equipped": true,
+      "equipped": false,
       "ugly": true,
       "damage": "SB+5"
     },
     {
-      "ref": "gear.shield",
-      "name": "Shield",
-      "equipped": true,
-      "ugly": true
-    },
-    {
-      "ref": "gear.leatherJack",
-      "worn": true,
-      "ugly": true
-    },
-    {
-      "ref": "gear.mailShirt",
+      "ref": "gear.leatherJerkin",
       "worn": true,
       "ugly": true
     }

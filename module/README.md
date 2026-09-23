@@ -29,11 +29,23 @@ If you installed an earlier version manually, install from this manifest to regi
 
 Copy the contents of `module/` into `Data/modules/wfrp4e-quick-npc-library/`, restart Foundry and enable **WFRP 4e Actor Library**. The internal module ID and existing compendium name are retained to preserve compatibility with pilot installations.
 
-The GM's first login builds missing or outdated actors into the world compendium **WFRP4e Quick NPC Library**. Drag actors into the world or onto a scene. Existing world copies are not automatically updated.
+The GM's first login builds missing or outdated actors into the world compendium **WFRP4e Quick NPC Library**. Drag actors into the world or onto a scene. The module creates matching folders in the Actors directory for imported actors. Existing world copies are not automatically updated.
+
+## Included actors (26)
+
+| Group | Actors |
+| --- | --- |
+| Tavern (3) | Tavern Drunk, Tavern Gambler, Tavern Hardcase |
+| Watch (3) | Rookie Watchman, Watchman, Watch Sergeant |
+| Skaven (3) | Clanrat, Stormvermin, Clawleader |
+| Orcs (16) | Orc Boy, Orc Warrior, Orc Big 'Un, Orc Boss, Orc Warboss, Orc Arrer Boy, Orc Boar Boy, Orc Boar Boy Big 'Un, Black Orc, Black Orc Veteran, Black Orc Big 'Un, Black Orc Boss, Savage Orc Boy, Savage Orc Warrior, Savage Orc Big 'Un, Savage Orc Boss |
+| Mount (1) | War Boar |
+
+The Orcs use the creature profiles and applicable templates from *Tribes and Tribulations* (pp. 10-11, 16-17); the War Boar uses p. 19. You need the purchased book separately to consult its rules. See [proposed future actors](https://github.com/Hendar23/WFRP-4e-Actor-Library/blob/main/FUTURE_ACTORS.md) for shamans, Goblins and specialists under consideration.
 
 ## Add an actor
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). Normally, copy an actor JSON file, change its mechanical values and rebuild. No module programming is needed.
+See [CONTRIBUTING.md](https://github.com/Hendar23/WFRP-4e-Actor-Library/blob/main/CONTRIBUTING.md). Normally, copy an actor JSON file, change its mechanical values and rebuild. No module programming is needed.
 
 - `actors/`: one JSON definition per actor, grouped by category.
 - `catalogue/items.json`: shared readable identifiers and official compendium references.

@@ -23,7 +23,11 @@ export const UUID = {
     "rangedSling": "Compendium.wfrp4e-core.items.Item.KQjZ85kKz42YQGYT",
     "sleightOfHand": "Compendium.wfrp4e-core.items.Item.rvd0S8Z0v2m0MHmD",
     "stealthUnderground": "Compendium.wfrp4e-core.items.Item.cHbQeJQ7cVZZyDyl",
-    "stealthUrban": "Compendium.wfrp4e-core.items.Item.zkI6tIqbyAZvh0Th"
+    "stealthUrban": "Compendium.wfrp4e-core.items.Item.zkI6tIqbyAZvh0Th",
+    "rangedBow": "Compendium.wfrp4e-core.items.Item.ZQSm2AwrgT2cHG0C",
+    "stealthRural": "Compendium.wfrp4e-core.items.Item.Xk5tp3aasPNtk4zt",
+    "loreWarfare": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+    "ride": "Compendium.wfrp4e-core.items.Item.MeXCAQ3wqJzX07X7"
   },
   "talent": {
     "blather": "Compendium.wfrp4e-core.items.Item.77p3QRKgFWakkndF",
@@ -40,13 +44,32 @@ export const UUID = {
     "strongBack": "Compendium.wfrp4e-core.items.Item.FF41XPboORgyDNsv",
     "veryResilient": "Compendium.wfrp4e-core.items.Item.RmY0CUjiFYZ3GEKY",
     "veryStrong": "Compendium.wfrp4e-core.items.Item.Zf0vk2rjllpDh0Ua",
-    "warriorBorn": "Compendium.wfrp4e-core.items.Item.zGQ0ShUTSlUvVtWh"
+    "warriorBorn": "Compendium.wfrp4e-core.items.Item.zGQ0ShUTSlUvVtWh",
+    "accurateShot": "Compendium.wfrp4e-core.items.Item.XIcDsaW4D8wScezw",
+    "flee": "Compendium.wfrp4e-core.items.Item.jrFIFLhyOYwcyMUl",
+    "resolute": "Compendium.wfrp4e-core.items.Item.uRvOg8AnCcP2ufx8",
+    "furiousAssault": "Compendium.wfrp4e-core.items.Item.BlHVzfs0Ow6IYEDw",
+    "inspiring": "Compendium.wfrp4e-core.items.Item.WCXnFSV4WOSmzzc4",
+    "luck": "Compendium.wfrp4e-core.items.Item.u0CFf3xwiyidD9T5",
+    "unshakable": "Compendium.wfrp4e-core.items.Item.8oWhzlcw7oiHGMFu",
+    "warLeader": "Compendium.wfrp4e-core.items.Item.vCgEAetBMngR53aT"
   },
   "trait": {
     "animosity": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
     "belligerent": "Compendium.wfrp4e-core.items.Item.GbDyBCu8ZjDp6dkj",
     "nightVision": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm",
-    "skittish": "Compendium.wfrp4e-core.items.Item.IPKRMGry6WotuS1G"
+    "skittish": "Compendium.wfrp4e-core.items.Item.IPKRMGry6WotuS1G",
+    "dieHard": "Compendium.wfrp4e-core.items.Item.UsJ2uIOOtHA7JqD5",
+    "infected": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW",
+    "frenzy": "Compendium.wfrp4e-core.items.Item.yRhhOlt18COq4e1q",
+    "ward": "Compendium.wfrp4e-core.items.Item.Bvd2aZ0gQUXHfCTh",
+    "armour": "Compendium.wfrp4e-core.items.Item.VUJUZVN3VYhOaPjj",
+    "bestial": "Compendium.wfrp4e-core.items.Item.AGcJl5rHjkyIQBPP",
+    "horns": "Compendium.wfrp4e-core.items.Item.BqPZn6q3VHn9HUrW",
+    "size": "Compendium.wfrp4e-core.items.Item.8slW8CJ2oVTxeQ6q",
+    "stride": "Compendium.wfrp4e-core.items.Item.UmxGZRV0Lw3TZ0Kx",
+    "trained": "Compendium.wfrp4e-core.items.Item.V0naR1YbYCl0KIxp",
+    "weapon": "Compendium.wfrp4e-core.items.Item.AtpAudHA4ybXVlWM"
   },
   "gear": {
     "improvisedWeapon": "Compendium.wfrp4e-core.items.Item.mRU10yAWWWs5WoKt",
@@ -73,222 +96,35 @@ export const UUID = {
     "dice": "Compendium.wfrp4e-core.items.Item.eZN8HuDV0OnjIWM9",
     "lantern": "Compendium.wfrp4e-core.items.Item.mcJi9yqMFRJRkhJs",
     "brass": "Compendium.wfrp4e-core.items.Item.0MYOJFx3vkYA95B4",
-    "silver": "Compendium.wfrp4e-core.items.Item.KB8HgDz56dh2w7w1"
+    "silver": "Compendium.wfrp4e-core.items.Item.KB8HgDz56dh2w7w1",
+    "bow": "Compendium.wfrp4e-core.items.Item.U94l3IDj3xfIc78i",
+    "arrow": "Compendium.wfrp4e-core.items.Item.6GNNpWIGxO9CkTCR"
   }
 };
 export const PROFILES = [
   {
-    "id": "orc-boy",
+    "id": "black-orc-big-un",
     "folder": "Orcs",
-    "name": "Orc Boy",
+    "name": "Black Orc Big 'Un",
     "type": "creature",
-    "species": "Orc",
+    "species": "Black Orc",
     "stats": {
       "m": 4,
-      "ws": 35,
-      "bs": 25,
-      "s": 40,
-      "t": 45,
-      "i": 30,
-      "ag": 30,
-      "dex": 25,
+      "ws": 55,
+      "bs": 30,
+      "s": 55,
+      "t": 55,
+      "i": 40,
+      "ag": 35,
+      "dex": 20,
       "int": 20,
-      "wp": 30,
+      "wp": 60,
       "fel": 20
     },
     "skills": [
       {
-        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
-        "total": 45,
-        "characteristic": "ag"
-      },
-      {
         "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
-        "total": 40,
-        "characteristic": "wp"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
-        "total": 55,
-        "characteristic": "t"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
-        "total": 50,
-        "characteristic": "s"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
-        "total": 45,
-        "characteristic": "ws"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh",
-        "total": 30,
-        "characteristic": "int"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
-        "total": 40,
-        "characteristic": "i"
-      }
-    ],
-    "items": [
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
-        "specification": "Greenskins"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.GbDyBCu8ZjDp6dkj"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.FF41XPboORgyDNsv"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.ipaDvYY3qS66o593",
-        "worn": true
-      },
-      {
-        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.FaPOAjXnBXWLjQBl",
-        "name": "Choppa",
-        "equipped": true
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.0MYOJFx3vkYA95B4",
-        "quantity": 3
-      }
-    ]
-  },
-  {
-    "id": "orc-warrior",
-    "folder": "Orcs",
-    "name": "Orc Warrior",
-    "type": "creature",
-    "species": "Orc",
-    "stats": {
-      "m": 4,
-      "ws": 45,
-      "bs": 30,
-      "s": 45,
-      "t": 50,
-      "i": 35,
-      "ag": 35,
-      "dex": 30,
-      "int": 25,
-      "wp": 40,
-      "fel": 25
-    },
-    "skills": [
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
-        "total": 50,
-        "characteristic": "ag"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
-        "total": 50,
-        "characteristic": "wp"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
-        "total": 65,
-        "characteristic": "t"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
-        "total": 60,
-        "characteristic": "s"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
-        "total": 60,
-        "characteristic": "ws"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh",
-        "total": 40,
-        "characteristic": "int"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
-        "total": 45,
-        "characteristic": "i"
-      }
-    ],
-    "items": [
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
-        "specification": "Greenskins"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.GbDyBCu8ZjDp6dkj"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.0hn6UaKq8CoZP2zD"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.4MJJCiOKPkBByYwW"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.Zf0vk2rjllpDh0Ua"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.zGQ0ShUTSlUvVtWh"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.OjcHE0VOGr1aRdy9",
-        "worn": true
-      },
-      {
-        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.FaPOAjXnBXWLjQBl",
-        "name": "Choppa",
-        "equipped": true
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
-        "name": "Looted Shield",
-        "equipped": true
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.KB8HgDz56dh2w7w1",
-        "quantity": 2
-      }
-    ]
-  },
-  {
-    "id": "veteran-orc",
-    "folder": "Orcs",
-    "name": "Veteran Orc",
-    "type": "creature",
-    "species": "Orc",
-    "stats": {
-      "m": 4,
-      "ws": 58,
-      "bs": 38,
-      "s": 55,
-      "t": 55,
-      "i": 45,
-      "ag": 40,
-      "dex": 35,
-      "int": 30,
-      "wp": 50,
-      "fel": 30
-    },
-    "skills": [
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
-        "total": 65,
-        "characteristic": "ag"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
-        "total": 65,
+        "total": 75,
         "characteristic": "wp"
       },
       {
@@ -297,48 +133,40 @@ export const PROFILES = [
         "characteristic": "ag"
       },
       {
-        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
-        "total": 70,
-        "characteristic": "t"
-      },
-      {
         "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
-        "total": 70,
+        "total": 65,
         "characteristic": "s"
       },
       {
         "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
-        "total": 55,
+        "total": 25,
         "characteristic": "fel"
       },
       {
-        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
-        "total": 70,
-        "characteristic": "ws"
-      },
-      {
         "uuid": "Compendium.wfrp4e-core.items.Item.Lst4xxUcxTYMlD3U",
-        "total": 70,
+        "total": 75,
         "characteristic": "ws"
       },
       {
-        "uuid": "Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh",
-        "total": 45,
-        "characteristic": "int"
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 55,
+        "characteristic": "ws"
       },
       {
         "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
-        "total": 55,
+        "total": 40,
         "characteristic": "i"
       }
     ],
     "items": [
       {
-        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
-        "specification": "Greenskins"
+        "uuid": "Compendium.wfrp4e-core.items.Item.GbDyBCu8ZjDp6dkj"
       },
       {
-        "uuid": "Compendium.wfrp4e-core.items.Item.GbDyBCu8ZjDp6dkj"
+        "uuid": "Compendium.wfrp4e-core.items.Item.UsJ2uIOOtHA7JqD5"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
       },
       {
         "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
@@ -350,46 +178,1658 @@ export const PROFILES = [
         "uuid": "Compendium.wfrp4e-core.items.Item.tXKX29QZBdHmyMc7"
       },
       {
-        "uuid": "Compendium.wfrp4e-core.items.Item.0hn6UaKq8CoZP2zD"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.4MJJCiOKPkBByYwW"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.RWJrupj9seau0w31"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.RmY0CUjiFYZ3GEKY"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.Zf0vk2rjllpDh0Ua"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.zGQ0ShUTSlUvVtWh"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.oBNXxRFPh1sOT4K2",
-        "name": "Spiky Breastplate",
-        "worn": true
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.TvUKzvXjc2VChuTT",
-        "name": "Spiky Open Helm",
-        "worn": true
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.oW7wSkl4JMb5sBH8",
-        "name": "Spiky Bracers",
-        "worn": true
+        "uuid": "Compendium.wfrp4e-core.items.Item.uRvOg8AnCcP2ufx8"
       },
       {
         "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.jAy9klfNkrQuL1Ru",
         "name": "Massive Choppa",
-        "equipped": true
+        "equipped": true,
+        "ugly": true,
+        "damage": "SB+6"
       },
       {
-        "uuid": "Compendium.wfrp4e-core.items.Item.KB8HgDz56dh2w7w1",
-        "quantity": 8
+        "uuid": "Compendium.wfrp4e-core.items.Item.cJdfHOVbghTf4Eo0",
+        "worn": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oBNXxRFPh1sOT4K2",
+        "worn": true,
+        "ugly": true,
+        "name": "Spiky Breastplate"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.TvUKzvXjc2VChuTT",
+        "worn": true,
+        "ugly": true,
+        "name": "Spiky Helm"
+      }
+    ]
+  },
+  {
+    "id": "black-orc-boss",
+    "folder": "Orcs",
+    "name": "Black Orc Boss",
+    "type": "creature",
+    "species": "Black Orc",
+    "stats": {
+      "m": 4,
+      "ws": 70,
+      "bs": 40,
+      "s": 60,
+      "t": 60,
+      "i": 45,
+      "ag": 45,
+      "dex": 20,
+      "int": 30,
+      "wp": 70,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 85,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 60,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 80,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 60,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 45,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 40,
+        "characteristic": "int",
+        "name": "Lore (Warfare)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 85,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 55,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GbDyBCu8ZjDp6dkj"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UsJ2uIOOtHA7JqD5"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0LdHytqyNmg2pcAX"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.tXKX29QZBdHmyMc7"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.BlHVzfs0Ow6IYEDw"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.WCXnFSV4WOSmzzc4"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.uRvOg8AnCcP2ufx8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.vCgEAetBMngR53aT"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.FaPOAjXnBXWLjQBl",
+        "name": "Choppa",
+        "equipped": true,
+        "ugly": true,
+        "damage": "SB+5"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "name": "Shield",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cJdfHOVbghTf4Eo0",
+        "worn": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oBNXxRFPh1sOT4K2",
+        "worn": true,
+        "ugly": true,
+        "name": "Spiky Breastplate"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.TvUKzvXjc2VChuTT",
+        "worn": true,
+        "ugly": true,
+        "name": "Spiky Helm"
+      }
+    ]
+  },
+  {
+    "id": "black-orc-veteran",
+    "folder": "Orcs",
+    "name": "Black Orc Veteran",
+    "type": "creature",
+    "species": "Black Orc",
+    "stats": {
+      "m": 4,
+      "ws": 50,
+      "bs": 30,
+      "s": 50,
+      "t": 50,
+      "i": 30,
+      "ag": 25,
+      "dex": 20,
+      "int": 20,
+      "wp": 50,
+      "fel": 20
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 60,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 35,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 60,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 30,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GbDyBCu8ZjDp6dkj"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UsJ2uIOOtHA7JqD5"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.tXKX29QZBdHmyMc7"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.uRvOg8AnCcP2ufx8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.FaPOAjXnBXWLjQBl",
+        "name": "Choppa",
+        "equipped": true,
+        "ugly": true,
+        "damage": "SB+5"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "name": "Shield",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cJdfHOVbghTf4Eo0",
+        "worn": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oBNXxRFPh1sOT4K2",
+        "worn": true,
+        "ugly": true,
+        "name": "Spiky Breastplate"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.TvUKzvXjc2VChuTT",
+        "worn": true,
+        "ugly": true,
+        "name": "Spiky Helm"
+      }
+    ]
+  },
+  {
+    "id": "black-orc",
+    "folder": "Orcs",
+    "name": "Black Orc",
+    "type": "creature",
+    "species": "Black Orc",
+    "stats": {
+      "m": 4,
+      "ws": 45,
+      "bs": 30,
+      "s": 45,
+      "t": 45,
+      "i": 20,
+      "ag": 25,
+      "dex": 20,
+      "int": 20,
+      "wp": 45,
+      "fel": 20
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 25,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 45,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 25,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 45,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 45,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 45,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 20,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GbDyBCu8ZjDp6dkj"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UsJ2uIOOtHA7JqD5"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.FaPOAjXnBXWLjQBl",
+        "name": "Choppa",
+        "equipped": true,
+        "ugly": true,
+        "damage": "SB+5"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "name": "Shield",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cJdfHOVbghTf4Eo0",
+        "worn": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oBNXxRFPh1sOT4K2",
+        "worn": true,
+        "ugly": true,
+        "name": "Spiky Breastplate"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.TvUKzvXjc2VChuTT",
+        "worn": true,
+        "ugly": true,
+        "name": "Spiky Helm"
+      }
+    ]
+  },
+  {
+    "id": "orc-arrer-boy",
+    "folder": "Orcs",
+    "name": "Orc Arrer Boy",
+    "type": "creature",
+    "species": "Orc",
+    "stats": {
+      "m": 4,
+      "ws": 35,
+      "bs": 35,
+      "s": 35,
+      "t": 55,
+      "i": 30,
+      "ag": 25,
+      "dex": 20,
+      "int": 20,
+      "wp": 40,
+      "fel": 20
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 35,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 40,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ZQSm2AwrgT2cHG0C",
+        "total": 45,
+        "characteristic": "bs"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Xk5tp3aasPNtk4zt",
+        "total": 35,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 35,
+        "characteristic": "ws"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GbDyBCu8ZjDp6dkj"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UsJ2uIOOtHA7JqD5"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.XIcDsaW4D8wScezw"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.jrFIFLhyOYwcyMUl"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.U94l3IDj3xfIc78i",
+        "equipped": true,
+        "ugly": true,
+        "ammoUuid": "Compendium.wfrp4e-core.items.Item.6GNNpWIGxO9CkTCR"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.6GNNpWIGxO9CkTCR",
+        "quantity": 12
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.FaPOAjXnBXWLjQBl",
+        "name": "Choppa",
+        "equipped": false,
+        "ugly": true,
+        "damage": "SB+5"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ipaDvYY3qS66o593",
+        "worn": true,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "orc-big-un",
+    "folder": "Orcs",
+    "name": "Orc Big 'Un",
+    "type": "creature",
+    "species": "Orc",
+    "stats": {
+      "m": 4,
+      "ws": 45,
+      "bs": 30,
+      "s": 45,
+      "t": 55,
+      "i": 40,
+      "ag": 35,
+      "dex": 20,
+      "int": 20,
+      "wp": 50,
+      "fel": 20
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 65,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 50,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 55,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 25,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Lst4xxUcxTYMlD3U",
+        "total": 65,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 45,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 40,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GbDyBCu8ZjDp6dkj"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UsJ2uIOOtHA7JqD5"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0LdHytqyNmg2pcAX"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.tXKX29QZBdHmyMc7"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.uRvOg8AnCcP2ufx8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.jAy9klfNkrQuL1Ru",
+        "name": "Massive Choppa",
+        "equipped": true,
+        "ugly": true,
+        "damage": "SB+6"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cJdfHOVbghTf4Eo0",
+        "worn": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oBNXxRFPh1sOT4K2",
+        "worn": true,
+        "ugly": true,
+        "name": "Spiky Breastplate"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.TvUKzvXjc2VChuTT",
+        "worn": true,
+        "ugly": true,
+        "name": "Spiky Helm"
+      }
+    ]
+  },
+  {
+    "id": "orc-boar-boy-big-un",
+    "folder": "Orcs",
+    "name": "Orc Boar Boy Big 'Un",
+    "type": "creature",
+    "species": "Orc",
+    "stats": {
+      "m": 4,
+      "ws": 45,
+      "bs": 30,
+      "s": 45,
+      "t": 55,
+      "i": 40,
+      "ag": 35,
+      "dex": 20,
+      "int": 20,
+      "wp": 50,
+      "fel": 20
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 65,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 50,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 55,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 25,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 40,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.MeXCAQ3wqJzX07X7",
+        "name": "Ride (War Boar)",
+        "total": 50,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PzimjNx9Ojq4g6mV",
+        "total": 65,
+        "characteristic": "ws"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GbDyBCu8ZjDp6dkj"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UsJ2uIOOtHA7JqD5"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0LdHytqyNmg2pcAX"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.tXKX29QZBdHmyMc7"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.uRvOg8AnCcP2ufx8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.HxOhYpAxqdcyoSje",
+        "name": "Orc Spear",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "name": "Shield",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.FaPOAjXnBXWLjQBl",
+        "name": "Choppa",
+        "equipped": false,
+        "ugly": true,
+        "damage": "SB+5"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.OjcHE0VOGr1aRdy9",
+        "worn": true,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "orc-boar-boy",
+    "folder": "Orcs",
+    "name": "Orc Boar Boy",
+    "type": "creature",
+    "species": "Orc",
+    "stats": {
+      "m": 4,
+      "ws": 40,
+      "bs": 30,
+      "s": 40,
+      "t": 50,
+      "i": 30,
+      "ag": 25,
+      "dex": 20,
+      "int": 20,
+      "wp": 40,
+      "fel": 20
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 50,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 35,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 30,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.MeXCAQ3wqJzX07X7",
+        "name": "Ride (War Boar)",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PzimjNx9Ojq4g6mV",
+        "total": 50,
+        "characteristic": "ws"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GbDyBCu8ZjDp6dkj"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UsJ2uIOOtHA7JqD5"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.tXKX29QZBdHmyMc7"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.uRvOg8AnCcP2ufx8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.HxOhYpAxqdcyoSje",
+        "name": "Orc Spear",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "name": "Shield",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.FaPOAjXnBXWLjQBl",
+        "name": "Choppa",
+        "equipped": false,
+        "ugly": true,
+        "damage": "SB+5"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.OjcHE0VOGr1aRdy9",
+        "worn": true,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "orc-boss",
+    "folder": "Orcs",
+    "name": "Orc Boss",
+    "type": "creature",
+    "species": "Orc",
+    "stats": {
+      "m": 4,
+      "ws": 60,
+      "bs": 40,
+      "s": 50,
+      "t": 60,
+      "i": 45,
+      "ag": 45,
+      "dex": 20,
+      "int": 30,
+      "wp": 60,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 75,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 60,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 70,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 60,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 45,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 40,
+        "characteristic": "int",
+        "name": "Lore (Warfare)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 75,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 55,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GbDyBCu8ZjDp6dkj"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UsJ2uIOOtHA7JqD5"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0LdHytqyNmg2pcAX"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.tXKX29QZBdHmyMc7"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.BlHVzfs0Ow6IYEDw"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.WCXnFSV4WOSmzzc4"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.uRvOg8AnCcP2ufx8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.vCgEAetBMngR53aT"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.FaPOAjXnBXWLjQBl",
+        "name": "Choppa",
+        "equipped": true,
+        "ugly": true,
+        "damage": "SB+5"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "name": "Shield",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cJdfHOVbghTf4Eo0",
+        "worn": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oBNXxRFPh1sOT4K2",
+        "worn": true,
+        "ugly": true,
+        "name": "Spiky Breastplate"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.TvUKzvXjc2VChuTT",
+        "worn": true,
+        "ugly": true,
+        "name": "Spiky Helm"
+      }
+    ]
+  },
+  {
+    "id": "orc-boy",
+    "folder": "Orcs",
+    "name": "Orc Boy",
+    "type": "creature",
+    "species": "Orc",
+    "stats": {
+      "m": 4,
+      "ws": 35,
+      "bs": 30,
+      "s": 35,
+      "t": 45,
+      "i": 20,
+      "ag": 25,
+      "dex": 20,
+      "int": 20,
+      "wp": 35,
+      "fel": 20
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 25,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 35,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 25,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 45,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 35,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 35,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 20,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GbDyBCu8ZjDp6dkj"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UsJ2uIOOtHA7JqD5"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.FaPOAjXnBXWLjQBl",
+        "name": "Choppa",
+        "equipped": true,
+        "ugly": true,
+        "damage": "SB+5"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "name": "Shield",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.OjcHE0VOGr1aRdy9",
+        "worn": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cJdfHOVbghTf4Eo0",
+        "worn": true,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "orc-warboss",
+    "folder": "Orcs",
+    "name": "Orc Warboss",
+    "type": "creature",
+    "species": "Orc",
+    "stats": {
+      "m": 4,
+      "ws": 65,
+      "bs": 40,
+      "s": 55,
+      "t": 65,
+      "i": 50,
+      "ag": 50,
+      "dex": 20,
+      "int": 35,
+      "wp": 70,
+      "fel": 35
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 95,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 75,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 80,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 75,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 60,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 60,
+        "characteristic": "int",
+        "name": "Lore (Warfare)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Lst4xxUcxTYMlD3U",
+        "total": 85,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 85,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 70,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GbDyBCu8ZjDp6dkj"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UsJ2uIOOtHA7JqD5"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0LdHytqyNmg2pcAX"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.tXKX29QZBdHmyMc7"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.BlHVzfs0Ow6IYEDw"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.WCXnFSV4WOSmzzc4"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.u0CFf3xwiyidD9T5"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.uRvOg8AnCcP2ufx8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8oWhzlcw7oiHGMFu"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.vCgEAetBMngR53aT"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.jAy9klfNkrQuL1Ru",
+        "name": "Massive Choppa",
+        "equipped": true,
+        "ugly": true,
+        "damage": "SB+6"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cJdfHOVbghTf4Eo0",
+        "worn": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oBNXxRFPh1sOT4K2",
+        "worn": true,
+        "ugly": true,
+        "name": "Spiky Breastplate"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.TvUKzvXjc2VChuTT",
+        "worn": true,
+        "ugly": true,
+        "name": "Spiky Helm"
+      }
+    ]
+  },
+  {
+    "id": "orc-warrior",
+    "folder": "Orcs",
+    "name": "Orc Warrior",
+    "type": "creature",
+    "species": "Orc",
+    "stats": {
+      "m": 4,
+      "ws": 40,
+      "bs": 30,
+      "s": 40,
+      "t": 50,
+      "i": 30,
+      "ag": 25,
+      "dex": 20,
+      "int": 20,
+      "wp": 40,
+      "fel": 20
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 50,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 35,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 50,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 30,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GbDyBCu8ZjDp6dkj"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UsJ2uIOOtHA7JqD5"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.tXKX29QZBdHmyMc7"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.uRvOg8AnCcP2ufx8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.FaPOAjXnBXWLjQBl",
+        "name": "Choppa",
+        "equipped": true,
+        "ugly": true,
+        "damage": "SB+5"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "name": "Shield",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.OjcHE0VOGr1aRdy9",
+        "worn": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cJdfHOVbghTf4Eo0",
+        "worn": true,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "savage-orc-big-un",
+    "folder": "Orcs",
+    "name": "Savage Orc Big 'Un",
+    "type": "creature",
+    "species": "Savage Orc",
+    "stats": {
+      "m": 4,
+      "ws": 45,
+      "bs": 30,
+      "s": 45,
+      "t": 55,
+      "i": 40,
+      "ag": 35,
+      "dex": 20,
+      "int": 20,
+      "wp": 50,
+      "fel": 20
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 65,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 50,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 55,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 25,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Lst4xxUcxTYMlD3U",
+        "total": 65,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 45,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 40,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GbDyBCu8ZjDp6dkj"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UsJ2uIOOtHA7JqD5"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.yRhhOlt18COq4e1q"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Bvd2aZ0gQUXHfCTh",
+        "specification": "10"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0LdHytqyNmg2pcAX"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.tXKX29QZBdHmyMc7"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.uRvOg8AnCcP2ufx8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.jAy9klfNkrQuL1Ru",
+        "name": "Stone Axe",
+        "equipped": true,
+        "ugly": true,
+        "damage": "SB+6"
+      }
+    ]
+  },
+  {
+    "id": "savage-orc-boss",
+    "folder": "Orcs",
+    "name": "Savage Orc Boss",
+    "type": "creature",
+    "species": "Savage Orc",
+    "stats": {
+      "m": 4,
+      "ws": 60,
+      "bs": 40,
+      "s": 50,
+      "t": 60,
+      "i": 45,
+      "ag": 45,
+      "dex": 20,
+      "int": 30,
+      "wp": 60,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 75,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 60,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 70,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 60,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 45,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 40,
+        "characteristic": "int",
+        "name": "Lore (Warfare)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 75,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 55,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GbDyBCu8ZjDp6dkj"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UsJ2uIOOtHA7JqD5"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.yRhhOlt18COq4e1q"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Bvd2aZ0gQUXHfCTh",
+        "specification": "10"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0LdHytqyNmg2pcAX"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.tXKX29QZBdHmyMc7"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.BlHVzfs0Ow6IYEDw"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.WCXnFSV4WOSmzzc4"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.uRvOg8AnCcP2ufx8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.vCgEAetBMngR53aT"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.FaPOAjXnBXWLjQBl",
+        "name": "Stone Axe",
+        "equipped": true,
+        "ugly": true,
+        "damage": "SB+4"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "name": "Rawhide Shield",
+        "equipped": true,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "savage-orc-boy",
+    "folder": "Orcs",
+    "name": "Savage Orc Boy",
+    "type": "creature",
+    "species": "Savage Orc",
+    "stats": {
+      "m": 4,
+      "ws": 35,
+      "bs": 30,
+      "s": 35,
+      "t": 45,
+      "i": 20,
+      "ag": 25,
+      "dex": 20,
+      "int": 20,
+      "wp": 35,
+      "fel": 20
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 25,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 35,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 25,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 45,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 35,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 35,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 20,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GbDyBCu8ZjDp6dkj"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UsJ2uIOOtHA7JqD5"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.yRhhOlt18COq4e1q"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Bvd2aZ0gQUXHfCTh",
+        "specification": "10"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.FaPOAjXnBXWLjQBl",
+        "name": "Stone Axe",
+        "equipped": true,
+        "ugly": true,
+        "damage": "SB+4"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "name": "Rawhide Shield",
+        "equipped": true,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "savage-orc-warrior",
+    "folder": "Orcs",
+    "name": "Savage Orc Warrior",
+    "type": "creature",
+    "species": "Savage Orc",
+    "stats": {
+      "m": 4,
+      "ws": 40,
+      "bs": 30,
+      "s": 40,
+      "t": 50,
+      "i": 30,
+      "ag": 25,
+      "dex": 20,
+      "int": 20,
+      "wp": 40,
+      "fel": 20
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 50,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 35,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 50,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 30,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GbDyBCu8ZjDp6dkj"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UsJ2uIOOtHA7JqD5"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.yRhhOlt18COq4e1q"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Bvd2aZ0gQUXHfCTh",
+        "specification": "10"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.tXKX29QZBdHmyMc7"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.uRvOg8AnCcP2ufx8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.FaPOAjXnBXWLjQBl",
+        "name": "Stone Axe",
+        "equipped": true,
+        "ugly": true,
+        "damage": "SB+4"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "name": "Rawhide Shield",
+        "equipped": true,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "war-boar",
+    "folder": "Orcs",
+    "name": "War Boar",
+    "type": "creature",
+    "species": "Boar",
+    "stats": {
+      "m": 7,
+      "ws": 45,
+      "bs": 0,
+      "s": 35,
+      "t": 35,
+      "i": 33,
+      "ag": 35,
+      "dex": 20,
+      "int": 20,
+      "wp": 35,
+      "fel": 10
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 45,
+        "characteristic": "ws"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.VUJUZVN3VYhOaPjj",
+        "specification": "1"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.AGcJl5rHjkyIQBPP"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.BqPZn6q3VHn9HUrW",
+        "specification": "Tusks"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8slW8CJ2oVTxeQ6q",
+        "specification": "Large"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UmxGZRV0Lw3TZ0Kx"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0naR1YbYCl0KIxp",
+        "specification": "War"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.AtpAudHA4ybXVlWM",
+        "specification": "+5"
       }
     ]
   },

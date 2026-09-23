@@ -1,0 +1,134 @@
+{
+  "id": "orc-warboss",
+  "folder": "Orcs",
+  "name": "Orc Warboss",
+  "type": "creature",
+  "species": "Orc",
+  "stats": {
+    "m": 4,
+    "ws": 65,
+    "bs": 40,
+    "s": 55,
+    "t": 65,
+    "i": 50,
+    "ag": 50,
+    "dex": 20,
+    "int": 35,
+    "wp": 70,
+    "fel": 35
+  },
+  "skills": [
+    {
+      "ref": "skill.cool",
+      "total": 95,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 75,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.intimidate",
+      "total": 80,
+      "characteristic": "s"
+    },
+    {
+      "ref": "skill.intuition",
+      "total": 75,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.leadership",
+      "total": 60,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.loreWarfare",
+      "total": 60,
+      "characteristic": "int",
+      "name": "Lore (Warfare)"
+    },
+    {
+      "ref": "skill.meleeTwoHanded",
+      "total": 85,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 85,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 70,
+      "characteristic": "i"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.animosity",
+      "specification": "Greenskins"
+    },
+    {
+      "ref": "trait.belligerent"
+    },
+    {
+      "ref": "trait.dieHard"
+    },
+    {
+      "ref": "trait.infected"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "talent.combatAware"
+    },
+    {
+      "ref": "talent.combatReflexes"
+    },
+    {
+      "ref": "talent.furiousAssault"
+    },
+    {
+      "ref": "talent.inspiring"
+    },
+    {
+      "ref": "talent.luck"
+    },
+    {
+      "ref": "talent.resolute"
+    },
+    {
+      "ref": "talent.unshakable"
+    },
+    {
+      "ref": "talent.warLeader"
+    },
+    {
+      "ref": "gear.greatAxe",
+      "name": "Massive Choppa",
+      "equipped": true,
+      "ugly": true,
+      "damage": "SB+6"
+    },
+    {
+      "ref": "gear.mailShirt",
+      "worn": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.plateBreastplate",
+      "worn": true,
+      "ugly": true,
+      "name": "Spiky Breastplate"
+    },
+    {
+      "ref": "gear.plateOpenHelm",
+      "worn": true,
+      "ugly": true,
+      "name": "Spiky Helm"
+    }
+  ]
+}

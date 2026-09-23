@@ -1,20 +1,20 @@
 {
-  "id": "orc-boy",
+  "id": "black-orc",
   "folder": "Orcs",
-  "name": "Orc Boy",
+  "name": "Black Orc",
   "type": "creature",
-  "species": "Orc",
+  "species": "Black Orc",
   "stats": {
     "m": 4,
-    "ws": 35,
+    "ws": 45,
     "bs": 30,
-    "s": 35,
+    "s": 45,
     "t": 45,
     "i": 20,
     "ag": 25,
     "dex": 20,
     "int": 20,
-    "wp": 35,
+    "wp": 45,
     "fel": 20
   },
   "skills": [
@@ -25,7 +25,7 @@
     },
     {
       "ref": "skill.cool",
-      "total": 35,
+      "total": 45,
       "characteristic": "wp"
     },
     {
@@ -40,12 +40,12 @@
     },
     {
       "ref": "skill.intimidate",
-      "total": 35,
+      "total": 45,
       "characteristic": "s"
     },
     {
       "ref": "skill.meleeBasic",
-      "total": 35,
+      "total": 45,
       "characteristic": "ws"
     },
     {
@@ -55,10 +55,6 @@
     }
   ],
   "items": [
-    {
-      "ref": "trait.animosity",
-      "specification": "Greenskins"
-    },
     {
       "ref": "trait.belligerent"
     },
@@ -85,14 +81,21 @@
       "ugly": true
     },
     {
-      "ref": "gear.leatherJack",
+      "ref": "gear.mailShirt",
       "worn": true,
       "ugly": true
     },
     {
-      "ref": "gear.mailShirt",
+      "ref": "gear.plateBreastplate",
       "worn": true,
-      "ugly": true
+      "ugly": true,
+      "name": "Spiky Breastplate"
+    },
+    {
+      "ref": "gear.plateOpenHelm",
+      "worn": true,
+      "ugly": true,
+      "name": "Spiky Helm"
     }
   ]
 }

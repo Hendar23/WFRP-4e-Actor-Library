@@ -1,64 +1,45 @@
 {
-  "id": "orc-boy",
+  "id": "black-orc-veteran",
   "folder": "Orcs",
-  "name": "Orc Boy",
+  "name": "Black Orc Veteran",
   "type": "creature",
-  "species": "Orc",
+  "species": "Black Orc",
   "stats": {
     "m": 4,
-    "ws": 35,
+    "ws": 50,
     "bs": 30,
-    "s": 35,
-    "t": 45,
-    "i": 20,
+    "s": 50,
+    "t": 50,
+    "i": 30,
     "ag": 25,
     "dex": 20,
     "int": 20,
-    "wp": 35,
+    "wp": 50,
     "fel": 20
   },
   "skills": [
     {
-      "ref": "skill.athletics",
-      "total": 25,
-      "characteristic": "ag"
-    },
-    {
       "ref": "skill.cool",
-      "total": 35,
+      "total": 60,
       "characteristic": "wp"
     },
     {
       "ref": "skill.dodge",
-      "total": 25,
+      "total": 35,
       "characteristic": "ag"
     },
     {
-      "ref": "skill.endurance",
-      "total": 45,
-      "characteristic": "t"
-    },
-    {
-      "ref": "skill.intimidate",
-      "total": 35,
-      "characteristic": "s"
-    },
-    {
       "ref": "skill.meleeBasic",
-      "total": 35,
+      "total": 60,
       "characteristic": "ws"
     },
     {
       "ref": "skill.perception",
-      "total": 20,
+      "total": 30,
       "characteristic": "i"
     }
   ],
   "items": [
-    {
-      "ref": "trait.animosity",
-      "specification": "Greenskins"
-    },
     {
       "ref": "trait.belligerent"
     },
@@ -70,6 +51,12 @@
     },
     {
       "ref": "trait.nightVision"
+    },
+    {
+      "ref": "talent.combatReflexes"
+    },
+    {
+      "ref": "talent.resolute"
     },
     {
       "ref": "gear.axe",
@@ -85,14 +72,21 @@
       "ugly": true
     },
     {
-      "ref": "gear.leatherJack",
+      "ref": "gear.mailShirt",
       "worn": true,
       "ugly": true
     },
     {
-      "ref": "gear.mailShirt",
+      "ref": "gear.plateBreastplate",
       "worn": true,
-      "ugly": true
+      "ugly": true,
+      "name": "Spiky Breastplate"
+    },
+    {
+      "ref": "gear.plateOpenHelm",
+      "worn": true,
+      "ugly": true,
+      "name": "Spiky Helm"
     }
   ]
 }

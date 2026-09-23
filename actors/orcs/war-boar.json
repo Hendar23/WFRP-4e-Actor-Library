@@ -1,0 +1,55 @@
+{
+  "id": "war-boar",
+  "folder": "Orcs",
+  "name": "War Boar",
+  "type": "creature",
+  "species": "Boar",
+  "stats": {
+    "m": 7,
+    "ws": 45,
+    "bs": 0,
+    "s": 35,
+    "t": 35,
+    "i": 33,
+    "ag": 35,
+    "dex": 20,
+    "int": 20,
+    "wp": 35,
+    "fel": 10
+  },
+  "skills": [
+    {
+      "ref": "skill.meleeBasic",
+      "total": 45,
+      "characteristic": "ws"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.armour",
+      "specification": "1"
+    },
+    {
+      "ref": "trait.bestial"
+    },
+    {
+      "ref": "trait.horns",
+      "specification": "Tusks"
+    },
+    {
+      "ref": "trait.size",
+      "specification": "Large"
+    },
+    {
+      "ref": "trait.stride"
+    },
+    {
+      "ref": "trait.trained",
+      "specification": "War"
+    },
+    {
+      "ref": "trait.weapon",
+      "specification": "+5"
+    }
+  ]
+}

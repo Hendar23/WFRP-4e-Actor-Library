@@ -1,0 +1,125 @@
+{
+  "id": "black-orc-boss",
+  "folder": "Orcs",
+  "name": "Black Orc Boss",
+  "type": "creature",
+  "species": "Black Orc",
+  "stats": {
+    "m": 4,
+    "ws": 70,
+    "bs": 40,
+    "s": 60,
+    "t": 60,
+    "i": 45,
+    "ag": 45,
+    "dex": 20,
+    "int": 30,
+    "wp": 70,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.cool",
+      "total": 85,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 60,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.intimidate",
+      "total": 80,
+      "characteristic": "s"
+    },
+    {
+      "ref": "skill.intuition",
+      "total": 60,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.leadership",
+      "total": 45,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.loreWarfare",
+      "total": 40,
+      "characteristic": "int",
+      "name": "Lore (Warfare)"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 85,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 55,
+      "characteristic": "i"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.belligerent"
+    },
+    {
+      "ref": "trait.dieHard"
+    },
+    {
+      "ref": "trait.infected"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "talent.combatAware"
+    },
+    {
+      "ref": "talent.combatReflexes"
+    },
+    {
+      "ref": "talent.furiousAssault"
+    },
+    {
+      "ref": "talent.inspiring"
+    },
+    {
+      "ref": "talent.resolute"
+    },
+    {
+      "ref": "talent.warLeader"
+    },
+    {
+      "ref": "gear.axe",
+      "name": "Choppa",
+      "equipped": true,
+      "ugly": true,
+      "damage": "SB+5"
+    },
+    {
+      "ref": "gear.shield",
+      "name": "Shield",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.mailShirt",
+      "worn": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.plateBreastplate",
+      "worn": true,
+      "ugly": true,
+      "name": "Spiky Breastplate"
+    },
+    {
+      "ref": "gear.plateOpenHelm",
+      "worn": true,
+      "ugly": true,
+      "name": "Spiky Helm"
+    }
+  ]
+}
