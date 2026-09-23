@@ -37,7 +37,7 @@ Use normal names for ordinary human equipment. Cosmetic monster names are allowe
 
 For a monster-made weapon or armour item, `"ugly": true` adds the standard Ugly item flaw. When adapting a creature's abstract Weapon or Armour entry into equipment, specify the intended weapon formula explicitly if necessary, for example `"damage": "SB+5"`. For a ranged weapon, `"ammoRef": "gear.arrow"` selects ammunition carried by that actor. Skills with specialisations can use `"name"`, for example `"name": "Ride (War Boar)"`. Innate attacks and natural armour on actual creatures can still use the system's Weapon and Armour traits.
 
-Keep contributions mechanical. No art, biographies, roll tables or custom rules. Specialists are welcome when their mechanics are supported by installed official items. Spellcaster support beyond the pilot needs a reviewed extension to the catalogue and builder first. Check [future actor proposals](FUTURE_ACTORS.md) before contributing a new family.
+Keep contributions mechanical. No art, biographies, roll tables or custom rules. Specialists are welcome when their mechanics are supported by installed official items. Spellcaster support beyond the pilot needs a reviewed extension to the catalogue and builder first.
 
 ## Catalogue additions
 

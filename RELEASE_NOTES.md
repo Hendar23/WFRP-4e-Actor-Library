@@ -12,7 +12,7 @@
 - Replace Veteran Orc with Orc Big 'Un and add Orc bosses, archers, boar riders, Black Orcs, Savage Orcs and a War Boar, for 26 actors in total.
 - Equip actual weapons and armour rather than abstract attack and armour traits on Orcs; apply Ugly to appropriate Orc-made gear and use the book's choppa damage.
 - Create category folders in the world Actors directory for imported library actors.
-- List every included actor in the README and track proposed shamans, Goblins and specialists in FUTURE_ACTORS.md.
+- List every included actor in the README.
 
 Existing copies in the world Actors directory are not updated. On GM login, the module rebuilds generated compendium originals. The old generated Veteran Orc is retired once Orc Big 'Un exists.
 
