@@ -1,0 +1,96 @@
+{
+  "id": "experienced-tavern-server",
+  "folder": "Hospitality",
+  "name": "Experienced Tavern Server",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 30,
+    "t": 32,
+    "i": 32,
+    "ag": 38,
+    "dex": 30,
+    "int": 30,
+    "wp": 30,
+    "fel": 40
+  },
+  "skills": [
+    {
+      "ref": "skill.athletics",
+      "total": 48,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.charm",
+      "total": 50,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 50,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.haggle",
+      "total": 54,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 48,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 42,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 42,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.consumeAlcohol",
+      "total": 42,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.intuition",
+      "total": 42,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.evaluate",
+      "total": 40,
+      "characteristic": "int"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.beneathNotice"
+    },
+    {
+      "ref": "talent.strongBack"
+    },
+    {
+      "ref": "talent.dealmaker"
+    },
+    {
+      "ref": "gear.clothing"
+    },
+    {
+      "ref": "gear.key"
+    },
+    {
+      "ref": "gear.cup"
+    },
+    {
+      "ref": "gear.silver",
+      "quantity": 6
+    }
+  ]
+}

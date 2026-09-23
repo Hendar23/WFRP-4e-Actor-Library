@@ -1,0 +1,114 @@
+{
+  "id": "prosperous-innkeeper",
+  "folder": "Hospitality",
+  "name": "Prosperous Innkeeper",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 30,
+    "t": 36,
+    "i": 36,
+    "ag": 30,
+    "dex": 30,
+    "int": 49,
+    "wp": 30,
+    "fel": 50
+  },
+  "skills": [
+    {
+      "ref": "skill.charm",
+      "total": 68,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 68,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.haggle",
+      "total": 72,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.evaluate",
+      "total": 67,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 54,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.consumeAlcohol",
+      "total": 54,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.intuition",
+      "total": 54,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.tradeCook",
+      "total": 52,
+      "characteristic": "dex"
+    },
+    {
+      "ref": "skill.leadership",
+      "total": 72,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.loreLocal",
+      "total": 67,
+      "characteristic": "int",
+      "name": "Lore (Local)"
+    },
+    {
+      "ref": "skill.research",
+      "total": 67,
+      "characteristic": "int"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.dealmaker"
+    },
+    {
+      "ref": "talent.sturdy"
+    },
+    {
+      "ref": "talent.readWrite"
+    },
+    {
+      "ref": "talent.numismatics"
+    },
+    {
+      "ref": "talent.savvy"
+    },
+    {
+      "ref": "talent.superNumerate"
+    },
+    {
+      "ref": "gear.clothing"
+    },
+    {
+      "ref": "gear.key"
+    },
+    {
+      "ref": "gear.writingKit"
+    },
+    {
+      "ref": "gear.signet"
+    },
+    {
+      "ref": "gear.silver",
+      "quantity": 6
+    }
+  ]
+}

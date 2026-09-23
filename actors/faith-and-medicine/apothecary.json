@@ -1,0 +1,108 @@
+{
+  "id": "apothecary",
+  "folder": "Faith and Medicine",
+  "name": "Apothecary",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 30,
+    "t": 32,
+    "i": 32,
+    "ag": 30,
+    "dex": 38,
+    "int": 40,
+    "wp": 30,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.consumeAlcohol",
+      "total": 42,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.heal",
+      "total": 54,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.languageClassical",
+      "total": 50,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.loreChemistry",
+      "total": 50,
+      "characteristic": "int",
+      "name": "Lore (Chemistry)"
+    },
+    {
+      "ref": "skill.loreMedicine",
+      "total": 50,
+      "characteristic": "int",
+      "name": "Lore (Medicine)"
+    },
+    {
+      "ref": "skill.lorePlants",
+      "total": 50,
+      "characteristic": "int",
+      "name": "Lore (Plants)"
+    },
+    {
+      "ref": "skill.tradeApothecary",
+      "total": 52,
+      "characteristic": "dex"
+    },
+    {
+      "ref": "skill.charm",
+      "total": 40,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.haggle",
+      "total": 44,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 40,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 42,
+      "characteristic": "i"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.concoct"
+    },
+    {
+      "ref": "talent.pharmacist"
+    },
+    {
+      "ref": "talent.readWrite"
+    },
+    {
+      "ref": "gear.leatherJerkin",
+      "worn": true
+    },
+    {
+      "ref": "gear.pestle"
+    },
+    {
+      "ref": "gear.healingDraught"
+    },
+    {
+      "ref": "gear.guildLicense"
+    },
+    {
+      "ref": "gear.tradeTools",
+      "specification": null
+    }
+  ]
+}

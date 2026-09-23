@@ -1,0 +1,123 @@
+{
+  "id": "bailiff",
+  "folder": "Town Officials",
+  "name": "Bailiff",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 42,
+    "bs": 28,
+    "s": 30,
+    "t": 34,
+    "i": 34,
+    "ag": 30,
+    "dex": 30,
+    "int": 30,
+    "wp": 30,
+    "fel": 41
+  },
+  "skills": [
+    {
+      "ref": "skill.cool",
+      "total": 44,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 44,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 48,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 55,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.haggle",
+      "total": 59,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.intimidate",
+      "total": 44,
+      "characteristic": "s"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 56,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 48,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.bribery",
+      "total": 55,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.charm",
+      "total": 55,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.evaluate",
+      "total": 44,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.intuition",
+      "total": 48,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.leadership",
+      "total": 59,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.loreLocal",
+      "total": 44,
+      "characteristic": "int",
+      "name": "Lore (Local)"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.publicSpeaker"
+    },
+    {
+      "ref": "talent.strikeToStun"
+    },
+    {
+      "ref": "talent.numismatics"
+    },
+    {
+      "ref": "gear.leatherJack",
+      "worn": true
+    },
+    {
+      "ref": "gear.club",
+      "equipped": true,
+      "name": "Club"
+    },
+    {
+      "ref": "gear.key"
+    },
+    {
+      "ref": "gear.writingKit"
+    },
+    {
+      "ref": "gear.silver",
+      "quantity": 6
+    }
+  ]
+}

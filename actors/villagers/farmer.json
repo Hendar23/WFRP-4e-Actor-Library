@@ -1,0 +1,109 @@
+{
+  "id": "farmer",
+  "folder": "Villagers",
+  "name": "Farmer",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 40,
+    "t": 40,
+    "i": 32,
+    "ag": 30,
+    "dex": 30,
+    "int": 30,
+    "wp": 30,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.animalCare",
+      "total": 40,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.athletics",
+      "total": 40,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.consumeAlcohol",
+      "total": 50,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 50,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 40,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.meleeBrawling",
+      "total": 37,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.loreLocal",
+      "total": 40,
+      "characteristic": "int",
+      "name": "Lore (Local)"
+    },
+    {
+      "ref": "skill.outdoorSurvival",
+      "total": 40,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 40,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.drive",
+      "total": 44,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.haggle",
+      "total": 44,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 37,
+      "characteristic": "ws"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.strongBack"
+    },
+    {
+      "ref": "talent.stoneSoup"
+    },
+    {
+      "ref": "talent.animalAffinity"
+    },
+    {
+      "ref": "talent.hardy"
+    },
+    {
+      "ref": "gear.leatherJerkin",
+      "worn": true
+    },
+    {
+      "ref": "gear.axe",
+      "equipped": true,
+      "name": "Axe"
+    },
+    {
+      "ref": "gear.rake"
+    }
+  ]
+}

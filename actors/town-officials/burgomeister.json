@@ -1,0 +1,155 @@
+{
+  "id": "burgomeister",
+  "folder": "Town Officials",
+  "name": "Burgomeister",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 30,
+    "t": 36,
+    "i": 36,
+    "ag": 30,
+    "dex": 30,
+    "int": 50,
+    "wp": 30,
+    "fel": 44
+  },
+  "skills": [
+    {
+      "ref": "skill.charm",
+      "total": 62,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.climb",
+      "total": 48,
+      "characteristic": "s"
+    },
+    {
+      "ref": "skill.consumeAlcohol",
+      "total": 54,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.drive",
+      "total": 52,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 48,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.gamble",
+      "total": 68,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 62,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.haggle",
+      "total": 66,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.research",
+      "total": 68,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.loreLocal",
+      "total": 68,
+      "characteristic": "int",
+      "name": "Lore (Local)"
+    },
+    {
+      "ref": "skill.evaluate",
+      "total": 68,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.intuition",
+      "total": 54,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.bribery",
+      "total": 62,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.cool",
+      "total": 48,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.loreLaw",
+      "total": 68,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 54,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.leadership",
+      "total": 66,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.lorePolitics",
+      "total": 68,
+      "characteristic": "int",
+      "name": "Lore (Politics)"
+    },
+    {
+      "ref": "skill.intimidate",
+      "total": 48,
+      "characteristic": "s"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.readWrite"
+    },
+    {
+      "ref": "talent.beneathNotice"
+    },
+    {
+      "ref": "talent.dealmaker"
+    },
+    {
+      "ref": "talent.publicSpeaker"
+    },
+    {
+      "ref": "talent.numismatics"
+    },
+    {
+      "ref": "talent.masterOrator"
+    },
+    {
+      "ref": "talent.etiquette",
+      "specification": "Nobles"
+    },
+    {
+      "ref": "gear.clothing"
+    },
+    {
+      "ref": "gear.signet"
+    },
+    {
+      "ref": "gear.writingKit"
+    },
+    {
+      "ref": "gear.guildLicense"
+    }
+  ]
+}

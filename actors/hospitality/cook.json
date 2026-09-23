@@ -1,0 +1,74 @@
+{
+  "id": "cook",
+  "folder": "Hospitality",
+  "name": "Cook",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 30,
+    "t": 32,
+    "i": 32,
+    "ag": 30,
+    "dex": 40,
+    "int": 38,
+    "wp": 30,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.tradeCook",
+      "total": 54,
+      "characteristic": "dex"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 42,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 42,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.evaluate",
+      "total": 48,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.athletics",
+      "total": 40,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 40,
+      "characteristic": "fel"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.craftsman",
+      "specification": "Cook"
+    },
+    {
+      "ref": "talent.sturdy"
+    },
+    {
+      "ref": "gear.clothing"
+    },
+    {
+      "ref": "gear.cookingPot"
+    },
+    {
+      "ref": "gear.pan"
+    },
+    {
+      "ref": "gear.knife",
+      "equipped": false
+    }
+  ]
+}

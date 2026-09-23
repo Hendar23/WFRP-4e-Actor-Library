@@ -1,0 +1,101 @@
+{
+  "id": "village-elder",
+  "folder": "Villagers",
+  "name": "Village Elder",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 30,
+    "t": 36,
+    "i": 36,
+    "ag": 30,
+    "dex": 30,
+    "int": 44,
+    "wp": 30,
+    "fel": 50
+  },
+  "skills": [
+    {
+      "ref": "skill.animalCare",
+      "total": 62,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.athletics",
+      "total": 48,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.consumeAlcohol",
+      "total": 54,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 54,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 68,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.meleeBrawling",
+      "total": 45,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.loreLocal",
+      "total": 62,
+      "characteristic": "int",
+      "name": "Lore (Local)"
+    },
+    {
+      "ref": "skill.outdoorSurvival",
+      "total": 62,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.charm",
+      "total": 68,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.leadership",
+      "total": 72,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.intuition",
+      "total": 54,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.loreLaw",
+      "total": 62,
+      "characteristic": "int"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.publicSpeaker"
+    },
+    {
+      "ref": "talent.savant",
+      "specification": "Local"
+    },
+    {
+      "ref": "gear.clothing"
+    },
+    {
+      "ref": "gear.writingKit"
+    },
+    {
+      "ref": "gear.signet"
+    }
+  ]
+}

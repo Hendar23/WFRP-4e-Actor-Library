@@ -28,7 +28,46 @@ export const UUID = {
     "stealthRural": "Compendium.wfrp4e-core.items.Item.Xk5tp3aasPNtk4zt",
     "loreWarfare": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
     "ride": "Compendium.wfrp4e-core.items.Item.MeXCAQ3wqJzX07X7",
-    "rangedEntangling": "Compendium.wfrp4e-core.items.Item.MWyxcAft5lonB1mB"
+    "rangedEntangling": "Compendium.wfrp4e-core.items.Item.MWyxcAft5lonB1mB",
+    "climb": "Compendium.wfrp4e-core.items.Item.sRuMlaPU5xdIrwhd",
+    "charm": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+    "haggle": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+    "bribery": "Compendium.wfrp4e-core.items.Item.d3VZwO4Y5JH5DXdT",
+    "evaluate": "Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39",
+    "drive": "Compendium.wfrp4e-core.items.Item.iYan4z52v7HYM9u9",
+    "heal": "Compendium.wfrp4e-core.items.Item.HXZaV1CJhmTvcAz4",
+    "animalCare": "Compendium.wfrp4e-core.items.Item.MXy22hFCgntdlQrn",
+    "charmAnimal": "Compendium.wfrp4e-core.items.Item.4IGdIhnwTaZijzg7",
+    "animalTrainingDog": "Compendium.wfrp4e-core.items.Item.W0GnDjtcocY6m07J",
+    "tradeCarpenter": "Compendium.wfrp4e-core.items.Item.qy68sCupAbzhlvVU",
+    "tradeSmith": "Compendium.wfrp4e-core.items.Item.Ml6ZblglcSbVhXyh",
+    "tradeCook": "Compendium.wfrp4e-core.items.Item.epSHxgJWtT1S0yMY",
+    "tradeApothecary": "Compendium.wfrp4e-core.items.Item.0qQqFANTRUDTDpRg",
+    "tradeHerbalist": "Compendium.wfrp4e-core.items.Item.wKwel9MG7NIG3i3w",
+    "tradeMiller": "Compendium.wfrp4e-core.items.Item.wKwel9MG7NIG3i3w",
+    "loreLocal": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+    "loreLaw": "Compendium.wfrp4e-core.items.Item.2LDCVJQWkTFszMok",
+    "loreTheology": "Compendium.wfrp4e-core.items.Item.d9bGxy6Y3u3rOHIN",
+    "loreMedicine": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+    "loreHerbs": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+    "loreRiverways": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+    "lorePolitics": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+    "loreChemistry": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+    "lorePlants": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+    "languageClassical": "Compendium.wfrp4e-core.items.Item.61L9aX2z164cjm7K",
+    "languageGuilder": "Compendium.wfrp4e-core.items.Item.XQiiwS9m2Du1IMUz",
+    "rangedBlackpowder": "Compendium.wfrp4e-core.items.Item.H2upcZ7q7qAPtPic",
+    "pray": "Compendium.wfrp4e-core.items.Item.9xR9uO8FIvi4YsJp",
+    "research": "Compendium.wfrp4e-core.items.Item.9tbHTeuvEMZrp0rx",
+    "rideHorse": "Compendium.wfrp4e-core.items.Item.oSbEE6eXH1S3LfUU",
+    "navigation": "Compendium.wfrp4e-core.items.Item.zZUX7wO4rOo8k9F0",
+    "row": "Compendium.wfrp4e-core.items.Item.KL4pCOqma5E7fLG4",
+    "sailBarge": "Compendium.wfrp4e-core.items.Item.WuGqleOpKoMCfhO0",
+    "swim": "Compendium.wfrp4e-core.items.Item.hodHqFNKAmu40ajh",
+    "setTrap": "Compendium.wfrp4e-core.items.Item.HngrTVqKis08Nvcf",
+    "secretSignsGuilder": "Compendium.wfrp4e-core.items.Item.D4JNPSl6VOpsVmSi",
+    "track": "Compendium.wfrp4e-core.items.Item.rt2rGSwFDCDHPh0A",
+    "entertainStory": "Compendium.wfrp4e-core.items.Item.qBm2fu3oMhxsDBNQ"
   },
   "talent": {
     "blather": "Compendium.wfrp4e-core.items.Item.77p3QRKgFWakkndF",
@@ -53,7 +92,42 @@ export const UUID = {
     "inspiring": "Compendium.wfrp4e-core.items.Item.WCXnFSV4WOSmzzc4",
     "luck": "Compendium.wfrp4e-core.items.Item.u0CFf3xwiyidD9T5",
     "unshakable": "Compendium.wfrp4e-core.items.Item.8oWhzlcw7oiHGMFu",
-    "warLeader": "Compendium.wfrp4e-core.items.Item.vCgEAetBMngR53aT"
+    "warLeader": "Compendium.wfrp4e-core.items.Item.vCgEAetBMngR53aT",
+    "sturdy": "Compendium.wfrp4e-core.items.Item.qZ4cFy6z482ZONuA",
+    "readWrite": "Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf",
+    "beneathNotice": "Compendium.wfrp4e-core.items.Item.5KP9sOoLSGvj9EXp",
+    "etiquette": "Compendium.wfrp4e-core.items.Item.sYbgpSnRqSZWgwFP",
+    "alleyCat": "Compendium.wfrp4e-core.items.Item.wBhPFggGqIXwbx1r",
+    "nightVision": "Compendium.wfrp4e-core.items.Item.x0WMGwuQzReXcQrs",
+    "resistance": "Compendium.wfrp4e-core.items.Item.vMYEkrWj0ip6ZOdv",
+    "dealmaker": "Compendium.wfrp4e-core.items.Item.epPBu7x6BRWp2PHG",
+    "craftsman": "Compendium.wfrp4e-core.items.Item.GRRN3XAKIpEVCY7z",
+    "masterTradesman": "Compendium.wfrp4e-core.items.Item.GHmXS9zGNx3PWYZc",
+    "sharp": "Compendium.wfrp4e-core.items.Item.oQzTJEXUx28sCiH3",
+    "publicSpeaker": "Compendium.wfrp4e-core.items.Item.XU7D9CCmumuhqDUi",
+    "superNumerate": "Compendium.wfrp4e-core.items.Item.sBHarYXR2o7jD1VY",
+    "masterOrator": "Compendium.wfrp4e-core.items.Item.ZWcTbeK8i9vKph2a",
+    "strikeToStun": "Compendium.wfrp4e-core.items.Item.jt0DmVK9IiF6Sd2h",
+    "stoneSoup": "Compendium.wfrp4e-core.items.Item.spdiWsONKTzkLbg3",
+    "animalAffinity": "Compendium.wfrp4e-core.items.Item.9fq6p9Q6H02LjaSi",
+    "hardy": "Compendium.wfrp4e-core.items.Item.zImcTgEl2XNnbu5W",
+    "rover": "Compendium.wfrp4e-core.items.Item.q58lK4kULJZB5GjE",
+    "savant": "Compendium.wfrp4e-core.items.Item.580fwhKfOZJFxMID",
+    "bless": "Compendium.wfrp4e-core.items.Item.QyjWtSdnVMT04l5Y",
+    "invoke": "Compendium.wfrp4e-core.items.Item.voV0C2ar1bKpcpnH",
+    "nimbleFingered": "Compendium.wfrp4e-core.items.Item.7bZjB82f6LSkeczP",
+    "fieldDressing": "Compendium.wfrp4e-core.items.Item.fEFAMNqh8nJIfBkM",
+    "surgery": "Compendium.wfrp4e-core.items.Item.NP4EHyyh1yOLbsPU",
+    "concoct": "Compendium.wfrp4e-core.items.Item.wXcJWxJdw0ib5b8W",
+    "pharmacist": "Compendium.wfrp4e-core.items.Item.G4rPR0XGiYFUZWKi",
+    "seasonedTraveller": "Compendium.wfrp4e-core.items.Item.jQmIu8P85tF0njmD",
+    "crackTheWhip": "Compendium.wfrp4e-core.items.Item.edsenrEYTLOtpa6b",
+    "gunner": "Compendium.wfrp4e-core.items.Item.0ep8BNMiZGVLTHpr",
+    "noseForTrouble": "Compendium.wfrp4e-core.items.Item.AcnFuDKRemLI9ey7",
+    "strongSwimmer": "Compendium.wfrp4e-core.items.Item.4wnQc19allWlyOGe",
+    "waterman": "Compendium.wfrp4e-core.items.Item.tlEg21DHMEJoWcJq",
+    "pilot": "Compendium.wfrp4e-core.items.Item.WEH97InIX29nzgW1",
+    "disarm": "Compendium.wfrp4e-core.items.Item.DS44h27iCOvUBa4O"
   },
   "trait": {
     "animosity": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
@@ -109,10 +183,597 @@ export const UUID = {
     "arrow": "Compendium.wfrp4e-core.items.Item.6GNNpWIGxO9CkTCR",
     "weightedNet": "Compendium.wfrp4e-up-in-arms.items.Item.H0YxLOodgGKBTQck",
     "shortbow": "Compendium.wfrp4e-core.items.Item.CRNrEnLXTGXVT1UW",
-    "stoneBullet": "Compendium.wfrp4e-core.items.Item.mik7s6AqS8SMSaJ8"
+    "stoneBullet": "Compendium.wfrp4e-core.items.Item.mik7s6AqS8SMSaJ8",
+    "clothing": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z",
+    "gloves": "Compendium.wfrp4e-core.items.Item.YmElVMceT7qNqd9S",
+    "sack": "Compendium.wfrp4e-core.items.Item.TfRdF6baYuGd6i53",
+    "bowl": "Compendium.wfrp4e-core.items.Item.8TKV6yGaUHrf75UH",
+    "blanket": "Compendium.wfrp4e-core.items.Item.3GlaCQyLuugXHEM2",
+    "broom": "Compendium.wfrp4e-core.items.Item.w9VCyP12U7MrC3jk",
+    "bucket": "Compendium.wfrp4e-core.items.Item.lq7bDxEeIIVSmLOg",
+    "spade": "Compendium.wfrp4e-core.items.Item.VakWbquag1kV5WtT",
+    "key": "Compendium.wfrp4e-core.items.Item.aExcYp7UPS5SL4ve",
+    "rope": "Compendium.wfrp4e-core.items.Item.horFAtaDz0EbuY3R",
+    "trap": "Compendium.wfrp4e-core.items.Item.k0KeWhPgFGUcOgs0",
+    "dogLead": "Compendium.wfrp4e-core.items.Item.gzriPtNbRFltaAsh",
+    "chalk": "Compendium.wfrp4e-core.items.Item.elraWaIlaaHeKwKl",
+    "quill": "Compendium.wfrp4e-core.items.Item.61Fx3RHhSqaLCnao",
+    "writingKit": "Compendium.wfrp4e-core.items.Item.6OmsMPtz0NzCwvzL",
+    "parchment": "Compendium.wfrp4e-core.items.Item.fHb7bFU8QX3oi33F",
+    "guildLicense": "Compendium.wfrp4e-core.items.Item.ZgpVhv100Kd9rsao",
+    "tradeTools": "Compendium.wfrp4e-core.items.Item.OD83JAlc9KhDpHK5",
+    "workshop": "Compendium.wfrp4e-core.items.Item.ixOMVrEC1ISyYdDU",
+    "abacus": "Compendium.wfrp4e-core.items.Item.Ldf5kDBob8H0v6iV",
+    "canvasTarp": "Compendium.wfrp4e-core.items.Item.Zhd2HM8nVcsfHRcI",
+    "signet": "Compendium.wfrp4e-core.items.Item.BBiL0DSHcdPakVBS",
+    "uniform": "Compendium.wfrp4e-core.items.Item.CB6cxxqy5vXcV6gf",
+    "placard": "Compendium.wfrp4e-core.items.Item.jQGw8o4fY8swlmfM",
+    "lampOil": "Compendium.wfrp4e-core.items.Item.Bal23aLiOmnht42h",
+    "knife": "Compendium.wfrp4e-core.items.Item.83KlMxHxGfKUdMfq",
+    "spadeWeapon": "Compendium.wfrp4e-core.items.Item.mRU10yAWWWs5WoKt",
+    "quarterstaff": "Compendium.wfrp4e-core.items.Item.GkeMJrsqxQIek1xK",
+    "whip": "Compendium.wfrp4e-core.items.Item.xiOYNJcfqPselfwT",
+    "blunderbuss": "Compendium.wfrp4e-core.items.Item.ByHt0vTWRIuHS2r8",
+    "smallShot": "Compendium.wfrp4e-core.items.Item.5wItcVAcA6mfa62q",
+    "pistol": "Compendium.wfrp4e-core.items.Item.PnYGK5FPgEGM1Ck3",
+    "bulletPowder": "Compendium.wfrp4e-core.items.Item.xdAP96GGDb87m0Pr",
+    "boatHook": "Compendium.wfrp4e-core.items.Item.1zaqojk0Oq1m8vYv",
+    "pole": "Compendium.wfrp4e-core.items.Item.i2DKz375sriXqfkS",
+    "bandage": "Compendium.wfrp4e-core.items.Item.1wtW4N8l3UKwlLI3",
+    "pestle": "Compendium.wfrp4e-core.items.Item.tv7m7LS9MLTbTzaB",
+    "healingDraught": "Compendium.wfrp4e-core.items.Item.gxdjLQoQUTYgD6fm",
+    "healingPoultice": "Compendium.wfrp4e-core.items.Item.s2lBWQFQt6M5Pngb",
+    "bookMedicine": "Compendium.wfrp4e-core.items.Item.aQIxzS4uOcIe9oxd",
+    "bookReligion": "Compendium.wfrp4e-core.items.Item.PKkGM5Q0Chmt5qFe",
+    "religiousSymbol": "Compendium.wfrp4e-core.items.Item.hEr7pIXzUCHOXZIX",
+    "robes": "Compendium.wfrp4e-core.items.Item.EDnMXoxQTU4TMrRV",
+    "sickle": "Compendium.wfrp4e-core.items.Item.hnuZUd35SCjKkJc2",
+    "hat": "Compendium.wfrp4e-core.items.Item.LrYz9nSsmH4H3He4",
+    "coat": "Compendium.wfrp4e-core.items.Item.Ieyr3r0Skl57DkAJ",
+    "cookingPot": "Compendium.wfrp4e-core.items.Item.dyt9NYLGBcgOxaMQ",
+    "cup": "Compendium.wfrp4e-core.items.Item.VIq5ronFVkpzF8Vb",
+    "pan": "Compendium.wfrp4e-core.items.Item.YIUJ8FnHDm4OMRES",
+    "tongs": "Compendium.wfrp4e-core.items.Item.RN1IeSarIRaqyT95",
+    "hoe": "Compendium.wfrp4e-core.items.Item.aRvo3nkgPrPcKXVF",
+    "saw": "Compendium.wfrp4e-core.items.Item.X7c87KbjSJ7F3yha",
+    "hammer": "Compendium.wfrp4e-core.items.Item.HyfQNt0QGGa0EltW",
+    "rake": "Compendium.wfrp4e-core.items.Item.Y55qCcUkHVZAbG8s",
+    "jewellery": "Compendium.wfrp4e-core.items.Item.8MpTb12W1x6ECZzt",
+    "huntingDog": "Compendium.wfrp4e-core.items.Item.y28P2G0NEVZvMzS5"
+  },
+  "prayer": {
+    "blessingBattle": "Compendium.wfrp4e-core.items.Item.ElmLfnrXliStS9CP",
+    "miracleBeacon": "Compendium.wfrp4e-core.items.Item.Dk0zjtcANtahntHx"
   }
 };
 export const PROFILES = [
+  {
+    "id": "apothecary",
+    "folder": "Faith and Medicine",
+    "name": "Apothecary",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 32,
+      "i": 32,
+      "ag": 30,
+      "dex": 38,
+      "int": 40,
+      "wp": 30,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 42,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.HXZaV1CJhmTvcAz4",
+        "total": 54,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.61L9aX2z164cjm7K",
+        "total": 50,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 50,
+        "characteristic": "int",
+        "name": "Lore (Chemistry)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 50,
+        "characteristic": "int",
+        "name": "Lore (Medicine)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 50,
+        "characteristic": "int",
+        "name": "Lore (Plants)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0qQqFANTRUDTDpRg",
+        "total": 52,
+        "characteristic": "dex"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 40,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 44,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 40,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 42,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.wXcJWxJdw0ib5b8W"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.G4rPR0XGiYFUZWKi"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ipaDvYY3qS66o593",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.tv7m7LS9MLTbTzaB"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.gxdjLQoQUTYgD6fm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ZgpVhv100Kd9rsao"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.OD83JAlc9KhDpHK5",
+        "specification": null
+      }
+    ]
+  },
+  {
+    "id": "herbalist",
+    "folder": "Faith and Medicine",
+    "name": "Herbalist",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 32,
+      "i": 32,
+      "ag": 30,
+      "dex": 38,
+      "int": 40,
+      "wp": 30,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.4IGdIhnwTaZijzg7",
+        "total": 40,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.sRuMlaPU5xdIrwhd",
+        "total": 40,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 42,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 50,
+        "characteristic": "int",
+        "name": "Lore (Herbs)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh",
+        "total": 50,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 42,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.hodHqFNKAmu40ajh",
+        "total": 40,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.wKwel9MG7NIG3i3w",
+        "total": 48,
+        "characteristic": "dex",
+        "name": "Trade (Herbalist)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.HXZaV1CJhmTvcAz4",
+        "total": 54,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 44,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 40,
+        "characteristic": "fel"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.q58lK4kULJZB5GjE"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oQzTJEXUx28sCiH3"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.7bZjB82f6LSkeczP"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.hnuZUd35SCjKkJc2"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.s2lBWQFQt6M5Pngb"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.OD83JAlc9KhDpHK5",
+        "specification": null
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.tv7m7LS9MLTbTzaB"
+      }
+    ]
+  },
+  {
+    "id": "initiate",
+    "folder": "Faith and Medicine",
+    "name": "Initiate",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 30,
+      "i": 30,
+      "ag": 30,
+      "dex": 30,
+      "int": 30,
+      "wp": 35,
+      "fel": 35
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 36,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 41,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 36,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 36,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.d9bGxy6Y3u3rOHIN",
+        "total": 36,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 36,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.9xR9uO8FIvi4YsJp",
+        "total": 45,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.9tbHTeuvEMZrp0rx",
+        "total": 36,
+        "characteristic": "int"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.QyjWtSdnVMT04l5Y",
+        "specification": "Sigmar"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ElmLfnrXliStS9CP"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.EDnMXoxQTU4TMrRV"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.hEr7pIXzUCHOXZIX"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PKkGM5Q0Chmt5qFe"
+      }
+    ]
+  },
+  {
+    "id": "physician",
+    "folder": "Faith and Medicine",
+    "name": "Physician",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 32,
+      "i": 32,
+      "ag": 30,
+      "dex": 38,
+      "int": 40,
+      "wp": 30,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.d3VZwO4Y5JH5DXdT",
+        "total": 40,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 40,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.iYan4z52v7HYM9u9",
+        "total": 44,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 42,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 40,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.HXZaV1CJhmTvcAz4",
+        "total": 54,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 42,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.wKwel9MG7NIG3i3w",
+        "total": 48,
+        "characteristic": "dex",
+        "name": "Trade (Herbalist)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 40,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 44,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 50,
+        "characteristic": "int",
+        "name": "Lore (Medicine)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.9tbHTeuvEMZrp0rx",
+        "total": 50,
+        "characteristic": "int"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.fEFAMNqh8nJIfBkM"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.NP4EHyyh1yOLbsPU"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1wtW4N8l3UKwlLI3"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.gxdjLQoQUTYgD6fm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.aQIxzS4uOcIe9oxd"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.OD83JAlc9KhDpHK5",
+        "specification": "Carpenter"
+      }
+    ]
+  },
+  {
+    "id": "priest",
+    "folder": "Faith and Medicine",
+    "name": "Priest",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 32,
+      "i": 32,
+      "ag": 30,
+      "dex": 30,
+      "int": 30,
+      "wp": 40,
+      "fel": 38
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 50,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 42,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 42,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.d9bGxy6Y3u3rOHIN",
+        "total": 40,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 42,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.9xR9uO8FIvi4YsJp",
+        "total": 52,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.9tbHTeuvEMZrp0rx",
+        "total": 40,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 48,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.qBm2fu3oMhxsDBNQ",
+        "total": 48,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 48,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.HXZaV1CJhmTvcAz4",
+        "total": 44,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 40,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 37,
+        "characteristic": "ws"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.QyjWtSdnVMT04l5Y",
+        "specification": "Sigmar"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.voV0C2ar1bKpcpnH",
+        "specification": "Sigmar"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ElmLfnrXliStS9CP"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Dk0zjtcANtahntHx"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.EDnMXoxQTU4TMrRV"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.hEr7pIXzUCHOXZIX"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PKkGM5Q0Chmt5qFe"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.XvvHQ8amxyhTaORs",
+        "equipped": false,
+        "name": "Club"
+      }
+    ]
+  },
   {
     "id": "forest-goblin-archer",
     "folder": "Forest Goblins",
@@ -1462,6 +2123,559 @@ export const PROFILES = [
         "uuid": "Compendium.wfrp4e-core.items.Item.OjcHE0VOGr1aRdy9",
         "worn": true,
         "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "cook",
+    "folder": "Hospitality",
+    "name": "Cook",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 32,
+      "i": 32,
+      "ag": 30,
+      "dex": 40,
+      "int": 38,
+      "wp": 30,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.epSHxgJWtT1S0yMY",
+        "total": 54,
+        "characteristic": "dex"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 42,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 42,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39",
+        "total": 48,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 40,
+        "characteristic": "fel"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GRRN3XAKIpEVCY7z",
+        "specification": "Cook"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.qZ4cFy6z482ZONuA"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.dyt9NYLGBcgOxaMQ"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.YIUJ8FnHDm4OMRES"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.83KlMxHxGfKUdMfq",
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "id": "experienced-innkeeper",
+    "folder": "Hospitality",
+    "name": "Experienced Innkeeper",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 34,
+      "i": 34,
+      "ag": 30,
+      "dex": 30,
+      "int": 41,
+      "wp": 30,
+      "fel": 45
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 59,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 59,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 63,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39",
+        "total": 55,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 48,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 48,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 48,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.epSHxgJWtT1S0yMY",
+        "total": 48,
+        "characteristic": "dex"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 63,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 55,
+        "characteristic": "int",
+        "name": "Lore (Local)"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.epPBu7x6BRWp2PHG"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.qZ4cFy6z482ZONuA"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.5QcrpLQWWrsbKR79"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.aExcYp7UPS5SL4ve"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.6OmsMPtz0NzCwvzL"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.XvvHQ8amxyhTaORs",
+        "equipped": false,
+        "name": "Club"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KB8HgDz56dh2w7w1",
+        "quantity": 6
+      }
+    ]
+  },
+  {
+    "id": "experienced-tavern-server",
+    "folder": "Hospitality",
+    "name": "Experienced Tavern Server",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 32,
+      "i": 32,
+      "ag": 38,
+      "dex": 30,
+      "int": 30,
+      "wp": 30,
+      "fel": 40
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 48,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 50,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 50,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 54,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 48,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 42,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 42,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 42,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 42,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39",
+        "total": 40,
+        "characteristic": "int"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.5KP9sOoLSGvj9EXp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FF41XPboORgyDNsv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.epPBu7x6BRWp2PHG"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.aExcYp7UPS5SL4ve"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.VIq5ronFVkpzF8Vb"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KB8HgDz56dh2w7w1",
+        "quantity": 6
+      }
+    ]
+  },
+  {
+    "id": "innkeeper",
+    "folder": "Hospitality",
+    "name": "Innkeeper",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 32,
+      "i": 32,
+      "ag": 30,
+      "dex": 30,
+      "int": 38,
+      "wp": 30,
+      "fel": 40
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 50,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 50,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 54,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39",
+        "total": 48,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 42,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 42,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 42,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.epSHxgJWtT1S0yMY",
+        "total": 44,
+        "characteristic": "dex"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.epPBu7x6BRWp2PHG"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.qZ4cFy6z482ZONuA"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.aExcYp7UPS5SL4ve"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.6OmsMPtz0NzCwvzL"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.XvvHQ8amxyhTaORs",
+        "equipped": false,
+        "name": "Club"
+      }
+    ]
+  },
+  {
+    "id": "prosperous-innkeeper",
+    "folder": "Hospitality",
+    "name": "Prosperous Innkeeper",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 36,
+      "i": 36,
+      "ag": 30,
+      "dex": 30,
+      "int": 49,
+      "wp": 30,
+      "fel": 50
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 68,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 68,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 72,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39",
+        "total": 67,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 54,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 54,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 54,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.epSHxgJWtT1S0yMY",
+        "total": 52,
+        "characteristic": "dex"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 72,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 67,
+        "characteristic": "int",
+        "name": "Lore (Local)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.9tbHTeuvEMZrp0rx",
+        "total": 67,
+        "characteristic": "int"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.epPBu7x6BRWp2PHG"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.qZ4cFy6z482ZONuA"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.5QcrpLQWWrsbKR79"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.QsrXxGZiHjth7RMg"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.sBHarYXR2o7jD1VY"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.aExcYp7UPS5SL4ve"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.6OmsMPtz0NzCwvzL"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.BBiL0DSHcdPakVBS"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KB8HgDz56dh2w7w1",
+        "quantity": 6
+      }
+    ]
+  },
+  {
+    "id": "tavern-server",
+    "folder": "Hospitality",
+    "name": "Tavern Server",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 30,
+      "i": 30,
+      "ag": 35,
+      "dex": 30,
+      "int": 30,
+      "wp": 30,
+      "fel": 35
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 41,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 41,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 41,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 45,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 41,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 36,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 36,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 36,
+        "characteristic": "t"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.5KP9sOoLSGvj9EXp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FF41XPboORgyDNsv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.VIq5ronFVkpzF8Vb"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0MYOJFx3vkYA95B4",
+        "quantity": 4
       }
     ]
   },
@@ -3749,6 +4963,508 @@ export const PROFILES = [
     ]
   },
   {
+    "id": "boatman",
+    "folder": "Road and River",
+    "name": "Boatman",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 35,
+      "t": 35,
+      "i": 30,
+      "ag": 30,
+      "dex": 30,
+      "int": 30,
+      "wp": 30,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 41,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 36,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 41,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 36,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.jLyoyqwmBVPjRjhM",
+        "total": 33,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KL4pCOqma5E7fLG4",
+        "total": 45,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.WuGqleOpKoMCfhO0",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.hodHqFNKAmu40ajh",
+        "total": 41,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 33,
+        "characteristic": "ws"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FF41XPboORgyDNsv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.4wnQc19allWlyOGe"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.OjcHE0VOGr1aRdy9",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1zaqojk0Oq1m8vYv",
+        "equipped": true,
+        "name": "Boat Hook"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.horFAtaDz0EbuY3R"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.i2DKz375sriXqfkS"
+      }
+    ]
+  },
+  {
+    "id": "coachman",
+    "folder": "Road and River",
+    "name": "Coachman",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 38,
+      "s": 30,
+      "t": 32,
+      "i": 32,
+      "ag": 38,
+      "dex": 30,
+      "int": 30,
+      "wp": 30,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.MXy22hFCgntdlQrn",
+        "total": 40,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.4IGdIhnwTaZijzg7",
+        "total": 40,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.sRuMlaPU5xdIrwhd",
+        "total": 40,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.iYan4z52v7HYM9u9",
+        "total": 52,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 42,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 42,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.MWyxcAft5lonB1mB",
+        "total": 48,
+        "characteristic": "bs"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oSbEE6eXH1S3LfUU",
+        "total": 48,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 42,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 40,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 42,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 40,
+        "characteristic": "int",
+        "name": "Lore (Local)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.zZUX7wO4rOo8k9F0",
+        "total": 42,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.H2upcZ7q7qAPtPic",
+        "total": 52,
+        "characteristic": "bs"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.jQmIu8P85tF0njmD"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.edsenrEYTLOtpa6b"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.OjcHE0VOGr1aRdy9",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.xiOYNJcfqPselfwT",
+        "equipped": false
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ByHt0vTWRIuHS2r8",
+        "equipped": true,
+        "loaded": true,
+        "ammoUuid": "Compendium.wfrp4e-core.items.Item.5wItcVAcA6mfa62q"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.5wItcVAcA6mfa62q",
+        "quantity": 12
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Ieyr3r0Skl57DkAJ"
+      }
+    ]
+  },
+  {
+    "id": "riverboat-captain",
+    "folder": "Road and River",
+    "name": "Riverboat Captain",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 45,
+      "t": 34,
+      "i": 45,
+      "ag": 30,
+      "dex": 30,
+      "int": 30,
+      "wp": 30,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 48,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 44,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 48,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 44,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.jLyoyqwmBVPjRjhM",
+        "total": 41,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KL4pCOqma5E7fLG4",
+        "total": 63,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.WuGqleOpKoMCfhO0",
+        "total": 48,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.hodHqFNKAmu40ajh",
+        "total": 59,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 41,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 44,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.qBm2fu3oMhxsDBNQ",
+        "total": 44,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 48,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 59,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 44,
+        "characteristic": "int",
+        "name": "Lore (Riverways)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 59,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 48,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.zZUX7wO4rOo8k9F0",
+        "total": 59,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FF41XPboORgyDNsv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.4wnQc19allWlyOGe"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.tlEg21DHMEJoWcJq"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.WEH97InIX29nzgW1"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.XU7D9CCmumuhqDUi"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.OjcHE0VOGr1aRdy9",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1zaqojk0Oq1m8vYv",
+        "equipped": true,
+        "name": "Boat Hook"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.horFAtaDz0EbuY3R"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LrYz9nSsmH4H3He4"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.6OmsMPtz0NzCwvzL"
+      }
+    ]
+  },
+  {
+    "id": "veteran-coachman",
+    "folder": "Road and River",
+    "name": "Veteran Coachman",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 43,
+      "s": 30,
+      "t": 34,
+      "i": 34,
+      "ag": 41,
+      "dex": 30,
+      "int": 30,
+      "wp": 30,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.MXy22hFCgntdlQrn",
+        "total": 44,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.4IGdIhnwTaZijzg7",
+        "total": 44,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.sRuMlaPU5xdIrwhd",
+        "total": 44,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.iYan4z52v7HYM9u9",
+        "total": 59,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 48,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 48,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.MWyxcAft5lonB1mB",
+        "total": 57,
+        "characteristic": "bs"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oSbEE6eXH1S3LfUU",
+        "total": 55,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 48,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 44,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 48,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 44,
+        "characteristic": "int",
+        "name": "Lore (Local)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.zZUX7wO4rOo8k9F0",
+        "total": 48,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.H2upcZ7q7qAPtPic",
+        "total": 61,
+        "characteristic": "bs"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 44,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 48,
+        "characteristic": "fel"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.jQmIu8P85tF0njmD"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.edsenrEYTLOtpa6b"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0ep8BNMiZGVLTHpr"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.AcnFuDKRemLI9ey7"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.OjcHE0VOGr1aRdy9",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.xiOYNJcfqPselfwT",
+        "equipped": false
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ByHt0vTWRIuHS2r8",
+        "equipped": true,
+        "loaded": true,
+        "ammoUuid": "Compendium.wfrp4e-core.items.Item.5wItcVAcA6mfa62q"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.5wItcVAcA6mfa62q",
+        "quantity": 12
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PnYGK5FPgEGM1Ck3",
+        "equipped": false,
+        "ammoUuid": "Compendium.wfrp4e-core.items.Item.xdAP96GGDb87m0Pr"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.xdAP96GGDb87m0Pr",
+        "quantity": 6
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Ieyr3r0Skl57DkAJ"
+      }
+    ]
+  },
+  {
     "id": "clanrat",
     "folder": "Skaven",
     "name": "Clanrat",
@@ -4147,17 +5863,9 @@ export const PROFILES = [
         "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
         "total": 50,
         "characteristic": "i"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.rvd0S8Z0v2m0MHmD",
-        "total": 55,
-        "characteristic": "dex"
       }
     ],
     "items": [
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.77p3QRKgFWakkndF"
-      },
       {
         "uuid": "Compendium.wfrp4e-core.items.Item.5QcrpLQWWrsbKR79"
       },
@@ -4166,7 +5874,7 @@ export const PROFILES = [
       },
       {
         "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.UlL4mHSgBW3nYh2a",
-        "equipped": true
+        "equipped": false
       },
       {
         "uuid": "Compendium.wfrp4e-core.items.Item.eZN8HuDV0OnjIWM9"
@@ -4243,12 +5951,6 @@ export const PROFILES = [
         "uuid": "Compendium.wfrp4e-core.items.Item.hTgrGkWnmIR4xhVe"
       },
       {
-        "uuid": "Compendium.wfrp4e-core.items.Item.2Nzqsc9aclP6rpnl"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.0hn6UaKq8CoZP2zD"
-      },
-      {
         "uuid": "Compendium.wfrp4e-core.items.Item.4MJJCiOKPkBByYwW"
       },
       {
@@ -4262,6 +5964,3731 @@ export const PROFILES = [
       {
         "uuid": "Compendium.wfrp4e-core.items.Item.KB8HgDz56dh2w7w1",
         "quantity": 3
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.qZ4cFy6z482ZONuA"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.jt0DmVK9IiF6Sd2h"
+      }
+    ]
+  },
+  {
+    "id": "bailiff",
+    "folder": "Town Officials",
+    "name": "Bailiff",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 42,
+      "bs": 28,
+      "s": 30,
+      "t": 34,
+      "i": 34,
+      "ag": 30,
+      "dex": 30,
+      "int": 30,
+      "wp": 30,
+      "fel": 41
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 44,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 44,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 48,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 55,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 59,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 44,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 56,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 48,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.d3VZwO4Y5JH5DXdT",
+        "total": 55,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 55,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39",
+        "total": 44,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 48,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 59,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 44,
+        "characteristic": "int",
+        "name": "Lore (Local)"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.XU7D9CCmumuhqDUi"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.jt0DmVK9IiF6Sd2h"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.5QcrpLQWWrsbKR79"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.OjcHE0VOGr1aRdy9",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.XvvHQ8amxyhTaORs",
+        "equipped": true,
+        "name": "Club"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.aExcYp7UPS5SL4ve"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.6OmsMPtz0NzCwvzL"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KB8HgDz56dh2w7w1",
+        "quantity": 6
+      }
+    ]
+  },
+  {
+    "id": "burgomeister",
+    "folder": "Town Officials",
+    "name": "Burgomeister",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 36,
+      "i": 36,
+      "ag": 30,
+      "dex": 30,
+      "int": 50,
+      "wp": 30,
+      "fel": 44
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 62,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.sRuMlaPU5xdIrwhd",
+        "total": 48,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 54,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.iYan4z52v7HYM9u9",
+        "total": 52,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 48,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.7pQo66cESWttzIlb",
+        "total": 68,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 62,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 66,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.9tbHTeuvEMZrp0rx",
+        "total": 68,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 68,
+        "characteristic": "int",
+        "name": "Lore (Local)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39",
+        "total": 68,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 54,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.d3VZwO4Y5JH5DXdT",
+        "total": 62,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 48,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.2LDCVJQWkTFszMok",
+        "total": 68,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 54,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 66,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 68,
+        "characteristic": "int",
+        "name": "Lore (Politics)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 48,
+        "characteristic": "s"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.5KP9sOoLSGvj9EXp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.epPBu7x6BRWp2PHG"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.XU7D9CCmumuhqDUi"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.5QcrpLQWWrsbKR79"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ZWcTbeK8i9vKph2a"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.sYbgpSnRqSZWgwFP",
+        "specification": "Nobles"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.BBiL0DSHcdPakVBS"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.6OmsMPtz0NzCwvzL"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ZgpVhv100Kd9rsao"
+      }
+    ]
+  },
+  {
+    "id": "clerk",
+    "folder": "Town Officials",
+    "name": "Clerk",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 30,
+      "i": 30,
+      "ag": 30,
+      "dex": 30,
+      "int": 35,
+      "wp": 30,
+      "fel": 35
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 41,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.sRuMlaPU5xdIrwhd",
+        "total": 36,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 36,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.iYan4z52v7HYM9u9",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 36,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.7pQo66cESWttzIlb",
+        "total": 41,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 41,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 45,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.9tbHTeuvEMZrp0rx",
+        "total": 41,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 41,
+        "characteristic": "int",
+        "name": "Lore (Local)"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.5KP9sOoLSGvj9EXp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.61Fx3RHhSqaLCnao"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.fHb7bFU8QX3oi33F"
+      }
+    ]
+  },
+  {
+    "id": "senior-clerk",
+    "folder": "Town Officials",
+    "name": "Senior Clerk",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 32,
+      "i": 32,
+      "ag": 30,
+      "dex": 30,
+      "int": 40,
+      "wp": 30,
+      "fel": 38
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 48,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.sRuMlaPU5xdIrwhd",
+        "total": 40,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 42,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.iYan4z52v7HYM9u9",
+        "total": 44,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.7pQo66cESWttzIlb",
+        "total": 50,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 48,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 52,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.9tbHTeuvEMZrp0rx",
+        "total": 50,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 50,
+        "characteristic": "int",
+        "name": "Lore (Local)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39",
+        "total": 50,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 42,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.d3VZwO4Y5JH5DXdT",
+        "total": 48,
+        "characteristic": "fel"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.5KP9sOoLSGvj9EXp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.epPBu7x6BRWp2PHG"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.aExcYp7UPS5SL4ve"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.6OmsMPtz0NzCwvzL"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.fHb7bFU8QX3oi33F"
+      }
+    ]
+  },
+  {
+    "id": "toll-keeper",
+    "folder": "Town Officials",
+    "name": "Toll Keeper",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 32,
+      "i": 32,
+      "ag": 30,
+      "dex": 30,
+      "int": 40,
+      "wp": 38,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 48,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 42,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 40,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 44,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39",
+        "total": 50,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 42,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 50,
+        "characteristic": "int",
+        "name": "Lore (Local)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 37,
+        "characteristic": "ws"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.5QcrpLQWWrsbKR79"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.qZ4cFy6z482ZONuA"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.aExcYp7UPS5SL4ve"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.6OmsMPtz0NzCwvzL"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.XvvHQ8amxyhTaORs",
+        "equipped": false,
+        "name": "Club"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0MYOJFx3vkYA95B4",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "town-councillor",
+    "folder": "Town Officials",
+    "name": "Town Councillor",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 34,
+      "i": 34,
+      "ag": 30,
+      "dex": 30,
+      "int": 45,
+      "wp": 30,
+      "fel": 41
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 55,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.sRuMlaPU5xdIrwhd",
+        "total": 44,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 48,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.iYan4z52v7HYM9u9",
+        "total": 48,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 44,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.7pQo66cESWttzIlb",
+        "total": 59,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 55,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 59,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.9tbHTeuvEMZrp0rx",
+        "total": 59,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 59,
+        "characteristic": "int",
+        "name": "Lore (Local)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39",
+        "total": 59,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 48,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.d3VZwO4Y5JH5DXdT",
+        "total": 55,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 44,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.2LDCVJQWkTFszMok",
+        "total": 59,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 48,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 59,
+        "characteristic": "fel"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.5KP9sOoLSGvj9EXp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.epPBu7x6BRWp2PHG"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.XU7D9CCmumuhqDUi"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.5QcrpLQWWrsbKR79"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.BBiL0DSHcdPakVBS"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.6OmsMPtz0NzCwvzL"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.fHb7bFU8QX3oi33F"
+      }
+    ]
+  },
+  {
+    "id": "town-crier",
+    "folder": "Town Officials",
+    "name": "Town Crier",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 30,
+      "i": 35,
+      "ag": 30,
+      "dex": 30,
+      "int": 30,
+      "wp": 30,
+      "fel": 35
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 41,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 41,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 41,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 36,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 36,
+        "characteristic": "int",
+        "name": "Lore (Local)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.qBm2fu3oMhxsDBNQ",
+        "total": 41,
+        "characteristic": "fel"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.XU7D9CCmumuhqDUi"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CB6cxxqy5vXcV6gf"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.jQGw8o4fY8swlmfM"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0MYOJFx3vkYA95B4",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "beggar",
+    "folder": "Town Workers",
+    "name": "Beggar",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 30,
+      "i": 30,
+      "ag": 35,
+      "dex": 30,
+      "int": 30,
+      "wp": 30,
+      "fel": 35
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 41,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 41,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 36,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 36,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.zkI6tIqbyAZvh0Th",
+        "total": 41,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 36,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh",
+        "total": 36,
+        "characteristic": "int"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.5KP9sOoLSGvj9EXp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.wBhPFggGqIXwbx1r"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8TKV6yGaUHrf75UH"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.3GlaCQyLuugXHEM2"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0MYOJFx3vkYA95B4",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "day-labourer",
+    "folder": "Town Workers",
+    "name": "Day Labourer",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 35,
+      "t": 35,
+      "i": 30,
+      "ag": 30,
+      "dex": 30,
+      "int": 30,
+      "wp": 30,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 36,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 41,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.jLyoyqwmBVPjRjhM",
+        "total": 33,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.sRuMlaPU5xdIrwhd",
+        "total": 41,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 41,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 36,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 36,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FF41XPboORgyDNsv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.YmElVMceT7qNqd9S"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.83KlMxHxGfKUdMfq",
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "id": "gravedigger",
+    "folder": "Town Workers",
+    "name": "Gravedigger",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 35,
+      "t": 35,
+      "i": 30,
+      "ag": 30,
+      "dex": 30,
+      "int": 30,
+      "wp": 30,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 36,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 41,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 33,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 36,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh",
+        "total": 36,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 36,
+        "characteristic": "int",
+        "name": "Lore (Local)"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FF41XPboORgyDNsv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.vMYEkrWj0ip6ZOdv",
+        "specification": "Disease"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.VakWbquag1kV5WtT"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.mRU10yAWWWs5WoKt",
+        "equipped": true,
+        "name": "Spade"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.mcJi9yqMFRJRkhJs"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.YmElVMceT7qNqd9S"
+      }
+    ]
+  },
+  {
+    "id": "head-servant",
+    "folder": "Town Workers",
+    "name": "Head Servant",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 32,
+      "i": 32,
+      "ag": 30,
+      "dex": 40,
+      "int": 30,
+      "wp": 30,
+      "fel": 38
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 48,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 42,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 42,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 48,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.zkI6tIqbyAZvh0Th",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 52,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39",
+        "total": 40,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 40,
+        "characteristic": "int",
+        "name": "Lore (Local)"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.5KP9sOoLSGvj9EXp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.sYbgpSnRqSZWgwFP",
+        "specification": "Servants"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.sYbgpSnRqSZWgwFP",
+        "specification": "Nobles"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CB6cxxqy5vXcV6gf"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.aExcYp7UPS5SL4ve"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.6OmsMPtz0NzCwvzL"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.UlL4mHSgBW3nYh2a",
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "id": "household-servant",
+    "folder": "Town Workers",
+    "name": "Household Servant",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 30,
+      "i": 30,
+      "ag": 35,
+      "dex": 35,
+      "int": 30,
+      "wp": 30,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 41,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 41,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 36,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 36,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 36,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 36,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.zkI6tIqbyAZvh0Th",
+        "total": 41,
+        "characteristic": "ag"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.5KP9sOoLSGvj9EXp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.sYbgpSnRqSZWgwFP",
+        "specification": "Servants"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.w9VCyP12U7MrC3jk"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.aExcYp7UPS5SL4ve"
+      }
+    ]
+  },
+  {
+    "id": "rat-catcher",
+    "folder": "Town Workers",
+    "name": "Rat Catcher",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 37,
+      "bs": 36,
+      "s": 30,
+      "t": 32,
+      "i": 32,
+      "ag": 30,
+      "dex": 30,
+      "int": 30,
+      "wp": 30,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.W0GnDjtcocY6m07J",
+        "total": 40,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.4IGdIhnwTaZijzg7",
+        "total": 40,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 42,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 47,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KQjZ85kKz42YQGYT",
+        "total": 46,
+        "characteristic": "bs"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cHbQeJQ7cVZZyDyl",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 40,
+        "characteristic": "int",
+        "name": "Lore (Local)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 42,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.HngrTVqKis08Nvcf",
+        "total": 40,
+        "characteristic": "dex"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.x0WMGwuQzReXcQrs"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.vMYEkrWj0ip6ZOdv",
+        "specification": "Disease"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.7Bpc5I8Arucy3w4q",
+        "equipped": true,
+        "ammoUuid": "Compendium.wfrp4e-core.items.Item.mik7s6AqS8SMSaJ8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.mik7s6AqS8SMSaJ8",
+        "quantity": 12
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.TfRdF6baYuGd6i53"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.k0KeWhPgFGUcOgs0"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.gzriPtNbRFltaAsh"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.mcJi9yqMFRJRkhJs"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.y28P2G0NEVZvMzS5"
+      }
+    ]
+  },
+  {
+    "id": "washer",
+    "folder": "Town Workers",
+    "name": "Washer",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 35,
+      "t": 35,
+      "i": 30,
+      "ag": 30,
+      "dex": 30,
+      "int": 30,
+      "wp": 30,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 36,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 41,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 36,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 40,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.jLyoyqwmBVPjRjhM",
+        "total": 33,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 36,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FF41XPboORgyDNsv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.lq7bDxEeIIVSmLOg"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.w9VCyP12U7MrC3jk"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.83KlMxHxGfKUdMfq",
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "id": "work-gang-foreman",
+    "folder": "Town Workers",
+    "name": "Work Gang Foreman",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 40,
+      "t": 40,
+      "i": 32,
+      "ag": 30,
+      "dex": 30,
+      "int": 30,
+      "wp": 30,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 50,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.jLyoyqwmBVPjRjhM",
+        "total": 37,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.sRuMlaPU5xdIrwhd",
+        "total": 50,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 50,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 40,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 42,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 44,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 50,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 40,
+        "characteristic": "wp"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FF41XPboORgyDNsv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.qZ4cFy6z482ZONuA"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.YmElVMceT7qNqd9S"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.XvvHQ8amxyhTaORs",
+        "equipped": false,
+        "name": "Club"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.6OmsMPtz0NzCwvzL"
+      }
+    ]
+  },
+  {
+    "id": "apprentice-artisan",
+    "folder": "Trade",
+    "name": "Apprentice Artisan",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 35,
+      "t": 30,
+      "i": 30,
+      "ag": 30,
+      "dex": 35,
+      "int": 30,
+      "wp": 30,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 36,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 36,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 36,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 36,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 36,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39",
+        "total": 36,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.zkI6tIqbyAZvh0Th",
+        "total": 36,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.qy68sCupAbzhlvVU",
+        "total": 45,
+        "characteristic": "dex"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GRRN3XAKIpEVCY7z",
+        "specification": "Carpenter"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FF41XPboORgyDNsv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ipaDvYY3qS66o593",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.elraWaIlaaHeKwKl"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.OD83JAlc9KhDpHK5",
+        "specification": "Carpenter"
+      }
+    ]
+  },
+  {
+    "id": "artisan",
+    "folder": "Trade",
+    "name": "Artisan",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 32,
+      "i": 32,
+      "ag": 30,
+      "dex": 40,
+      "int": 38,
+      "wp": 30,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 40,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 42,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 42,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39",
+        "total": 48,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.zkI6tIqbyAZvh0Th",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.qy68sCupAbzhlvVU",
+        "total": 54,
+        "characteristic": "dex"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 40,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 44,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 48,
+        "characteristic": "int",
+        "name": "Lore (Local)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 40,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 42,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GRRN3XAKIpEVCY7z",
+        "specification": "Carpenter"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FF41XPboORgyDNsv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.epPBu7x6BRWp2PHG"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ipaDvYY3qS66o593",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ZgpVhv100Kd9rsao"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.OD83JAlc9KhDpHK5",
+        "specification": "Carpenter"
+      }
+    ]
+  },
+  {
+    "id": "blacksmith",
+    "folder": "Trade",
+    "name": "Blacksmith",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 38,
+      "t": 32,
+      "i": 32,
+      "ag": 30,
+      "dex": 40,
+      "int": 30,
+      "wp": 30,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 40,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 42,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 42,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39",
+        "total": 40,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.zkI6tIqbyAZvh0Th",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Ml6ZblglcSbVhXyh",
+        "total": 54,
+        "characteristic": "dex"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 40,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 44,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 40,
+        "characteristic": "int",
+        "name": "Lore (Local)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 40,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 42,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GRRN3XAKIpEVCY7z",
+        "specification": "Smith"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FF41XPboORgyDNsv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.qZ4cFy6z482ZONuA"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ipaDvYY3qS66o593",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RN1IeSarIRaqyT95"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.HyfQNt0QGGa0EltW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.OD83JAlc9KhDpHK5",
+        "specification": "Smith"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ZgpVhv100Kd9rsao"
+      }
+    ]
+  },
+  {
+    "id": "established-shopkeeper",
+    "folder": "Trade",
+    "name": "Established Shopkeeper",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 34,
+      "i": 34,
+      "ag": 30,
+      "dex": 30,
+      "int": 46,
+      "wp": 30,
+      "fel": 45
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 59,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 59,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 63,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39",
+        "total": 60,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 48,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 44,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 48,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 60,
+        "characteristic": "int",
+        "name": "Lore (Local)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.7pQo66cESWttzIlb",
+        "total": 60,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.9tbHTeuvEMZrp0rx",
+        "total": 60,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 63,
+        "characteristic": "fel"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.5KP9sOoLSGvj9EXp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.epPBu7x6BRWp2PHG"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.5QcrpLQWWrsbKR79"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.QsrXxGZiHjth7RMg"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.aExcYp7UPS5SL4ve"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Ldf5kDBob8H0v6iV"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.6OmsMPtz0NzCwvzL"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.BBiL0DSHcdPakVBS"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KB8HgDz56dh2w7w1",
+        "quantity": 6
+      }
+    ]
+  },
+  {
+    "id": "guildmaster",
+    "folder": "Trade",
+    "name": "Guildmaster",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 36,
+      "i": 36,
+      "ag": 30,
+      "dex": 50,
+      "int": 44,
+      "wp": 30,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 48,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 48,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 54,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 48,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 54,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39",
+        "total": 62,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.zkI6tIqbyAZvh0Th",
+        "total": 48,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.qy68sCupAbzhlvVU",
+        "total": 72,
+        "characteristic": "dex"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 48,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 52,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 62,
+        "characteristic": "int",
+        "name": "Lore (Local)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 48,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 54,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 54,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 52,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.9tbHTeuvEMZrp0rx",
+        "total": 62,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.D4JNPSl6VOpsVmSi",
+        "total": 62,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.d3VZwO4Y5JH5DXdT",
+        "total": 48,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 48,
+        "characteristic": "s"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GRRN3XAKIpEVCY7z",
+        "specification": "Carpenter"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FF41XPboORgyDNsv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.epPBu7x6BRWp2PHG"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GHmXS9zGNx3PWYZc",
+        "specification": "Carpenter"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.XU7D9CCmumuhqDUi"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.sYbgpSnRqSZWgwFP",
+        "specification": "Guilder"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ZgpVhv100Kd9rsao"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.OD83JAlc9KhDpHK5",
+        "specification": "Carpenter"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ixOMVrEC1ISyYdDU",
+        "specification": "Carpenter"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.6OmsMPtz0NzCwvzL"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.BBiL0DSHcdPakVBS"
+      }
+    ]
+  },
+  {
+    "id": "hawker",
+    "folder": "Trade",
+    "name": "Hawker",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 30,
+      "i": 30,
+      "ag": 30,
+      "dex": 30,
+      "int": 35,
+      "wp": 30,
+      "fel": 35
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 41,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 41,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 45,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39",
+        "total": 41,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 36,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 36,
+        "characteristic": "ag"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.epPBu7x6BRWp2PHG"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.TfRdF6baYuGd6i53"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0MYOJFx3vkYA95B4",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "market-trader",
+    "folder": "Trade",
+    "name": "Market Trader",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 32,
+      "i": 32,
+      "ag": 30,
+      "dex": 30,
+      "int": 38,
+      "wp": 30,
+      "fel": 40
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 50,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 50,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 54,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39",
+        "total": 48,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 42,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 42,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 48,
+        "characteristic": "int",
+        "name": "Lore (Local)"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.epPBu7x6BRWp2PHG"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.5QcrpLQWWrsbKR79"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Ldf5kDBob8H0v6iV"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.6OmsMPtz0NzCwvzL"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0MYOJFx3vkYA95B4",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "master-artisan",
+    "folder": "Trade",
+    "name": "Master Artisan",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 34,
+      "i": 34,
+      "ag": 30,
+      "dex": 45,
+      "int": 41,
+      "wp": 30,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 44,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 44,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 48,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 44,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 48,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39",
+        "total": 55,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.zkI6tIqbyAZvh0Th",
+        "total": 44,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.qy68sCupAbzhlvVU",
+        "total": 63,
+        "characteristic": "dex"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 44,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 48,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 55,
+        "characteristic": "int",
+        "name": "Lore (Local)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 44,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 48,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 48,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 48,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.9tbHTeuvEMZrp0rx",
+        "total": 55,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.D4JNPSl6VOpsVmSi",
+        "total": 55,
+        "characteristic": "int"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GRRN3XAKIpEVCY7z",
+        "specification": "Carpenter"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FF41XPboORgyDNsv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.epPBu7x6BRWp2PHG"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GHmXS9zGNx3PWYZc",
+        "specification": "Carpenter"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ipaDvYY3qS66o593",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ZgpVhv100Kd9rsao"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.OD83JAlc9KhDpHK5",
+        "specification": "Carpenter"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ixOMVrEC1ISyYdDU",
+        "specification": "Carpenter"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.6OmsMPtz0NzCwvzL"
+      }
+    ]
+  },
+  {
+    "id": "master-blacksmith",
+    "folder": "Trade",
+    "name": "Master Blacksmith",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 41,
+      "t": 34,
+      "i": 34,
+      "ag": 30,
+      "dex": 45,
+      "int": 30,
+      "wp": 30,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 44,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 44,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 48,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 44,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 48,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39",
+        "total": 44,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.zkI6tIqbyAZvh0Th",
+        "total": 44,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Ml6ZblglcSbVhXyh",
+        "total": 63,
+        "characteristic": "dex"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 44,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 48,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 44,
+        "characteristic": "int",
+        "name": "Lore (Local)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 44,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 48,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 48,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 48,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.9tbHTeuvEMZrp0rx",
+        "total": 44,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.D4JNPSl6VOpsVmSi",
+        "total": 44,
+        "characteristic": "int"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GRRN3XAKIpEVCY7z",
+        "specification": "Smith"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FF41XPboORgyDNsv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.qZ4cFy6z482ZONuA"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GHmXS9zGNx3PWYZc",
+        "specification": "Smith"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ipaDvYY3qS66o593",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RN1IeSarIRaqyT95"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.HyfQNt0QGGa0EltW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.OD83JAlc9KhDpHK5",
+        "specification": "Smith"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ixOMVrEC1ISyYdDU",
+        "specification": "Smith"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ZgpVhv100Kd9rsao"
+      }
+    ]
+  },
+  {
+    "id": "master-merchant",
+    "folder": "Trade",
+    "name": "Master Merchant",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 34,
+      "i": 34,
+      "ag": 30,
+      "dex": 30,
+      "int": 46,
+      "wp": 30,
+      "fel": 45
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.MXy22hFCgntdlQrn",
+        "total": 60,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.d3VZwO4Y5JH5DXdT",
+        "total": 59,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 59,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 48,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.iYan4z52v7HYM9u9",
+        "total": 48,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.7pQo66cESWttzIlb",
+        "total": 60,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 59,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 63,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39",
+        "total": 60,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 48,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.XQiiwS9m2Du1IMUz",
+        "total": 60,
+        "characteristic": "int",
+        "name": "Language (Guilder)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 60,
+        "characteristic": "int",
+        "name": "Lore (Local)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 48,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 44,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.zZUX7wO4rOo8k9F0",
+        "total": 48,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.D4JNPSl6VOpsVmSi",
+        "total": 60,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 63,
+        "characteristic": "fel"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.epPBu7x6BRWp2PHG"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.QsrXxGZiHjth7RMg"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.sYbgpSnRqSZWgwFP",
+        "specification": "Guilder"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.5QcrpLQWWrsbKR79"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oQzTJEXUx28sCiH3"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Ldf5kDBob8H0v6iV"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ZgpVhv100Kd9rsao"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.6OmsMPtz0NzCwvzL"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.BBiL0DSHcdPakVBS"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KB8HgDz56dh2w7w1",
+        "quantity": 6
+      }
+    ]
+  },
+  {
+    "id": "merchant",
+    "folder": "Trade",
+    "name": "Merchant",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 32,
+      "i": 32,
+      "ag": 30,
+      "dex": 30,
+      "int": 43,
+      "wp": 30,
+      "fel": 40
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.MXy22hFCgntdlQrn",
+        "total": 53,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.d3VZwO4Y5JH5DXdT",
+        "total": 50,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 50,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 42,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.iYan4z52v7HYM9u9",
+        "total": 44,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.7pQo66cESWttzIlb",
+        "total": 53,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 50,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 54,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39",
+        "total": 53,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 42,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.XQiiwS9m2Du1IMUz",
+        "total": 53,
+        "characteristic": "int",
+        "name": "Language (Guilder)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 53,
+        "characteristic": "int",
+        "name": "Lore (Local)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 42,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.epPBu7x6BRWp2PHG"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.QsrXxGZiHjth7RMg"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.sYbgpSnRqSZWgwFP",
+        "specification": "Guilder"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Ldf5kDBob8H0v6iV"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ZgpVhv100Kd9rsao"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.6OmsMPtz0NzCwvzL"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KB8HgDz56dh2w7w1",
+        "quantity": 6
+      }
+    ]
+  },
+  {
+    "id": "shop-assistant",
+    "folder": "Trade",
+    "name": "Shop Assistant",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 30,
+      "i": 30,
+      "ag": 30,
+      "dex": 30,
+      "int": 35,
+      "wp": 30,
+      "fel": 35
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 41,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 41,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 45,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39",
+        "total": 41,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 36,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 36,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 36,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.5KP9sOoLSGvj9EXp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.epPBu7x6BRWp2PHG"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.aExcYp7UPS5SL4ve"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0MYOJFx3vkYA95B4",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "shopkeeper",
+    "folder": "Trade",
+    "name": "Shopkeeper",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 32,
+      "i": 32,
+      "ag": 30,
+      "dex": 30,
+      "int": 38,
+      "wp": 30,
+      "fel": 40
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 50,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 50,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 54,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39",
+        "total": 48,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 42,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 42,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 48,
+        "characteristic": "int",
+        "name": "Lore (Local)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.7pQo66cESWttzIlb",
+        "total": 48,
+        "characteristic": "int"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.5KP9sOoLSGvj9EXp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.epPBu7x6BRWp2PHG"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.5QcrpLQWWrsbKR79"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.aExcYp7UPS5SL4ve"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Ldf5kDBob8H0v6iV"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.6OmsMPtz0NzCwvzL"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KB8HgDz56dh2w7w1",
+        "quantity": 6
+      }
+    ]
+  },
+  {
+    "id": "smith-s-apprentice",
+    "folder": "Trade",
+    "name": "Smith's Apprentice",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 35,
+      "t": 30,
+      "i": 30,
+      "ag": 30,
+      "dex": 35,
+      "int": 30,
+      "wp": 30,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 36,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 36,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 36,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 36,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 36,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39",
+        "total": 36,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.zkI6tIqbyAZvh0Th",
+        "total": 36,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Ml6ZblglcSbVhXyh",
+        "total": 45,
+        "characteristic": "dex"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GRRN3XAKIpEVCY7z",
+        "specification": "Smith"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FF41XPboORgyDNsv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ipaDvYY3qS66o593",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.HyfQNt0QGGa0EltW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.OD83JAlc9KhDpHK5",
+        "specification": "Smith"
+      }
+    ]
+  },
+  {
+    "id": "trader",
+    "folder": "Trade",
+    "name": "Trader",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 30,
+      "i": 30,
+      "ag": 30,
+      "dex": 30,
+      "int": 35,
+      "wp": 30,
+      "fel": 35
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.MXy22hFCgntdlQrn",
+        "total": 41,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.d3VZwO4Y5JH5DXdT",
+        "total": 41,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 41,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 36,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.iYan4z52v7HYM9u9",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.7pQo66cESWttzIlb",
+        "total": 41,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 41,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 45,
+        "characteristic": "fel"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.epPBu7x6BRWp2PHG"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Ldf5kDBob8H0v6iV"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Zhd2HM8nVcsfHRcI"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0MYOJFx3vkYA95B4",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "farmer",
+    "folder": "Villagers",
+    "name": "Farmer",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 40,
+      "t": 40,
+      "i": 32,
+      "ag": 30,
+      "dex": 30,
+      "int": 30,
+      "wp": 30,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.MXy22hFCgntdlQrn",
+        "total": 40,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 50,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 50,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 40,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.jLyoyqwmBVPjRjhM",
+        "total": 37,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 40,
+        "characteristic": "int",
+        "name": "Lore (Local)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh",
+        "total": 40,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.iYan4z52v7HYM9u9",
+        "total": 44,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 44,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 37,
+        "characteristic": "ws"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FF41XPboORgyDNsv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.spdiWsONKTzkLbg3"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.9fq6p9Q6H02LjaSi"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.zImcTgEl2XNnbu5W"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ipaDvYY3qS66o593",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.FaPOAjXnBXWLjQBl",
+        "equipped": true,
+        "name": "Axe"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Y55qCcUkHVZAbG8s"
+      }
+    ]
+  },
+  {
+    "id": "herder",
+    "folder": "Villagers",
+    "name": "Herder",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 35,
+      "t": 30,
+      "i": 30,
+      "ag": 35,
+      "dex": 30,
+      "int": 30,
+      "wp": 30,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.MXy22hFCgntdlQrn",
+        "total": 36,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.4IGdIhnwTaZijzg7",
+        "total": 36,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 41,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 36,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh",
+        "total": 36,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 36,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rt2rGSwFDCDHPh0A",
+        "total": 36,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.9fq6p9Q6H02LjaSi"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.q58lK4kULJZB5GjE"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GkeMJrsqxQIek1xK",
+        "equipped": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.horFAtaDz0EbuY3R"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z"
+      }
+    ]
+  },
+  {
+    "id": "miller",
+    "folder": "Villagers",
+    "name": "Miller",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 38,
+      "t": 32,
+      "i": 32,
+      "ag": 30,
+      "dex": 40,
+      "int": 30,
+      "wp": 30,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 42,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.wKwel9MG7NIG3i3w",
+        "total": 50,
+        "characteristic": "dex",
+        "name": "Trade (Miller)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39",
+        "total": 40,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 44,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 42,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.MXy22hFCgntdlQrn",
+        "total": 40,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 40,
+        "characteristic": "ag"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.qZ4cFy6z482ZONuA"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FF41XPboORgyDNsv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.TfRdF6baYuGd6i53"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.83KlMxHxGfKUdMfq",
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "id": "peasant",
+    "folder": "Villagers",
+    "name": "Peasant",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 35,
+      "t": 35,
+      "i": 30,
+      "ag": 30,
+      "dex": 30,
+      "int": 30,
+      "wp": 30,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.MXy22hFCgntdlQrn",
+        "total": 36,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 36,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 41,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 41,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 36,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.jLyoyqwmBVPjRjhM",
+        "total": 33,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 36,
+        "characteristic": "int",
+        "name": "Lore (Local)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh",
+        "total": 36,
+        "characteristic": "int"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FF41XPboORgyDNsv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.spdiWsONKTzkLbg3"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.aRvo3nkgPrPcKXVF"
+      }
+    ]
+  },
+  {
+    "id": "prosperous-farmer",
+    "folder": "Villagers",
+    "name": "Prosperous Farmer",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 50,
+      "t": 45,
+      "i": 34,
+      "ag": 30,
+      "dex": 30,
+      "int": 30,
+      "wp": 30,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.MXy22hFCgntdlQrn",
+        "total": 44,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 44,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 59,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 59,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 44,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.jLyoyqwmBVPjRjhM",
+        "total": 41,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 44,
+        "characteristic": "int",
+        "name": "Lore (Local)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh",
+        "total": 44,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 44,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.iYan4z52v7HYM9u9",
+        "total": 48,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+        "total": 48,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 41,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 48,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 48,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FF41XPboORgyDNsv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.spdiWsONKTzkLbg3"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.9fq6p9Q6H02LjaSi"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.zImcTgEl2XNnbu5W"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Zf0vk2rjllpDh0Ua"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.qZ4cFy6z482ZONuA"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ipaDvYY3qS66o593",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.FaPOAjXnBXWLjQBl",
+        "equipped": true,
+        "name": "Axe"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Y55qCcUkHVZAbG8s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.6OmsMPtz0NzCwvzL"
+      }
+    ]
+  },
+  {
+    "id": "village-elder",
+    "folder": "Villagers",
+    "name": "Village Elder",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 30,
+      "t": 36,
+      "i": 36,
+      "ag": 30,
+      "dex": 30,
+      "int": 44,
+      "wp": 30,
+      "fel": 50
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.MXy22hFCgntdlQrn",
+        "total": 62,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 48,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 54,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 54,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.RLQHm1s4IuY9RSr2",
+        "total": 68,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.jLyoyqwmBVPjRjhM",
+        "total": 45,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 62,
+        "characteristic": "int",
+        "name": "Lore (Local)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh",
+        "total": 62,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 68,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 72,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 54,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.2LDCVJQWkTFszMok",
+        "total": 62,
+        "characteristic": "int"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.XU7D9CCmumuhqDUi"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.580fwhKfOZJFxMID",
+        "specification": "Local"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.6OmsMPtz0NzCwvzL"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.BBiL0DSHcdPakVBS"
+      }
+    ]
+  },
+  {
+    "id": "woodsman",
+    "folder": "Villagers",
+    "name": "Woodsman",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 27,
+      "bs": 28,
+      "s": 40,
+      "t": 40,
+      "i": 32,
+      "ag": 30,
+      "dex": 30,
+      "int": 30,
+      "wp": 30,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 50,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh",
+        "total": 40,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 42,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rt2rGSwFDCDHPh0A",
+        "total": 42,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 37,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Xk5tp3aasPNtk4zt",
+        "total": 40,
+        "characteristic": "ag"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.q58lK4kULJZB5GjE"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FF41XPboORgyDNsv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.FaPOAjXnBXWLjQBl",
+        "equipped": true,
+        "name": "Axe"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ipaDvYY3qS66o593",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.horFAtaDz0EbuY3R"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.X7c87KbjSJ7F3yha"
       }
     ]
   },
@@ -4319,6 +9746,26 @@ export const PROFILES = [
         "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
         "total": 45,
         "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.sRuMlaPU5xdIrwhd",
+        "total": 40,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 40,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 40,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.7pQo66cESWttzIlb",
+        "total": 35,
+        "characteristic": "int"
       }
     ],
     "items": [
@@ -4336,6 +9783,15 @@ export const PROFILES = [
       {
         "uuid": "Compendium.wfrp4e-core.items.Item.0MYOJFx3vkYA95B4",
         "quantity": 8
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.J9MK0AIaTbvd5oF6"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.jt0DmVK9IiF6Sd2h"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CB6cxxqy5vXcV6gf"
       }
     ]
   },
@@ -4413,6 +9869,11 @@ export const PROFILES = [
         "uuid": "Compendium.wfrp4e-core.items.Item.zkI6tIqbyAZvh0Th",
         "total": 50,
         "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.2LDCVJQWkTFszMok",
+        "total": 55,
+        "characteristic": "int"
       }
     ],
     "items": [
@@ -4426,17 +9887,10 @@ export const PROFILES = [
         "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.J9MK0AIaTbvd5oF6"
       },
       {
-        "uuid": "Compendium.wfrp4e-core.items.Item.0hn6UaKq8CoZP2zD"
-      },
-      {
         "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.RWJrupj9seau0w31"
       },
       {
         "uuid": "Compendium.wfrp4e-core.items.Item.OjcHE0VOGr1aRdy9",
-        "worn": true
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.cJdfHOVbghTf4Eo0",
         "worn": true
       },
       {
@@ -4465,6 +9919,29 @@ export const PROFILES = [
       {
         "uuid": "Compendium.wfrp4e-core.items.Item.KB8HgDz56dh2w7w1",
         "quantity": 12
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DS44h27iCOvUBa4O"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.AcnFuDKRemLI9ey7"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.jt0DmVK9IiF6Sd2h"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oBNXxRFPh1sOT4K2",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CB6cxxqy5vXcV6gf"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Bal23aLiOmnht42h"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8MpTb12W1x6ECZzt",
+        "name": "Watch Sergeant Badge"
       }
     ]
   },
@@ -4532,12 +10009,15 @@ export const PROFILES = [
         "uuid": "Compendium.wfrp4e-core.items.Item.zkI6tIqbyAZvh0Th",
         "total": 45,
         "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 45,
+        "characteristic": "int",
+        "name": "Lore (Local)"
       }
     ],
     "items": [
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.0LdHytqyNmg2pcAX"
-      },
       {
         "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.J9MK0AIaTbvd5oF6"
       },
@@ -4559,6 +10039,23 @@ export const PROFILES = [
       {
         "uuid": "Compendium.wfrp4e-core.items.Item.KB8HgDz56dh2w7w1",
         "quantity": 4
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.jt0DmVK9IiF6Sd2h"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CB6cxxqy5vXcV6gf"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Bal23aLiOmnht42h"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.i2DKz375sriXqfkS",
+        "name": "Lantern Pole"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8MpTb12W1x6ECZzt",
+        "name": "Copper Watch Badge"
       }
     ]
   }

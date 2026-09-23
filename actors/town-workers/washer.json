@@ -1,0 +1,67 @@
+{
+  "id": "washer",
+  "folder": "Town Workers",
+  "name": "Washer",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 35,
+    "t": 35,
+    "i": 30,
+    "ag": 30,
+    "dex": 30,
+    "int": 30,
+    "wp": 30,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.athletics",
+      "total": 36,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 41,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 36,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.haggle",
+      "total": 40,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.meleeBrawling",
+      "total": 33,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 36,
+      "characteristic": "i"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.strongBack"
+    },
+    {
+      "ref": "gear.bucket"
+    },
+    {
+      "ref": "gear.broom"
+    },
+    {
+      "ref": "gear.knife",
+      "equipped": false
+    }
+  ]
+}

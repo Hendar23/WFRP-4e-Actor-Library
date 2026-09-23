@@ -1,0 +1,80 @@
+{
+  "id": "woodsman",
+  "folder": "Villagers",
+  "name": "Woodsman",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 40,
+    "t": 40,
+    "i": 32,
+    "ag": 30,
+    "dex": 30,
+    "int": 30,
+    "wp": 30,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.athletics",
+      "total": 40,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 50,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.outdoorSurvival",
+      "total": 40,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 42,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.track",
+      "total": 42,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 37,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.stealthRural",
+      "total": 40,
+      "characteristic": "ag"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.rover"
+    },
+    {
+      "ref": "talent.strongBack"
+    },
+    {
+      "ref": "gear.axe",
+      "equipped": true,
+      "name": "Axe"
+    },
+    {
+      "ref": "gear.leatherJerkin",
+      "worn": true
+    },
+    {
+      "ref": "gear.rope"
+    },
+    {
+      "ref": "gear.saw"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "riverboat-captain",
+  "folder": "Road and River",
+  "name": "Riverboat Captain",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 45,
+    "t": 34,
+    "i": 45,
+    "ag": 30,
+    "dex": 30,
+    "int": 30,
+    "wp": 30,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.consumeAlcohol",
+      "total": 48,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 44,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 48,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 44,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.meleeBrawling",
+      "total": 41,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.row",
+      "total": 63,
+      "characteristic": "s"
+    },
+    {
+      "ref": "skill.sailBarge",
+      "total": 48,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.swim",
+      "total": 59,
+      "characteristic": "s"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 41,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.athletics",
+      "total": 44,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.entertainStory",
+      "total": 44,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.haggle",
+      "total": 48,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.intuition",
+      "total": 59,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.loreRiverways",
+      "total": 44,
+      "characteristic": "int",
+      "name": "Lore (Riverways)"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 59,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.leadership",
+      "total": 48,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.navigation",
+      "total": 59,
+      "characteristic": "i"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.strongBack"
+    },
+    {
+      "ref": "talent.strongSwimmer"
+    },
+    {
+      "ref": "talent.waterman"
+    },
+    {
+      "ref": "talent.pilot"
+    },
+    {
+      "ref": "talent.publicSpeaker"
+    },
+    {
+      "ref": "gear.leatherJack",
+      "worn": true
+    },
+    {
+      "ref": "gear.boatHook",
+      "equipped": true,
+      "name": "Boat Hook"
+    },
+    {
+      "ref": "gear.rope"
+    },
+    {
+      "ref": "gear.hat"
+    },
+    {
+      "ref": "gear.writingKit"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "herbalist",
+  "folder": "Faith and Medicine",
+  "name": "Herbalist",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 30,
+    "t": 32,
+    "i": 32,
+    "ag": 30,
+    "dex": 38,
+    "int": 40,
+    "wp": 30,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.charmAnimal",
+      "total": 40,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.climb",
+      "total": 40,
+      "characteristic": "s"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 42,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.loreHerbs",
+      "total": 50,
+      "characteristic": "int",
+      "name": "Lore (Herbs)"
+    },
+    {
+      "ref": "skill.outdoorSurvival",
+      "total": 50,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 42,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.swim",
+      "total": 40,
+      "characteristic": "s"
+    },
+    {
+      "ref": "skill.tradeHerbalist",
+      "total": 48,
+      "characteristic": "dex",
+      "name": "Trade (Herbalist)"
+    },
+    {
+      "ref": "skill.heal",
+      "total": 54,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.haggle",
+      "total": 44,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 40,
+      "characteristic": "fel"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.rover"
+    },
+    {
+      "ref": "talent.sharp"
+    },
+    {
+      "ref": "talent.nimbleFingered"
+    },
+    {
+      "ref": "gear.sickle"
+    },
+    {
+      "ref": "gear.healingPoultice"
+    },
+    {
+      "ref": "gear.tradeTools",
+      "specification": null
+    },
+    {
+      "ref": "gear.pestle"
+    }
+  ]
+}

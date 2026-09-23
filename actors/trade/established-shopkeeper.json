@@ -1,0 +1,114 @@
+{
+  "id": "established-shopkeeper",
+  "folder": "Trade",
+  "name": "Established Shopkeeper",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 30,
+    "t": 34,
+    "i": 34,
+    "ag": 30,
+    "dex": 30,
+    "int": 46,
+    "wp": 30,
+    "fel": 45
+  },
+  "skills": [
+    {
+      "ref": "skill.charm",
+      "total": 59,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 59,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.haggle",
+      "total": 63,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.evaluate",
+      "total": 60,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 48,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.athletics",
+      "total": 44,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.intuition",
+      "total": 48,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.loreLocal",
+      "total": 60,
+      "characteristic": "int",
+      "name": "Lore (Local)"
+    },
+    {
+      "ref": "skill.gamble",
+      "total": 60,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.research",
+      "total": 60,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.leadership",
+      "total": 63,
+      "characteristic": "fel"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.beneathNotice"
+    },
+    {
+      "ref": "talent.dealmaker"
+    },
+    {
+      "ref": "talent.numismatics"
+    },
+    {
+      "ref": "talent.readWrite"
+    },
+    {
+      "ref": "talent.savvy"
+    },
+    {
+      "ref": "gear.clothing"
+    },
+    {
+      "ref": "gear.key"
+    },
+    {
+      "ref": "gear.abacus"
+    },
+    {
+      "ref": "gear.writingKit"
+    },
+    {
+      "ref": "gear.signet"
+    },
+    {
+      "ref": "gear.silver",
+      "quantity": 6
+    }
+  ]
+}

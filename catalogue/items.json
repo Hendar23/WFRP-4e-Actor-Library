@@ -402,5 +402,533 @@
   "trait.web": {
     "uuid": "Compendium.wfrp4e-core.items.Item.Bw6tQyzOhcl7aQ46",
     "requires": "wfrp4e-core"
+  },
+  "skill.climb": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.sRuMlaPU5xdIrwhd",
+    "requires": "wfrp4e-core"
+  },
+  "skill.charm": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+    "requires": "wfrp4e-core"
+  },
+  "skill.haggle": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.pKLMbmG3Ivt6mzMf",
+    "requires": "wfrp4e-core"
+  },
+  "skill.bribery": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.d3VZwO4Y5JH5DXdT",
+    "requires": "wfrp4e-core"
+  },
+  "skill.evaluate": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39",
+    "requires": "wfrp4e-core"
+  },
+  "skill.drive": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.iYan4z52v7HYM9u9",
+    "requires": "wfrp4e-core"
+  },
+  "skill.heal": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.HXZaV1CJhmTvcAz4",
+    "requires": "wfrp4e-core"
+  },
+  "skill.animalCare": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.MXy22hFCgntdlQrn",
+    "requires": "wfrp4e-core"
+  },
+  "skill.charmAnimal": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.4IGdIhnwTaZijzg7",
+    "requires": "wfrp4e-core"
+  },
+  "skill.animalTrainingDog": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.W0GnDjtcocY6m07J",
+    "requires": "wfrp4e-core"
+  },
+  "skill.tradeCarpenter": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.qy68sCupAbzhlvVU",
+    "requires": "wfrp4e-core"
+  },
+  "skill.tradeSmith": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.Ml6ZblglcSbVhXyh",
+    "requires": "wfrp4e-core"
+  },
+  "skill.tradeCook": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.epSHxgJWtT1S0yMY",
+    "requires": "wfrp4e-core"
+  },
+  "skill.tradeApothecary": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.0qQqFANTRUDTDpRg",
+    "requires": "wfrp4e-core"
+  },
+  "skill.tradeHerbalist": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.wKwel9MG7NIG3i3w",
+    "requires": "wfrp4e-core"
+  },
+  "skill.tradeMiller": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.wKwel9MG7NIG3i3w",
+    "requires": "wfrp4e-core"
+  },
+  "skill.loreLocal": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+    "requires": "wfrp4e-core"
+  },
+  "skill.loreLaw": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.2LDCVJQWkTFszMok",
+    "requires": "wfrp4e-core"
+  },
+  "skill.loreTheology": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.d9bGxy6Y3u3rOHIN",
+    "requires": "wfrp4e-core"
+  },
+  "skill.loreMedicine": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+    "requires": "wfrp4e-core"
+  },
+  "skill.loreHerbs": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+    "requires": "wfrp4e-core"
+  },
+  "skill.loreRiverways": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+    "requires": "wfrp4e-core"
+  },
+  "skill.lorePolitics": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+    "requires": "wfrp4e-core"
+  },
+  "skill.loreChemistry": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+    "requires": "wfrp4e-core"
+  },
+  "skill.lorePlants": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+    "requires": "wfrp4e-core"
+  },
+  "skill.languageClassical": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.61L9aX2z164cjm7K",
+    "requires": "wfrp4e-core"
+  },
+  "skill.languageGuilder": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.XQiiwS9m2Du1IMUz",
+    "requires": "wfrp4e-core"
+  },
+  "skill.rangedBlackpowder": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.H2upcZ7q7qAPtPic",
+    "requires": "wfrp4e-core"
+  },
+  "skill.pray": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.9xR9uO8FIvi4YsJp",
+    "requires": "wfrp4e-core"
+  },
+  "skill.research": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.9tbHTeuvEMZrp0rx",
+    "requires": "wfrp4e-core"
+  },
+  "skill.rideHorse": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.oSbEE6eXH1S3LfUU",
+    "requires": "wfrp4e-core"
+  },
+  "skill.navigation": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.zZUX7wO4rOo8k9F0",
+    "requires": "wfrp4e-core"
+  },
+  "skill.row": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.KL4pCOqma5E7fLG4",
+    "requires": "wfrp4e-core"
+  },
+  "skill.sailBarge": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.WuGqleOpKoMCfhO0",
+    "requires": "wfrp4e-core"
+  },
+  "skill.swim": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.hodHqFNKAmu40ajh",
+    "requires": "wfrp4e-core"
+  },
+  "skill.setTrap": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.HngrTVqKis08Nvcf",
+    "requires": "wfrp4e-core"
+  },
+  "skill.secretSignsGuilder": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.D4JNPSl6VOpsVmSi",
+    "requires": "wfrp4e-core"
+  },
+  "skill.track": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.rt2rGSwFDCDHPh0A",
+    "requires": "wfrp4e-core"
+  },
+  "skill.entertainStory": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.qBm2fu3oMhxsDBNQ",
+    "requires": "wfrp4e-core"
+  },
+  "gear.clothing": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z",
+    "requires": "wfrp4e-core"
+  },
+  "gear.gloves": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.YmElVMceT7qNqd9S",
+    "requires": "wfrp4e-core"
+  },
+  "gear.sack": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.TfRdF6baYuGd6i53",
+    "requires": "wfrp4e-core"
+  },
+  "gear.bowl": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.8TKV6yGaUHrf75UH",
+    "requires": "wfrp4e-core"
+  },
+  "gear.blanket": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.3GlaCQyLuugXHEM2",
+    "requires": "wfrp4e-core"
+  },
+  "gear.broom": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.w9VCyP12U7MrC3jk",
+    "requires": "wfrp4e-core"
+  },
+  "gear.bucket": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.lq7bDxEeIIVSmLOg",
+    "requires": "wfrp4e-core"
+  },
+  "gear.spade": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.VakWbquag1kV5WtT",
+    "requires": "wfrp4e-core"
+  },
+  "gear.key": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.aExcYp7UPS5SL4ve",
+    "requires": "wfrp4e-core"
+  },
+  "gear.rope": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.horFAtaDz0EbuY3R",
+    "requires": "wfrp4e-core"
+  },
+  "gear.trap": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.k0KeWhPgFGUcOgs0",
+    "requires": "wfrp4e-core"
+  },
+  "gear.dogLead": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.gzriPtNbRFltaAsh",
+    "requires": "wfrp4e-core"
+  },
+  "gear.chalk": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.elraWaIlaaHeKwKl",
+    "requires": "wfrp4e-core"
+  },
+  "gear.quill": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.61Fx3RHhSqaLCnao",
+    "requires": "wfrp4e-core"
+  },
+  "gear.writingKit": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.6OmsMPtz0NzCwvzL",
+    "requires": "wfrp4e-core"
+  },
+  "gear.parchment": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.fHb7bFU8QX3oi33F",
+    "requires": "wfrp4e-core"
+  },
+  "gear.guildLicense": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.ZgpVhv100Kd9rsao",
+    "requires": "wfrp4e-core"
+  },
+  "gear.tradeTools": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.OD83JAlc9KhDpHK5",
+    "requires": "wfrp4e-core"
+  },
+  "gear.workshop": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.ixOMVrEC1ISyYdDU",
+    "requires": "wfrp4e-core"
+  },
+  "gear.abacus": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.Ldf5kDBob8H0v6iV",
+    "requires": "wfrp4e-core"
+  },
+  "gear.canvasTarp": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.Zhd2HM8nVcsfHRcI",
+    "requires": "wfrp4e-core"
+  },
+  "gear.signet": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.BBiL0DSHcdPakVBS",
+    "requires": "wfrp4e-core"
+  },
+  "gear.uniform": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.CB6cxxqy5vXcV6gf",
+    "requires": "wfrp4e-core"
+  },
+  "gear.placard": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.jQGw8o4fY8swlmfM",
+    "requires": "wfrp4e-core"
+  },
+  "gear.lampOil": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.Bal23aLiOmnht42h",
+    "requires": "wfrp4e-core"
+  },
+  "gear.knife": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.83KlMxHxGfKUdMfq",
+    "requires": "wfrp4e-core"
+  },
+  "gear.spadeWeapon": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.mRU10yAWWWs5WoKt",
+    "requires": "wfrp4e-core"
+  },
+  "gear.quarterstaff": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.GkeMJrsqxQIek1xK",
+    "requires": "wfrp4e-core"
+  },
+  "gear.whip": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.xiOYNJcfqPselfwT",
+    "requires": "wfrp4e-core"
+  },
+  "gear.blunderbuss": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.ByHt0vTWRIuHS2r8",
+    "requires": "wfrp4e-core"
+  },
+  "gear.smallShot": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.5wItcVAcA6mfa62q",
+    "requires": "wfrp4e-core"
+  },
+  "gear.pistol": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.PnYGK5FPgEGM1Ck3",
+    "requires": "wfrp4e-core"
+  },
+  "gear.bulletPowder": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.xdAP96GGDb87m0Pr",
+    "requires": "wfrp4e-core"
+  },
+  "gear.boatHook": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.1zaqojk0Oq1m8vYv",
+    "requires": "wfrp4e-core"
+  },
+  "gear.pole": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.i2DKz375sriXqfkS",
+    "requires": "wfrp4e-core"
+  },
+  "gear.bandage": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.1wtW4N8l3UKwlLI3",
+    "requires": "wfrp4e-core"
+  },
+  "gear.pestle": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.tv7m7LS9MLTbTzaB",
+    "requires": "wfrp4e-core"
+  },
+  "gear.healingDraught": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.gxdjLQoQUTYgD6fm",
+    "requires": "wfrp4e-core"
+  },
+  "gear.healingPoultice": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.s2lBWQFQt6M5Pngb",
+    "requires": "wfrp4e-core"
+  },
+  "gear.bookMedicine": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.aQIxzS4uOcIe9oxd",
+    "requires": "wfrp4e-core"
+  },
+  "gear.bookReligion": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.PKkGM5Q0Chmt5qFe",
+    "requires": "wfrp4e-core"
+  },
+  "gear.religiousSymbol": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.hEr7pIXzUCHOXZIX",
+    "requires": "wfrp4e-core"
+  },
+  "gear.robes": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.EDnMXoxQTU4TMrRV",
+    "requires": "wfrp4e-core"
+  },
+  "gear.sickle": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.hnuZUd35SCjKkJc2",
+    "requires": "wfrp4e-core"
+  },
+  "gear.hat": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.LrYz9nSsmH4H3He4",
+    "requires": "wfrp4e-core"
+  },
+  "gear.coat": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.Ieyr3r0Skl57DkAJ",
+    "requires": "wfrp4e-core"
+  },
+  "gear.cookingPot": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.dyt9NYLGBcgOxaMQ",
+    "requires": "wfrp4e-core"
+  },
+  "gear.cup": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.VIq5ronFVkpzF8Vb",
+    "requires": "wfrp4e-core"
+  },
+  "gear.pan": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.YIUJ8FnHDm4OMRES",
+    "requires": "wfrp4e-core"
+  },
+  "gear.tongs": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.RN1IeSarIRaqyT95",
+    "requires": "wfrp4e-core"
+  },
+  "gear.hoe": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.aRvo3nkgPrPcKXVF",
+    "requires": "wfrp4e-core"
+  },
+  "gear.saw": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.X7c87KbjSJ7F3yha",
+    "requires": "wfrp4e-core"
+  },
+  "gear.hammer": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.HyfQNt0QGGa0EltW",
+    "requires": "wfrp4e-core"
+  },
+  "gear.rake": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.Y55qCcUkHVZAbG8s",
+    "requires": "wfrp4e-core"
+  },
+  "prayer.blessingBattle": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.ElmLfnrXliStS9CP",
+    "requires": "wfrp4e-core"
+  },
+  "prayer.miracleBeacon": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.Dk0zjtcANtahntHx",
+    "requires": "wfrp4e-core"
+  },
+  "talent.sturdy": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.qZ4cFy6z482ZONuA",
+    "requires": "wfrp4e-core"
+  },
+  "talent.readWrite": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf",
+    "requires": "wfrp4e-core"
+  },
+  "talent.beneathNotice": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.5KP9sOoLSGvj9EXp",
+    "requires": "wfrp4e-core"
+  },
+  "talent.etiquette": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.sYbgpSnRqSZWgwFP",
+    "requires": "wfrp4e-core"
+  },
+  "talent.alleyCat": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.wBhPFggGqIXwbx1r",
+    "requires": "wfrp4e-core"
+  },
+  "talent.nightVision": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.x0WMGwuQzReXcQrs",
+    "requires": "wfrp4e-core"
+  },
+  "talent.resistance": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.vMYEkrWj0ip6ZOdv",
+    "requires": "wfrp4e-core"
+  },
+  "talent.dealmaker": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.epPBu7x6BRWp2PHG",
+    "requires": "wfrp4e-core"
+  },
+  "talent.craftsman": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.GRRN3XAKIpEVCY7z",
+    "requires": "wfrp4e-core"
+  },
+  "talent.masterTradesman": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.GHmXS9zGNx3PWYZc",
+    "requires": "wfrp4e-core"
+  },
+  "talent.sharp": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.oQzTJEXUx28sCiH3",
+    "requires": "wfrp4e-core"
+  },
+  "talent.publicSpeaker": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.XU7D9CCmumuhqDUi",
+    "requires": "wfrp4e-core"
+  },
+  "talent.superNumerate": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.sBHarYXR2o7jD1VY",
+    "requires": "wfrp4e-core"
+  },
+  "talent.masterOrator": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.ZWcTbeK8i9vKph2a",
+    "requires": "wfrp4e-core"
+  },
+  "talent.strikeToStun": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.jt0DmVK9IiF6Sd2h",
+    "requires": "wfrp4e-core"
+  },
+  "talent.stoneSoup": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.spdiWsONKTzkLbg3",
+    "requires": "wfrp4e-core"
+  },
+  "talent.animalAffinity": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.9fq6p9Q6H02LjaSi",
+    "requires": "wfrp4e-core"
+  },
+  "talent.hardy": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.zImcTgEl2XNnbu5W",
+    "requires": "wfrp4e-core"
+  },
+  "talent.rover": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.q58lK4kULJZB5GjE",
+    "requires": "wfrp4e-core"
+  },
+  "talent.savant": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.580fwhKfOZJFxMID",
+    "requires": "wfrp4e-core"
+  },
+  "talent.bless": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.QyjWtSdnVMT04l5Y",
+    "requires": "wfrp4e-core"
+  },
+  "talent.invoke": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.voV0C2ar1bKpcpnH",
+    "requires": "wfrp4e-core"
+  },
+  "talent.nimbleFingered": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.7bZjB82f6LSkeczP",
+    "requires": "wfrp4e-core"
+  },
+  "talent.fieldDressing": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.fEFAMNqh8nJIfBkM",
+    "requires": "wfrp4e-core"
+  },
+  "talent.surgery": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.NP4EHyyh1yOLbsPU",
+    "requires": "wfrp4e-core"
+  },
+  "talent.concoct": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.wXcJWxJdw0ib5b8W",
+    "requires": "wfrp4e-core"
+  },
+  "talent.pharmacist": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.G4rPR0XGiYFUZWKi",
+    "requires": "wfrp4e-core"
+  },
+  "talent.seasonedTraveller": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.jQmIu8P85tF0njmD",
+    "requires": "wfrp4e-core"
+  },
+  "talent.crackTheWhip": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.edsenrEYTLOtpa6b",
+    "requires": "wfrp4e-core"
+  },
+  "talent.gunner": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.0ep8BNMiZGVLTHpr",
+    "requires": "wfrp4e-core"
+  },
+  "talent.noseForTrouble": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.AcnFuDKRemLI9ey7",
+    "requires": "wfrp4e-core"
+  },
+  "talent.strongSwimmer": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.4wnQc19allWlyOGe",
+    "requires": "wfrp4e-core"
+  },
+  "talent.waterman": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.tlEg21DHMEJoWcJq",
+    "requires": "wfrp4e-core"
+  },
+  "talent.pilot": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.WEH97InIX29nzgW1",
+    "requires": "wfrp4e-core"
+  },
+  "talent.disarm": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.DS44h27iCOvUBa4O",
+    "requires": "wfrp4e-core"
+  },
+  "gear.jewellery": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.8MpTb12W1x6ECZzt",
+    "requires": "wfrp4e-core"
+  },
+  "gear.huntingDog": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.y28P2G0NEVZvMzS5",
+    "requires": "wfrp4e-core"
   }
 }

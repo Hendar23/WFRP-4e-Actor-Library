@@ -1,0 +1,78 @@
+{
+  "id": "beggar",
+  "folder": "Town Workers",
+  "name": "Beggar",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 30,
+    "t": 30,
+    "i": 30,
+    "ag": 35,
+    "dex": 30,
+    "int": 30,
+    "wp": 30,
+    "fel": 35
+  },
+  "skills": [
+    {
+      "ref": "skill.gossip",
+      "total": 41,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.charm",
+      "total": 41,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.intuition",
+      "total": 36,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 36,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.stealthUrban",
+      "total": 41,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 36,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.outdoorSurvival",
+      "total": 36,
+      "characteristic": "int"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.beneathNotice"
+    },
+    {
+      "ref": "talent.alleyCat"
+    },
+    {
+      "ref": "gear.clothing"
+    },
+    {
+      "ref": "gear.bowl"
+    },
+    {
+      "ref": "gear.blanket"
+    },
+    {
+      "ref": "gear.brass",
+      "quantity": 4
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "clerk",
+  "folder": "Town Officials",
+  "name": "Clerk",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 30,
+    "t": 30,
+    "i": 30,
+    "ag": 30,
+    "dex": 30,
+    "int": 35,
+    "wp": 30,
+    "fel": 35
+  },
+  "skills": [
+    {
+      "ref": "skill.charm",
+      "total": 41,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.climb",
+      "total": 36,
+      "characteristic": "s"
+    },
+    {
+      "ref": "skill.consumeAlcohol",
+      "total": 36,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.drive",
+      "total": 40,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 36,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.gamble",
+      "total": 41,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 41,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.haggle",
+      "total": 45,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.research",
+      "total": 41,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.loreLocal",
+      "total": 41,
+      "characteristic": "int",
+      "name": "Lore (Local)"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.readWrite"
+    },
+    {
+      "ref": "talent.beneathNotice"
+    },
+    {
+      "ref": "gear.clothing"
+    },
+    {
+      "ref": "gear.quill"
+    },
+    {
+      "ref": "gear.parchment"
+    }
+  ]
+}

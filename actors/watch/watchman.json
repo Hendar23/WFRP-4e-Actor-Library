@@ -62,12 +62,15 @@
       "total": 45,
       "characteristic": "ag",
       "ref": "skill.stealthUrban"
+    },
+    {
+      "ref": "skill.loreLocal",
+      "total": 45,
+      "characteristic": "int",
+      "name": "Lore (Local)"
     }
   ],
   "items": [
-    {
-      "ref": "talent.combatAware"
-    },
     {
       "ref": "talent.drilled"
     },
@@ -89,6 +92,23 @@
     {
       "quantity": 4,
       "ref": "gear.silver"
+    },
+    {
+      "ref": "talent.strikeToStun"
+    },
+    {
+      "ref": "gear.uniform"
+    },
+    {
+      "ref": "gear.lampOil"
+    },
+    {
+      "ref": "gear.pole",
+      "name": "Lantern Pole"
+    },
+    {
+      "ref": "gear.jewellery",
+      "name": "Copper Watch Badge"
     }
   ]
 }

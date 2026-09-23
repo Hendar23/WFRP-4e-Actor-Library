@@ -1,0 +1,122 @@
+{
+  "id": "coachman",
+  "folder": "Road and River",
+  "name": "Coachman",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 38,
+    "s": 30,
+    "t": 32,
+    "i": 32,
+    "ag": 38,
+    "dex": 30,
+    "int": 30,
+    "wp": 30,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.animalCare",
+      "total": 40,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.charmAnimal",
+      "total": 40,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.climb",
+      "total": 40,
+      "characteristic": "s"
+    },
+    {
+      "ref": "skill.drive",
+      "total": 52,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 42,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 42,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.rangedEntangling",
+      "total": 48,
+      "characteristic": "bs"
+    },
+    {
+      "ref": "skill.rideHorse",
+      "total": 48,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.consumeAlcohol",
+      "total": 42,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 40,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.intuition",
+      "total": 42,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.loreLocal",
+      "total": 40,
+      "characteristic": "int",
+      "name": "Lore (Local)"
+    },
+    {
+      "ref": "skill.navigation",
+      "total": 42,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.rangedBlackpowder",
+      "total": 52,
+      "characteristic": "bs"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.seasonedTraveller"
+    },
+    {
+      "ref": "talent.crackTheWhip"
+    },
+    {
+      "ref": "gear.leatherJack",
+      "worn": true
+    },
+    {
+      "ref": "gear.whip",
+      "equipped": false
+    },
+    {
+      "ref": "gear.blunderbuss",
+      "equipped": true,
+      "ammoRef": "gear.smallShot",
+      "loaded": true
+    },
+    {
+      "ref": "gear.smallShot",
+      "quantity": 12
+    },
+    {
+      "ref": "gear.coat"
+    }
+  ]
+}

@@ -64,12 +64,6 @@
       "ref": "talent.carouser"
     },
     {
-      "ref": "talent.dirtyFighting"
-    },
-    {
-      "ref": "talent.menacing"
-    },
-    {
       "ref": "talent.strikeMightyBlow"
     },
     {
@@ -83,6 +77,12 @@
     {
       "quantity": 3,
       "ref": "gear.silver"
+    },
+    {
+      "ref": "talent.sturdy"
+    },
+    {
+      "ref": "talent.strikeToStun"
     }
   ]
 }

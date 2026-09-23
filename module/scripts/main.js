@@ -2,7 +2,7 @@ import { MODULE_ID, PROFILES, UUID } from "./data.js";
 
 const PACK_NAME = "wfrp4e-quick-npc-library";
 const PACK_LABEL = "WFRP4e Quick NPC Library";
-const BUILD_VERSION = 6;
+const BUILD_VERSION = 7;
 
 // Dragging a generated actor into the world puts it in its library category.
 // Leave deliberate placements in an existing world folder untouched.
@@ -362,6 +362,21 @@ function validateActor(actor, profile) {
     }
   }
   if (hands > 2) throw new Error("Equipped weapons require more than two hands.");
+  // A role with two specialisations of the same Talent needs two distinct
+  // embedded documents. Check every intended item survives Foundry creation.
+  const unusedItems = [...actor.items];
+  for (const entry of profile.items) {
+    const index = unusedItems.findIndex(item => item.getFlag(MODULE_ID, "sourceUuid") === entry.uuid);
+    if (index < 0) throw new Error(`Missing item: ${entry.uuid}`);
+    const [item] = unusedItems.splice(index, 1);
+    if (item.type === "weapon" && entry.equipped !== undefined &&
+        item.system.equipped.value !== entry.equipped) {
+      throw new Error(`${item.name}: incorrect equipped state.`);
+    }
+    if (item.type === "armour" && entry.worn && !item.system.equipped.value) {
+      throw new Error(`${item.name}: armour is not worn.`);
+    }
+  }
   for (const entry of profile.skills) {
     const skill = actor.items.find(i => i.getFlag(MODULE_ID, "sourceUuid") === entry.uuid);
     if (!skill) throw new Error(`Missing skill: ${entry.uuid}`);

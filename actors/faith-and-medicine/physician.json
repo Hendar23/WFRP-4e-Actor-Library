@@ -1,0 +1,108 @@
+{
+  "id": "physician",
+  "folder": "Faith and Medicine",
+  "name": "Physician",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 30,
+    "t": 32,
+    "i": 32,
+    "ag": 30,
+    "dex": 38,
+    "int": 40,
+    "wp": 30,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.bribery",
+      "total": 40,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.cool",
+      "total": 40,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.drive",
+      "total": 44,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 42,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 40,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.heal",
+      "total": 54,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 42,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.tradeHerbalist",
+      "total": 48,
+      "characteristic": "dex",
+      "name": "Trade (Herbalist)"
+    },
+    {
+      "ref": "skill.charm",
+      "total": 40,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.haggle",
+      "total": 44,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.loreMedicine",
+      "total": 50,
+      "characteristic": "int",
+      "name": "Lore (Medicine)"
+    },
+    {
+      "ref": "skill.research",
+      "total": 50,
+      "characteristic": "int"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.fieldDressing"
+    },
+    {
+      "ref": "talent.surgery"
+    },
+    {
+      "ref": "talent.readWrite"
+    },
+    {
+      "ref": "gear.bandage"
+    },
+    {
+      "ref": "gear.healingDraught"
+    },
+    {
+      "ref": "gear.bookMedicine"
+    },
+    {
+      "ref": "gear.tradeTools",
+      "specification": "Carpenter"
+    }
+  ]
+}

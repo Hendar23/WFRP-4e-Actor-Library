@@ -1,3 +1,10 @@
+## 0.3.5: Townsfolk
+
+- Add 52 ready-to-use humans across town workers, trade, hospitality, town officials, villages, faith and medicine, and road and river, for 101 actors in total.
+- Use official installed Core Rulebook and Up in Arms items for skills, talents, prayers, weapons, armour, ammunition and portable trappings. Higher tiers keep the lower tiers' skills and occupational talents.
+- Make the generic Tavern Gambler and Hardcase less personality-specific. Add Watch Recruit uniform and talents, and update Watchman and Watch Sergeant career skills and trappings.
+- Add an item-level build check for missing compendium items and incorrect equipped states. Existing world copies are not automatically updated; generated compendium originals rebuild on GM login.
+
 ## 0.3.4: Goblins and mounts
 
 - Add 21 Common, Forest and Night Goblin, Gnoblar and Hobgoblin actors using the basic profiles and single templates from *Tribes and Tribulations*.

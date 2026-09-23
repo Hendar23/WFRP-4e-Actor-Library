@@ -1,0 +1,125 @@
+{
+  "id": "priest",
+  "folder": "Faith and Medicine",
+  "name": "Priest",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 30,
+    "t": 32,
+    "i": 32,
+    "ag": 30,
+    "dex": 30,
+    "int": 30,
+    "wp": 40,
+    "fel": 38
+  },
+  "skills": [
+    {
+      "ref": "skill.athletics",
+      "total": 40,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.cool",
+      "total": 50,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 42,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.intuition",
+      "total": 42,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.loreTheology",
+      "total": 40,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 42,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.pray",
+      "total": 52,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.research",
+      "total": 40,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.charm",
+      "total": 48,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.entertainStory",
+      "total": 48,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 48,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.heal",
+      "total": 44,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.intimidate",
+      "total": 40,
+      "characteristic": "s"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 37,
+      "characteristic": "ws"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.bless",
+      "specification": "Sigmar"
+    },
+    {
+      "ref": "talent.readWrite"
+    },
+    {
+      "ref": "talent.invoke",
+      "specification": "Sigmar"
+    },
+    {
+      "ref": "prayer.blessingBattle"
+    },
+    {
+      "ref": "prayer.miracleBeacon"
+    },
+    {
+      "ref": "gear.robes"
+    },
+    {
+      "ref": "gear.religiousSymbol"
+    },
+    {
+      "ref": "gear.bookReligion"
+    },
+    {
+      "ref": "gear.club",
+      "equipped": false,
+      "name": "Club"
+    }
+  ]
+}

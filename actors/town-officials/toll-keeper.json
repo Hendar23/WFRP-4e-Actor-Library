@@ -1,0 +1,89 @@
+{
+  "id": "toll-keeper",
+  "folder": "Town Officials",
+  "name": "Toll Keeper",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 30,
+    "t": 32,
+    "i": 32,
+    "ag": 30,
+    "dex": 30,
+    "int": 40,
+    "wp": 38,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.cool",
+      "total": 48,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 42,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 40,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.haggle",
+      "total": 44,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.evaluate",
+      "total": 50,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 42,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.loreLocal",
+      "total": 50,
+      "characteristic": "int",
+      "name": "Lore (Local)"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 37,
+      "characteristic": "ws"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.numismatics"
+    },
+    {
+      "ref": "talent.sturdy"
+    },
+    {
+      "ref": "gear.clothing"
+    },
+    {
+      "ref": "gear.key"
+    },
+    {
+      "ref": "gear.writingKit"
+    },
+    {
+      "ref": "gear.club",
+      "equipped": false,
+      "name": "Club"
+    },
+    {
+      "ref": "gear.brass",
+      "quantity": 4
+    }
+  ]
+}

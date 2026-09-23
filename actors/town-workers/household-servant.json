@@ -1,0 +1,75 @@
+{
+  "id": "household-servant",
+  "folder": "Town Workers",
+  "name": "Household Servant",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 30,
+    "t": 30,
+    "i": 30,
+    "ag": 35,
+    "dex": 35,
+    "int": 30,
+    "wp": 30,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.athletics",
+      "total": 41,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 41,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 36,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.intuition",
+      "total": 36,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 36,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.charm",
+      "total": 36,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.stealthUrban",
+      "total": 41,
+      "characteristic": "ag"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.beneathNotice"
+    },
+    {
+      "ref": "talent.etiquette",
+      "specification": "Servants"
+    },
+    {
+      "ref": "gear.clothing"
+    },
+    {
+      "ref": "gear.broom"
+    },
+    {
+      "ref": "gear.key"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "merchant",
+  "folder": "Trade",
+  "name": "Merchant",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 30,
+    "t": 32,
+    "i": 32,
+    "ag": 30,
+    "dex": 30,
+    "int": 43,
+    "wp": 30,
+    "fel": 40
+  },
+  "skills": [
+    {
+      "ref": "skill.animalCare",
+      "total": 53,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.bribery",
+      "total": 50,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.charm",
+      "total": 50,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.consumeAlcohol",
+      "total": 42,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.drive",
+      "total": 44,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.gamble",
+      "total": 53,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 50,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.haggle",
+      "total": 54,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.evaluate",
+      "total": 53,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.intuition",
+      "total": 42,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.languageGuilder",
+      "total": 53,
+      "characteristic": "int",
+      "name": "Language (Guilder)"
+    },
+    {
+      "ref": "skill.loreLocal",
+      "total": 53,
+      "characteristic": "int",
+      "name": "Lore (Local)"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 42,
+      "characteristic": "i"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.dealmaker"
+    },
+    {
+      "ref": "talent.readWrite"
+    },
+    {
+      "ref": "talent.savvy"
+    },
+    {
+      "ref": "talent.etiquette",
+      "specification": "Guilder"
+    },
+    {
+      "ref": "gear.abacus"
+    },
+    {
+      "ref": "gear.guildLicense"
+    },
+    {
+      "ref": "gear.writingKit"
+    },
+    {
+      "ref": "gear.silver",
+      "quantity": 6
+    }
+  ]
+}

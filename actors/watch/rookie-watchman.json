@@ -52,6 +52,26 @@
       "total": 45,
       "characteristic": "i",
       "ref": "skill.perception"
+    },
+    {
+      "ref": "skill.climb",
+      "total": 40,
+      "characteristic": "s"
+    },
+    {
+      "ref": "skill.consumeAlcohol",
+      "total": 40,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 40,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.gamble",
+      "total": 35,
+      "characteristic": "int"
     }
   ],
   "items": [
@@ -69,6 +89,15 @@
     {
       "quantity": 8,
       "ref": "gear.brass"
+    },
+    {
+      "ref": "talent.drilled"
+    },
+    {
+      "ref": "talent.strikeToStun"
+    },
+    {
+      "ref": "gear.uniform"
     }
   ]
 }

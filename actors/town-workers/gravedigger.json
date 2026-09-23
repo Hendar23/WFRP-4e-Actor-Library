@@ -1,0 +1,76 @@
+{
+  "id": "gravedigger",
+  "folder": "Town Workers",
+  "name": "Gravedigger",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 35,
+    "t": 35,
+    "i": 30,
+    "ag": 30,
+    "dex": 30,
+    "int": 30,
+    "wp": 30,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.athletics",
+      "total": 36,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 41,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 33,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 36,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.outdoorSurvival",
+      "total": 36,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.loreLocal",
+      "total": 36,
+      "characteristic": "int",
+      "name": "Lore (Local)"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.strongBack"
+    },
+    {
+      "ref": "talent.resistance",
+      "specification": "Disease"
+    },
+    {
+      "ref": "gear.spade"
+    },
+    {
+      "ref": "gear.spadeWeapon",
+      "equipped": true,
+      "name": "Spade"
+    },
+    {
+      "ref": "gear.lantern"
+    },
+    {
+      "ref": "gear.gloves"
+    }
+  ]
+}

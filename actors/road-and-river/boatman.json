@@ -1,0 +1,90 @@
+{
+  "id": "boatman",
+  "folder": "Road and River",
+  "name": "Boatman",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 35,
+    "t": 35,
+    "i": 30,
+    "ag": 30,
+    "dex": 30,
+    "int": 30,
+    "wp": 30,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.consumeAlcohol",
+      "total": 41,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 36,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 41,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 36,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.meleeBrawling",
+      "total": 33,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.row",
+      "total": 45,
+      "characteristic": "s"
+    },
+    {
+      "ref": "skill.sailBarge",
+      "total": 40,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.swim",
+      "total": 41,
+      "characteristic": "s"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 33,
+      "characteristic": "ws"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.strongBack"
+    },
+    {
+      "ref": "talent.strongSwimmer"
+    },
+    {
+      "ref": "gear.leatherJack",
+      "worn": true
+    },
+    {
+      "ref": "gear.boatHook",
+      "equipped": true,
+      "name": "Boat Hook"
+    },
+    {
+      "ref": "gear.rope"
+    },
+    {
+      "ref": "gear.pole"
+    }
+  ]
+}

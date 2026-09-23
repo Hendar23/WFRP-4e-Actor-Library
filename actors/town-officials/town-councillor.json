@@ -1,0 +1,137 @@
+{
+  "id": "town-councillor",
+  "folder": "Town Officials",
+  "name": "Town Councillor",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 30,
+    "t": 34,
+    "i": 34,
+    "ag": 30,
+    "dex": 30,
+    "int": 45,
+    "wp": 30,
+    "fel": 41
+  },
+  "skills": [
+    {
+      "ref": "skill.charm",
+      "total": 55,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.climb",
+      "total": 44,
+      "characteristic": "s"
+    },
+    {
+      "ref": "skill.consumeAlcohol",
+      "total": 48,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.drive",
+      "total": 48,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 44,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.gamble",
+      "total": 59,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 55,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.haggle",
+      "total": 59,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.research",
+      "total": 59,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.loreLocal",
+      "total": 59,
+      "characteristic": "int",
+      "name": "Lore (Local)"
+    },
+    {
+      "ref": "skill.evaluate",
+      "total": 59,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.intuition",
+      "total": 48,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.bribery",
+      "total": 55,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.cool",
+      "total": 44,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.loreLaw",
+      "total": 59,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 48,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.leadership",
+      "total": 59,
+      "characteristic": "fel"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.readWrite"
+    },
+    {
+      "ref": "talent.beneathNotice"
+    },
+    {
+      "ref": "talent.dealmaker"
+    },
+    {
+      "ref": "talent.publicSpeaker"
+    },
+    {
+      "ref": "talent.numismatics"
+    },
+    {
+      "ref": "gear.clothing"
+    },
+    {
+      "ref": "gear.signet"
+    },
+    {
+      "ref": "gear.writingKit"
+    },
+    {
+      "ref": "gear.parchment"
+    }
+  ]
+}

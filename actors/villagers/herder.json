@@ -1,0 +1,75 @@
+{
+  "id": "herder",
+  "folder": "Villagers",
+  "name": "Herder",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 35,
+    "t": 30,
+    "i": 30,
+    "ag": 35,
+    "dex": 30,
+    "int": 30,
+    "wp": 30,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.animalCare",
+      "total": 36,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.charmAnimal",
+      "total": 36,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.athletics",
+      "total": 41,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 36,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.outdoorSurvival",
+      "total": 36,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 36,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.track",
+      "total": 36,
+      "characteristic": "i"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.animalAffinity"
+    },
+    {
+      "ref": "talent.rover"
+    },
+    {
+      "ref": "gear.quarterstaff",
+      "equipped": true
+    },
+    {
+      "ref": "gear.rope"
+    },
+    {
+      "ref": "gear.clothing"
+    }
+  ]
+}

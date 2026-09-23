@@ -1,0 +1,76 @@
+{
+  "id": "miller",
+  "folder": "Villagers",
+  "name": "Miller",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 38,
+    "t": 32,
+    "i": 32,
+    "ag": 30,
+    "dex": 40,
+    "int": 30,
+    "wp": 30,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.endurance",
+      "total": 42,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.tradeMiller",
+      "total": 50,
+      "characteristic": "dex",
+      "name": "Trade (Miller)"
+    },
+    {
+      "ref": "skill.evaluate",
+      "total": 40,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.haggle",
+      "total": 44,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 42,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.animalCare",
+      "total": 40,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.athletics",
+      "total": 40,
+      "characteristic": "ag"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.sturdy"
+    },
+    {
+      "ref": "talent.strongBack"
+    },
+    {
+      "ref": "gear.clothing"
+    },
+    {
+      "ref": "gear.sack"
+    },
+    {
+      "ref": "gear.knife",
+      "equipped": false
+    }
+  ]
+}

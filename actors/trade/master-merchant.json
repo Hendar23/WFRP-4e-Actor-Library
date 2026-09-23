@@ -1,0 +1,146 @@
+{
+  "id": "master-merchant",
+  "folder": "Trade",
+  "name": "Master Merchant",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 30,
+    "t": 34,
+    "i": 34,
+    "ag": 30,
+    "dex": 30,
+    "int": 46,
+    "wp": 30,
+    "fel": 45
+  },
+  "skills": [
+    {
+      "ref": "skill.animalCare",
+      "total": 60,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.bribery",
+      "total": 59,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.charm",
+      "total": 59,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.consumeAlcohol",
+      "total": 48,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.drive",
+      "total": 48,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.gamble",
+      "total": 60,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 59,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.haggle",
+      "total": 63,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.evaluate",
+      "total": 60,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.intuition",
+      "total": 48,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.languageGuilder",
+      "total": 60,
+      "characteristic": "int",
+      "name": "Language (Guilder)"
+    },
+    {
+      "ref": "skill.loreLocal",
+      "total": 60,
+      "characteristic": "int",
+      "name": "Lore (Local)"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 48,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.cool",
+      "total": 44,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.navigation",
+      "total": 48,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.secretSignsGuilder",
+      "total": 60,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.leadership",
+      "total": 63,
+      "characteristic": "fel"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.dealmaker"
+    },
+    {
+      "ref": "talent.readWrite"
+    },
+    {
+      "ref": "talent.savvy"
+    },
+    {
+      "ref": "talent.etiquette",
+      "specification": "Guilder"
+    },
+    {
+      "ref": "talent.numismatics"
+    },
+    {
+      "ref": "talent.sharp"
+    },
+    {
+      "ref": "gear.abacus"
+    },
+    {
+      "ref": "gear.guildLicense"
+    },
+    {
+      "ref": "gear.writingKit"
+    },
+    {
+      "ref": "gear.signet"
+    },
+    {
+      "ref": "gear.silver",
+      "quantity": 6
+    }
+  ]
+}

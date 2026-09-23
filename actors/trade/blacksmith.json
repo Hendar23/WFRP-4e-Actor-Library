@@ -1,0 +1,117 @@
+{
+  "id": "blacksmith",
+  "folder": "Trade",
+  "name": "Blacksmith",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 38,
+    "t": 32,
+    "i": 32,
+    "ag": 30,
+    "dex": 40,
+    "int": 30,
+    "wp": 30,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.athletics",
+      "total": 40,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.cool",
+      "total": 40,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.consumeAlcohol",
+      "total": 42,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 40,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 42,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.evaluate",
+      "total": 40,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.stealthUrban",
+      "total": 40,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.tradeSmith",
+      "total": 54,
+      "characteristic": "dex"
+    },
+    {
+      "ref": "skill.charm",
+      "total": 40,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.haggle",
+      "total": 44,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.loreLocal",
+      "total": 40,
+      "characteristic": "int",
+      "name": "Lore (Local)"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 40,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 42,
+      "characteristic": "i"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.craftsman",
+      "specification": "Smith"
+    },
+    {
+      "ref": "talent.strongBack"
+    },
+    {
+      "ref": "talent.sturdy"
+    },
+    {
+      "ref": "gear.leatherJerkin",
+      "worn": true
+    },
+    {
+      "ref": "gear.tongs"
+    },
+    {
+      "ref": "gear.hammer"
+    },
+    {
+      "ref": "gear.tradeTools",
+      "specification": "Smith"
+    },
+    {
+      "ref": "gear.guildLicense"
+    }
+  ]
+}

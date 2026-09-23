@@ -1,0 +1,106 @@
+{
+  "id": "rat-catcher",
+  "folder": "Town Workers",
+  "name": "Rat Catcher",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 37,
+    "bs": 36,
+    "s": 30,
+    "t": 32,
+    "i": 32,
+    "ag": 30,
+    "dex": 30,
+    "int": 30,
+    "wp": 30,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.athletics",
+      "total": 40,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.animalTrainingDog",
+      "total": 40,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.charmAnimal",
+      "total": 40,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 42,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 47,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.rangedSling",
+      "total": 46,
+      "characteristic": "bs"
+    },
+    {
+      "ref": "skill.stealthUnderground",
+      "total": 40,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.loreLocal",
+      "total": 40,
+      "characteristic": "int",
+      "name": "Lore (Local)"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 42,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.setTrap",
+      "total": 40,
+      "characteristic": "dex"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.nightVision"
+    },
+    {
+      "ref": "talent.resistance",
+      "specification": "Disease"
+    },
+    {
+      "ref": "gear.sling",
+      "equipped": true,
+      "ammoRef": "gear.stoneBullet"
+    },
+    {
+      "ref": "gear.stoneBullet",
+      "quantity": 12
+    },
+    {
+      "ref": "gear.sack"
+    },
+    {
+      "ref": "gear.trap"
+    },
+    {
+      "ref": "gear.dogLead"
+    },
+    {
+      "ref": "gear.lantern"
+    },
+    {
+      "ref": "gear.huntingDog"
+    }
+  ]
+}

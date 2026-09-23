@@ -1,0 +1,128 @@
+{
+  "id": "prosperous-farmer",
+  "folder": "Villagers",
+  "name": "Prosperous Farmer",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 50,
+    "t": 45,
+    "i": 34,
+    "ag": 30,
+    "dex": 30,
+    "int": 30,
+    "wp": 30,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.animalCare",
+      "total": 44,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.athletics",
+      "total": 44,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.consumeAlcohol",
+      "total": 59,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 59,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 44,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.meleeBrawling",
+      "total": 41,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.loreLocal",
+      "total": 44,
+      "characteristic": "int",
+      "name": "Lore (Local)"
+    },
+    {
+      "ref": "skill.outdoorSurvival",
+      "total": 44,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 44,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.drive",
+      "total": 48,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.haggle",
+      "total": 48,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 41,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.leadership",
+      "total": 48,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.intuition",
+      "total": 48,
+      "characteristic": "i"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.strongBack"
+    },
+    {
+      "ref": "talent.stoneSoup"
+    },
+    {
+      "ref": "talent.animalAffinity"
+    },
+    {
+      "ref": "talent.hardy"
+    },
+    {
+      "ref": "talent.veryStrong"
+    },
+    {
+      "ref": "talent.sturdy"
+    },
+    {
+      "ref": "gear.leatherJerkin",
+      "worn": true
+    },
+    {
+      "ref": "gear.axe",
+      "equipped": true,
+      "name": "Axe"
+    },
+    {
+      "ref": "gear.rake"
+    },
+    {
+      "ref": "gear.writingKit"
+    }
+  ]
+}

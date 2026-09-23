@@ -1,0 +1,97 @@
+{
+  "id": "work-gang-foreman",
+  "folder": "Town Workers",
+  "name": "Work Gang Foreman",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 40,
+    "t": 40,
+    "i": 32,
+    "ag": 30,
+    "dex": 30,
+    "int": 30,
+    "wp": 30,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.athletics",
+      "total": 40,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 50,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.meleeBrawling",
+      "total": 37,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.climb",
+      "total": 50,
+      "characteristic": "s"
+    },
+    {
+      "ref": "skill.consumeAlcohol",
+      "total": 50,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 40,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 42,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.leadership",
+      "total": 44,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.intimidate",
+      "total": 50,
+      "characteristic": "s"
+    },
+    {
+      "ref": "skill.cool",
+      "total": 40,
+      "characteristic": "wp"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.strongBack"
+    },
+    {
+      "ref": "talent.sturdy"
+    },
+    {
+      "ref": "talent.readWrite"
+    },
+    {
+      "ref": "gear.clothing"
+    },
+    {
+      "ref": "gear.gloves"
+    },
+    {
+      "ref": "gear.club",
+      "equipped": false,
+      "name": "Club"
+    },
+    {
+      "ref": "gear.writingKit"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "tavern-server",
+  "folder": "Hospitality",
+  "name": "Tavern Server",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 30,
+    "t": 30,
+    "i": 30,
+    "ag": 35,
+    "dex": 30,
+    "int": 30,
+    "wp": 30,
+    "fel": 35
+  },
+  "skills": [
+    {
+      "ref": "skill.athletics",
+      "total": 41,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.charm",
+      "total": 41,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 41,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.haggle",
+      "total": 45,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 41,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 36,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 36,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.consumeAlcohol",
+      "total": 36,
+      "characteristic": "t"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.beneathNotice"
+    },
+    {
+      "ref": "talent.strongBack"
+    },
+    {
+      "ref": "gear.clothing"
+    },
+    {
+      "ref": "gear.cup"
+    },
+    {
+      "ref": "gear.brass",
+      "quantity": 4
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "id": "guildmaster",
+  "folder": "Trade",
+  "name": "Guildmaster",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 30,
+    "t": 36,
+    "i": 36,
+    "ag": 30,
+    "dex": 50,
+    "int": 44,
+    "wp": 30,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.athletics",
+      "total": 48,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.cool",
+      "total": 48,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.consumeAlcohol",
+      "total": 54,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 48,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 54,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.evaluate",
+      "total": 62,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.stealthUrban",
+      "total": 48,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.tradeCarpenter",
+      "total": 72,
+      "characteristic": "dex"
+    },
+    {
+      "ref": "skill.charm",
+      "total": 48,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.haggle",
+      "total": 52,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.loreLocal",
+      "total": 62,
+      "characteristic": "int",
+      "name": "Lore (Local)"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 48,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 54,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.intuition",
+      "total": 54,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.leadership",
+      "total": 52,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.research",
+      "total": 62,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.secretSignsGuilder",
+      "total": 62,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.bribery",
+      "total": 48,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.intimidate",
+      "total": 48,
+      "characteristic": "s"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.craftsman",
+      "specification": "Carpenter"
+    },
+    {
+      "ref": "talent.strongBack"
+    },
+    {
+      "ref": "talent.dealmaker"
+    },
+    {
+      "ref": "talent.masterTradesman",
+      "specification": "Carpenter"
+    },
+    {
+      "ref": "talent.readWrite"
+    },
+    {
+      "ref": "talent.publicSpeaker"
+    },
+    {
+      "ref": "talent.etiquette",
+      "specification": "Guilder"
+    },
+    {
+      "ref": "gear.guildLicense"
+    },
+    {
+      "ref": "gear.tradeTools",
+      "specification": "Carpenter"
+    },
+    {
+      "ref": "gear.workshop",
+      "specification": "Carpenter"
+    },
+    {
+      "ref": "gear.writingKit"
+    },
+    {
+      "ref": "gear.signet"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "id": "master-blacksmith",
+  "folder": "Trade",
+  "name": "Master Blacksmith",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 41,
+    "t": 34,
+    "i": 34,
+    "ag": 30,
+    "dex": 45,
+    "int": 30,
+    "wp": 30,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.athletics",
+      "total": 44,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.cool",
+      "total": 44,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.consumeAlcohol",
+      "total": 48,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 44,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 48,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.evaluate",
+      "total": 44,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.stealthUrban",
+      "total": 44,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.tradeSmith",
+      "total": 63,
+      "characteristic": "dex"
+    },
+    {
+      "ref": "skill.charm",
+      "total": 44,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.haggle",
+      "total": 48,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.loreLocal",
+      "total": 44,
+      "characteristic": "int",
+      "name": "Lore (Local)"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 44,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 48,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.intuition",
+      "total": 48,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.leadership",
+      "total": 48,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.research",
+      "total": 44,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.secretSignsGuilder",
+      "total": 44,
+      "characteristic": "int"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.craftsman",
+      "specification": "Smith"
+    },
+    {
+      "ref": "talent.strongBack"
+    },
+    {
+      "ref": "talent.sturdy"
+    },
+    {
+      "ref": "talent.masterTradesman",
+      "specification": "Smith"
+    },
+    {
+      "ref": "talent.readWrite"
+    },
+    {
+      "ref": "gear.leatherJerkin",
+      "worn": true
+    },
+    {
+      "ref": "gear.tongs"
+    },
+    {
+      "ref": "gear.hammer"
+    },
+    {
+      "ref": "gear.tradeTools",
+      "specification": "Smith"
+    },
+    {
+      "ref": "gear.workshop",
+      "specification": "Smith"
+    },
+    {
+      "ref": "gear.guildLicense"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "initiate",
+  "folder": "Faith and Medicine",
+  "name": "Initiate",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 30,
+    "t": 30,
+    "i": 30,
+    "ag": 30,
+    "dex": 30,
+    "int": 30,
+    "wp": 35,
+    "fel": 35
+  },
+  "skills": [
+    {
+      "ref": "skill.athletics",
+      "total": 36,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.cool",
+      "total": 41,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 36,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.intuition",
+      "total": 36,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.loreTheology",
+      "total": 36,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 36,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.pray",
+      "total": 45,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.research",
+      "total": 36,
+      "characteristic": "int"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.bless",
+      "specification": "Sigmar"
+    },
+    {
+      "ref": "talent.readWrite"
+    },
+    {
+      "ref": "prayer.blessingBattle"
+    },
+    {
+      "ref": "gear.robes"
+    },
+    {
+      "ref": "gear.religiousSymbol"
+    },
+    {
+      "ref": "gear.bookReligion"
+    }
+  ]
+}

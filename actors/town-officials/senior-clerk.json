@@ -1,0 +1,111 @@
+{
+  "id": "senior-clerk",
+  "folder": "Town Officials",
+  "name": "Senior Clerk",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 30,
+    "t": 32,
+    "i": 32,
+    "ag": 30,
+    "dex": 30,
+    "int": 40,
+    "wp": 30,
+    "fel": 38
+  },
+  "skills": [
+    {
+      "ref": "skill.charm",
+      "total": 48,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.climb",
+      "total": 40,
+      "characteristic": "s"
+    },
+    {
+      "ref": "skill.consumeAlcohol",
+      "total": 42,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.drive",
+      "total": 44,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 40,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.gamble",
+      "total": 50,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 48,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.haggle",
+      "total": 52,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.research",
+      "total": 50,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.loreLocal",
+      "total": 50,
+      "characteristic": "int",
+      "name": "Lore (Local)"
+    },
+    {
+      "ref": "skill.evaluate",
+      "total": 50,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.intuition",
+      "total": 42,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.bribery",
+      "total": 48,
+      "characteristic": "fel"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.readWrite"
+    },
+    {
+      "ref": "talent.beneathNotice"
+    },
+    {
+      "ref": "talent.dealmaker"
+    },
+    {
+      "ref": "gear.clothing"
+    },
+    {
+      "ref": "gear.key"
+    },
+    {
+      "ref": "gear.writingKit"
+    },
+    {
+      "ref": "gear.parchment"
+    }
+  ]
+}

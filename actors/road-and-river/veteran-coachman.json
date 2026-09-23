@@ -1,0 +1,147 @@
+{
+  "id": "veteran-coachman",
+  "folder": "Road and River",
+  "name": "Veteran Coachman",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 43,
+    "s": 30,
+    "t": 34,
+    "i": 34,
+    "ag": 41,
+    "dex": 30,
+    "int": 30,
+    "wp": 30,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.animalCare",
+      "total": 44,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.charmAnimal",
+      "total": 44,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.climb",
+      "total": 44,
+      "characteristic": "s"
+    },
+    {
+      "ref": "skill.drive",
+      "total": 59,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 48,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 48,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.rangedEntangling",
+      "total": 57,
+      "characteristic": "bs"
+    },
+    {
+      "ref": "skill.rideHorse",
+      "total": 55,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.consumeAlcohol",
+      "total": 48,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 44,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.intuition",
+      "total": 48,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.loreLocal",
+      "total": 44,
+      "characteristic": "int",
+      "name": "Lore (Local)"
+    },
+    {
+      "ref": "skill.navigation",
+      "total": 48,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.rangedBlackpowder",
+      "total": 61,
+      "characteristic": "bs"
+    },
+    {
+      "ref": "skill.cool",
+      "total": 44,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.leadership",
+      "total": 48,
+      "characteristic": "fel"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.seasonedTraveller"
+    },
+    {
+      "ref": "talent.crackTheWhip"
+    },
+    {
+      "ref": "talent.gunner"
+    },
+    {
+      "ref": "talent.noseForTrouble"
+    },
+    {
+      "ref": "gear.leatherJack",
+      "worn": true
+    },
+    {
+      "ref": "gear.whip",
+      "equipped": false
+    },
+    {
+      "ref": "gear.blunderbuss",
+      "equipped": true,
+      "ammoRef": "gear.smallShot",
+      "loaded": true
+    },
+    {
+      "ref": "gear.smallShot",
+      "quantity": 12
+    },
+    {
+      "ref": "gear.pistol",
+      "equipped": false,
+      "ammoRef": "gear.bulletPowder"
+    },
+    {
+      "ref": "gear.bulletPowder",
+      "quantity": 6
+    },
+    {
+      "ref": "gear.coat"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "peasant",
+  "folder": "Villagers",
+  "name": "Peasant",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 35,
+    "t": 35,
+    "i": 30,
+    "ag": 30,
+    "dex": 30,
+    "int": 30,
+    "wp": 30,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.animalCare",
+      "total": 36,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.athletics",
+      "total": 36,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.consumeAlcohol",
+      "total": 41,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 41,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 36,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.meleeBrawling",
+      "total": 33,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.loreLocal",
+      "total": 36,
+      "characteristic": "int",
+      "name": "Lore (Local)"
+    },
+    {
+      "ref": "skill.outdoorSurvival",
+      "total": 36,
+      "characteristic": "int"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.strongBack"
+    },
+    {
+      "ref": "talent.stoneSoup"
+    },
+    {
+      "ref": "gear.clothing"
+    },
+    {
+      "ref": "gear.hoe"
+    }
+  ]
+}

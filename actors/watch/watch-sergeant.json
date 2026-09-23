@@ -72,6 +72,11 @@
       "total": 50,
       "characteristic": "ag",
       "ref": "skill.stealthUrban"
+    },
+    {
+      "ref": "skill.loreLaw",
+      "total": 55,
+      "characteristic": "int"
     }
   ],
   "items": [
@@ -85,18 +90,11 @@
       "ref": "talent.drilled"
     },
     {
-      "ref": "talent.menacing"
-    },
-    {
       "ref": "talent.strikeToInjure"
     },
     {
       "worn": true,
       "ref": "gear.leatherJack"
-    },
-    {
-      "worn": true,
-      "ref": "gear.mailShirt"
     },
     {
       "worn": true,
@@ -124,6 +122,29 @@
     {
       "quantity": 12,
       "ref": "gear.silver"
+    },
+    {
+      "ref": "talent.disarm"
+    },
+    {
+      "ref": "talent.noseForTrouble"
+    },
+    {
+      "ref": "talent.strikeToStun"
+    },
+    {
+      "ref": "gear.plateBreastplate",
+      "worn": true
+    },
+    {
+      "ref": "gear.uniform"
+    },
+    {
+      "ref": "gear.lampOil"
+    },
+    {
+      "ref": "gear.jewellery",
+      "name": "Watch Sergeant Badge"
     }
   ]
 }

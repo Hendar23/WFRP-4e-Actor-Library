@@ -1,0 +1,67 @@
+{
+  "id": "hawker",
+  "folder": "Trade",
+  "name": "Hawker",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 27,
+    "bs": 28,
+    "s": 30,
+    "t": 30,
+    "i": 30,
+    "ag": 30,
+    "dex": 30,
+    "int": 35,
+    "wp": 30,
+    "fel": 35
+  },
+  "skills": [
+    {
+      "ref": "skill.charm",
+      "total": 41,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.gossip",
+      "total": 41,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.haggle",
+      "total": 45,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.evaluate",
+      "total": 41,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 36,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.athletics",
+      "total": 36,
+      "characteristic": "ag"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.dealmaker"
+    },
+    {
+      "ref": "gear.clothing"
+    },
+    {
+      "ref": "gear.sack"
+    },
+    {
+      "ref": "gear.brass",
+      "quantity": 4
+    }
+  ]
+}
