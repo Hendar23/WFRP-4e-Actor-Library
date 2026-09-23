@@ -1,0 +1,91 @@
+{
+  "id": "forest-goblin-spider-rider",
+  "folder": "Forest Goblins",
+  "name": "Forest Goblin Spider Rider",
+  "type": "creature",
+  "species": "Forest Goblin",
+  "stats": {
+    "m": 4,
+    "ws": 30,
+    "bs": 35,
+    "s": 35,
+    "t": 35,
+    "i": 30,
+    "ag": 35,
+    "dex": 30,
+    "int": 25,
+    "wp": 25,
+    "fel": 20
+  },
+  "skills": [
+    {
+      "ref": "skill.cool",
+      "total": 35,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 45,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.meleePolearm",
+      "total": 40,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 30,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.ride",
+      "total": 50,
+      "characteristic": "ag",
+      "name": "Ride (Giant Spider)"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.afraid",
+      "specification": "Elves"
+    },
+    {
+      "ref": "trait.animosity",
+      "specification": "Greenskins"
+    },
+    {
+      "ref": "trait.arboreal"
+    },
+    {
+      "ref": "trait.infected"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "talent.combatReflexes"
+    },
+    {
+      "ref": "talent.resolute"
+    },
+    {
+      "ref": "gear.spear",
+      "name": "Bone Spear",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.shield",
+      "name": "Rawhide Shield",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.dagger",
+      "name": "Bone Knife",
+      "equipped": false,
+      "ugly": true
+    }
+  ]
+}

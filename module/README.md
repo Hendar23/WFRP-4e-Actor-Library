@@ -31,7 +31,7 @@ Copy the contents of `module/` into `Data/modules/wfrp4e-quick-npc-library/`, re
 
 The GM's first login builds missing or outdated actors into the world compendium **WFRP4e Quick NPC Library**. Drag actors into the world or onto a scene. The module creates matching folders in the Actors directory for imported actors. Existing world copies are not automatically updated.
 
-## Included actors (26)
+## Included actors (49)
 
 | Group | Actors |
 | --- | --- |
@@ -39,9 +39,14 @@ The GM's first login builds missing or outdated actors into the world compendium
 | Watch (3) | Rookie Watchman, Watchman, Watch Sergeant |
 | Skaven (3) | Clanrat, Stormvermin, Clawleader |
 | Orcs (16) | Orc Boy, Orc Warrior, Orc Big 'Un, Orc Boss, Orc Warboss, Orc Arrer Boy, Orc Boar Boy, Orc Boar Boy Big 'Un, Black Orc, Black Orc Veteran, Black Orc Big 'Un, Black Orc Boss, Savage Orc Boy, Savage Orc Warrior, Savage Orc Big 'Un, Savage Orc Boss |
-| Mount (1) | War Boar |
+| Goblins (6) | Goblin Spearman, Goblin Archer, Goblin Soldier, Goblin Elite, Goblin Boss, Goblin Wolf Rider |
+| Forest Goblins (4) | Forest Goblin Warrior, Forest Goblin Archer, Forest Goblin Elite, Forest Goblin Spider Rider |
+| Night Goblins (5) | Night Goblin Spear Carrier, Night Goblin Archer, Night Goblin Net Carrier, Night Goblin Elite, Night Goblin Boss |
+| Gnoblars (2) | Gnoblar Scavenger, Gnoblar Slinger |
+| Hobgoblins (4) | Hobgoblin Mercenary, Hobgoblin Archer, Hobgoblin Wolf Rider, Hobgoblin Boss |
+| Mounts (3) | War Boar, Giant Wolf, Giant Spider |
 
-The Orcs use the creature profiles and applicable templates from *Tribes and Tribulations* (pp. 10-11, 16-17); the War Boar uses p. 19. You need the purchased book separately to consult its rules. See [proposed future actors](https://github.com/Hendar23/WFRP-4e-Actor-Library/blob/main/FUTURE_ACTORS.md) for shamans, Goblins and specialists under consideration.
+Orcs and Goblin-kind use the creature profiles and applicable templates from *Tribes and Tribulations* (pp. 8-12, 16-17); mounts use p. 19. The Soldier and Elite templates include Resolute. The Night Goblin Net Carrier has a net and carried club, without a shield. You need the purchased book separately to consult its rules. See [proposed future actors](https://github.com/Hendar23/WFRP-4e-Actor-Library/blob/main/FUTURE_ACTORS.md) for shamans and specialists under consideration.
 
 ## Add an actor
 

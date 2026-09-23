@@ -1,0 +1,86 @@
+{
+  "id": "hobgoblin-wolf-rider",
+  "folder": "Hobgoblins",
+  "name": "Hobgoblin Wolf Rider",
+  "type": "creature",
+  "species": "Hobgoblin",
+  "stats": {
+    "m": 4,
+    "ws": 40,
+    "bs": 35,
+    "s": 35,
+    "t": 40,
+    "i": 30,
+    "ag": 35,
+    "dex": 30,
+    "int": 25,
+    "wp": 30,
+    "fel": 20
+  },
+  "skills": [
+    {
+      "ref": "skill.cool",
+      "total": 40,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 45,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.meleePolearm",
+      "total": 50,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 40,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.ride",
+      "total": 50,
+      "characteristic": "ag",
+      "name": "Ride (Giant Wolf)"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.animosity",
+      "specification": "Greenskins"
+    },
+    {
+      "ref": "trait.infected"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "talent.combatReflexes"
+    },
+    {
+      "ref": "talent.resolute"
+    },
+    {
+      "ref": "gear.spear",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.shield",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.sword",
+      "equipped": false,
+      "ugly": true
+    },
+    {
+      "ref": "gear.leatherJack",
+      "worn": true,
+      "ugly": true
+    }
+  ]
+}

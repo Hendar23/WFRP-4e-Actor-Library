@@ -10,9 +10,9 @@ This is a backlog, not a list of actors currently in the module. Check rules, in
 
 These need support for the book's Waaagh! spell list, its casting and miscast procedures (pp. 94-101), and dependable Foundry spell items. Do not use an ordinary human wizard's lore as a silent substitute. Black Orc shamans are excluded by the book.
 
-## Goblins and related creatures
+## Goblin specialists and related creatures
 
-Review the basic Common, Forest, Night and Gnoblar profiles in *Tribes and Tribulations*, pp. 8-9, and the templates on pp. 16-17. Proposed families: Common Goblin spearman, archer, soldier, elite, boss and wolf rider; Forest Goblin warrior, archer, elite and spider rider; Night Goblin spear carrier, archer, net carrier, elite and boss; Gnoblar scavenger and slinger. Hobgoblins (p. 12) deserve their own mercenary, archer, wolf rider and boss profiles. Add Giant Wolf, Giant Spider and Squig mounts or creatures after verifying their rules. Goblin shamans, fanatics and Squig specialists need a separate review of spells, mushrooms and other special rules.
+The basic Common, Forest, Night, Gnoblar and Hobgoblin variants, along with Giant Wolf and Giant Spider, are now included. Possible later additions: Common, Forest and Night Goblin shamans and great shamans; Night Goblin fanatics; Squigs and their riders or handlers. Review the book's spells, mushrooms, movement and other special rules first. Do not add a specialist whose distinctive rules cannot yet be represented faithfully.
 
 ## Other specialists
 

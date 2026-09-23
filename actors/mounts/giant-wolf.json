@@ -1,0 +1,49 @@
+{
+  "id": "giant-wolf",
+  "name": "Giant Wolf",
+  "species": "Wolf",
+  "stats": {
+    "m": 9,
+    "ws": 45,
+    "bs": 0,
+    "s": 35,
+    "t": 30,
+    "i": 35,
+    "ag": 20,
+    "dex": 0,
+    "int": 15,
+    "wp": 15,
+    "fel": 10
+  },
+  "wounds": 22,
+  "items": [
+    {
+      "ref": "trait.armour",
+      "specification": "1"
+    },
+    {
+      "ref": "trait.bestial"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "trait.size",
+      "specification": "Large"
+    },
+    {
+      "ref": "trait.stride"
+    },
+    {
+      "ref": "trait.trained",
+      "specification": "Broken, Magic, Mount, War"
+    },
+    {
+      "ref": "trait.weapon",
+      "specification": "+5"
+    }
+  ],
+  "folder": "Mounts",
+  "type": "creature",
+  "skills": []
+}

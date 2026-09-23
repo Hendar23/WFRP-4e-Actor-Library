@@ -358,5 +358,49 @@
   "gear.arrow": {
     "uuid": "Compendium.wfrp4e-core.items.Item.6GNNpWIGxO9CkTCR",
     "requires": "wfrp4e-core"
+  },
+  "skill.rangedEntangling": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.MWyxcAft5lonB1mB",
+    "requires": "wfrp4e-core"
+  },
+  "gear.weightedNet": {
+    "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.H0YxLOodgGKBTQck",
+    "requires": "wfrp4e-up-in-arms"
+  },
+  "gear.shortbow": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.CRNrEnLXTGXVT1UW",
+    "requires": "wfrp4e-core"
+  },
+  "gear.stoneBullet": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.mik7s6AqS8SMSaJ8",
+    "requires": "wfrp4e-core"
+  },
+  "trait.afraid": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.4CMKeDTDrRQZbPIJ",
+    "requires": "wfrp4e-core"
+  },
+  "trait.arboreal": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.rOV2s6PQBBrhpMOv",
+    "requires": "wfrp4e-core"
+  },
+  "trait.darkVision": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.JQa5DLnTs2SEzRrc",
+    "requires": "wfrp4e-core"
+  },
+  "trait.hatred": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.aE3pyW20Orvdjzj0",
+    "requires": "wfrp4e-core"
+  },
+  "trait.venom": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.gFkRm9wS65qe18Xv",
+    "requires": "wfrp4e-core"
+  },
+  "trait.wallcrawler": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.KII1gWnxIZ8HzmU5",
+    "requires": "wfrp4e-core"
+  },
+  "trait.web": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.Bw6tQyzOhcl7aQ46",
+    "requires": "wfrp4e-core"
   }
 }

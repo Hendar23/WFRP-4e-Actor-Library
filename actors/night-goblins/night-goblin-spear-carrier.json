@@ -1,0 +1,58 @@
+{
+  "id": "night-goblin-spear-carrier",
+  "folder": "Night Goblins",
+  "name": "Night Goblin Spear Carrier",
+  "type": "creature",
+  "species": "Night Goblin",
+  "stats": {
+    "m": 4,
+    "ws": 25,
+    "bs": 35,
+    "s": 30,
+    "t": 30,
+    "i": 30,
+    "ag": 35,
+    "dex": 30,
+    "int": 25,
+    "wp": 18,
+    "fel": 20
+  },
+  "skills": [
+    {
+      "ref": "skill.meleePolearm",
+      "total": 25,
+      "characteristic": "ws"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.afraid",
+      "specification": "Elves"
+    },
+    {
+      "ref": "trait.animosity",
+      "specification": "Greenskins"
+    },
+    {
+      "ref": "trait.darkVision"
+    },
+    {
+      "ref": "trait.hatred",
+      "specification": "Dwarfs"
+    },
+    {
+      "ref": "trait.infected"
+    },
+    {
+      "ref": "gear.spear",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.shield",
+      "name": "Round Shield",
+      "equipped": true,
+      "ugly": true
+    }
+  ]
+}

@@ -14,7 +14,7 @@ for(const [ref,item] of Object.entries(catalogue)){
 }
 function files(dir){return fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?files(path.join(dir,e.name)):e.name.endsWith('.json')?[path.join(dir,e.name)]:[]).sort();}
 const ids=new Set();
-const allowed=new Set(['id','folder','name','type','species','stats','skills','items']);
+const allowed=new Set(['id','folder','name','type','species','stats','wounds','skills','items']);
 const characteristics=['ws','bs','s','t','i','ag','dex','int','wp','fel'];
 const profiles=files(path.join(root,'actors')).map(file=>{
  const actor=JSON.parse(fs.readFileSync(file,'utf8'));
@@ -26,6 +26,7 @@ const profiles=files(path.join(root,'actors')).map(file=>{
  assert(['npc','creature'].includes(actor.type),`${actor.id}: invalid type`);
  assert.deepEqual(Object.keys(actor.stats).sort(),['m',...characteristics].sort(),`${actor.id}: incorrect stats fields`);
  for(const value of Object.values(actor.stats))assert(Number.isInteger(value)&&value>=0,`${actor.id}: invalid stat`);
+ if('wounds' in actor)assert(Number.isInteger(actor.wounds)&&actor.wounds>0,`${actor.id}: invalid printed Wounds`);
  assert(Array.isArray(actor.skills)&&Array.isArray(actor.items),`${actor.id}: skills and items must be arrays`);
  function resolve(entry,skill){
   assert(catalogue[entry.ref],`${actor.id}: missing reference ${entry.ref}`);

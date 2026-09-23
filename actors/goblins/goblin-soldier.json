@@ -1,0 +1,75 @@
+{
+  "id": "goblin-soldier",
+  "folder": "Goblins",
+  "name": "Goblin Soldier",
+  "type": "creature",
+  "species": "Common Goblin",
+  "stats": {
+    "m": 4,
+    "ws": 30,
+    "bs": 35,
+    "s": 35,
+    "t": 35,
+    "i": 30,
+    "ag": 35,
+    "dex": 30,
+    "int": 25,
+    "wp": 25,
+    "fel": 20
+  },
+  "skills": [
+    {
+      "ref": "skill.cool",
+      "total": 35,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 45,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 40,
+      "characteristic": "ws"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.afraid",
+      "specification": "Elves"
+    },
+    {
+      "ref": "trait.animosity",
+      "specification": "Greenskins"
+    },
+    {
+      "ref": "trait.infected"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "talent.combatReflexes"
+    },
+    {
+      "ref": "talent.resolute"
+    },
+    {
+      "ref": "gear.sword",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.shield",
+      "name": "Round Shield",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.leatherJerkin",
+      "worn": true,
+      "ugly": true
+    }
+  ]
+}

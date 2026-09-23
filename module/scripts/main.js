@@ -2,7 +2,7 @@ import { MODULE_ID, PROFILES, UUID } from "./data.js";
 
 const PACK_NAME = "wfrp4e-quick-npc-library";
 const PACK_LABEL = "WFRP4e Quick NPC Library";
-const BUILD_VERSION = 5;
+const BUILD_VERSION = 6;
 
 // Dragging a generated actor into the world puts it in its library category.
 // Leave deliberate placements in an existing world folder untouched.
@@ -310,7 +310,7 @@ async function createCompendiumActor(profile, packId) {
       await weapon.update({ "system.currentAmmo.value": ammunition.id });
     }
 
-    actor = await saveCalculatedWounds(actor);
+    actor = await saveCalculatedWounds(actor, profile.wounds);
     // Persist the system's encumbrance condition too. Otherwise prepareData
     // requests a new embedded effect as soon as the actor enters the world.
     await actor.checkSystemEffects();
@@ -337,7 +337,7 @@ function characteristicTalentBonus(profile, characteristic) {
 
 function validateActor(actor, profile) {
   const source = actor.toObject();
-  const wounds = actor.system.computeWounds();
+  const wounds = profile.wounds ?? actor.system.computeWounds();
   if (source.system.status.wounds.max !== wounds || source.system.status.wounds.value !== wounds) {
     throw new Error(`Saved Wounds differ: current=${source.system.status.wounds.value}, max=${source.system.status.wounds.max}, calculated=${wounds}.`);
   }
@@ -372,7 +372,15 @@ function validateActor(actor, profile) {
   }
 }
 
-async function saveCalculatedWounds(actor) {
+async function saveCalculatedWounds(actor, printedWounds) {
+  // Creature mounts have printed Wounds that differ from the system formula.
+  // Preserve the published number without enabling automatic recalculation.
+  if (printedWounds !== undefined) {
+    return await actor.update({
+      "system.status.wounds.max": printedWounds,
+      "system.status.wounds.value": printedWounds
+    }, { diff: false });
+  }
   // computeWounds returns the existing maximum while autoCalc is disabled.
   // Compendium preparation can safely calculate without a world-actor update.
   actor = await actor.update({ "system.settings.autoCalc.wounds": true });

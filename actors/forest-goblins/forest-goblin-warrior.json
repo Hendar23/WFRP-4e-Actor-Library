@@ -1,0 +1,58 @@
+{
+  "id": "forest-goblin-warrior",
+  "folder": "Forest Goblins",
+  "name": "Forest Goblin Warrior",
+  "type": "creature",
+  "species": "Forest Goblin",
+  "stats": {
+    "m": 4,
+    "ws": 25,
+    "bs": 35,
+    "s": 30,
+    "t": 30,
+    "i": 20,
+    "ag": 35,
+    "dex": 30,
+    "int": 25,
+    "wp": 20,
+    "fel": 20
+  },
+  "skills": [
+    {
+      "ref": "skill.meleePolearm",
+      "total": 25,
+      "characteristic": "ws"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.afraid",
+      "specification": "Elves"
+    },
+    {
+      "ref": "trait.animosity",
+      "specification": "Greenskins"
+    },
+    {
+      "ref": "trait.arboreal"
+    },
+    {
+      "ref": "trait.infected"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "gear.spear",
+      "name": "Bone Spear",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.shield",
+      "name": "Rawhide Shield",
+      "equipped": true,
+      "ugly": true
+    }
+  ]
+}

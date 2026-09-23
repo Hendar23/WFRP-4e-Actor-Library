@@ -1,0 +1,80 @@
+{
+  "id": "night-goblin-net-carrier",
+  "folder": "Night Goblins",
+  "name": "Night Goblin Net Carrier",
+  "type": "creature",
+  "species": "Night Goblin",
+  "stats": {
+    "m": 4,
+    "ws": 30,
+    "bs": 35,
+    "s": 35,
+    "t": 35,
+    "i": 40,
+    "ag": 35,
+    "dex": 30,
+    "int": 25,
+    "wp": 23,
+    "fel": 20
+  },
+  "skills": [
+    {
+      "ref": "skill.cool",
+      "total": 33,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 45,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 40,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.rangedEntangling",
+      "total": 45,
+      "characteristic": "bs"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.afraid",
+      "specification": "Elves"
+    },
+    {
+      "ref": "trait.animosity",
+      "specification": "Greenskins"
+    },
+    {
+      "ref": "trait.darkVision"
+    },
+    {
+      "ref": "trait.hatred",
+      "specification": "Dwarfs"
+    },
+    {
+      "ref": "trait.infected"
+    },
+    {
+      "ref": "talent.combatReflexes"
+    },
+    {
+      "ref": "talent.resolute"
+    },
+    {
+      "ref": "gear.weightedNet",
+      "name": "Weighted Net",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.club",
+      "name": "Wooden Club",
+      "equipped": false,
+      "ugly": true
+    }
+  ]
+}

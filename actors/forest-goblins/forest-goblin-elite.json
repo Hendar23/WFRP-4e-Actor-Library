@@ -1,0 +1,98 @@
+{
+  "id": "forest-goblin-elite",
+  "folder": "Forest Goblins",
+  "name": "Forest Goblin Elite",
+  "type": "creature",
+  "species": "Forest Goblin",
+  "stats": {
+    "m": 4,
+    "ws": 35,
+    "bs": 35,
+    "s": 40,
+    "t": 40,
+    "i": 40,
+    "ag": 45,
+    "dex": 30,
+    "int": 25,
+    "wp": 35,
+    "fel": 20
+  },
+  "skills": [
+    {
+      "ref": "skill.cool",
+      "total": 50,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 60,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.intimidate",
+      "total": 50,
+      "characteristic": "s"
+    },
+    {
+      "ref": "skill.leadership",
+      "total": 25,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.meleePolearm",
+      "total": 55,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 35,
+      "characteristic": "ws"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.afraid",
+      "specification": "Elves"
+    },
+    {
+      "ref": "trait.animosity",
+      "specification": "Greenskins"
+    },
+    {
+      "ref": "trait.arboreal"
+    },
+    {
+      "ref": "trait.infected"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "talent.combatAware"
+    },
+    {
+      "ref": "talent.combatReflexes"
+    },
+    {
+      "ref": "talent.resolute"
+    },
+    {
+      "ref": "gear.halberd",
+      "name": "Bone Polearm",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.handWeapon",
+      "name": "Bone Sword",
+      "equipped": false,
+      "ugly": true
+    },
+    {
+      "ref": "gear.shield",
+      "name": "Rawhide Shield",
+      "ugly": true,
+      "equipped": false
+    }
+  ]
+}

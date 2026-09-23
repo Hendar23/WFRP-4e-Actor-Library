@@ -27,7 +27,8 @@ export const UUID = {
     "rangedBow": "Compendium.wfrp4e-core.items.Item.ZQSm2AwrgT2cHG0C",
     "stealthRural": "Compendium.wfrp4e-core.items.Item.Xk5tp3aasPNtk4zt",
     "loreWarfare": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
-    "ride": "Compendium.wfrp4e-core.items.Item.MeXCAQ3wqJzX07X7"
+    "ride": "Compendium.wfrp4e-core.items.Item.MeXCAQ3wqJzX07X7",
+    "rangedEntangling": "Compendium.wfrp4e-core.items.Item.MWyxcAft5lonB1mB"
   },
   "talent": {
     "blather": "Compendium.wfrp4e-core.items.Item.77p3QRKgFWakkndF",
@@ -69,7 +70,14 @@ export const UUID = {
     "size": "Compendium.wfrp4e-core.items.Item.8slW8CJ2oVTxeQ6q",
     "stride": "Compendium.wfrp4e-core.items.Item.UmxGZRV0Lw3TZ0Kx",
     "trained": "Compendium.wfrp4e-core.items.Item.V0naR1YbYCl0KIxp",
-    "weapon": "Compendium.wfrp4e-core.items.Item.AtpAudHA4ybXVlWM"
+    "weapon": "Compendium.wfrp4e-core.items.Item.AtpAudHA4ybXVlWM",
+    "afraid": "Compendium.wfrp4e-core.items.Item.4CMKeDTDrRQZbPIJ",
+    "arboreal": "Compendium.wfrp4e-core.items.Item.rOV2s6PQBBrhpMOv",
+    "darkVision": "Compendium.wfrp4e-core.items.Item.JQa5DLnTs2SEzRrc",
+    "hatred": "Compendium.wfrp4e-core.items.Item.aE3pyW20Orvdjzj0",
+    "venom": "Compendium.wfrp4e-core.items.Item.gFkRm9wS65qe18Xv",
+    "wallcrawler": "Compendium.wfrp4e-core.items.Item.KII1gWnxIZ8HzmU5",
+    "web": "Compendium.wfrp4e-core.items.Item.Bw6tQyzOhcl7aQ46"
   },
   "gear": {
     "improvisedWeapon": "Compendium.wfrp4e-core.items.Item.mRU10yAWWWs5WoKt",
@@ -98,10 +106,1917 @@ export const UUID = {
     "brass": "Compendium.wfrp4e-core.items.Item.0MYOJFx3vkYA95B4",
     "silver": "Compendium.wfrp4e-core.items.Item.KB8HgDz56dh2w7w1",
     "bow": "Compendium.wfrp4e-core.items.Item.U94l3IDj3xfIc78i",
-    "arrow": "Compendium.wfrp4e-core.items.Item.6GNNpWIGxO9CkTCR"
+    "arrow": "Compendium.wfrp4e-core.items.Item.6GNNpWIGxO9CkTCR",
+    "weightedNet": "Compendium.wfrp4e-up-in-arms.items.Item.H0YxLOodgGKBTQck",
+    "shortbow": "Compendium.wfrp4e-core.items.Item.CRNrEnLXTGXVT1UW",
+    "stoneBullet": "Compendium.wfrp4e-core.items.Item.mik7s6AqS8SMSaJ8"
   }
 };
 export const PROFILES = [
+  {
+    "id": "forest-goblin-archer",
+    "folder": "Forest Goblins",
+    "name": "Forest Goblin Archer",
+    "type": "creature",
+    "species": "Forest Goblin",
+    "stats": {
+      "m": 4,
+      "ws": 25,
+      "bs": 40,
+      "s": 30,
+      "t": 40,
+      "i": 30,
+      "ag": 45,
+      "dex": 30,
+      "int": 25,
+      "wp": 25,
+      "fel": 20
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 55,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 40,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ZQSm2AwrgT2cHG0C",
+        "total": 50,
+        "characteristic": "bs"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Xk5tp3aasPNtk4zt",
+        "total": 55,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 25,
+        "characteristic": "ws"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.4CMKeDTDrRQZbPIJ",
+        "specification": "Elves"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOV2s6PQBBrhpMOv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.XIcDsaW4D8wScezw"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.jrFIFLhyOYwcyMUl"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.U94l3IDj3xfIc78i",
+        "equipped": true,
+        "ugly": true,
+        "ammoUuid": "Compendium.wfrp4e-core.items.Item.6GNNpWIGxO9CkTCR"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.6GNNpWIGxO9CkTCR",
+        "quantity": 12
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.UlL4mHSgBW3nYh2a",
+        "name": "Bone Knife",
+        "equipped": false,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "forest-goblin-elite",
+    "folder": "Forest Goblins",
+    "name": "Forest Goblin Elite",
+    "type": "creature",
+    "species": "Forest Goblin",
+    "stats": {
+      "m": 4,
+      "ws": 35,
+      "bs": 35,
+      "s": 40,
+      "t": 40,
+      "i": 40,
+      "ag": 45,
+      "dex": 30,
+      "int": 25,
+      "wp": 35,
+      "fel": 20
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 50,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 60,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 50,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 25,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PzimjNx9Ojq4g6mV",
+        "total": 55,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 35,
+        "characteristic": "ws"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.4CMKeDTDrRQZbPIJ",
+        "specification": "Elves"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOV2s6PQBBrhpMOv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0LdHytqyNmg2pcAX"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.tXKX29QZBdHmyMc7"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.uRvOg8AnCcP2ufx8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.jxTsO0vrf53pCxCb",
+        "name": "Bone Polearm",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1zaqojk0Oq1m8vYv",
+        "name": "Bone Sword",
+        "equipped": false,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "name": "Rawhide Shield",
+        "ugly": true,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "id": "forest-goblin-spider-rider",
+    "folder": "Forest Goblins",
+    "name": "Forest Goblin Spider Rider",
+    "type": "creature",
+    "species": "Forest Goblin",
+    "stats": {
+      "m": 4,
+      "ws": 30,
+      "bs": 35,
+      "s": 35,
+      "t": 35,
+      "i": 30,
+      "ag": 35,
+      "dex": 30,
+      "int": 25,
+      "wp": 25,
+      "fel": 20
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 35,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 45,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PzimjNx9Ojq4g6mV",
+        "total": 40,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 30,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.MeXCAQ3wqJzX07X7",
+        "total": 50,
+        "characteristic": "ag",
+        "name": "Ride (Giant Spider)"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.4CMKeDTDrRQZbPIJ",
+        "specification": "Elves"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOV2s6PQBBrhpMOv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.tXKX29QZBdHmyMc7"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.uRvOg8AnCcP2ufx8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.HxOhYpAxqdcyoSje",
+        "name": "Bone Spear",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "name": "Rawhide Shield",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.UlL4mHSgBW3nYh2a",
+        "name": "Bone Knife",
+        "equipped": false,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "forest-goblin-warrior",
+    "folder": "Forest Goblins",
+    "name": "Forest Goblin Warrior",
+    "type": "creature",
+    "species": "Forest Goblin",
+    "stats": {
+      "m": 4,
+      "ws": 25,
+      "bs": 35,
+      "s": 30,
+      "t": 30,
+      "i": 20,
+      "ag": 35,
+      "dex": 30,
+      "int": 25,
+      "wp": 20,
+      "fel": 20
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PzimjNx9Ojq4g6mV",
+        "total": 25,
+        "characteristic": "ws"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.4CMKeDTDrRQZbPIJ",
+        "specification": "Elves"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOV2s6PQBBrhpMOv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.HxOhYpAxqdcyoSje",
+        "name": "Bone Spear",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "name": "Rawhide Shield",
+        "equipped": true,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "gnoblar-scavenger",
+    "folder": "Gnoblars",
+    "name": "Gnoblar Scavenger",
+    "type": "creature",
+    "species": "Gnoblar",
+    "stats": {
+      "m": 4,
+      "ws": 25,
+      "bs": 35,
+      "s": 25,
+      "t": 30,
+      "i": 30,
+      "ag": 35,
+      "dex": 30,
+      "int": 25,
+      "wp": 18,
+      "fel": 15
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 25,
+        "characteristic": "ws"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.XvvHQ8amxyhTaORs",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.UlL4mHSgBW3nYh2a",
+        "name": "Knife",
+        "equipped": false,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "gnoblar-slinger",
+    "folder": "Gnoblars",
+    "name": "Gnoblar Slinger",
+    "type": "creature",
+    "species": "Gnoblar",
+    "stats": {
+      "m": 4,
+      "ws": 25,
+      "bs": 40,
+      "s": 25,
+      "t": 40,
+      "i": 40,
+      "ag": 45,
+      "dex": 30,
+      "int": 25,
+      "wp": 23,
+      "fel": 15
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 55,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 50,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KQjZ85kKz42YQGYT",
+        "total": 50,
+        "characteristic": "bs"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Xk5tp3aasPNtk4zt",
+        "total": 55,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 25,
+        "characteristic": "ws"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.XIcDsaW4D8wScezw"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.jrFIFLhyOYwcyMUl"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.7Bpc5I8Arucy3w4q",
+        "equipped": true,
+        "ugly": true,
+        "ammoUuid": "Compendium.wfrp4e-core.items.Item.mik7s6AqS8SMSaJ8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.mik7s6AqS8SMSaJ8",
+        "quantity": 12
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.XvvHQ8amxyhTaORs",
+        "equipped": false,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "goblin-archer",
+    "folder": "Goblins",
+    "name": "Goblin Archer",
+    "type": "creature",
+    "species": "Common Goblin",
+    "stats": {
+      "m": 4,
+      "ws": 25,
+      "bs": 40,
+      "s": 30,
+      "t": 40,
+      "i": 30,
+      "ag": 45,
+      "dex": 30,
+      "int": 25,
+      "wp": 25,
+      "fel": 20
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 55,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 40,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ZQSm2AwrgT2cHG0C",
+        "total": 50,
+        "characteristic": "bs"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Xk5tp3aasPNtk4zt",
+        "total": 55,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 25,
+        "characteristic": "ws"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.4CMKeDTDrRQZbPIJ",
+        "specification": "Elves"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.XIcDsaW4D8wScezw"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.jrFIFLhyOYwcyMUl"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.U94l3IDj3xfIc78i",
+        "equipped": true,
+        "ugly": true,
+        "ammoUuid": "Compendium.wfrp4e-core.items.Item.6GNNpWIGxO9CkTCR"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.6GNNpWIGxO9CkTCR",
+        "quantity": 12
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1zaqojk0Oq1m8vYv",
+        "name": "Goblin Sword",
+        "equipped": false,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "goblin-boss",
+    "folder": "Goblins",
+    "name": "Goblin Boss",
+    "type": "creature",
+    "species": "Common Goblin",
+    "stats": {
+      "m": 4,
+      "ws": 50,
+      "bs": 45,
+      "s": 45,
+      "t": 45,
+      "i": 45,
+      "ag": 55,
+      "dex": 30,
+      "int": 35,
+      "wp": 45,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 60,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 70,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 65,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 60,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 45,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 45,
+        "characteristic": "int",
+        "name": "Lore (Warfare)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 65,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 55,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.4CMKeDTDrRQZbPIJ",
+        "specification": "Elves"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0LdHytqyNmg2pcAX"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.tXKX29QZBdHmyMc7"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.BlHVzfs0Ow6IYEDw"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.WCXnFSV4WOSmzzc4"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.uRvOg8AnCcP2ufx8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.vCgEAetBMngR53aT"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.erX8o1o0IcXHTX2r",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "name": "Round Shield",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cJdfHOVbghTf4Eo0",
+        "worn": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0W0kEpa2kNEcRGK0",
+        "worn": true,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "goblin-elite",
+    "folder": "Goblins",
+    "name": "Goblin Elite",
+    "type": "creature",
+    "species": "Common Goblin",
+    "stats": {
+      "m": 4,
+      "ws": 35,
+      "bs": 35,
+      "s": 40,
+      "t": 40,
+      "i": 40,
+      "ag": 45,
+      "dex": 30,
+      "int": 25,
+      "wp": 35,
+      "fel": 20
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 50,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 60,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 50,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 25,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PzimjNx9Ojq4g6mV",
+        "total": 55,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 35,
+        "characteristic": "ws"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.4CMKeDTDrRQZbPIJ",
+        "specification": "Elves"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0LdHytqyNmg2pcAX"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.tXKX29QZBdHmyMc7"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.uRvOg8AnCcP2ufx8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.jxTsO0vrf53pCxCb",
+        "name": "Goblin Polearm",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.erX8o1o0IcXHTX2r",
+        "equipped": false,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "name": "Round Shield",
+        "ugly": true,
+        "equipped": false
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cJdfHOVbghTf4Eo0",
+        "worn": true,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "goblin-soldier",
+    "folder": "Goblins",
+    "name": "Goblin Soldier",
+    "type": "creature",
+    "species": "Common Goblin",
+    "stats": {
+      "m": 4,
+      "ws": 30,
+      "bs": 35,
+      "s": 35,
+      "t": 35,
+      "i": 30,
+      "ag": 35,
+      "dex": 30,
+      "int": 25,
+      "wp": 25,
+      "fel": 20
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 35,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 45,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 40,
+        "characteristic": "ws"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.4CMKeDTDrRQZbPIJ",
+        "specification": "Elves"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.tXKX29QZBdHmyMc7"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.uRvOg8AnCcP2ufx8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.erX8o1o0IcXHTX2r",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "name": "Round Shield",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ipaDvYY3qS66o593",
+        "worn": true,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "goblin-spearman",
+    "folder": "Goblins",
+    "name": "Goblin Spearman",
+    "type": "creature",
+    "species": "Common Goblin",
+    "stats": {
+      "m": 4,
+      "ws": 25,
+      "bs": 35,
+      "s": 30,
+      "t": 30,
+      "i": 20,
+      "ag": 35,
+      "dex": 30,
+      "int": 25,
+      "wp": 20,
+      "fel": 20
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PzimjNx9Ojq4g6mV",
+        "total": 25,
+        "characteristic": "ws"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.4CMKeDTDrRQZbPIJ",
+        "specification": "Elves"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.HxOhYpAxqdcyoSje",
+        "name": "Goblin Spear",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "name": "Round Shield",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ipaDvYY3qS66o593",
+        "worn": true,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "goblin-wolf-rider",
+    "folder": "Goblins",
+    "name": "Goblin Wolf Rider",
+    "type": "creature",
+    "species": "Common Goblin",
+    "stats": {
+      "m": 4,
+      "ws": 30,
+      "bs": 35,
+      "s": 35,
+      "t": 35,
+      "i": 30,
+      "ag": 35,
+      "dex": 30,
+      "int": 25,
+      "wp": 25,
+      "fel": 20
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 35,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 45,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PzimjNx9Ojq4g6mV",
+        "total": 40,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 30,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.MeXCAQ3wqJzX07X7",
+        "total": 50,
+        "characteristic": "ag",
+        "name": "Ride (Giant Wolf)"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.4CMKeDTDrRQZbPIJ",
+        "specification": "Elves"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.tXKX29QZBdHmyMc7"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.uRvOg8AnCcP2ufx8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.HxOhYpAxqdcyoSje",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "name": "Round Shield",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.erX8o1o0IcXHTX2r",
+        "equipped": false,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ipaDvYY3qS66o593",
+        "worn": true,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "hobgoblin-archer",
+    "folder": "Hobgoblins",
+    "name": "Hobgoblin Archer",
+    "type": "creature",
+    "species": "Hobgoblin",
+    "stats": {
+      "m": 4,
+      "ws": 35,
+      "bs": 40,
+      "s": 30,
+      "t": 45,
+      "i": 30,
+      "ag": 45,
+      "dex": 30,
+      "int": 25,
+      "wp": 30,
+      "fel": 20
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 55,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 40,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ZQSm2AwrgT2cHG0C",
+        "total": 50,
+        "characteristic": "bs"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Xk5tp3aasPNtk4zt",
+        "total": 55,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 35,
+        "characteristic": "ws"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.XIcDsaW4D8wScezw"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.jrFIFLhyOYwcyMUl"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.U94l3IDj3xfIc78i",
+        "equipped": true,
+        "ugly": true,
+        "ammoUuid": "Compendium.wfrp4e-core.items.Item.6GNNpWIGxO9CkTCR"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.6GNNpWIGxO9CkTCR",
+        "quantity": 12
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.erX8o1o0IcXHTX2r",
+        "equipped": false,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ipaDvYY3qS66o593",
+        "worn": true,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "hobgoblin-boss",
+    "folder": "Hobgoblins",
+    "name": "Hobgoblin Boss",
+    "type": "creature",
+    "species": "Hobgoblin",
+    "stats": {
+      "m": 4,
+      "ws": 60,
+      "bs": 45,
+      "s": 45,
+      "t": 50,
+      "i": 45,
+      "ag": 55,
+      "dex": 30,
+      "int": 35,
+      "wp": 50,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 65,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 70,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 65,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 60,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 45,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 45,
+        "characteristic": "int",
+        "name": "Lore (Warfare)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 75,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 55,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0LdHytqyNmg2pcAX"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.tXKX29QZBdHmyMc7"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.BlHVzfs0Ow6IYEDw"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.WCXnFSV4WOSmzzc4"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.uRvOg8AnCcP2ufx8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.vCgEAetBMngR53aT"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.erX8o1o0IcXHTX2r",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cJdfHOVbghTf4Eo0",
+        "worn": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.TvUKzvXjc2VChuTT",
+        "worn": true,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "hobgoblin-mercenary",
+    "folder": "Hobgoblins",
+    "name": "Hobgoblin Mercenary",
+    "type": "creature",
+    "species": "Hobgoblin",
+    "stats": {
+      "m": 4,
+      "ws": 40,
+      "bs": 35,
+      "s": 35,
+      "t": 40,
+      "i": 30,
+      "ag": 35,
+      "dex": 30,
+      "int": 25,
+      "wp": 30,
+      "fel": 20
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 40,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 45,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 50,
+        "characteristic": "ws"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.tXKX29QZBdHmyMc7"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.uRvOg8AnCcP2ufx8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.erX8o1o0IcXHTX2r",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.OjcHE0VOGr1aRdy9",
+        "worn": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cJdfHOVbghTf4Eo0",
+        "worn": true,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "hobgoblin-wolf-rider",
+    "folder": "Hobgoblins",
+    "name": "Hobgoblin Wolf Rider",
+    "type": "creature",
+    "species": "Hobgoblin",
+    "stats": {
+      "m": 4,
+      "ws": 40,
+      "bs": 35,
+      "s": 35,
+      "t": 40,
+      "i": 30,
+      "ag": 35,
+      "dex": 30,
+      "int": 25,
+      "wp": 30,
+      "fel": 20
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 40,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 45,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PzimjNx9Ojq4g6mV",
+        "total": 50,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 40,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.MeXCAQ3wqJzX07X7",
+        "total": 50,
+        "characteristic": "ag",
+        "name": "Ride (Giant Wolf)"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.tXKX29QZBdHmyMc7"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.uRvOg8AnCcP2ufx8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.HxOhYpAxqdcyoSje",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.erX8o1o0IcXHTX2r",
+        "equipped": false,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.OjcHE0VOGr1aRdy9",
+        "worn": true,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "giant-spider",
+    "name": "Giant Spider",
+    "species": "Spider",
+    "stats": {
+      "m": 7,
+      "ws": 35,
+      "bs": 0,
+      "s": 35,
+      "t": 30,
+      "i": 20,
+      "ag": 35,
+      "dex": 20,
+      "int": 14,
+      "wp": 25,
+      "fel": 10
+    },
+    "wounds": 20,
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.VUJUZVN3VYhOaPjj",
+        "specification": "1"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOV2s6PQBBrhpMOv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.AGcJl5rHjkyIQBPP"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8slW8CJ2oVTxeQ6q",
+        "specification": "Large"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0naR1YbYCl0KIxp",
+        "specification": "Broken, Magic, Mount"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.gFkRm9wS65qe18Xv",
+        "specification": "Challenging"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KII1gWnxIZ8HzmU5"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.AtpAudHA4ybXVlWM",
+        "specification": "+4"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Bw6tQyzOhcl7aQ46",
+        "specification": "0"
+      }
+    ],
+    "folder": "Mounts",
+    "type": "creature",
+    "skills": []
+  },
+  {
+    "id": "giant-wolf",
+    "name": "Giant Wolf",
+    "species": "Wolf",
+    "stats": {
+      "m": 9,
+      "ws": 45,
+      "bs": 0,
+      "s": 35,
+      "t": 30,
+      "i": 35,
+      "ag": 20,
+      "dex": 0,
+      "int": 15,
+      "wp": 15,
+      "fel": 10
+    },
+    "wounds": 22,
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.VUJUZVN3VYhOaPjj",
+        "specification": "1"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.AGcJl5rHjkyIQBPP"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8slW8CJ2oVTxeQ6q",
+        "specification": "Large"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UmxGZRV0Lw3TZ0Kx"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0naR1YbYCl0KIxp",
+        "specification": "Broken, Magic, Mount, War"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.AtpAudHA4ybXVlWM",
+        "specification": "+5"
+      }
+    ],
+    "folder": "Mounts",
+    "type": "creature",
+    "skills": []
+  },
+  {
+    "id": "night-goblin-archer",
+    "folder": "Night Goblins",
+    "name": "Night Goblin Archer",
+    "type": "creature",
+    "species": "Night Goblin",
+    "stats": {
+      "m": 4,
+      "ws": 25,
+      "bs": 40,
+      "s": 30,
+      "t": 40,
+      "i": 40,
+      "ag": 45,
+      "dex": 30,
+      "int": 25,
+      "wp": 23,
+      "fel": 20
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 55,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 50,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ZQSm2AwrgT2cHG0C",
+        "total": 50,
+        "characteristic": "bs"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cHbQeJQ7cVZZyDyl",
+        "total": 55,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 25,
+        "characteristic": "ws"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.4CMKeDTDrRQZbPIJ",
+        "specification": "Elves"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.JQa5DLnTs2SEzRrc"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.aE3pyW20Orvdjzj0",
+        "specification": "Dwarfs"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.XIcDsaW4D8wScezw"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.jrFIFLhyOYwcyMUl"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CRNrEnLXTGXVT1UW",
+        "equipped": true,
+        "ugly": true,
+        "ammoUuid": "Compendium.wfrp4e-core.items.Item.6GNNpWIGxO9CkTCR"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.6GNNpWIGxO9CkTCR",
+        "quantity": 12
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.UlL4mHSgBW3nYh2a",
+        "name": "Knife",
+        "equipped": false,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "night-goblin-boss",
+    "folder": "Night Goblins",
+    "name": "Night Goblin Boss",
+    "type": "creature",
+    "species": "Night Goblin",
+    "stats": {
+      "m": 4,
+      "ws": 50,
+      "bs": 45,
+      "s": 45,
+      "t": 45,
+      "i": 55,
+      "ag": 55,
+      "dex": 30,
+      "int": 35,
+      "wp": 43,
+      "fel": 30
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 58,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 70,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 65,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 70,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 45,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+        "total": 45,
+        "characteristic": "int",
+        "name": "Lore (Warfare)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 65,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 65,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.4CMKeDTDrRQZbPIJ",
+        "specification": "Elves"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.JQa5DLnTs2SEzRrc"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.aE3pyW20Orvdjzj0",
+        "specification": "Dwarfs"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0LdHytqyNmg2pcAX"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.tXKX29QZBdHmyMc7"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.BlHVzfs0Ow6IYEDw"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.WCXnFSV4WOSmzzc4"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.uRvOg8AnCcP2ufx8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.vCgEAetBMngR53aT"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.erX8o1o0IcXHTX2r",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "name": "Round Shield",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cJdfHOVbghTf4Eo0",
+        "worn": true,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "night-goblin-elite",
+    "folder": "Night Goblins",
+    "name": "Night Goblin Elite",
+    "type": "creature",
+    "species": "Night Goblin",
+    "stats": {
+      "m": 4,
+      "ws": 35,
+      "bs": 35,
+      "s": 40,
+      "t": 40,
+      "i": 50,
+      "ag": 45,
+      "dex": 30,
+      "int": 25,
+      "wp": 33,
+      "fel": 20
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 48,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 60,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 50,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 25,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PzimjNx9Ojq4g6mV",
+        "total": 55,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 35,
+        "characteristic": "ws"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.4CMKeDTDrRQZbPIJ",
+        "specification": "Elves"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.JQa5DLnTs2SEzRrc"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.aE3pyW20Orvdjzj0",
+        "specification": "Dwarfs"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0LdHytqyNmg2pcAX"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.tXKX29QZBdHmyMc7"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.uRvOg8AnCcP2ufx8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.jxTsO0vrf53pCxCb",
+        "name": "Squig Prodder",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.XvvHQ8amxyhTaORs",
+        "name": "Wooden Club",
+        "equipped": false,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "name": "Round Shield",
+        "ugly": true,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "id": "night-goblin-net-carrier",
+    "folder": "Night Goblins",
+    "name": "Night Goblin Net Carrier",
+    "type": "creature",
+    "species": "Night Goblin",
+    "stats": {
+      "m": 4,
+      "ws": 30,
+      "bs": 35,
+      "s": 35,
+      "t": 35,
+      "i": 40,
+      "ag": 35,
+      "dex": 30,
+      "int": 25,
+      "wp": 23,
+      "fel": 20
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 33,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 45,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 40,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.MWyxcAft5lonB1mB",
+        "total": 45,
+        "characteristic": "bs"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.4CMKeDTDrRQZbPIJ",
+        "specification": "Elves"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.JQa5DLnTs2SEzRrc"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.aE3pyW20Orvdjzj0",
+        "specification": "Dwarfs"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.tXKX29QZBdHmyMc7"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.uRvOg8AnCcP2ufx8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.H0YxLOodgGKBTQck",
+        "name": "Weighted Net",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.XvvHQ8amxyhTaORs",
+        "name": "Wooden Club",
+        "equipped": false,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "night-goblin-spear-carrier",
+    "folder": "Night Goblins",
+    "name": "Night Goblin Spear Carrier",
+    "type": "creature",
+    "species": "Night Goblin",
+    "stats": {
+      "m": 4,
+      "ws": 25,
+      "bs": 35,
+      "s": 30,
+      "t": 30,
+      "i": 30,
+      "ag": 35,
+      "dex": 30,
+      "int": 25,
+      "wp": 18,
+      "fel": 20
+    },
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PzimjNx9Ojq4g6mV",
+        "total": 25,
+        "characteristic": "ws"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.4CMKeDTDrRQZbPIJ",
+        "specification": "Elves"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
+        "specification": "Greenskins"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.JQa5DLnTs2SEzRrc"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.aE3pyW20Orvdjzj0",
+        "specification": "Dwarfs"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.HxOhYpAxqdcyoSje",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "name": "Round Shield",
+        "equipped": true,
+        "ugly": true
+      }
+    ]
+  },
   {
     "id": "black-orc-big-un",
     "folder": "Orcs",

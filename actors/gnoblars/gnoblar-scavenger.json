@@ -1,0 +1,50 @@
+{
+  "id": "gnoblar-scavenger",
+  "folder": "Gnoblars",
+  "name": "Gnoblar Scavenger",
+  "type": "creature",
+  "species": "Gnoblar",
+  "stats": {
+    "m": 4,
+    "ws": 25,
+    "bs": 35,
+    "s": 25,
+    "t": 30,
+    "i": 30,
+    "ag": 35,
+    "dex": 30,
+    "int": 25,
+    "wp": 18,
+    "fel": 15
+  },
+  "skills": [
+    {
+      "ref": "skill.meleeBasic",
+      "total": 25,
+      "characteristic": "ws"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.animosity",
+      "specification": "Greenskins"
+    },
+    {
+      "ref": "trait.infected"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "gear.club",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.dagger",
+      "name": "Knife",
+      "equipped": false,
+      "ugly": true
+    }
+  ]
+}

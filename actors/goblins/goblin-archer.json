@@ -1,0 +1,85 @@
+{
+  "id": "goblin-archer",
+  "folder": "Goblins",
+  "name": "Goblin Archer",
+  "type": "creature",
+  "species": "Common Goblin",
+  "stats": {
+    "m": 4,
+    "ws": 25,
+    "bs": 40,
+    "s": 30,
+    "t": 40,
+    "i": 30,
+    "ag": 45,
+    "dex": 30,
+    "int": 25,
+    "wp": 25,
+    "fel": 20
+  },
+  "skills": [
+    {
+      "ref": "skill.dodge",
+      "total": 55,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 40,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.rangedBow",
+      "total": 50,
+      "characteristic": "bs"
+    },
+    {
+      "ref": "skill.stealthRural",
+      "total": 55,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 25,
+      "characteristic": "ws"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.afraid",
+      "specification": "Elves"
+    },
+    {
+      "ref": "trait.animosity",
+      "specification": "Greenskins"
+    },
+    {
+      "ref": "trait.infected"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "talent.accurateShot"
+    },
+    {
+      "ref": "talent.flee"
+    },
+    {
+      "ref": "gear.bow",
+      "ammoRef": "gear.arrow",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.arrow",
+      "quantity": 12
+    },
+    {
+      "ref": "gear.handWeapon",
+      "name": "Goblin Sword",
+      "equipped": false,
+      "ugly": true
+    }
+  ]
+}

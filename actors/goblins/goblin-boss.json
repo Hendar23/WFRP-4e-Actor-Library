@@ -1,0 +1,118 @@
+{
+  "id": "goblin-boss",
+  "folder": "Goblins",
+  "name": "Goblin Boss",
+  "type": "creature",
+  "species": "Common Goblin",
+  "stats": {
+    "m": 4,
+    "ws": 50,
+    "bs": 45,
+    "s": 45,
+    "t": 45,
+    "i": 45,
+    "ag": 55,
+    "dex": 30,
+    "int": 35,
+    "wp": 45,
+    "fel": 30
+  },
+  "skills": [
+    {
+      "ref": "skill.cool",
+      "total": 60,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 70,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.intimidate",
+      "total": 65,
+      "characteristic": "s"
+    },
+    {
+      "ref": "skill.intuition",
+      "total": 60,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.leadership",
+      "total": 45,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.loreWarfare",
+      "total": 45,
+      "characteristic": "int",
+      "name": "Lore (Warfare)"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 65,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 55,
+      "characteristic": "i"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.afraid",
+      "specification": "Elves"
+    },
+    {
+      "ref": "trait.animosity",
+      "specification": "Greenskins"
+    },
+    {
+      "ref": "trait.infected"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "talent.combatAware"
+    },
+    {
+      "ref": "talent.combatReflexes"
+    },
+    {
+      "ref": "talent.furiousAssault"
+    },
+    {
+      "ref": "talent.inspiring"
+    },
+    {
+      "ref": "talent.resolute"
+    },
+    {
+      "ref": "talent.warLeader"
+    },
+    {
+      "ref": "gear.sword",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.shield",
+      "name": "Round Shield",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.mailShirt",
+      "worn": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.leatherSkullcap",
+      "worn": true,
+      "ugly": true
+    }
+  ]
+}

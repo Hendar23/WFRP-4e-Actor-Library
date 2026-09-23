@@ -1,0 +1,85 @@
+{
+  "id": "hobgoblin-archer",
+  "folder": "Hobgoblins",
+  "name": "Hobgoblin Archer",
+  "type": "creature",
+  "species": "Hobgoblin",
+  "stats": {
+    "m": 4,
+    "ws": 35,
+    "bs": 40,
+    "s": 30,
+    "t": 45,
+    "i": 30,
+    "ag": 45,
+    "dex": 30,
+    "int": 25,
+    "wp": 30,
+    "fel": 20
+  },
+  "skills": [
+    {
+      "ref": "skill.dodge",
+      "total": 55,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 40,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.rangedBow",
+      "total": 50,
+      "characteristic": "bs"
+    },
+    {
+      "ref": "skill.stealthRural",
+      "total": 55,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 35,
+      "characteristic": "ws"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.animosity",
+      "specification": "Greenskins"
+    },
+    {
+      "ref": "trait.infected"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "talent.accurateShot"
+    },
+    {
+      "ref": "talent.flee"
+    },
+    {
+      "ref": "gear.bow",
+      "ammoRef": "gear.arrow",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.arrow",
+      "quantity": 12
+    },
+    {
+      "ref": "gear.sword",
+      "equipped": false,
+      "ugly": true
+    },
+    {
+      "ref": "gear.leatherJerkin",
+      "worn": true,
+      "ugly": true
+    }
+  ]
+}

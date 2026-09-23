@@ -1,3 +1,11 @@
+## 0.3.4: Goblins and mounts
+
+- Add 21 Common, Forest and Night Goblin, Gnoblar and Hobgoblin actors using the basic profiles and single templates from *Tribes and Tribulations*.
+- Add separate Giant Wolf and Giant Spider mounts with the book's printed Wounds and natural traits.
+- Keep Resolute on Soldier and Elite variants as printed; the Night Goblin Net Carrier carries no shield.
+- Equip real weapons and armour, mark Goblin-made gear Ugly, supply ammunition and leave incompatible backup weapons unequipped.
+- List all 49 actors in the README. Existing world copies are not automatically changed; generated compendium originals rebuild on GM login.
+
 ## 0.3.3: Orcs from Tribes and Tribulations
 
 - Rebuild Orc Boy and Orc Warrior using the book's base profile and Soldier template, including Die Hard and Infected.

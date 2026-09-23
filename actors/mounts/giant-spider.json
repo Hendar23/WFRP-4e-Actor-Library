@@ -1,0 +1,60 @@
+{
+  "id": "giant-spider",
+  "name": "Giant Spider",
+  "species": "Spider",
+  "stats": {
+    "m": 7,
+    "ws": 35,
+    "bs": 0,
+    "s": 35,
+    "t": 30,
+    "i": 20,
+    "ag": 35,
+    "dex": 20,
+    "int": 14,
+    "wp": 25,
+    "fel": 10
+  },
+  "wounds": 20,
+  "items": [
+    {
+      "ref": "trait.armour",
+      "specification": "1"
+    },
+    {
+      "ref": "trait.arboreal"
+    },
+    {
+      "ref": "trait.bestial"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "trait.size",
+      "specification": "Large"
+    },
+    {
+      "ref": "trait.trained",
+      "specification": "Broken, Magic, Mount"
+    },
+    {
+      "ref": "trait.venom",
+      "specification": "Challenging"
+    },
+    {
+      "ref": "trait.wallcrawler"
+    },
+    {
+      "ref": "trait.weapon",
+      "specification": "+4"
+    },
+    {
+      "ref": "trait.web",
+      "specification": "0"
+    }
+  ],
+  "folder": "Mounts",
+  "type": "creature",
+  "skills": []
+}
