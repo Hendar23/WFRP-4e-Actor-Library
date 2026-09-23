@@ -61,18 +61,3 @@ Use Node.js 22 or newer. There are no npm dependencies:
 npm run build
 npm run check
 ```
-
-Validation checks fields, unique IDs, references and skill totals. Runtime checks also verify Wounds, encumbrance conditions and equipped hand requirements. CI cannot verify that an official compendium UUID still resolves or that an actor works in Foundry; contributors must test those in their installed game.
-
-## Project status
-
-Unofficial community project. No affiliation with the publishers of Warhammer Fantasy Roleplay or Foundry VTT. The pilot's existing personal-use notice remains in the module manifest; a project-wide contribution and distribution licence has not yet been selected.
-
-## Publishing an update
-
-1. Make and test your changes. For actor changes, increment `BUILD_VERSION` in `module/scripts/main.js` as well.
-2. Run `npm run build` and commit the generated data with the source definitions.
-3. Increment the version in both `module/module.json` and `package.json`. Update the versioned ZIP `download` URL in the manifest and write `RELEASE_NOTES.md`.
-4. Push to `main`. The **Publish Foundry release** workflow validates and packages the module, creates a draft release, uploads both assets, then publishes it. If any step fails, inspect the Actions log and rerun after correcting it.
-
-The stable `manifest` URL stays unchanged. Published versions are not overwritten; use a new version for changes. The workflow can also be run manually from Actions on `main`.
