@@ -12,7 +12,7 @@ These need support for the book's Waaagh! spell list, its casting and miscast pr
 
 ## Goblins and related creatures
 
-Review the basic Common, Forest, Night and Gnoblar profiles in *Tribes and Tribulations*, pp. 8-9, and the templates on pp. 16-17. Proposed families: Common Goblin spearman, archer, soldier, elite, boss and wolf rider; Forest Goblin warrior, archer and spider rider; Night Goblin spear carrier, archer, net carrier, boss and fanatic; Gnoblar scavenger and slinger. Add Giant Wolf, Giant Spider and Squig mounts or creatures after verifying their rules. Goblin shamans and Squig specialists need a separate review of spells, mushrooms and other special rules.
+Review the basic Common, Forest, Night and Gnoblar profiles in *Tribes and Tribulations*, pp. 8-9, and the templates on pp. 16-17. Proposed families: Common Goblin spearman, archer, soldier, elite, boss and wolf rider; Forest Goblin warrior, archer, elite and spider rider; Night Goblin spear carrier, archer, net carrier, elite and boss; Gnoblar scavenger and slinger. Hobgoblins (p. 12) deserve their own mercenary, archer, wolf rider and boss profiles. Add Giant Wolf, Giant Spider and Squig mounts or creatures after verifying their rules. Goblin shamans, fanatics and Squig specialists need a separate review of spells, mushrooms and other special rules.
 
 ## Other specialists
 
