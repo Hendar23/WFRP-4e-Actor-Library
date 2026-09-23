@@ -1,0 +1,99 @@
+{
+  "id": "ungor-halfhorn",
+  "folder": "Beastmen",
+  "name": "Ungor Halfhorn",
+  "type": "creature",
+  "species": "Beastman",
+  "stats": {
+    "m": 4,
+    "ws": 40,
+    "bs": 35,
+    "s": 35,
+    "t": 40,
+    "i": 35,
+    "ag": 35,
+    "dex": 25,
+    "int": 25,
+    "wp": 40,
+    "fel": 25
+  },
+  "wounds": 14,
+  "skills": [
+    {
+      "ref": "skill.athletics",
+      "total": 40,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.cool",
+      "total": 45,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 35,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 45,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.intuition",
+      "total": 35,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 50,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.outdoorSurvival",
+      "total": 35,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 50,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.stealthRural",
+      "total": 45,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.track",
+      "total": 45,
+      "characteristic": "i"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.arboreal"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "gear.spear",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.shield",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.leatherJerkin",
+      "worn": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.clothing"
+    }
+  ]
+}

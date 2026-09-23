@@ -1,0 +1,70 @@
+{
+  "id": "razorgor",
+  "folder": "Beastmen",
+  "name": "Razorgor",
+  "type": "creature",
+  "species": "Razorgor",
+  "stats": {
+    "m": 7,
+    "ws": 45,
+    "bs": 0,
+    "s": 50,
+    "t": 50,
+    "i": 25,
+    "ag": 30,
+    "dex": 0,
+    "int": 10,
+    "wp": 35,
+    "fel": 0
+  },
+  "wounds": 32,
+  "skills": [
+    {
+      "ref": "skill.athletics",
+      "total": 35,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 35,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 60,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 35,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.track",
+      "total": 35,
+      "characteristic": "i"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.bestial"
+    },
+    {
+      "ref": "trait.hungry"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "trait.size",
+      "specification": "Large"
+    },
+    {
+      "ref": "trait.stride"
+    },
+    {
+      "ref": "trait.horns",
+      "specification": "+9"
+    }
+  ]
+}

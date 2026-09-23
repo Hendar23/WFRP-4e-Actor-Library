@@ -31,7 +31,7 @@ Copy the contents of `module/` into `Data/modules/wfrp4e-quick-npc-library/`, re
 
 The GM's first login builds missing or outdated actors into the world compendium **WFRP4e Quick NPC Library**. Drag actors into the world or onto a scene. The module creates matching folders in the Actors directory for imported actors. Existing world copies are not automatically updated.
 
-## Included actors (102)
+## Included actors (122)
 
 | Group | Actors |
 | --- | --- |
@@ -44,6 +44,7 @@ The GM's first login builds missing or outdated actors into the world compendium
 | Road and River (4) | Coachman, Veteran Coachman, Boatman, Riverboat Captain |
 | Watch (3) | Rookie Watchman, Watchman, Watch Sergeant |
 | Skaven (3) | Clanrat, Stormvermin, Clawleader |
+| Beastmen (20) | Ungor, Ungor Raider, Ungor Halfhorn, Gor, Gor Foe-render, Bestigor, Bestigor Gouge-horn, Wargor, Beastlord, Minotaur, Minotaur Bloodkine, Gorebull, Doombull, Bray-Shaman, Great Bray-Shaman, Chaos Warhound, Tuskgor, Razorgor, Centigor, Harpy |
 | Orcs (16) | Orc Boy, Orc Warrior, Orc Big 'Un, Orc Boss, Orc Warboss, Orc Arrer Boy, Orc Boar Boy, Orc Boar Boy Big 'Un, Black Orc, Black Orc Veteran, Black Orc Big 'Un, Black Orc Boss, Savage Orc Boy, Savage Orc Warrior, Savage Orc Big 'Un, Savage Orc Boss |
 | Goblins (6) | Goblin Spearman, Goblin Archer, Goblin Soldier, Goblin Elite, Goblin Boss, Goblin Wolf Rider |
 | Forest Goblins (4) | Forest Goblin Warrior, Forest Goblin Archer, Forest Goblin Elite, Forest Goblin Spider Rider |

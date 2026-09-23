@@ -1,0 +1,66 @@
+{
+  "id": "harpy",
+  "folder": "Beastmen",
+  "name": "Harpy",
+  "type": "creature",
+  "species": "Harpy",
+  "stats": {
+    "m": 4,
+    "ws": 35,
+    "bs": 0,
+    "s": 30,
+    "t": 30,
+    "i": 35,
+    "ag": 45,
+    "dex": 0,
+    "int": 10,
+    "wp": 25,
+    "fel": 0
+  },
+  "wounds": 10,
+  "skills": [
+    {
+      "ref": "skill.athletics",
+      "total": 55,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 50,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 35,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.meleeBrawling",
+      "total": 45,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 45,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.track",
+      "total": 45,
+      "characteristic": "i"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.bestial"
+    },
+    {
+      "ref": "trait.flight",
+      "specification": "60"
+    },
+    {
+      "ref": "trait.weapon",
+      "specification": "+6"
+    }
+  ]
+}

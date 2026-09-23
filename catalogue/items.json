@@ -930,5 +930,61 @@
   "gear.huntingDog": {
     "uuid": "Compendium.wfrp4e-core.items.Item.y28P2G0NEVZvMzS5",
     "requires": "wfrp4e-core"
+  },
+  "trait.fury": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.fjd1u9VAgiYzhBRp",
+    "requires": "wfrp4e-core"
+  },
+  "trait.hungry": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.xneBqGOs1QS7kfUr",
+    "requires": "wfrp4e-core"
+  },
+  "trait.fear": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.pTorrE0l3VybAbtn",
+    "requires": "wfrp4e-core"
+  },
+  "trait.corruption": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.xsGbDFqK2qh7lsIj",
+    "requires": "wfrp4e-core"
+  },
+  "trait.spellcaster": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.vY0CHKsJRV3gYBj3",
+    "requires": "wfrp4e-core"
+  },
+  "trait.tracker": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.ClOlztW6hH8rslbp",
+    "requires": "wfrp4e-core"
+  },
+  "trait.bite": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.pLW9SVX0TVTYPiPv",
+    "requires": "wfrp4e-core"
+  },
+  "trait.flight": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.EO05HX7jql0g605A",
+    "requires": "wfrp4e-core"
+  },
+  "skill.channellingGhur": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.ssCqvqr2ORFX6lPL",
+    "requires": "wfrp4e-core"
+  },
+  "skill.languageMagick": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.e3McIND4Rrsn5cE6",
+    "requires": "wfrp4e-core"
+  },
+  "skill.loreMagick": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.ZQzRZkB9JK1CveMW",
+    "requires": "wfrp4e-core"
+  },
+  "skill.rangedThrowing": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.NSnpJQiky8JcMnme",
+    "requires": "wfrp4e-core"
+  },
+  "talent.arcaneMagic": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.3O9clK7LGyuLTHPW",
+    "requires": "wfrp4e-core"
+  },
+  "gear.throwingAxe": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.Xjwk84KnOKDaiZs1",
+    "requires": "wfrp4e-core"
   }
 }

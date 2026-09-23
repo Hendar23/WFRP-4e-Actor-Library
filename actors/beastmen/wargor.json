@@ -1,0 +1,118 @@
+{
+  "id": "wargor",
+  "folder": "Beastmen",
+  "name": "Wargor",
+  "type": "creature",
+  "species": "Beastman",
+  "stats": {
+    "m": 4,
+    "ws": 55,
+    "bs": 35,
+    "s": 45,
+    "t": 55,
+    "i": 40,
+    "ag": 40,
+    "dex": 25,
+    "int": 30,
+    "wp": 40,
+    "fel": 30
+  },
+  "wounds": 24,
+  "skills": [
+    {
+      "ref": "skill.athletics",
+      "total": 45,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.cool",
+      "total": 55,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 45,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 65,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.intimidate",
+      "total": 65,
+      "characteristic": "s"
+    },
+    {
+      "ref": "skill.leadership",
+      "total": 50,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 80,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.meleeTwoHanded",
+      "total": 70,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.outdoorSurvival",
+      "total": 35,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 55,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.stealthRural",
+      "total": 45,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.track",
+      "total": 45,
+      "characteristic": "i"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.arboreal"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "trait.fury"
+    },
+    {
+      "ref": "trait.horns",
+      "specification": "+6"
+    },
+    {
+      "ref": "gear.axe",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.shield",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.mailCoat",
+      "worn": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.plateOpenHelm",
+      "worn": true,
+      "ugly": true
+    }
+  ]
+}

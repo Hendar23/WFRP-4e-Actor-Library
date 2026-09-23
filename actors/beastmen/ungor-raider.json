@@ -1,0 +1,104 @@
+{
+  "id": "ungor-raider",
+  "folder": "Beastmen",
+  "name": "Ungor Raider",
+  "type": "creature",
+  "species": "Beastman",
+  "stats": {
+    "m": 4,
+    "ws": 35,
+    "bs": 40,
+    "s": 30,
+    "t": 35,
+    "i": 35,
+    "ag": 40,
+    "dex": 30,
+    "int": 25,
+    "wp": 35,
+    "fel": 25
+  },
+  "wounds": 12,
+  "skills": [
+    {
+      "ref": "skill.athletics",
+      "total": 45,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.cool",
+      "total": 35,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 40,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 40,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.intuition",
+      "total": 35,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 35,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.outdoorSurvival",
+      "total": 35,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 50,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.rangedBow",
+      "total": 55,
+      "characteristic": "bs"
+    },
+    {
+      "ref": "skill.stealthRural",
+      "total": 55,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.track",
+      "total": 50,
+      "characteristic": "i"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.arboreal"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "gear.shortbow",
+      "equipped": true,
+      "ugly": true,
+      "ammoRef": "gear.arrow"
+    },
+    {
+      "ref": "gear.arrow",
+      "quantity": 12
+    },
+    {
+      "ref": "gear.dagger",
+      "equipped": false,
+      "ugly": true
+    },
+    {
+      "ref": "gear.clothing"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "gorebull",
+  "folder": "Beastmen",
+  "name": "Gorebull",
+  "type": "creature",
+  "species": "Minotaur",
+  "stats": {
+    "m": 6,
+    "ws": 55,
+    "bs": 25,
+    "s": 55,
+    "t": 55,
+    "i": 25,
+    "ag": 35,
+    "dex": 25,
+    "int": 25,
+    "wp": 40,
+    "fel": 20
+  },
+  "wounds": 40,
+  "skills": [
+    {
+      "ref": "skill.athletics",
+      "total": 40,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.cool",
+      "total": 50,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 35,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 75,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.intimidate",
+      "total": 75,
+      "characteristic": "s"
+    },
+    {
+      "ref": "skill.leadership",
+      "total": 30,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 55,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.meleeTwoHanded",
+      "total": 80,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.outdoorSurvival",
+      "total": 30,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 30,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.track",
+      "total": 30,
+      "characteristic": "i"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.horns",
+      "specification": "+9"
+    },
+    {
+      "ref": "trait.hungry"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "trait.size",
+      "specification": "Large"
+    },
+    {
+      "ref": "trait.fury"
+    },
+    {
+      "ref": "gear.greatAxe",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.mailCoat",
+      "worn": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.plateOpenHelm",
+      "worn": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.plateBracers",
+      "worn": true,
+      "ugly": true
+    }
+  ]
+}

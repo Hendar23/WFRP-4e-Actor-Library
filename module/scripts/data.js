@@ -67,7 +67,11 @@ export const UUID = {
     "setTrap": "Compendium.wfrp4e-core.items.Item.HngrTVqKis08Nvcf",
     "secretSignsGuilder": "Compendium.wfrp4e-core.items.Item.D4JNPSl6VOpsVmSi",
     "track": "Compendium.wfrp4e-core.items.Item.rt2rGSwFDCDHPh0A",
-    "entertainStory": "Compendium.wfrp4e-core.items.Item.qBm2fu3oMhxsDBNQ"
+    "entertainStory": "Compendium.wfrp4e-core.items.Item.qBm2fu3oMhxsDBNQ",
+    "channellingGhur": "Compendium.wfrp4e-core.items.Item.ssCqvqr2ORFX6lPL",
+    "languageMagick": "Compendium.wfrp4e-core.items.Item.e3McIND4Rrsn5cE6",
+    "loreMagick": "Compendium.wfrp4e-core.items.Item.ZQzRZkB9JK1CveMW",
+    "rangedThrowing": "Compendium.wfrp4e-core.items.Item.NSnpJQiky8JcMnme"
   },
   "talent": {
     "blather": "Compendium.wfrp4e-core.items.Item.77p3QRKgFWakkndF",
@@ -127,7 +131,8 @@ export const UUID = {
     "strongSwimmer": "Compendium.wfrp4e-core.items.Item.4wnQc19allWlyOGe",
     "waterman": "Compendium.wfrp4e-core.items.Item.tlEg21DHMEJoWcJq",
     "pilot": "Compendium.wfrp4e-core.items.Item.WEH97InIX29nzgW1",
-    "disarm": "Compendium.wfrp4e-core.items.Item.DS44h27iCOvUBa4O"
+    "disarm": "Compendium.wfrp4e-core.items.Item.DS44h27iCOvUBa4O",
+    "arcaneMagic": "Compendium.wfrp4e-core.items.Item.3O9clK7LGyuLTHPW"
   },
   "trait": {
     "animosity": "Compendium.wfrp4e-core.items.Item.0VpT5yubw4UL7j6f",
@@ -151,7 +156,15 @@ export const UUID = {
     "hatred": "Compendium.wfrp4e-core.items.Item.aE3pyW20Orvdjzj0",
     "venom": "Compendium.wfrp4e-core.items.Item.gFkRm9wS65qe18Xv",
     "wallcrawler": "Compendium.wfrp4e-core.items.Item.KII1gWnxIZ8HzmU5",
-    "web": "Compendium.wfrp4e-core.items.Item.Bw6tQyzOhcl7aQ46"
+    "web": "Compendium.wfrp4e-core.items.Item.Bw6tQyzOhcl7aQ46",
+    "fury": "Compendium.wfrp4e-core.items.Item.fjd1u9VAgiYzhBRp",
+    "hungry": "Compendium.wfrp4e-core.items.Item.xneBqGOs1QS7kfUr",
+    "fear": "Compendium.wfrp4e-core.items.Item.pTorrE0l3VybAbtn",
+    "corruption": "Compendium.wfrp4e-core.items.Item.xsGbDFqK2qh7lsIj",
+    "spellcaster": "Compendium.wfrp4e-core.items.Item.vY0CHKsJRV3gYBj3",
+    "tracker": "Compendium.wfrp4e-core.items.Item.ClOlztW6hH8rslbp",
+    "bite": "Compendium.wfrp4e-core.items.Item.pLW9SVX0TVTYPiPv",
+    "flight": "Compendium.wfrp4e-core.items.Item.EO05HX7jql0g605A"
   },
   "gear": {
     "improvisedWeapon": "Compendium.wfrp4e-core.items.Item.mRU10yAWWWs5WoKt",
@@ -239,7 +252,8 @@ export const UUID = {
     "hammer": "Compendium.wfrp4e-core.items.Item.HyfQNt0QGGa0EltW",
     "rake": "Compendium.wfrp4e-core.items.Item.Y55qCcUkHVZAbG8s",
     "jewellery": "Compendium.wfrp4e-core.items.Item.8MpTb12W1x6ECZzt",
-    "huntingDog": "Compendium.wfrp4e-core.items.Item.y28P2G0NEVZvMzS5"
+    "huntingDog": "Compendium.wfrp4e-core.items.Item.y28P2G0NEVZvMzS5",
+    "throwingAxe": "Compendium.wfrp4e-core.items.Item.Xjwk84KnOKDaiZs1"
   },
   "prayer": {
     "blessingBattle": "Compendium.wfrp4e-core.items.Item.ElmLfnrXliStS9CP",
@@ -247,6 +261,2054 @@ export const UUID = {
   }
 };
 export const PROFILES = [
+  {
+    "id": "beastlord",
+    "folder": "Beastmen",
+    "name": "Beastlord",
+    "type": "creature",
+    "species": "Beastman",
+    "stats": {
+      "m": 4,
+      "ws": 65,
+      "bs": 35,
+      "s": 55,
+      "t": 60,
+      "i": 45,
+      "ag": 40,
+      "dex": 30,
+      "int": 35,
+      "wp": 50,
+      "fel": 35
+    },
+    "wounds": 30,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 45,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 75,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 45,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 70,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 85,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 65,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 100,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Lst4xxUcxTYMlD3U",
+        "total": 90,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh",
+        "total": 40,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 65,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Xk5tp3aasPNtk4zt",
+        "total": 45,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rt2rGSwFDCDHPh0A",
+        "total": 50,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOV2s6PQBBrhpMOv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.fjd1u9VAgiYzhBRp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.BqPZn6q3VHn9HUrW",
+        "specification": "+6"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.jAy9klfNkrQuL1Ru",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oBNXxRFPh1sOT4K2",
+        "worn": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.i76oPVM2eFEs5IBh",
+        "worn": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.TvUKzvXjc2VChuTT",
+        "worn": true,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "bestigor-gouge-horn",
+    "folder": "Beastmen",
+    "name": "Bestigor Gouge-horn",
+    "type": "creature",
+    "species": "Beastman",
+    "stats": {
+      "m": 4,
+      "ws": 55,
+      "bs": 30,
+      "s": 45,
+      "t": 50,
+      "i": 35,
+      "ag": 35,
+      "dex": 25,
+      "int": 25,
+      "wp": 40,
+      "fel": 25
+    },
+    "wounds": 20,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 55,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 65,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 55,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 35,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 65,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Lst4xxUcxTYMlD3U",
+        "total": 80,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh",
+        "total": 30,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 45,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Xk5tp3aasPNtk4zt",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rt2rGSwFDCDHPh0A",
+        "total": 40,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOV2s6PQBBrhpMOv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.fjd1u9VAgiYzhBRp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.BqPZn6q3VHn9HUrW",
+        "specification": "+6"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.jAy9klfNkrQuL1Ru",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.i76oPVM2eFEs5IBh",
+        "worn": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.TvUKzvXjc2VChuTT",
+        "worn": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oW7wSkl4JMb5sBH8",
+        "worn": true,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "bestigor",
+    "folder": "Beastmen",
+    "name": "Bestigor",
+    "type": "creature",
+    "species": "Beastman",
+    "stats": {
+      "m": 4,
+      "ws": 50,
+      "bs": 30,
+      "s": 40,
+      "t": 50,
+      "i": 30,
+      "ag": 35,
+      "dex": 25,
+      "int": 25,
+      "wp": 35,
+      "fel": 25
+    },
+    "wounds": 18,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 45,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 65,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 50,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 60,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Lst4xxUcxTYMlD3U",
+        "total": 65,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh",
+        "total": 30,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 40,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Xk5tp3aasPNtk4zt",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rt2rGSwFDCDHPh0A",
+        "total": 35,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOV2s6PQBBrhpMOv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.fjd1u9VAgiYzhBRp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.BqPZn6q3VHn9HUrW",
+        "specification": "+6"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.jAy9klfNkrQuL1Ru",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cJdfHOVbghTf4Eo0",
+        "worn": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.TvUKzvXjc2VChuTT",
+        "worn": true,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "bray-shaman",
+    "folder": "Beastmen",
+    "name": "Bray-Shaman",
+    "type": "creature",
+    "species": "Beastman",
+    "stats": {
+      "m": 4,
+      "ws": 40,
+      "bs": 30,
+      "s": 30,
+      "t": 45,
+      "i": 40,
+      "ag": 35,
+      "dex": 25,
+      "int": 30,
+      "wp": 50,
+      "fel": 30
+    },
+    "wounds": 16,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ssCqvqr2ORFX6lPL",
+        "total": 60,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 60,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 35,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 50,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 50,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.e3McIND4Rrsn5cE6",
+        "total": 40,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ZQzRZkB9JK1CveMW",
+        "total": 40,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 45,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh",
+        "total": 40,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 50,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Xk5tp3aasPNtk4zt",
+        "total": 40,
+        "characteristic": "ag"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOV2s6PQBBrhpMOv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.fjd1u9VAgiYzhBRp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.BqPZn6q3VHn9HUrW",
+        "specification": "+6"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.xsGbDFqK2qh7lsIj",
+        "specification": "Minor"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.vY0CHKsJRV3gYBj3",
+        "specification": "Beasts"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.3O9clK7LGyuLTHPW",
+        "specification": "Beasts"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GkeMJrsqxQIek1xK",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.hEr7pIXzUCHOXZIX",
+        "name": "Chaos Fetish"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.EDnMXoxQTU4TMrRV"
+      }
+    ]
+  },
+  {
+    "id": "centigor",
+    "folder": "Beastmen",
+    "name": "Centigor",
+    "type": "creature",
+    "species": "Centigor",
+    "stats": {
+      "m": 8,
+      "ws": 45,
+      "bs": 30,
+      "s": 40,
+      "t": 40,
+      "i": 35,
+      "ag": 40,
+      "dex": 20,
+      "int": 20,
+      "wp": 30,
+      "fel": 20
+    },
+    "wounds": 22,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 45,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.R2ytluHiEFF2KQ5e",
+        "total": 50,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 30,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 45,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 50,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 50,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 60,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh",
+        "total": 25,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 45,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.NSnpJQiky8JcMnme",
+        "total": 40,
+        "characteristic": "bs"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Xk5tp3aasPNtk4zt",
+        "total": 45,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rt2rGSwFDCDHPh0A",
+        "total": 40,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8slW8CJ2oVTxeQ6q",
+        "specification": "Large"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UmxGZRV0Lw3TZ0Kx"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.HxOhYpAxqdcyoSje",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Xjwk84KnOKDaiZs1",
+        "equipped": false,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.OjcHE0VOGr1aRdy9",
+        "worn": true,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "chaos-warhound",
+    "folder": "Beastmen",
+    "name": "Chaos Warhound",
+    "type": "creature",
+    "species": "Chaos Warhound",
+    "stats": {
+      "m": 7,
+      "ws": 40,
+      "bs": 0,
+      "s": 30,
+      "t": 35,
+      "i": 40,
+      "ag": 45,
+      "dex": 0,
+      "int": 15,
+      "wp": 30,
+      "fel": 0
+    },
+    "wounds": 12,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 50,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 50,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 40,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 50,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rt2rGSwFDCDHPh0A",
+        "total": 50,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.AGcJl5rHjkyIQBPP"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UmxGZRV0Lw3TZ0Kx"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ClOlztW6hH8rslbp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pLW9SVX0TVTYPiPv",
+        "specification": "+6"
+      }
+    ]
+  },
+  {
+    "id": "doombull",
+    "folder": "Beastmen",
+    "name": "Doombull",
+    "type": "creature",
+    "species": "Minotaur",
+    "stats": {
+      "m": 6,
+      "ws": 60,
+      "bs": 25,
+      "s": 60,
+      "t": 60,
+      "i": 30,
+      "ag": 40,
+      "dex": 25,
+      "int": 25,
+      "wp": 45,
+      "fel": 20
+    },
+    "wounds": 48,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 45,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 65,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 90,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 90,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 40,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 60,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Lst4xxUcxTYMlD3U",
+        "total": 95,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh",
+        "total": 30,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 35,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rt2rGSwFDCDHPh0A",
+        "total": 35,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.BqPZn6q3VHn9HUrW",
+        "specification": "+9"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.xneBqGOs1QS7kfUr"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8slW8CJ2oVTxeQ6q",
+        "specification": "Large"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.fjd1u9VAgiYzhBRp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pTorrE0l3VybAbtn",
+        "specification": "1"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.jAy9klfNkrQuL1Ru",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.i76oPVM2eFEs5IBh",
+        "worn": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oBNXxRFPh1sOT4K2",
+        "worn": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.TvUKzvXjc2VChuTT",
+        "worn": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oW7wSkl4JMb5sBH8",
+        "worn": true,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "gor-foe-render",
+    "folder": "Beastmen",
+    "name": "Gor Foe-render",
+    "type": "creature",
+    "species": "Beastman",
+    "stats": {
+      "m": 4,
+      "ws": 50,
+      "bs": 30,
+      "s": 40,
+      "t": 45,
+      "i": 35,
+      "ag": 35,
+      "dex": 25,
+      "int": 25,
+      "wp": 35,
+      "fel": 25
+    },
+    "wounds": 16,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 45,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 55,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 55,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 35,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 70,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh",
+        "total": 30,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 45,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Xk5tp3aasPNtk4zt",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rt2rGSwFDCDHPh0A",
+        "total": 40,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOV2s6PQBBrhpMOv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.fjd1u9VAgiYzhBRp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.BqPZn6q3VHn9HUrW",
+        "specification": "+6"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.FaPOAjXnBXWLjQBl",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.OjcHE0VOGr1aRdy9",
+        "worn": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0W0kEpa2kNEcRGK0",
+        "worn": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.TfRdF6baYuGd6i53"
+      }
+    ]
+  },
+  {
+    "id": "gor",
+    "folder": "Beastmen",
+    "name": "Gor",
+    "type": "creature",
+    "species": "Beastman",
+    "stats": {
+      "m": 4,
+      "ws": 45,
+      "bs": 30,
+      "s": 35,
+      "t": 45,
+      "i": 30,
+      "ag": 35,
+      "dex": 25,
+      "int": 25,
+      "wp": 30,
+      "fel": 25
+    },
+    "wounds": 14,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 30,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 55,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 45,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 55,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh",
+        "total": 30,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 40,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Xk5tp3aasPNtk4zt",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rt2rGSwFDCDHPh0A",
+        "total": 35,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOV2s6PQBBrhpMOv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.fjd1u9VAgiYzhBRp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.BqPZn6q3VHn9HUrW",
+        "specification": "+6"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.FaPOAjXnBXWLjQBl",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ipaDvYY3qS66o593",
+        "worn": true,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "gorebull",
+    "folder": "Beastmen",
+    "name": "Gorebull",
+    "type": "creature",
+    "species": "Minotaur",
+    "stats": {
+      "m": 6,
+      "ws": 55,
+      "bs": 25,
+      "s": 55,
+      "t": 55,
+      "i": 25,
+      "ag": 35,
+      "dex": 25,
+      "int": 25,
+      "wp": 40,
+      "fel": 20
+    },
+    "wounds": 40,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 50,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 35,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 75,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 75,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 30,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 55,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Lst4xxUcxTYMlD3U",
+        "total": 80,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh",
+        "total": 30,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 30,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rt2rGSwFDCDHPh0A",
+        "total": 30,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.BqPZn6q3VHn9HUrW",
+        "specification": "+9"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.xneBqGOs1QS7kfUr"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8slW8CJ2oVTxeQ6q",
+        "specification": "Large"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.fjd1u9VAgiYzhBRp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.jAy9klfNkrQuL1Ru",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.i76oPVM2eFEs5IBh",
+        "worn": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.TvUKzvXjc2VChuTT",
+        "worn": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oW7wSkl4JMb5sBH8",
+        "worn": true,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "great-bray-shaman",
+    "folder": "Beastmen",
+    "name": "Great Bray-Shaman",
+    "type": "creature",
+    "species": "Beastman",
+    "stats": {
+      "m": 4,
+      "ws": 45,
+      "bs": 30,
+      "s": 35,
+      "t": 50,
+      "i": 50,
+      "ag": 35,
+      "dex": 30,
+      "int": 40,
+      "wp": 60,
+      "fel": 35
+    },
+    "wounds": 22,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ssCqvqr2ORFX6lPL",
+        "total": 85,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 80,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 35,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 55,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 70,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.e3McIND4Rrsn5cE6",
+        "total": 60,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ZQzRZkB9JK1CveMW",
+        "total": 60,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 50,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh",
+        "total": 50,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 70,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Xk5tp3aasPNtk4zt",
+        "total": 40,
+        "characteristic": "ag"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOV2s6PQBBrhpMOv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.fjd1u9VAgiYzhBRp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.BqPZn6q3VHn9HUrW",
+        "specification": "+6"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.xsGbDFqK2qh7lsIj",
+        "specification": "Minor"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.vY0CHKsJRV3gYBj3",
+        "specification": "Beasts"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.3O9clK7LGyuLTHPW",
+        "specification": "Beasts"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GkeMJrsqxQIek1xK",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.hEr7pIXzUCHOXZIX",
+        "name": "Chaos Fetish"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.EDnMXoxQTU4TMrRV"
+      }
+    ]
+  },
+  {
+    "id": "harpy",
+    "folder": "Beastmen",
+    "name": "Harpy",
+    "type": "creature",
+    "species": "Harpy",
+    "stats": {
+      "m": 4,
+      "ws": 35,
+      "bs": 0,
+      "s": 30,
+      "t": 30,
+      "i": 35,
+      "ag": 45,
+      "dex": 0,
+      "int": 10,
+      "wp": 25,
+      "fel": 0
+    },
+    "wounds": 10,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 55,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 50,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 35,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.jLyoyqwmBVPjRjhM",
+        "total": 45,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 45,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rt2rGSwFDCDHPh0A",
+        "total": 45,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.AGcJl5rHjkyIQBPP"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.EO05HX7jql0g605A",
+        "specification": "60"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.AtpAudHA4ybXVlWM",
+        "specification": "+6"
+      }
+    ]
+  },
+  {
+    "id": "minotaur-bloodkine",
+    "folder": "Beastmen",
+    "name": "Minotaur Bloodkine",
+    "type": "creature",
+    "species": "Minotaur",
+    "stats": {
+      "m": 6,
+      "ws": 50,
+      "bs": 25,
+      "s": 50,
+      "t": 50,
+      "i": 25,
+      "ag": 35,
+      "dex": 25,
+      "int": 20,
+      "wp": 35,
+      "fel": 15
+    },
+    "wounds": 34,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 35,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 35,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 65,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 65,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 50,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Lst4xxUcxTYMlD3U",
+        "total": 70,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh",
+        "total": 25,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 30,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rt2rGSwFDCDHPh0A",
+        "total": 30,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.BqPZn6q3VHn9HUrW",
+        "specification": "+9"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.xneBqGOs1QS7kfUr"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8slW8CJ2oVTxeQ6q",
+        "specification": "Large"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.jAy9klfNkrQuL1Ru",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cJdfHOVbghTf4Eo0",
+        "worn": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.TvUKzvXjc2VChuTT",
+        "worn": true,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "minotaur",
+    "folder": "Beastmen",
+    "name": "Minotaur",
+    "type": "creature",
+    "species": "Minotaur",
+    "stats": {
+      "m": 6,
+      "ws": 45,
+      "bs": 25,
+      "s": 44,
+      "t": 45,
+      "i": 20,
+      "ag": 35,
+      "dex": 25,
+      "int": 20,
+      "wp": 30,
+      "fel": 15
+    },
+    "wounds": 30,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 30,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 35,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 55,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 54,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 45,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Lst4xxUcxTYMlD3U",
+        "total": 55,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh",
+        "total": 25,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 25,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rt2rGSwFDCDHPh0A",
+        "total": 25,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.BqPZn6q3VHn9HUrW",
+        "specification": "+9"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.xneBqGOs1QS7kfUr"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8slW8CJ2oVTxeQ6q",
+        "specification": "Large"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.jAy9klfNkrQuL1Ru",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.OjcHE0VOGr1aRdy9",
+        "worn": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.TvUKzvXjc2VChuTT",
+        "worn": true,
+        "ugly": true
+      }
+    ]
+  },
+  {
+    "id": "razorgor",
+    "folder": "Beastmen",
+    "name": "Razorgor",
+    "type": "creature",
+    "species": "Razorgor",
+    "stats": {
+      "m": 7,
+      "ws": 45,
+      "bs": 0,
+      "s": 50,
+      "t": 50,
+      "i": 25,
+      "ag": 30,
+      "dex": 0,
+      "int": 10,
+      "wp": 35,
+      "fel": 0
+    },
+    "wounds": 32,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 35,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 35,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 60,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 35,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rt2rGSwFDCDHPh0A",
+        "total": 35,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.AGcJl5rHjkyIQBPP"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.xneBqGOs1QS7kfUr"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8slW8CJ2oVTxeQ6q",
+        "specification": "Large"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UmxGZRV0Lw3TZ0Kx"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.BqPZn6q3VHn9HUrW",
+        "specification": "+9"
+      }
+    ]
+  },
+  {
+    "id": "tuskgor",
+    "folder": "Beastmen",
+    "name": "Tuskgor",
+    "type": "creature",
+    "species": "Tuskgor",
+    "stats": {
+      "m": 7,
+      "ws": 40,
+      "bs": 0,
+      "s": 40,
+      "t": 40,
+      "i": 25,
+      "ag": 30,
+      "dex": 0,
+      "int": 10,
+      "wp": 25,
+      "fel": 0
+    },
+    "wounds": 18,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 35,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 35,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 45,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 35,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rt2rGSwFDCDHPh0A",
+        "total": 35,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.AGcJl5rHjkyIQBPP"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UmxGZRV0Lw3TZ0Kx"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.BqPZn6q3VHn9HUrW",
+        "specification": "+7"
+      }
+    ]
+  },
+  {
+    "id": "ungor-halfhorn",
+    "folder": "Beastmen",
+    "name": "Ungor Halfhorn",
+    "type": "creature",
+    "species": "Beastman",
+    "stats": {
+      "m": 4,
+      "ws": 40,
+      "bs": 35,
+      "s": 35,
+      "t": 40,
+      "i": 35,
+      "ag": 35,
+      "dex": 25,
+      "int": 25,
+      "wp": 40,
+      "fel": 25
+    },
+    "wounds": 14,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 45,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 35,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 45,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 35,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 50,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh",
+        "total": 35,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 50,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Xk5tp3aasPNtk4zt",
+        "total": 45,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rt2rGSwFDCDHPh0A",
+        "total": 45,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOV2s6PQBBrhpMOv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.HxOhYpAxqdcyoSje",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ipaDvYY3qS66o593",
+        "worn": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z"
+      }
+    ]
+  },
+  {
+    "id": "ungor-raider",
+    "folder": "Beastmen",
+    "name": "Ungor Raider",
+    "type": "creature",
+    "species": "Beastman",
+    "stats": {
+      "m": 4,
+      "ws": 35,
+      "bs": 40,
+      "s": 30,
+      "t": 35,
+      "i": 35,
+      "ag": 40,
+      "dex": 30,
+      "int": 25,
+      "wp": 35,
+      "fel": 25
+    },
+    "wounds": 12,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 45,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 35,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 40,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 35,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 35,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh",
+        "total": 35,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 50,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ZQSm2AwrgT2cHG0C",
+        "total": 55,
+        "characteristic": "bs"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Xk5tp3aasPNtk4zt",
+        "total": 55,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rt2rGSwFDCDHPh0A",
+        "total": 50,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOV2s6PQBBrhpMOv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CRNrEnLXTGXVT1UW",
+        "equipped": true,
+        "ugly": true,
+        "ammoUuid": "Compendium.wfrp4e-core.items.Item.6GNNpWIGxO9CkTCR"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.6GNNpWIGxO9CkTCR",
+        "quantity": 12
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.UlL4mHSgBW3nYh2a",
+        "equipped": false,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z"
+      }
+    ]
+  },
+  {
+    "id": "ungor",
+    "folder": "Beastmen",
+    "name": "Ungor",
+    "type": "creature",
+    "species": "Beastman",
+    "stats": {
+      "m": 4,
+      "ws": 35,
+      "bs": 30,
+      "s": 30,
+      "t": 35,
+      "i": 30,
+      "ag": 35,
+      "dex": 25,
+      "int": 25,
+      "wp": 35,
+      "fel": 25
+    },
+    "wounds": 12,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 35,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 35,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 40,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 30,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 35,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh",
+        "total": 35,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 40,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Xk5tp3aasPNtk4zt",
+        "total": 45,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rt2rGSwFDCDHPh0A",
+        "total": 40,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOV2s6PQBBrhpMOv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.HxOhYpAxqdcyoSje",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z"
+      }
+    ]
+  },
+  {
+    "id": "wargor",
+    "folder": "Beastmen",
+    "name": "Wargor",
+    "type": "creature",
+    "species": "Beastman",
+    "stats": {
+      "m": 4,
+      "ws": 55,
+      "bs": 35,
+      "s": 45,
+      "t": 55,
+      "i": 40,
+      "ag": 40,
+      "dex": 25,
+      "int": 30,
+      "wp": 40,
+      "fel": 30
+    },
+    "wounds": 24,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 45,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 55,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 45,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J",
+        "total": 65,
+        "characteristic": "t"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu",
+        "total": 65,
+        "characteristic": "s"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 50,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 80,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Lst4xxUcxTYMlD3U",
+        "total": 70,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh",
+        "total": 35,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 55,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Xk5tp3aasPNtk4zt",
+        "total": 45,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rt2rGSwFDCDHPh0A",
+        "total": 45,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOV2s6PQBBrhpMOv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.fjd1u9VAgiYzhBRp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.BqPZn6q3VHn9HUrW",
+        "specification": "+6"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.FaPOAjXnBXWLjQBl",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "equipped": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.i76oPVM2eFEs5IBh",
+        "worn": true,
+        "ugly": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.TvUKzvXjc2VChuTT",
+        "worn": true,
+        "ugly": true
+      }
+    ]
+  },
   {
     "id": "apothecary",
     "folder": "Faith and Medicine",

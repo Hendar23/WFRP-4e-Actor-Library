@@ -1,0 +1,122 @@
+{
+  "id": "bray-shaman",
+  "folder": "Beastmen",
+  "name": "Bray-Shaman",
+  "type": "creature",
+  "species": "Beastman",
+  "stats": {
+    "m": 4,
+    "ws": 40,
+    "bs": 30,
+    "s": 30,
+    "t": 45,
+    "i": 40,
+    "ag": 35,
+    "dex": 25,
+    "int": 30,
+    "wp": 50,
+    "fel": 30
+  },
+  "wounds": 16,
+  "skills": [
+    {
+      "ref": "skill.athletics",
+      "total": 40,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.channellingGhur",
+      "total": 60,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.cool",
+      "total": 60,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 35,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 50,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.intuition",
+      "total": 50,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.languageMagick",
+      "total": 40,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.loreMagick",
+      "total": 40,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 45,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.outdoorSurvival",
+      "total": 40,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 50,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.stealthRural",
+      "total": 40,
+      "characteristic": "ag"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.arboreal"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "trait.fury"
+    },
+    {
+      "ref": "trait.horns",
+      "specification": "+6"
+    },
+    {
+      "ref": "trait.corruption",
+      "specification": "Minor"
+    },
+    {
+      "ref": "trait.spellcaster",
+      "specification": "Beasts"
+    },
+    {
+      "ref": "talent.arcaneMagic",
+      "specification": "Beasts"
+    },
+    {
+      "ref": "gear.quarterstaff",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.religiousSymbol",
+      "name": "Chaos Fetish"
+    },
+    {
+      "ref": "gear.robes"
+    }
+  ]
+}

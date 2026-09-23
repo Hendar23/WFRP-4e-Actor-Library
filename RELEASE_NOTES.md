@@ -1,3 +1,10 @@
+## 0.3.7: Beastmen warherd
+
+- Add 20 Beastmen actors: Ungors, Gors, Bestigors, leaders, Minotaurs, Bray-Shamans and common herd beasts, for 122 actors total.
+- Use the four printed WFRP 4e core profiles as anchors. Other statistics and Wounds are proposed WFRP conversions informed by the *Beastmen* 7th Edition army book, not official WFRP profiles.
+- Give armed Beastmen real equipped weapons and worn armour, marking appropriate gear Ugly. Shamans have Channelling (Ghur), Language (Magick), Lore (Magick), Arcane Magic (Beasts) and Spellcaster (Beasts), with no assigned spells.
+- Keep large monsters, the Jabberslythe, chariots and creatures requiring special handling for a later batch. Existing world actors are not automatically rebuilt.
+
 ## 0.3.6: Actor folders and tavern patrons
 
 - File imported library actors under the library folder and their category, including imports that bypass the pre-create folder assignment. Move earlier library imports left at the Actors root into the right category without moving actors deliberately placed elsewhere.

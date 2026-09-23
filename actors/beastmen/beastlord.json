@@ -1,0 +1,118 @@
+{
+  "id": "beastlord",
+  "folder": "Beastmen",
+  "name": "Beastlord",
+  "type": "creature",
+  "species": "Beastman",
+  "stats": {
+    "m": 4,
+    "ws": 65,
+    "bs": 35,
+    "s": 55,
+    "t": 60,
+    "i": 45,
+    "ag": 40,
+    "dex": 30,
+    "int": 35,
+    "wp": 50,
+    "fel": 35
+  },
+  "wounds": 30,
+  "skills": [
+    {
+      "ref": "skill.athletics",
+      "total": 45,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.cool",
+      "total": 75,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 45,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 70,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.intimidate",
+      "total": 85,
+      "characteristic": "s"
+    },
+    {
+      "ref": "skill.leadership",
+      "total": 65,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 100,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.meleeTwoHanded",
+      "total": 90,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.outdoorSurvival",
+      "total": 40,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 65,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.stealthRural",
+      "total": 45,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.track",
+      "total": 50,
+      "characteristic": "i"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.arboreal"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "trait.fury"
+    },
+    {
+      "ref": "trait.horns",
+      "specification": "+6"
+    },
+    {
+      "ref": "gear.greatAxe",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.plateBreastplate",
+      "worn": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.mailCoat",
+      "worn": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.plateOpenHelm",
+      "worn": true,
+      "ugly": true
+    }
+  ]
+}

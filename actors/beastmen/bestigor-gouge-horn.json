@@ -1,0 +1,118 @@
+{
+  "id": "bestigor-gouge-horn",
+  "folder": "Beastmen",
+  "name": "Bestigor Gouge-horn",
+  "type": "creature",
+  "species": "Beastman",
+  "stats": {
+    "m": 4,
+    "ws": 55,
+    "bs": 30,
+    "s": 45,
+    "t": 50,
+    "i": 35,
+    "ag": 35,
+    "dex": 25,
+    "int": 25,
+    "wp": 40,
+    "fel": 25
+  },
+  "wounds": 20,
+  "skills": [
+    {
+      "ref": "skill.athletics",
+      "total": 40,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.cool",
+      "total": 55,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 40,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 65,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.intimidate",
+      "total": 55,
+      "characteristic": "s"
+    },
+    {
+      "ref": "skill.leadership",
+      "total": 35,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 65,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.meleeTwoHanded",
+      "total": 80,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.outdoorSurvival",
+      "total": 30,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 45,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.stealthRural",
+      "total": 40,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.track",
+      "total": 40,
+      "characteristic": "i"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.arboreal"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "trait.fury"
+    },
+    {
+      "ref": "trait.horns",
+      "specification": "+6"
+    },
+    {
+      "ref": "gear.greatAxe",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.mailCoat",
+      "worn": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.plateOpenHelm",
+      "worn": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.plateBracers",
+      "worn": true,
+      "ugly": true
+    }
+  ]
+}

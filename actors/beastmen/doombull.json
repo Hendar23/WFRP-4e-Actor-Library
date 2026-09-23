@@ -1,0 +1,126 @@
+{
+  "id": "doombull",
+  "folder": "Beastmen",
+  "name": "Doombull",
+  "type": "creature",
+  "species": "Minotaur",
+  "stats": {
+    "m": 6,
+    "ws": 60,
+    "bs": 25,
+    "s": 60,
+    "t": 60,
+    "i": 30,
+    "ag": 40,
+    "dex": 25,
+    "int": 25,
+    "wp": 45,
+    "fel": 20
+  },
+  "wounds": 48,
+  "skills": [
+    {
+      "ref": "skill.athletics",
+      "total": 45,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.cool",
+      "total": 65,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 40,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 90,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.intimidate",
+      "total": 90,
+      "characteristic": "s"
+    },
+    {
+      "ref": "skill.leadership",
+      "total": 40,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 60,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.meleeTwoHanded",
+      "total": 95,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.outdoorSurvival",
+      "total": 30,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 35,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.track",
+      "total": 35,
+      "characteristic": "i"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.horns",
+      "specification": "+9"
+    },
+    {
+      "ref": "trait.hungry"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "trait.size",
+      "specification": "Large"
+    },
+    {
+      "ref": "trait.fury"
+    },
+    {
+      "ref": "trait.fear",
+      "specification": "1"
+    },
+    {
+      "ref": "gear.greatAxe",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.mailCoat",
+      "worn": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.plateBreastplate",
+      "worn": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.plateOpenHelm",
+      "worn": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.plateBracers",
+      "worn": true,
+      "ugly": true
+    }
+  ]
+}

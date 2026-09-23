@@ -1,0 +1,110 @@
+{
+  "id": "centigor",
+  "folder": "Beastmen",
+  "name": "Centigor",
+  "type": "creature",
+  "species": "Centigor",
+  "stats": {
+    "m": 8,
+    "ws": 45,
+    "bs": 30,
+    "s": 40,
+    "t": 40,
+    "i": 35,
+    "ag": 40,
+    "dex": 20,
+    "int": 20,
+    "wp": 30,
+    "fel": 20
+  },
+  "wounds": 22,
+  "skills": [
+    {
+      "ref": "skill.athletics",
+      "total": 45,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.consumeAlcohol",
+      "total": 50,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.cool",
+      "total": 30,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 45,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 50,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.intimidate",
+      "total": 50,
+      "characteristic": "s"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 60,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.outdoorSurvival",
+      "total": 25,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 45,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.rangedThrowing",
+      "total": 40,
+      "characteristic": "bs"
+    },
+    {
+      "ref": "skill.stealthRural",
+      "total": 45,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.track",
+      "total": 40,
+      "characteristic": "i"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "trait.size",
+      "specification": "Large"
+    },
+    {
+      "ref": "trait.stride"
+    },
+    {
+      "ref": "gear.spear",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.throwingAxe",
+      "equipped": false,
+      "ugly": true
+    },
+    {
+      "ref": "gear.leatherJack",
+      "worn": true,
+      "ugly": true
+    }
+  ]
+}

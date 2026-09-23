@@ -1,0 +1,104 @@
+{
+  "id": "minotaur",
+  "folder": "Beastmen",
+  "name": "Minotaur",
+  "type": "creature",
+  "species": "Minotaur",
+  "stats": {
+    "m": 6,
+    "ws": 45,
+    "bs": 25,
+    "s": 44,
+    "t": 45,
+    "i": 20,
+    "ag": 35,
+    "dex": 25,
+    "int": 20,
+    "wp": 30,
+    "fel": 15
+  },
+  "wounds": 30,
+  "skills": [
+    {
+      "ref": "skill.athletics",
+      "total": 40,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.cool",
+      "total": 30,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 35,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 55,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.intimidate",
+      "total": 54,
+      "characteristic": "s"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 45,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.meleeTwoHanded",
+      "total": 55,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.outdoorSurvival",
+      "total": 25,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 25,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.track",
+      "total": 25,
+      "characteristic": "i"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.horns",
+      "specification": "+9"
+    },
+    {
+      "ref": "trait.hungry"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "trait.size",
+      "specification": "Large"
+    },
+    {
+      "ref": "gear.greatAxe",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.leatherJack",
+      "worn": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.plateOpenHelm",
+      "worn": true,
+      "ugly": true
+    }
+  ]
+}

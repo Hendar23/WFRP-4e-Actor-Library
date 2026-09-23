@@ -1,0 +1,103 @@
+{
+  "id": "gor",
+  "folder": "Beastmen",
+  "name": "Gor",
+  "type": "creature",
+  "species": "Beastman",
+  "stats": {
+    "m": 4,
+    "ws": 45,
+    "bs": 30,
+    "s": 35,
+    "t": 45,
+    "i": 30,
+    "ag": 35,
+    "dex": 25,
+    "int": 25,
+    "wp": 30,
+    "fel": 25
+  },
+  "wounds": 14,
+  "skills": [
+    {
+      "ref": "skill.athletics",
+      "total": 40,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.cool",
+      "total": 30,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 40,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.endurance",
+      "total": 55,
+      "characteristic": "t"
+    },
+    {
+      "ref": "skill.intimidate",
+      "total": 45,
+      "characteristic": "s"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 55,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.outdoorSurvival",
+      "total": 30,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 40,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.stealthRural",
+      "total": 40,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.track",
+      "total": 35,
+      "characteristic": "i"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.arboreal"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "trait.fury"
+    },
+    {
+      "ref": "trait.horns",
+      "specification": "+6"
+    },
+    {
+      "ref": "gear.axe",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.shield",
+      "equipped": true,
+      "ugly": true
+    },
+    {
+      "ref": "gear.leatherJerkin",
+      "worn": true,
+      "ugly": true
+    }
+  ]
+}
