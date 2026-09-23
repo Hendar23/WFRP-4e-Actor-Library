@@ -15,19 +15,11 @@ Install and enable the required modules in the world. Core Rulebook and Up in Ar
 
 ## Install and update through Foundry
 
-After the first release is published, open **Foundry Setup → Add-on Modules → Install Module**, paste this into **Manifest URL**, and click **Install**:
+Open **Foundry Setup → Add-on Modules → Install Module**, paste this into **Manifest URL**, and click **Install**:
 
 ```text
 https://github.com/Hendar23/WFRP-4e-Actor-Library/releases/latest/download/module.json
 ```
-
-Enable the module and its dependencies in your world. Use **Update** or **Update All** in Foundry Setup for later releases. Updates follow published version numbers, not every commit. Keep the same internal module ID so pilot installations continue to use their existing compendium.
-
-If you installed an earlier version manually, install from this manifest to register the update address. If Foundry refuses because it is already installed, uninstall the module from Setup and reinstall using the URL. The generated world compendium and imported world actors are separate from the module's files.
-
-## Install the development version
-
-Copy the contents of `module/` into `Data/modules/wfrp4e-quick-npc-library/`, restart Foundry and enable **WFRP 4e Actor Library**. The internal module ID and existing compendium name are retained to preserve compatibility with pilot installations.
 
 The GM's first login builds missing or outdated actors into the world compendium **WFRP4e Quick NPC Library**. Drag actors into the world or onto a scene. The module creates matching folders in the Actors directory for imported actors. Existing world copies are not automatically updated.
 
