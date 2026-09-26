@@ -99,10 +99,6 @@
       "specification": "Minor"
     },
     {
-      "ref": "trait.spellcaster",
-      "specification": "Beasts"
-    },
-    {
       "ref": "talent.arcaneMagic",
       "specification": "Beasts"
     },

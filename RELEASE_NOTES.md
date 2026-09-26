@@ -1,3 +1,8 @@
+## 0.3.9: Shaman imports
+
+- Remove the Spellcaster Trait from both Bray-Shamans to prevent the lore selection dialog. Their magic skills and Arcane Magic (Beasts) Talent remain, ready for the GM to add spells.
+- Keep Broken training on the Giant Spider and Giant Wolf while preventing its automatic bonus roll from posting to chat during compendium builds.
+
 ## 0.3.8: Quiet imports and on-demand folders
 
 - Preset Talent specialisations and spider venom strength so actors build without choice dialogs.
@@ -6,7 +11,7 @@
 ## 0.3.7: Beastmen warherd
 
 - Add 20 Beastmen actors: Ungors, Gors, Bestigors, leaders, Minotaurs, Bray-Shamans and common herd beasts, for 122 actors total.
-- Give armed Beastmen real equipped weapons and worn armour, marking appropriate gear Ugly. Shamans have Channelling (Ghur), Language (Magick), Lore (Magick), Arcane Magic (Beasts) and Spellcaster (Beasts), with no assigned spells.
+- Give armed Beastmen real equipped weapons and worn armour, marking appropriate gear Ugly. Shamans have Channelling (Ghur), Language (Magick), Lore (Magick) and Arcane Magic (Beasts), with no assigned spells.
 - Existing world actors are not automatically rebuilt.
 
 ## 0.3.6: Actor folders and tavern patrons

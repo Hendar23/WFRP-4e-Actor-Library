@@ -2,12 +2,14 @@ import { MODULE_ID, PROFILES, UUID } from "./data.js";
 
 const PACK_NAME = "wfrp4e-quick-npc-library";
 const PACK_LABEL = "WFRP4e Quick NPC Library";
-const BUILD_VERSION = 8;
+const BUILD_VERSION = 9;
 const PREVIOUS_BUILD_VERSION = 7;
+const SPECIALISATION_BUILD_VERSION = 8;
 const TALENT_UUIDS = new Set(Object.values(UUID.talent));
 const REPAIR_IDS = new Set(PROFILES.filter(profile =>
   profile.id === "giant-spider" || profile.items.some(item =>
     item.specification && TALENT_UUIDS.has(item.uuid))).map(profile => profile.id));
+const PROMPT_FIX_IDS = new Set(["bray-shaman", "great-bray-shaman", "giant-spider", "giant-wolf"]);
 
 // Only sort actors created by this library. A folder explicitly chosen by the
 // GM always takes precedence, including when an actor is dragged into it.
@@ -126,7 +128,8 @@ Hooks.once("ready", async () => {
       const actor = generated.get(profile.id);
       const version = Number(actor?.getFlag(MODULE_ID, "buildVersion") ?? 0);
       return !actor || version < PREVIOUS_BUILD_VERSION ||
-        (REPAIR_IDS.has(profile.id) && version < BUILD_VERSION);
+        (REPAIR_IDS.has(profile.id) && version < SPECIALISATION_BUILD_VERSION) ||
+        (PROMPT_FIX_IDS.has(profile.id) && version < BUILD_VERSION);
     });
     if (!pending.length) return;
 
@@ -265,6 +268,28 @@ function normaliseWeaponFormula(data) {
   }
 }
 
+function silenceBrokenTrainingRoll(data, entry) {
+  if (entry.uuid !== UUID.trait.trained ||
+      !entry.specification?.split(/\s*,\s*/).includes("Broken")) return;
+
+  // Broken training rolls a Fellowship bonus when the Trait is added. Keep
+  // that roll and its effects, but prevent a compendium build from posting it.
+  const messageCall = /\broll\.toMessage\s*\(\s*this\.script\.getChatData\s*\(\s*\)\s*\)\s*;?/;
+  let modified = false;
+  for (const effect of data.effects ?? []) {
+    for (const scripts of [effect.system?.scriptData, effect.flags?.wfrp4e?.scriptData]) {
+      if (!Array.isArray(scripts)) continue;
+      for (const script of scripts) {
+        if (typeof script?.script !== "string" || !script.script.includes('case "broken"') ||
+            !messageCall.test(script.script)) continue;
+        script.script = script.script.replace(messageCall, "");
+        modified = true;
+      }
+    }
+  }
+  if (!modified) throw new Error("Could not silence the Broken training roll in the installed Trained Trait.");
+}
+
 async function cloneSourceItem(entry, profile, isSkill = false) {
   const sourceDocument = await fromUuid(entry.uuid);
   if (!sourceDocument) throw new Error(`Required compendium item did not resolve: ${entry.uuid}`);
@@ -289,6 +314,7 @@ async function cloneSourceItem(entry, profile, isSkill = false) {
   normaliseWeaponFormula(data);
   applyDamage(data, entry.damage);
   applyUgly(data, entry.ugly);
+  silenceBrokenTrainingRoll(data, entry);
 
   data.flags ??= {};
   data.flags[MODULE_ID] = {

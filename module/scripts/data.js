@@ -706,10 +706,6 @@ export const PROFILES = [
         "specification": "Minor"
       },
       {
-        "uuid": "Compendium.wfrp4e-core.items.Item.vY0CHKsJRV3gYBj3",
-        "specification": "Beasts"
-      },
-      {
         "uuid": "Compendium.wfrp4e-core.items.Item.3O9clK7LGyuLTHPW",
         "specification": "Beasts"
       },
@@ -1464,10 +1460,6 @@ export const PROFILES = [
       {
         "uuid": "Compendium.wfrp4e-core.items.Item.xsGbDFqK2qh7lsIj",
         "specification": "Minor"
-      },
-      {
-        "uuid": "Compendium.wfrp4e-core.items.Item.vY0CHKsJRV3gYBj3",
-        "specification": "Beasts"
       },
       {
         "uuid": "Compendium.wfrp4e-core.items.Item.3O9clK7LGyuLTHPW",
