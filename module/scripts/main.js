@@ -2,7 +2,12 @@ import { MODULE_ID, PROFILES, UUID } from "./data.js";
 
 const PACK_NAME = "wfrp4e-quick-npc-library";
 const PACK_LABEL = "WFRP4e Quick NPC Library";
-const BUILD_VERSION = 7;
+const BUILD_VERSION = 8;
+const PREVIOUS_BUILD_VERSION = 7;
+const TALENT_UUIDS = new Set(Object.values(UUID.talent));
+const REPAIR_IDS = new Set(PROFILES.filter(profile =>
+  profile.id === "giant-spider" || profile.items.some(item =>
+    item.specification && TALENT_UUIDS.has(item.uuid))).map(profile => profile.id));
 
 // Only sort actors created by this library. A folder explicitly chosen by the
 // GM always takes precedence, including when an actor is dragged into it.
@@ -27,34 +32,32 @@ Hooks.on("preCreateActor", (actor, data) => {
   if (folder) actor.updateSource({folder: folder.id});
 });
 
-let foldersPromise;
-async function ensureWorldFolders() {
-  if (foldersPromise) return foldersPromise;
-  foldersPromise = createWorldFolders();
-  try { return await foldersPromise; }
-  finally { foldersPromise = null; }
+let folderQueue = Promise.resolve();
+function ensureWorldFolder(category) {
+  // Serialise simultaneous imports so they cannot create duplicate roots.
+  const result = folderQueue.then(() => createWorldFolder(category));
+  folderQueue = result.catch(() => {});
+  return result;
 }
 
-async function createWorldFolders() {
+async function createWorldFolder(category) {
   let root = game.folders.find(folder => folder.type === "Actor" &&
     folder.name === PACK_LABEL && !folder.folder);
   if (!root) root = await Folder.create({name: PACK_LABEL, type: "Actor"});
-  for (const name of new Set(PROFILES.map(profile => profile.folder))) {
-    if (game.folders.some(folder => folder.type === "Actor" &&
-      folder.folder?.id === root.id && folder.name === name)) continue;
-    await Folder.create({name, type: "Actor", folder: root.id});
-  }
+  let folder = findCategoryFolder(category);
+  if (!folder) folder = await Folder.create({name: category, type: "Actor", folder: root.id});
+  return folder;
 }
 
 // Foundry may finish a compendium import without applying the pre-create
 // folder. Sort that world copy as soon as it exists.
 Hooks.on("createActor", async (actor, options, userId) => {
-  if (game.user.id !== userId || actor.folder || !libraryCategory(actor)) return;
+  const category = libraryCategory(actor);
+  if (game.user.id !== userId || actor.folder || !category) return;
   try {
-    await ensureWorldFolders();
+    const folder = await ensureWorldFolder(category);
     if (actor.folder) return;
-    const folder = findCategoryFolder(libraryCategory(actor));
-    if (folder) await actor.update({folder: folder.id});
+    await actor.update({folder: folder.id});
   } catch (error) {
     console.error(`${MODULE_ID} could not file imported actor ${actor.name}`, error);
   }
@@ -70,16 +73,25 @@ async function organiseExistingWorldActors() {
     folder.name === "Hospitality" && folder.folder?.id === root?.id);
   const misplaced = game.actors.filter(actor => libraryCategory(actor) &&
     (!actor.folder || (actor.folder.id === oldHospitality?.id && libraryCategory(actor) === "Tavern")));
-  if (misplaced.length) {
-    await Actor.updateDocuments(misplaced.flatMap(actor => {
-      const folder = findCategoryFolder(libraryCategory(actor));
-      return folder ? [{_id: actor.id, folder: folder.id}] : [];
-    }));
+  const changes = [];
+  for (const actor of misplaced) {
+    const folder = await ensureWorldFolder(libraryCategory(actor));
+    changes.push({_id: actor.id, folder: folder.id});
   }
-  if (oldHospitality && !game.actors.some(actor => actor.folder?.id === oldHospitality.id) &&
-      !game.folders.some(folder => folder.folder?.id === oldHospitality.id)) {
-    await oldHospitality.delete();
+  if (changes.length) await Actor.updateDocuments(changes);
+  // Earlier versions made every category at startup. Remove only empty
+  // library categories and an empty library root, including old Hospitality.
+  const libraryRoot = game.folders.find(folder => folder.type === "Actor" &&
+    folder.name === PACK_LABEL && !folder.folder);
+  if (!libraryRoot) return;
+  const knownCategories = new Set([...PROFILES.map(profile => profile.folder), "Hospitality"]);
+  for (const folder of [...game.folders].filter(folder => folder.type === "Actor" &&
+      folder.folder?.id === libraryRoot.id && knownCategories.has(folder.name))) {
+    if (!game.actors.some(actor => actor.folder?.id === folder.id) &&
+        !game.folders.some(child => child.folder?.id === folder.id)) await folder.delete();
   }
+  if (!game.actors.some(actor => actor.folder?.id === libraryRoot.id) &&
+      !game.folders.some(folder => folder.folder?.id === libraryRoot.id)) await libraryRoot.delete();
 }
 
 Hooks.once("ready", async () => {
@@ -91,7 +103,6 @@ Hooks.once("ready", async () => {
   if (firstActiveGM?.id !== game.user.id) return;
 
   try {
-    await ensureWorldFolders();
     await organiseExistingWorldActors();
     let pack = game.packs.get(`world.${PACK_NAME}`);
     const newPack = !pack;
@@ -113,7 +124,9 @@ Hooks.once("ready", async () => {
     );
     const pending = PROFILES.filter(profile => {
       const actor = generated.get(profile.id);
-      return !actor || Number(actor.getFlag(MODULE_ID, "buildVersion")) < BUILD_VERSION;
+      const version = Number(actor?.getFlag(MODULE_ID, "buildVersion") ?? 0);
+      return !actor || version < PREVIOUS_BUILD_VERSION ||
+        (REPAIR_IDS.has(profile.id) && version < BUILD_VERSION);
     });
     if (!pending.length) return;
 
@@ -262,6 +275,12 @@ async function cloneSourceItem(entry, profile, isSkill = false) {
   delete data.ownership;
 
   if (entry.name) data.name = entry.name;
+  // Talent specialisations live in the name. A specification field alone
+  // does not stop Craftsman and similar item effects asking the GM to choose.
+  if (data.type === "talent" && entry.specification && TALENT_UUIDS.has(entry.uuid)) {
+    const baseName = data.name.replace(/\s*\([^()]*\)\s*$/, "").trim();
+    data.name = `${baseName} (${entry.specification})`;
+  }
   applySpecification(data, entry.specification);
   applyQuantity(data, entry.quantity);
   applyWorn(data, entry.worn);
@@ -422,8 +441,10 @@ function validateActor(actor, profile) {
   // embedded documents. Check every intended item survives Foundry creation.
   const unusedItems = [...actor.items];
   for (const entry of profile.items) {
-    const index = unusedItems.findIndex(item => item.getFlag(MODULE_ID, "sourceUuid") === entry.uuid);
-    if (index < 0) throw new Error(`Missing item: ${entry.uuid}`);
+    const index = unusedItems.findIndex(item => item.getFlag(MODULE_ID, "sourceUuid") === entry.uuid &&
+      (!entry.specification || !TALENT_UUIDS.has(entry.uuid) ||
+        item.name.endsWith(`(${entry.specification})`)));
+    if (index < 0) throw new Error(`Missing item or Talent specialisation: ${entry.uuid}`);
     const [item] = unusedItems.splice(index, 1);
     if (item.type === "weapon" && entry.equipped !== undefined &&
         item.system.equipped.value !== entry.equipped) {

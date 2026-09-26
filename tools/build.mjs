@@ -41,6 +41,7 @@ const profiles=files(path.join(root,'actors')).map(file=>{
    for(const key of ['equipped','worn','loaded','ugly'])if(key in entry)assert(typeof entry[key]==='boolean',`${actor.id}: ${key} must be boolean`);
    if('quantity' in entry)assert(Number.isInteger(entry.quantity)&&entry.quantity>=0,`${actor.id}: invalid quantity`);
    if('damage' in entry)assert(typeof entry.damage==='string'&&/^(SB\+\d+|\+\d+)$/.test(entry.damage),`${actor.id}: invalid damage`);
+   if(entry.ref==='trait.venom')assert(/^[+-]?\d+$/.test(entry.specification??''),`${actor.id}: Venom requires numeric strength`);
    if('ammoRef' in entry)assert(entry.ref.startsWith('gear.')&&catalogue[entry.ammoRef]&&actor.items.some(i=>i.ref===entry.ammoRef),`${actor.id}: ammunition must be present in inventory`);
   }
   const {ref,ammoRef,...options}=entry;

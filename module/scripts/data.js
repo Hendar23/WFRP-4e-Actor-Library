@@ -4783,7 +4783,7 @@ export const PROFILES = [
       },
       {
         "uuid": "Compendium.wfrp4e-core.items.Item.gFkRm9wS65qe18Xv",
-        "specification": "Challenging"
+        "specification": "0"
       },
       {
         "uuid": "Compendium.wfrp4e-core.items.Item.KII1gWnxIZ8HzmU5"
