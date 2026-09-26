@@ -1,3 +1,7 @@
+## 0.3.12: Necromancer skills
+
+- Fix both necromancers failing to build because their two Lore skills shared a source reference.
+
 ## 0.3.11: Undead actors
 
 - Add 32 undead, necromancer and vampire profiles, bringing the library to 154 actors.

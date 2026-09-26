@@ -1066,5 +1066,9 @@
   "gear.lance": {
     "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.efk3W6z1CMAA8NrB",
     "requires": "wfrp4e-up-in-arms"
+  },
+  "skill.loreNecromancy": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
+    "requires": "wfrp4e-core"
   }
 }

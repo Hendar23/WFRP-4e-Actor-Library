@@ -72,7 +72,8 @@ export const UUID = {
     "languageMagick": "Compendium.wfrp4e-core.items.Item.e3McIND4Rrsn5cE6",
     "loreMagick": "Compendium.wfrp4e-core.items.Item.ZQzRZkB9JK1CveMW",
     "rangedThrowing": "Compendium.wfrp4e-core.items.Item.NSnpJQiky8JcMnme",
-    "channellingDhar": "Compendium.wfrp4e-core.items.Item.dBwnAzhe0bvobgbY"
+    "channellingDhar": "Compendium.wfrp4e-core.items.Item.dBwnAzhe0bvobgbY",
+    "loreNecromancy": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh"
   },
   "talent": {
     "blather": "Compendium.wfrp4e-core.items.Item.77p3QRKgFWakkndF",
@@ -5020,7 +5021,7 @@ export const PROFILES = [
         "characteristic": "int"
       },
       {
-        "uuid": "Compendium.wfrp4e-core.items.Item.ZQzRZkB9JK1CveMW",
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
         "total": 85,
         "characteristic": "int",
         "name": "Lore (Necromancy)"
@@ -5097,7 +5098,7 @@ export const PROFILES = [
         "characteristic": "int"
       },
       {
-        "uuid": "Compendium.wfrp4e-core.items.Item.ZQzRZkB9JK1CveMW",
+        "uuid": "Compendium.wfrp4e-core.items.Item.DRO5DLF6UcfkvNSh",
         "total": 60,
         "characteristic": "int",
         "name": "Lore (Necromancy)"

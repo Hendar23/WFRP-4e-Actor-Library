@@ -35,7 +35,7 @@
       "characteristic": "int"
     },
     {
-      "ref": "skill.loreMagick",
+      "ref": "skill.loreNecromancy",
       "total": 60,
       "characteristic": "int",
       "name": "Lore (Necromancy)"
