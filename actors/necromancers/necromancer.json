@@ -1,0 +1,72 @@
+{
+  "id": "necromancer",
+  "folder": "Necromancers",
+  "name": "Necromancer",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 30,
+    "bs": 30,
+    "s": 30,
+    "t": 35,
+    "i": 40,
+    "ag": 35,
+    "dex": 40,
+    "int": 50,
+    "wp": 50,
+    "fel": 30
+  },
+  "wounds": 14,
+  "skills": [
+    {
+      "ref": "skill.channellingDhar",
+      "total": 65,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.languageMagick",
+      "total": 60,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.loreMagick",
+      "total": 55,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.loreMagick",
+      "total": 60,
+      "characteristic": "int",
+      "name": "Lore (Necromancy)"
+    },
+    {
+      "ref": "skill.cool",
+      "total": 55,
+      "characteristic": "wp"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.arcaneMagic",
+      "specification": "Necromancy"
+    },
+    {
+      "ref": "talent.readWrite"
+    },
+    {
+      "ref": "gear.quarterstaff",
+      "equipped": true
+    },
+    {
+      "ref": "gear.knife",
+      "equipped": false
+    },
+    {
+      "ref": "gear.robes"
+    },
+    {
+      "ref": "gear.writingKit"
+    }
+  ]
+}

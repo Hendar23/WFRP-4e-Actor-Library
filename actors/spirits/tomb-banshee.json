@@ -1,0 +1,57 @@
+{
+  "id": "tomb-banshee",
+  "folder": "Spirits",
+  "name": "Tomb Banshee",
+  "type": "creature",
+  "species": "Tomb Banshee",
+  "stats": {
+    "m": 6,
+    "ws": 30,
+    "bs": 0,
+    "s": 30,
+    "t": 30,
+    "i": 20,
+    "ag": 30,
+    "dex": 30,
+    "int": 25,
+    "wp": 40,
+    "fel": 20
+  },
+  "wounds": 13,
+  "skills": [
+    {
+      "ref": "skill.stealthUrban",
+      "total": 40,
+      "characteristic": "ag"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.darkVision"
+    },
+    {
+      "ref": "trait.ethereal"
+    },
+    {
+      "ref": "trait.undead"
+    },
+    {
+      "ref": "trait.unstable"
+    },
+    {
+      "ref": "trait.fear",
+      "specification": "2"
+    },
+    {
+      "ref": "trait.ghostlyHowl"
+    },
+    {
+      "ref": "trait.terror",
+      "specification": "3"
+    },
+    {
+      "ref": "trait.weapon",
+      "specification": "+7"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "crypt-ghast",
+  "folder": "Ghouls",
+  "name": "Crypt Ghast",
+  "type": "creature",
+  "species": "Crypt Ghast",
+  "stats": {
+    "m": 4,
+    "ws": 45,
+    "bs": 0,
+    "s": 40,
+    "t": 35,
+    "i": 40,
+    "ag": 45,
+    "dex": 25,
+    "int": 25,
+    "wp": 30,
+    "fel": 10
+  },
+  "wounds": 15,
+  "skills": [
+    {
+      "ref": "skill.athletics",
+      "total": 55,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 50,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.meleeBrawling",
+      "total": 50,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.stealthUrban",
+      "total": 55,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.track",
+      "total": 50,
+      "characteristic": "i"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.bite",
+      "specification": "+5"
+    },
+    {
+      "ref": "trait.infected"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "trait.weapon",
+      "specification": "+6"
+    },
+    {
+      "ref": "trait.tracker"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "von-carstein-noble",
+  "folder": "Vampires",
+  "name": "Von Carstein Noble",
+  "type": "creature",
+  "species": "Von Carstein Noble",
+  "stats": {
+    "m": 6,
+    "ws": 60,
+    "bs": 40,
+    "s": 50,
+    "t": 40,
+    "i": 50,
+    "ag": 70,
+    "dex": 40,
+    "int": 50,
+    "wp": 60,
+    "fel": 55
+  },
+  "wounds": 23,
+  "skills": [
+    {
+      "ref": "skill.meleeBasic",
+      "total": 70,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 75,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.cool",
+      "total": 70,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.charm",
+      "total": 65,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.leadership",
+      "total": 65,
+      "characteristic": "fel"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.undead"
+    },
+    {
+      "ref": "trait.vampiric"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "trait.bite",
+      "specification": "+8"
+    },
+    {
+      "ref": "trait.fear",
+      "specification": "2"
+    },
+    {
+      "ref": "gear.sword",
+      "equipped": true
+    },
+    {
+      "ref": "gear.dagger",
+      "equipped": false
+    },
+    {
+      "ref": "gear.clothing"
+    },
+    {
+      "ref": "gear.jewellery"
+    }
+  ]
+}

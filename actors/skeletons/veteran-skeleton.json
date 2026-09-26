@@ -1,0 +1,65 @@
+{
+  "id": "veteran-skeleton",
+  "folder": "Skeletons",
+  "name": "Veteran Skeleton",
+  "type": "creature",
+  "species": "Veteran Skeleton",
+  "stats": {
+    "m": 4,
+    "ws": 40,
+    "bs": 25,
+    "s": 35,
+    "t": 35,
+    "i": 25,
+    "ag": 25,
+    "dex": 25,
+    "int": 0,
+    "wp": 0,
+    "fel": 0
+  },
+  "wounds": 16,
+  "skills": [
+    {
+      "ref": "skill.meleeBasic",
+      "total": 45,
+      "characteristic": "ws"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.construct"
+    },
+    {
+      "ref": "trait.darkVision"
+    },
+    {
+      "ref": "trait.painless"
+    },
+    {
+      "ref": "trait.undead"
+    },
+    {
+      "ref": "trait.unstable"
+    },
+    {
+      "ref": "trait.fear",
+      "specification": "2"
+    },
+    {
+      "ref": "gear.sword",
+      "equipped": true
+    },
+    {
+      "ref": "gear.shield",
+      "equipped": true
+    },
+    {
+      "ref": "gear.mailCoat",
+      "worn": true
+    },
+    {
+      "ref": "gear.mailCoif",
+      "worn": true
+    }
+  ]
+}

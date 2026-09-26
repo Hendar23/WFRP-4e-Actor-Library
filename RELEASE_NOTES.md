@@ -1,3 +1,8 @@
+## 0.3.11: Undead actors
+
+- Add 32 undead, necromancer and vampire profiles, bringing the library to 154 actors.
+- Equip armed actors with real weapons and armour; leave spare weapons unequipped.
+
 ## 0.3.10: Actor build corrections
 
 - Resolve the Trained Trait script reference before suppressing its automatic chat cards. Its roll and bonuses remain intact.

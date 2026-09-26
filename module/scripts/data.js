@@ -71,7 +71,8 @@ export const UUID = {
     "channellingGhur": "Compendium.wfrp4e-core.items.Item.ssCqvqr2ORFX6lPL",
     "languageMagick": "Compendium.wfrp4e-core.items.Item.e3McIND4Rrsn5cE6",
     "loreMagick": "Compendium.wfrp4e-core.items.Item.ZQzRZkB9JK1CveMW",
-    "rangedThrowing": "Compendium.wfrp4e-core.items.Item.NSnpJQiky8JcMnme"
+    "rangedThrowing": "Compendium.wfrp4e-core.items.Item.NSnpJQiky8JcMnme",
+    "channellingDhar": "Compendium.wfrp4e-core.items.Item.dBwnAzhe0bvobgbY"
   },
   "talent": {
     "blather": "Compendium.wfrp4e-core.items.Item.77p3QRKgFWakkndF",
@@ -164,7 +165,21 @@ export const UUID = {
     "spellcaster": "Compendium.wfrp4e-core.items.Item.vY0CHKsJRV3gYBj3",
     "tracker": "Compendium.wfrp4e-core.items.Item.ClOlztW6hH8rslbp",
     "bite": "Compendium.wfrp4e-core.items.Item.pLW9SVX0TVTYPiPv",
-    "flight": "Compendium.wfrp4e-core.items.Item.EO05HX7jql0g605A"
+    "flight": "Compendium.wfrp4e-core.items.Item.EO05HX7jql0g605A",
+    "construct": "Compendium.wfrp4e-core.items.Item.UB4mDroL6S1F9B4u",
+    "painless": "Compendium.wfrp4e-core.items.Item.wMwSRDmgiF2IdCJr",
+    "undead": "Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g",
+    "unstable": "Compendium.wfrp4e-core.items.Item.D0ImWEIMSDgElsnl",
+    "ethereal": "Compendium.wfrp4e-core.items.Item.tNWrJUOArwfWXsPw",
+    "terror": "Compendium.wfrp4e-core.items.Item.kJNAY1YRaCy9IgmT",
+    "magical": "Compendium.wfrp4e-core.items.Item.mDgEMOoJpi8DkRYb",
+    "champion": "Compendium.wfrp4e-core.items.Item.4mF5Sp3t09kZhBYc",
+    "infestation": "Compendium.wfrp4e-core.items.Item.TBcdTlYSRH8Rd1x0",
+    "regenerate": "Compendium.wfrp4e-core.items.Item.SfUUdOGjdYpr3KSR",
+    "vampiric": "Compendium.wfrp4e-core.items.Item.3MDwUi7BVxwWVI2V",
+    "distracting": "Compendium.wfrp4e-core.items.Item.MVI0lXcg6vvtooAF",
+    "chillGrasp": "Compendium.wfrp4e-core.items.Item.7HSUM2iPZLX4ueIW",
+    "ghostlyHowl": "Compendium.wfrp4e-core.items.Item.plVyl4vjS2fX16Rv"
   },
   "gear": {
     "improvisedWeapon": "Compendium.wfrp4e-core.items.Item.mRU10yAWWWs5WoKt",
@@ -253,7 +268,12 @@ export const UUID = {
     "rake": "Compendium.wfrp4e-core.items.Item.Y55qCcUkHVZAbG8s",
     "jewellery": "Compendium.wfrp4e-core.items.Item.8MpTb12W1x6ECZzt",
     "huntingDog": "Compendium.wfrp4e-core.items.Item.y28P2G0NEVZvMzS5",
-    "throwingAxe": "Compendium.wfrp4e-core.items.Item.Xjwk84KnOKDaiZs1"
+    "throwingAxe": "Compendium.wfrp4e-core.items.Item.Xjwk84KnOKDaiZs1",
+    "mailCoif": "Compendium.wfrp4e-core.items.Item.4xV16ttsxCa311vl",
+    "plateHelm": "Compendium.wfrp4e-core.items.Item.e9WmLbD7AuXSeWp0",
+    "plateLeggings": "Compendium.wfrp4e-core.items.Item.bY6M9XxbqmFmqpA8",
+    "mailChausses": "Compendium.wfrp4e-core.items.Item.XWlkZVUhzO0CwaiJ",
+    "lance": "Compendium.wfrp4e-up-in-arms.items.Item.efk3W6z1CMAA8NrB"
   },
   "prayer": {
     "blessingBattle": "Compendium.wfrp4e-core.items.Item.ElmLfnrXliStS9CP",
@@ -3164,6 +3184,127 @@ export const PROFILES = [
     ]
   },
   {
+    "id": "crypt-ghast",
+    "folder": "Ghouls",
+    "name": "Crypt Ghast",
+    "type": "creature",
+    "species": "Crypt Ghast",
+    "stats": {
+      "m": 4,
+      "ws": 45,
+      "bs": 0,
+      "s": 40,
+      "t": 35,
+      "i": 40,
+      "ag": 45,
+      "dex": 25,
+      "int": 25,
+      "wp": 30,
+      "fel": 10
+    },
+    "wounds": 15,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 55,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 50,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.jLyoyqwmBVPjRjhM",
+        "total": 50,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.zkI6tIqbyAZvh0Th",
+        "total": 55,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rt2rGSwFDCDHPh0A",
+        "total": 50,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pLW9SVX0TVTYPiPv",
+        "specification": "+5"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.AtpAudHA4ybXVlWM",
+        "specification": "+6"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ClOlztW6hH8rslbp"
+      }
+    ]
+  },
+  {
+    "id": "crypt-ghoul",
+    "folder": "Ghouls",
+    "name": "Crypt Ghoul",
+    "type": "creature",
+    "species": "Crypt Ghoul",
+    "stats": {
+      "m": 4,
+      "ws": 30,
+      "bs": 0,
+      "s": 35,
+      "t": 30,
+      "i": 30,
+      "ag": 35,
+      "dex": 25,
+      "int": 20,
+      "wp": 20,
+      "fel": 5
+    },
+    "wounds": 11,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 40,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.zkI6tIqbyAZvh0Th",
+        "total": 40,
+        "characteristic": "ag"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pLW9SVX0TVTYPiPv",
+        "specification": "+5"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.AtpAudHA4ybXVlWM",
+        "specification": "+6"
+      }
+    ]
+  },
+  {
     "id": "gnoblar-scavenger",
     "folder": "Gnoblars",
     "name": "Gnoblar Scavenger",
@@ -4841,6 +4982,155 @@ export const PROFILES = [
     "folder": "Mounts",
     "type": "creature",
     "skills": []
+  },
+  {
+    "id": "master-necromancer",
+    "folder": "Necromancers",
+    "name": "Master Necromancer",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 40,
+      "bs": 35,
+      "s": 35,
+      "t": 40,
+      "i": 50,
+      "ag": 40,
+      "dex": 45,
+      "int": 65,
+      "wp": 65,
+      "fel": 35
+    },
+    "wounds": 19,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.dBwnAzhe0bvobgbY",
+        "total": 85,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.e3McIND4Rrsn5cE6",
+        "total": 80,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ZQzRZkB9JK1CveMW",
+        "total": 75,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ZQzRZkB9JK1CveMW",
+        "total": 85,
+        "characteristic": "int",
+        "name": "Lore (Necromancy)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 70,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 60,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.3O9clK7LGyuLTHPW",
+        "specification": "Necromancy"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GkeMJrsqxQIek1xK",
+        "equipped": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.UlL4mHSgBW3nYh2a",
+        "equipped": false
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.EDnMXoxQTU4TMrRV"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.6OmsMPtz0NzCwvzL"
+      }
+    ]
+  },
+  {
+    "id": "necromancer",
+    "folder": "Necromancers",
+    "name": "Necromancer",
+    "type": "npc",
+    "species": "Human",
+    "stats": {
+      "m": 4,
+      "ws": 30,
+      "bs": 30,
+      "s": 30,
+      "t": 35,
+      "i": 40,
+      "ag": 35,
+      "dex": 40,
+      "int": 50,
+      "wp": 50,
+      "fel": 30
+    },
+    "wounds": 14,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.dBwnAzhe0bvobgbY",
+        "total": 65,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.e3McIND4Rrsn5cE6",
+        "total": 60,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ZQzRZkB9JK1CveMW",
+        "total": 55,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ZQzRZkB9JK1CveMW",
+        "total": 60,
+        "characteristic": "int",
+        "name": "Lore (Necromancy)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 55,
+        "characteristic": "wp"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.3O9clK7LGyuLTHPW",
+        "specification": "Necromancy"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GkeMJrsqxQIek1xK",
+        "equipped": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.83KlMxHxGfKUdMfq",
+        "equipped": false
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.EDnMXoxQTU4TMrRV"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.6OmsMPtz0NzCwvzL"
+      }
+    ]
   },
   {
     "id": "night-goblin-archer",
@@ -7804,6 +8094,793 @@ export const PROFILES = [
       {
         "uuid": "Compendium.wfrp4e-core.items.Item.KB8HgDz56dh2w7w1",
         "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "black-knight",
+    "folder": "Skeletons",
+    "name": "Black Knight",
+    "type": "creature",
+    "species": "Black Knight",
+    "stats": {
+      "m": 4,
+      "ws": 45,
+      "bs": 25,
+      "s": 40,
+      "t": 40,
+      "i": 30,
+      "ag": 35,
+      "dex": 25,
+      "int": 25,
+      "wp": 40,
+      "fel": 10
+    },
+    "wounds": 18,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 55,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oSbEE6eXH1S3LfUU",
+        "total": 50,
+        "characteristic": "ag"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.JQa5DLnTs2SEzRrc"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.wMwSRDmgiF2IdCJr"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.mDgEMOoJpi8DkRYb"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.D0ImWEIMSDgElsnl"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pTorrE0l3VybAbtn",
+        "specification": "2"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.erX8o1o0IcXHTX2r",
+        "equipped": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "equipped": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.efk3W6z1CMAA8NrB",
+        "equipped": false
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.i76oPVM2eFEs5IBh",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.4xV16ttsxCa311vl",
+        "worn": true
+      }
+    ]
+  },
+  {
+    "id": "grave-guard-captain",
+    "folder": "Skeletons",
+    "name": "Grave Guard Captain",
+    "type": "creature",
+    "species": "Grave Guard Captain",
+    "stats": {
+      "m": 4,
+      "ws": 55,
+      "bs": 25,
+      "s": 45,
+      "t": 45,
+      "i": 35,
+      "ag": 30,
+      "dex": 30,
+      "int": 30,
+      "wp": 50,
+      "fel": 15
+    },
+    "wounds": 22,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 65,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 60,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 45,
+        "characteristic": "fel"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.JQa5DLnTs2SEzRrc"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.wMwSRDmgiF2IdCJr"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.mDgEMOoJpi8DkRYb"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.D0ImWEIMSDgElsnl"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pTorrE0l3VybAbtn",
+        "specification": "2"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.4mF5Sp3t09kZhBYc"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.erX8o1o0IcXHTX2r",
+        "equipped": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "equipped": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.i76oPVM2eFEs5IBh",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.4xV16ttsxCa311vl",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oW7wSkl4JMb5sBH8",
+        "worn": true
+      }
+    ]
+  },
+  {
+    "id": "grave-guard",
+    "folder": "Skeletons",
+    "name": "Grave Guard",
+    "type": "creature",
+    "species": "Grave Guard",
+    "stats": {
+      "m": 4,
+      "ws": 45,
+      "bs": 25,
+      "s": 40,
+      "t": 40,
+      "i": 30,
+      "ag": 25,
+      "dex": 25,
+      "int": 25,
+      "wp": 40,
+      "fel": 10
+    },
+    "wounds": 18,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 50,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 45,
+        "characteristic": "wp"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.JQa5DLnTs2SEzRrc"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.wMwSRDmgiF2IdCJr"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.mDgEMOoJpi8DkRYb"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.D0ImWEIMSDgElsnl"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pTorrE0l3VybAbtn",
+        "specification": "2"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.erX8o1o0IcXHTX2r",
+        "equipped": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "equipped": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.i76oPVM2eFEs5IBh",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.4xV16ttsxCa311vl",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oW7wSkl4JMb5sBH8",
+        "worn": true
+      }
+    ]
+  },
+  {
+    "id": "skeletal-steed",
+    "folder": "Skeletons",
+    "name": "Skeletal Steed",
+    "type": "creature",
+    "species": "Skeletal Steed",
+    "stats": {
+      "m": 8,
+      "ws": 30,
+      "bs": 0,
+      "s": 40,
+      "t": 40,
+      "i": 25,
+      "ag": 30,
+      "dex": 0,
+      "int": 0,
+      "wp": 0,
+      "fel": 0
+    },
+    "wounds": 28,
+    "skills": [],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UB4mDroL6S1F9B4u"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.JQa5DLnTs2SEzRrc"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.wMwSRDmgiF2IdCJr"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.D0ImWEIMSDgElsnl"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pTorrE0l3VybAbtn",
+        "specification": "2"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8slW8CJ2oVTxeQ6q",
+        "specification": "Large"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UmxGZRV0Lw3TZ0Kx"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.AtpAudHA4ybXVlWM",
+        "specification": "+7"
+      }
+    ]
+  },
+  {
+    "id": "skeleton-archer",
+    "folder": "Skeletons",
+    "name": "Skeleton Archer",
+    "type": "creature",
+    "species": "Skeleton Archer",
+    "stats": {
+      "m": 4,
+      "ws": 25,
+      "bs": 35,
+      "s": 30,
+      "t": 30,
+      "i": 25,
+      "ag": 25,
+      "dex": 25,
+      "int": 0,
+      "wp": 0,
+      "fel": 0
+    },
+    "wounds": 12,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ZQSm2AwrgT2cHG0C",
+        "total": 35,
+        "characteristic": "bs"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UB4mDroL6S1F9B4u"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.JQa5DLnTs2SEzRrc"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.wMwSRDmgiF2IdCJr"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.D0ImWEIMSDgElsnl"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pTorrE0l3VybAbtn",
+        "specification": "2"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.U94l3IDj3xfIc78i",
+        "equipped": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.6GNNpWIGxO9CkTCR",
+        "quantity": 12
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.erX8o1o0IcXHTX2r",
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "id": "skeleton-spearman",
+    "folder": "Skeletons",
+    "name": "Skeleton Spearman",
+    "type": "creature",
+    "species": "Skeleton Spearman",
+    "stats": {
+      "m": 4,
+      "ws": 25,
+      "bs": 25,
+      "s": 30,
+      "t": 30,
+      "i": 20,
+      "ag": 20,
+      "dex": 25,
+      "int": 0,
+      "wp": 0,
+      "fel": 0
+    },
+    "wounds": 12,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PzimjNx9Ojq4g6mV",
+        "total": 25,
+        "characteristic": "ws"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UB4mDroL6S1F9B4u"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.JQa5DLnTs2SEzRrc"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.wMwSRDmgiF2IdCJr"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.D0ImWEIMSDgElsnl"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pTorrE0l3VybAbtn",
+        "specification": "2"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.HxOhYpAxqdcyoSje",
+        "equipped": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.OjcHE0VOGr1aRdy9",
+        "worn": true
+      }
+    ]
+  },
+  {
+    "id": "skeleton-warrior",
+    "folder": "Skeletons",
+    "name": "Skeleton Warrior",
+    "type": "creature",
+    "species": "Skeleton Warrior",
+    "stats": {
+      "m": 4,
+      "ws": 25,
+      "bs": 25,
+      "s": 30,
+      "t": 30,
+      "i": 20,
+      "ag": 20,
+      "dex": 25,
+      "int": 0,
+      "wp": 0,
+      "fel": 0
+    },
+    "wounds": 12,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 25,
+        "characteristic": "ws"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UB4mDroL6S1F9B4u"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.JQa5DLnTs2SEzRrc"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.wMwSRDmgiF2IdCJr"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.D0ImWEIMSDgElsnl"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pTorrE0l3VybAbtn",
+        "specification": "2"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.erX8o1o0IcXHTX2r",
+        "equipped": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "equipped": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.OjcHE0VOGr1aRdy9",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0W0kEpa2kNEcRGK0",
+        "worn": true
+      }
+    ]
+  },
+  {
+    "id": "veteran-skeleton",
+    "folder": "Skeletons",
+    "name": "Veteran Skeleton",
+    "type": "creature",
+    "species": "Veteran Skeleton",
+    "stats": {
+      "m": 4,
+      "ws": 40,
+      "bs": 25,
+      "s": 35,
+      "t": 35,
+      "i": 25,
+      "ag": 25,
+      "dex": 25,
+      "int": 0,
+      "wp": 0,
+      "fel": 0
+    },
+    "wounds": 16,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 45,
+        "characteristic": "ws"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UB4mDroL6S1F9B4u"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.JQa5DLnTs2SEzRrc"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.wMwSRDmgiF2IdCJr"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.D0ImWEIMSDgElsnl"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pTorrE0l3VybAbtn",
+        "specification": "2"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.erX8o1o0IcXHTX2r",
+        "equipped": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "equipped": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.i76oPVM2eFEs5IBh",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.4xV16ttsxCa311vl",
+        "worn": true
+      }
+    ]
+  },
+  {
+    "id": "wight-king",
+    "folder": "Skeletons",
+    "name": "Wight King",
+    "type": "creature",
+    "species": "Wight King",
+    "stats": {
+      "m": 4,
+      "ws": 65,
+      "bs": 35,
+      "s": 50,
+      "t": 50,
+      "i": 45,
+      "ag": 40,
+      "dex": 35,
+      "int": 40,
+      "wp": 65,
+      "fel": 25
+    },
+    "wounds": 28,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 75,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 50,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 70,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 55,
+        "characteristic": "fel"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.JQa5DLnTs2SEzRrc"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.wMwSRDmgiF2IdCJr"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.mDgEMOoJpi8DkRYb"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.D0ImWEIMSDgElsnl"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pTorrE0l3VybAbtn",
+        "specification": "2"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.4mF5Sp3t09kZhBYc"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.erX8o1o0IcXHTX2r",
+        "equipped": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "equipped": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oBNXxRFPh1sOT4K2",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.e9WmLbD7AuXSeWp0",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oW7wSkl4JMb5sBH8",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.bY6M9XxbqmFmqpA8",
+        "worn": true
+      }
+    ]
+  },
+  {
+    "id": "cairn-wraith",
+    "folder": "Spirits",
+    "name": "Cairn Wraith",
+    "type": "creature",
+    "species": "Cairn Wraith",
+    "stats": {
+      "m": 6,
+      "ws": 35,
+      "bs": 0,
+      "s": 35,
+      "t": 30,
+      "i": 15,
+      "ag": 30,
+      "dex": 25,
+      "int": 25,
+      "wp": 50,
+      "fel": 15
+    },
+    "wounds": 14,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Xk5tp3aasPNtk4zt",
+        "total": 45,
+        "characteristic": "ag"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.JQa5DLnTs2SEzRrc"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.tNWrJUOArwfWXsPw"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.D0ImWEIMSDgElsnl"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pTorrE0l3VybAbtn",
+        "specification": "2"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.7HSUM2iPZLX4ueIW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.kJNAY1YRaCy9IgmT",
+        "specification": "3"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.AtpAudHA4ybXVlWM",
+        "specification": "+9"
+      }
+    ]
+  },
+  {
+    "id": "ghost",
+    "folder": "Spirits",
+    "name": "Ghost",
+    "type": "creature",
+    "species": "Ghost",
+    "stats": {
+      "m": 6,
+      "ws": 30,
+      "bs": 0,
+      "s": 30,
+      "t": 30,
+      "i": 10,
+      "ag": 30,
+      "dex": 20,
+      "int": 15,
+      "wp": 15,
+      "fel": 0
+    },
+    "wounds": 10,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.zkI6tIqbyAZvh0Th",
+        "total": 40,
+        "characteristic": "ag"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.JQa5DLnTs2SEzRrc"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.tNWrJUOArwfWXsPw"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.D0ImWEIMSDgElsnl"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pTorrE0l3VybAbtn",
+        "specification": "2"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.AtpAudHA4ybXVlWM",
+        "specification": "+6"
+      }
+    ]
+  },
+  {
+    "id": "tomb-banshee",
+    "folder": "Spirits",
+    "name": "Tomb Banshee",
+    "type": "creature",
+    "species": "Tomb Banshee",
+    "stats": {
+      "m": 6,
+      "ws": 30,
+      "bs": 0,
+      "s": 30,
+      "t": 30,
+      "i": 20,
+      "ag": 30,
+      "dex": 30,
+      "int": 25,
+      "wp": 40,
+      "fel": 20
+    },
+    "wounds": 13,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.zkI6tIqbyAZvh0Th",
+        "total": 40,
+        "characteristic": "ag"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.JQa5DLnTs2SEzRrc"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.tNWrJUOArwfWXsPw"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.D0ImWEIMSDgElsnl"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pTorrE0l3VybAbtn",
+        "specification": "2"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.plVyl4vjS2fX16Rv"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.kJNAY1YRaCy9IgmT",
+        "specification": "3"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.AtpAudHA4ybXVlWM",
+        "specification": "+7"
       }
     ]
   },
@@ -11165,6 +12242,943 @@ export const PROFILES = [
     ]
   },
   {
+    "id": "dire-wolf",
+    "folder": "Undead Beasts",
+    "name": "Dire Wolf",
+    "type": "creature",
+    "species": "Dire Wolf",
+    "stats": {
+      "m": 9,
+      "ws": 30,
+      "bs": 0,
+      "s": 35,
+      "t": 35,
+      "i": 30,
+      "ag": 30,
+      "dex": 0,
+      "int": 0,
+      "wp": 0,
+      "fel": 0
+    },
+    "wounds": 24,
+    "skills": [],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.VUJUZVN3VYhOaPjj",
+        "specification": "1"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UB4mDroL6S1F9B4u"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.JQa5DLnTs2SEzRrc"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pTorrE0l3VybAbtn",
+        "specification": "2"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8slW8CJ2oVTxeQ6q",
+        "specification": "Large"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UmxGZRV0Lw3TZ0Kx"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ClOlztW6hH8rslbp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.D0ImWEIMSDgElsnl"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.AtpAudHA4ybXVlWM",
+        "specification": "+6"
+      }
+    ]
+  },
+  {
+    "id": "doom-wolf",
+    "folder": "Undead Beasts",
+    "name": "Doom Wolf",
+    "type": "creature",
+    "species": "Doom Wolf",
+    "stats": {
+      "m": 9,
+      "ws": 45,
+      "bs": 0,
+      "s": 40,
+      "t": 40,
+      "i": 40,
+      "ag": 40,
+      "dex": 0,
+      "int": 0,
+      "wp": 0,
+      "fel": 0
+    },
+    "wounds": 30,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rt2rGSwFDCDHPh0A",
+        "total": 60,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 50,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.VUJUZVN3VYhOaPjj",
+        "specification": "1"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UB4mDroL6S1F9B4u"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.JQa5DLnTs2SEzRrc"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pTorrE0l3VybAbtn",
+        "specification": "3"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8slW8CJ2oVTxeQ6q",
+        "specification": "Large"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UmxGZRV0Lw3TZ0Kx"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ClOlztW6hH8rslbp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.D0ImWEIMSDgElsnl"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.AtpAudHA4ybXVlWM",
+        "specification": "+6"
+      }
+    ]
+  },
+  {
+    "id": "fell-bat",
+    "folder": "Undead Beasts",
+    "name": "Fell Bat",
+    "type": "creature",
+    "species": "Fell Bat",
+    "stats": {
+      "m": 8,
+      "ws": 35,
+      "bs": 0,
+      "s": 35,
+      "t": 35,
+      "i": 35,
+      "ag": 45,
+      "dex": 0,
+      "int": 0,
+      "wp": 0,
+      "fel": 0
+    },
+    "wounds": 18,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 45,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 50,
+        "characteristic": "ag"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.AGcJl5rHjkyIQBPP"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.JQa5DLnTs2SEzRrc"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pTorrE0l3VybAbtn",
+        "specification": "1"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.EO05HX7jql0g605A",
+        "specification": "8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pLW9SVX0TVTYPiPv",
+        "specification": "+6"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.AtpAudHA4ybXVlWM",
+        "specification": "+6"
+      }
+    ]
+  },
+  {
+    "id": "nightmare",
+    "folder": "Undead Beasts",
+    "name": "Nightmare",
+    "type": "creature",
+    "species": "Nightmare",
+    "stats": {
+      "m": 8,
+      "ws": 45,
+      "bs": 0,
+      "s": 45,
+      "t": 45,
+      "i": 35,
+      "ag": 45,
+      "dex": 0,
+      "int": 15,
+      "wp": 35,
+      "fel": 0
+    },
+    "wounds": 30,
+    "skills": [],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.JQa5DLnTs2SEzRrc"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pTorrE0l3VybAbtn",
+        "specification": "2"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.wMwSRDmgiF2IdCJr"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8slW8CJ2oVTxeQ6q",
+        "specification": "Large"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UmxGZRV0Lw3TZ0Kx"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.AtpAudHA4ybXVlWM",
+        "specification": "+8"
+      }
+    ]
+  },
+  {
+    "id": "scuttling-hand",
+    "folder": "Undead Beasts",
+    "name": "Scuttling Hand",
+    "type": "creature",
+    "species": "Scuttling Hand",
+    "stats": {
+      "m": 3,
+      "ws": 25,
+      "bs": 0,
+      "s": 10,
+      "t": 10,
+      "i": 30,
+      "ag": 45,
+      "dex": 25,
+      "int": 0,
+      "wp": 0,
+      "fel": 0
+    },
+    "wounds": 4,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 45,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.zkI6tIqbyAZvh0Th",
+        "total": 55,
+        "characteristic": "ag"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UB4mDroL6S1F9B4u"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.JQa5DLnTs2SEzRrc"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8slW8CJ2oVTxeQ6q",
+        "specification": "Tiny"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.D0ImWEIMSDgElsnl"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KII1gWnxIZ8HzmU5"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.AtpAudHA4ybXVlWM",
+        "specification": "+4"
+      }
+    ]
+  },
+  {
+    "id": "varghulf",
+    "folder": "Undead Beasts",
+    "name": "Varghulf",
+    "type": "creature",
+    "species": "Varghulf",
+    "stats": {
+      "m": 8,
+      "ws": 55,
+      "bs": 0,
+      "s": 55,
+      "t": 55,
+      "i": 30,
+      "ag": 50,
+      "dex": 20,
+      "int": 10,
+      "wp": 60,
+      "fel": 0
+    },
+    "wounds": 42,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 60,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 60,
+        "characteristic": "ag"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.VUJUZVN3VYhOaPjj",
+        "specification": "1"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.AGcJl5rHjkyIQBPP"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pLW9SVX0TVTYPiPv",
+        "specification": "+8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.JQa5DLnTs2SEzRrc"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pTorrE0l3VybAbtn",
+        "specification": "4"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.aE3pyW20Orvdjzj0",
+        "specification": "Living"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.xneBqGOs1QS7kfUr"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.SfUUdOGjdYpr3KSR"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8slW8CJ2oVTxeQ6q",
+        "specification": "Large"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.kJNAY1YRaCy9IgmT",
+        "specification": "3"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.3MDwUi7BVxwWVI2V"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.AtpAudHA4ybXVlWM",
+        "specification": "+9"
+      }
+    ]
+  },
+  {
+    "id": "blood-dragon-knight",
+    "folder": "Vampires",
+    "name": "Blood Dragon Knight",
+    "type": "creature",
+    "species": "Blood Dragon Knight",
+    "stats": {
+      "m": 6,
+      "ws": 75,
+      "bs": 40,
+      "s": 55,
+      "t": 50,
+      "i": 55,
+      "ag": 65,
+      "dex": 40,
+      "int": 40,
+      "wp": 60,
+      "fel": 30
+    },
+    "wounds": 28,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 85,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 70,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oSbEE6eXH1S3LfUU",
+        "total": 70,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 70,
+        "characteristic": "wp"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.3MDwUi7BVxwWVI2V"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pLW9SVX0TVTYPiPv",
+        "specification": "+8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.4mF5Sp3t09kZhBYc"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pTorrE0l3VybAbtn",
+        "specification": "2"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.erX8o1o0IcXHTX2r",
+        "equipped": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "equipped": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.efk3W6z1CMAA8NrB",
+        "equipped": false
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oBNXxRFPh1sOT4K2",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.e9WmLbD7AuXSeWp0",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oW7wSkl4JMb5sBH8",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.bY6M9XxbqmFmqpA8",
+        "worn": true
+      }
+    ]
+  },
+  {
+    "id": "fledgling-vampire",
+    "folder": "Vampires",
+    "name": "Fledgling Vampire",
+    "type": "creature",
+    "species": "Fledgling Vampire",
+    "stats": {
+      "m": 6,
+      "ws": 50,
+      "bs": 35,
+      "s": 45,
+      "t": 40,
+      "i": 45,
+      "ag": 60,
+      "dex": 40,
+      "int": 40,
+      "wp": 50,
+      "fel": 35
+    },
+    "wounds": 18,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 55,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 65,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 50,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.3MDwUi7BVxwWVI2V"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pLW9SVX0TVTYPiPv",
+        "specification": "+8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.erX8o1o0IcXHTX2r",
+        "equipped": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z"
+      }
+    ]
+  },
+  {
+    "id": "lahmian-agent",
+    "folder": "Vampires",
+    "name": "Lahmian Agent",
+    "type": "creature",
+    "species": "Lahmian Agent",
+    "stats": {
+      "m": 6,
+      "ws": 50,
+      "bs": 40,
+      "s": 45,
+      "t": 40,
+      "i": 65,
+      "ag": 70,
+      "dex": 50,
+      "int": 55,
+      "wp": 65,
+      "fel": 70
+    },
+    "wounds": 20,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 80,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 75,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 75,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 60,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.zkI6tIqbyAZvh0Th",
+        "total": 75,
+        "characteristic": "ag"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.3MDwUi7BVxwWVI2V"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pLW9SVX0TVTYPiPv",
+        "specification": "+8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.MVI0lXcg6vvtooAF"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.UlL4mHSgBW3nYh2a",
+        "equipped": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.erX8o1o0IcXHTX2r",
+        "equipped": false
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z"
+      }
+    ]
+  },
+  {
+    "id": "necrarch-sorcerer",
+    "folder": "Vampires",
+    "name": "Necrarch Sorcerer",
+    "type": "creature",
+    "species": "Necrarch Sorcerer",
+    "stats": {
+      "m": 6,
+      "ws": 45,
+      "bs": 35,
+      "s": 45,
+      "t": 40,
+      "i": 55,
+      "ag": 55,
+      "dex": 50,
+      "int": 75,
+      "wp": 75,
+      "fel": 35
+    },
+    "wounds": 21,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.dBwnAzhe0bvobgbY",
+        "total": 90,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.e3McIND4Rrsn5cE6",
+        "total": 85,
+        "characteristic": "int"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ZQzRZkB9JK1CveMW",
+        "total": 90,
+        "characteristic": "int",
+        "name": "Lore (Necromancy)"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 80,
+        "characteristic": "wp"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.3MDwUi7BVxwWVI2V"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pLW9SVX0TVTYPiPv",
+        "specification": "+8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.3O9clK7LGyuLTHPW",
+        "specification": "Necromancy"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GogGbYxkVdCmiKqf"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.GkeMJrsqxQIek1xK",
+        "equipped": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.EDnMXoxQTU4TMrRV"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.6OmsMPtz0NzCwvzL"
+      }
+    ]
+  },
+  {
+    "id": "strigoi-vampire",
+    "folder": "Vampires",
+    "name": "Strigoi Vampire",
+    "type": "creature",
+    "species": "Strigoi Vampire",
+    "stats": {
+      "m": 6,
+      "ws": 65,
+      "bs": 0,
+      "s": 60,
+      "t": 50,
+      "i": 55,
+      "ag": 65,
+      "dex": 30,
+      "int": 30,
+      "wp": 60,
+      "fel": 10
+    },
+    "wounds": 28,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV",
+        "total": 75,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 70,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB",
+        "total": 65,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rt2rGSwFDCDHPh0A",
+        "total": 70,
+        "characteristic": "i"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.3MDwUi7BVxwWVI2V"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pLW9SVX0TVTYPiPv",
+        "specification": "+8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pTorrE0l3VybAbtn",
+        "specification": "3"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.xneBqGOs1QS7kfUr"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.ClOlztW6hH8rslbp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KII1gWnxIZ8HzmU5"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.AtpAudHA4ybXVlWM",
+        "specification": "+10"
+      }
+    ]
+  },
+  {
+    "id": "vampire-lord",
+    "folder": "Vampires",
+    "name": "Vampire Lord",
+    "type": "creature",
+    "species": "Vampire Lord",
+    "stats": {
+      "m": 6,
+      "ws": 80,
+      "bs": 45,
+      "s": 60,
+      "t": 55,
+      "i": 70,
+      "ag": 75,
+      "dex": 55,
+      "int": 65,
+      "wp": 75,
+      "fel": 65
+    },
+    "wounds": 34,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 90,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 80,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 85,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz",
+        "total": 80,
+        "characteristic": "i"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 80,
+        "characteristic": "fel"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.3MDwUi7BVxwWVI2V"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pLW9SVX0TVTYPiPv",
+        "specification": "+8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.4mF5Sp3t09kZhBYc"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pTorrE0l3VybAbtn",
+        "specification": "3"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.SfUUdOGjdYpr3KSR"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.erX8o1o0IcXHTX2r",
+        "equipped": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "equipped": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.UlL4mHSgBW3nYh2a",
+        "equipped": false
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oBNXxRFPh1sOT4K2",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.e9WmLbD7AuXSeWp0",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oW7wSkl4JMb5sBH8",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.bY6M9XxbqmFmqpA8",
+        "worn": true
+      }
+    ]
+  },
+  {
+    "id": "von-carstein-noble",
+    "folder": "Vampires",
+    "name": "Von Carstein Noble",
+    "type": "creature",
+    "species": "Von Carstein Noble",
+    "stats": {
+      "m": 6,
+      "ws": 60,
+      "bs": 40,
+      "s": 50,
+      "t": 40,
+      "i": 50,
+      "ag": 70,
+      "dex": 40,
+      "int": 50,
+      "wp": 60,
+      "fel": 55
+    },
+    "wounds": 23,
+    "skills": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6",
+        "total": 70,
+        "characteristic": "ws"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl",
+        "total": 75,
+        "characteristic": "ag"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe",
+        "total": 70,
+        "characteristic": "wp"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq",
+        "total": 65,
+        "characteristic": "fel"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.oMaJZ5cvCJeOUq9H",
+        "total": 65,
+        "characteristic": "fel"
+      }
+    ],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.3MDwUi7BVxwWVI2V"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pLW9SVX0TVTYPiPv",
+        "specification": "+8"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pTorrE0l3VybAbtn",
+        "specification": "2"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.erX8o1o0IcXHTX2r",
+        "equipped": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.UlL4mHSgBW3nYh2a",
+        "equipped": false
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.KWaFV7NPZqtgnL9Z"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8MpTb12W1x6ECZzt"
+      }
+    ]
+  },
+  {
     "id": "farmer",
     "folder": "Villagers",
     "name": "Farmer",
@@ -12174,6 +14188,165 @@ export const PROFILES = [
       {
         "uuid": "Compendium.wfrp4e-core.items.Item.8MpTb12W1x6ECZzt",
         "name": "Copper Watch Badge"
+      }
+    ]
+  },
+  {
+    "id": "armoured-zombie",
+    "folder": "Zombies",
+    "name": "Armoured Zombie",
+    "type": "creature",
+    "species": "Armoured Zombie",
+    "stats": {
+      "m": 4,
+      "ws": 20,
+      "bs": 0,
+      "s": 30,
+      "t": 35,
+      "i": 5,
+      "ag": 10,
+      "dex": 15,
+      "int": 0,
+      "wp": 0,
+      "fel": 0
+    },
+    "wounds": 14,
+    "skills": [],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UB4mDroL6S1F9B4u"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.JQa5DLnTs2SEzRrc"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.wMwSRDmgiF2IdCJr"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.D0ImWEIMSDgElsnl"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pTorrE0l3VybAbtn",
+        "specification": "2"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.1zaqojk0Oq1m8vYv",
+        "equipped": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
+        "equipped": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.OjcHE0VOGr1aRdy9",
+        "worn": true
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.0W0kEpa2kNEcRGK0",
+        "worn": true
+      }
+    ]
+  },
+  {
+    "id": "plague-zombie",
+    "folder": "Zombies",
+    "name": "Plague Zombie",
+    "type": "creature",
+    "species": "Plague Zombie",
+    "stats": {
+      "m": 4,
+      "ws": 15,
+      "bs": 0,
+      "s": 30,
+      "t": 35,
+      "i": 5,
+      "ag": 10,
+      "dex": 15,
+      "int": 0,
+      "wp": 0,
+      "fel": 0
+    },
+    "wounds": 14,
+    "skills": [],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UB4mDroL6S1F9B4u"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.JQa5DLnTs2SEzRrc"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.wMwSRDmgiF2IdCJr"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.D0ImWEIMSDgElsnl"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pTorrE0l3VybAbtn",
+        "specification": "2"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.V0c3qBU1CMm8bmsW"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.TBcdTlYSRH8Rd1x0"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.AtpAudHA4ybXVlWM",
+        "specification": "+7"
+      }
+    ]
+  },
+  {
+    "id": "zombie",
+    "folder": "Zombies",
+    "name": "Zombie",
+    "type": "creature",
+    "species": "Zombie",
+    "stats": {
+      "m": 4,
+      "ws": 15,
+      "bs": 0,
+      "s": 30,
+      "t": 30,
+      "i": 5,
+      "ag": 10,
+      "dex": 15,
+      "int": 0,
+      "wp": 0,
+      "fel": 0
+    },
+    "wounds": 12,
+    "skills": [],
+    "items": [
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.UB4mDroL6S1F9B4u"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.JQa5DLnTs2SEzRrc"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.wMwSRDmgiF2IdCJr"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.D0ImWEIMSDgElsnl"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.pTorrE0l3VybAbtn",
+        "specification": "2"
+      },
+      {
+        "uuid": "Compendium.wfrp4e-core.items.Item.AtpAudHA4ybXVlWM",
+        "specification": "+7"
       }
     ]
   }

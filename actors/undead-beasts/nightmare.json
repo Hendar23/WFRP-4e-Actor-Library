@@ -1,0 +1,48 @@
+{
+  "id": "nightmare",
+  "folder": "Undead Beasts",
+  "name": "Nightmare",
+  "type": "creature",
+  "species": "Nightmare",
+  "stats": {
+    "m": 8,
+    "ws": 45,
+    "bs": 0,
+    "s": 45,
+    "t": 45,
+    "i": 35,
+    "ag": 45,
+    "dex": 0,
+    "int": 15,
+    "wp": 35,
+    "fel": 0
+  },
+  "wounds": 30,
+  "skills": [],
+  "items": [
+    {
+      "ref": "trait.darkVision"
+    },
+    {
+      "ref": "trait.fear",
+      "specification": "2"
+    },
+    {
+      "ref": "trait.painless"
+    },
+    {
+      "ref": "trait.size",
+      "specification": "Large"
+    },
+    {
+      "ref": "trait.stride"
+    },
+    {
+      "ref": "trait.undead"
+    },
+    {
+      "ref": "trait.weapon",
+      "specification": "+8"
+    }
+  ]
+}

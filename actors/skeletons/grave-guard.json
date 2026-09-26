@@ -1,0 +1,74 @@
+{
+  "id": "grave-guard",
+  "folder": "Skeletons",
+  "name": "Grave Guard",
+  "type": "creature",
+  "species": "Grave Guard",
+  "stats": {
+    "m": 4,
+    "ws": 45,
+    "bs": 25,
+    "s": 40,
+    "t": 40,
+    "i": 30,
+    "ag": 25,
+    "dex": 25,
+    "int": 25,
+    "wp": 40,
+    "fel": 10
+  },
+  "wounds": 18,
+  "skills": [
+    {
+      "ref": "skill.meleeBasic",
+      "total": 50,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.cool",
+      "total": 45,
+      "characteristic": "wp"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.darkVision"
+    },
+    {
+      "ref": "trait.painless"
+    },
+    {
+      "ref": "trait.magical"
+    },
+    {
+      "ref": "trait.undead"
+    },
+    {
+      "ref": "trait.unstable"
+    },
+    {
+      "ref": "trait.fear",
+      "specification": "2"
+    },
+    {
+      "ref": "gear.sword",
+      "equipped": true
+    },
+    {
+      "ref": "gear.shield",
+      "equipped": true
+    },
+    {
+      "ref": "gear.mailCoat",
+      "worn": true
+    },
+    {
+      "ref": "gear.mailCoif",
+      "worn": true
+    },
+    {
+      "ref": "gear.plateBracers",
+      "worn": true
+    }
+  ]
+}

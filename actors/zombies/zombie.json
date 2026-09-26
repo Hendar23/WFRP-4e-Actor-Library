@@ -1,0 +1,47 @@
+{
+  "id": "zombie",
+  "folder": "Zombies",
+  "name": "Zombie",
+  "type": "creature",
+  "species": "Zombie",
+  "stats": {
+    "m": 4,
+    "ws": 15,
+    "bs": 0,
+    "s": 30,
+    "t": 30,
+    "i": 5,
+    "ag": 10,
+    "dex": 15,
+    "int": 0,
+    "wp": 0,
+    "fel": 0
+  },
+  "wounds": 12,
+  "skills": [],
+  "items": [
+    {
+      "ref": "trait.construct"
+    },
+    {
+      "ref": "trait.darkVision"
+    },
+    {
+      "ref": "trait.painless"
+    },
+    {
+      "ref": "trait.undead"
+    },
+    {
+      "ref": "trait.unstable"
+    },
+    {
+      "ref": "trait.fear",
+      "specification": "2"
+    },
+    {
+      "ref": "trait.weapon",
+      "specification": "+7"
+    }
+  ]
+}

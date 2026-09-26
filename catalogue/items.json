@@ -986,5 +986,85 @@
   "gear.throwingAxe": {
     "uuid": "Compendium.wfrp4e-core.items.Item.Xjwk84KnOKDaiZs1",
     "requires": "wfrp4e-core"
+  },
+  "trait.construct": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.UB4mDroL6S1F9B4u",
+    "requires": "wfrp4e-core"
+  },
+  "trait.painless": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.wMwSRDmgiF2IdCJr",
+    "requires": "wfrp4e-core"
+  },
+  "trait.undead": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.PFTD9gDvRWW9uh5g",
+    "requires": "wfrp4e-core"
+  },
+  "trait.unstable": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.D0ImWEIMSDgElsnl",
+    "requires": "wfrp4e-core"
+  },
+  "trait.ethereal": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.tNWrJUOArwfWXsPw",
+    "requires": "wfrp4e-core"
+  },
+  "trait.terror": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.kJNAY1YRaCy9IgmT",
+    "requires": "wfrp4e-core"
+  },
+  "trait.magical": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.mDgEMOoJpi8DkRYb",
+    "requires": "wfrp4e-core"
+  },
+  "trait.champion": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.4mF5Sp3t09kZhBYc",
+    "requires": "wfrp4e-core"
+  },
+  "trait.infestation": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.TBcdTlYSRH8Rd1x0",
+    "requires": "wfrp4e-core"
+  },
+  "trait.regenerate": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.SfUUdOGjdYpr3KSR",
+    "requires": "wfrp4e-core"
+  },
+  "trait.vampiric": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.3MDwUi7BVxwWVI2V",
+    "requires": "wfrp4e-core"
+  },
+  "trait.distracting": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.MVI0lXcg6vvtooAF",
+    "requires": "wfrp4e-core"
+  },
+  "trait.chillGrasp": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.7HSUM2iPZLX4ueIW",
+    "requires": "wfrp4e-core"
+  },
+  "trait.ghostlyHowl": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.plVyl4vjS2fX16Rv",
+    "requires": "wfrp4e-core"
+  },
+  "gear.mailCoif": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.4xV16ttsxCa311vl",
+    "requires": "wfrp4e-core"
+  },
+  "gear.plateHelm": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.e9WmLbD7AuXSeWp0",
+    "requires": "wfrp4e-core"
+  },
+  "gear.plateLeggings": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.bY6M9XxbqmFmqpA8",
+    "requires": "wfrp4e-core"
+  },
+  "gear.mailChausses": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.XWlkZVUhzO0CwaiJ",
+    "requires": "wfrp4e-core"
+  },
+  "skill.channellingDhar": {
+    "uuid": "Compendium.wfrp4e-core.items.Item.dBwnAzhe0bvobgbY",
+    "requires": "wfrp4e-core"
+  },
+  "gear.lance": {
+    "uuid": "Compendium.wfrp4e-up-in-arms.items.Item.efk3W6z1CMAA8NrB",
+    "requires": "wfrp4e-up-in-arms"
   }
 }

@@ -1,0 +1,57 @@
+{
+  "id": "cairn-wraith",
+  "folder": "Spirits",
+  "name": "Cairn Wraith",
+  "type": "creature",
+  "species": "Cairn Wraith",
+  "stats": {
+    "m": 6,
+    "ws": 35,
+    "bs": 0,
+    "s": 35,
+    "t": 30,
+    "i": 15,
+    "ag": 30,
+    "dex": 25,
+    "int": 25,
+    "wp": 50,
+    "fel": 15
+  },
+  "wounds": 14,
+  "skills": [
+    {
+      "ref": "skill.stealthRural",
+      "total": 45,
+      "characteristic": "ag"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.darkVision"
+    },
+    {
+      "ref": "trait.ethereal"
+    },
+    {
+      "ref": "trait.undead"
+    },
+    {
+      "ref": "trait.unstable"
+    },
+    {
+      "ref": "trait.fear",
+      "specification": "2"
+    },
+    {
+      "ref": "trait.chillGrasp"
+    },
+    {
+      "ref": "trait.terror",
+      "specification": "3"
+    },
+    {
+      "ref": "trait.weapon",
+      "specification": "+9"
+    }
+  ]
+}

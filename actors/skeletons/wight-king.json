@@ -1,0 +1,91 @@
+{
+  "id": "wight-king",
+  "folder": "Skeletons",
+  "name": "Wight King",
+  "type": "creature",
+  "species": "Wight King",
+  "stats": {
+    "m": 4,
+    "ws": 65,
+    "bs": 35,
+    "s": 50,
+    "t": 50,
+    "i": 45,
+    "ag": 40,
+    "dex": 35,
+    "int": 40,
+    "wp": 65,
+    "fel": 25
+  },
+  "wounds": 28,
+  "skills": [
+    {
+      "ref": "skill.meleeBasic",
+      "total": 75,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 50,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.cool",
+      "total": 70,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.leadership",
+      "total": 55,
+      "characteristic": "fel"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.darkVision"
+    },
+    {
+      "ref": "trait.painless"
+    },
+    {
+      "ref": "trait.magical"
+    },
+    {
+      "ref": "trait.undead"
+    },
+    {
+      "ref": "trait.unstable"
+    },
+    {
+      "ref": "trait.fear",
+      "specification": "2"
+    },
+    {
+      "ref": "trait.champion"
+    },
+    {
+      "ref": "gear.sword",
+      "equipped": true
+    },
+    {
+      "ref": "gear.shield",
+      "equipped": true
+    },
+    {
+      "ref": "gear.plateBreastplate",
+      "worn": true
+    },
+    {
+      "ref": "gear.plateHelm",
+      "worn": true
+    },
+    {
+      "ref": "gear.plateBracers",
+      "worn": true
+    },
+    {
+      "ref": "gear.plateLeggings",
+      "worn": true
+    }
+  ]
+}

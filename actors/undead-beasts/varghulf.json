@@ -1,0 +1,81 @@
+{
+  "id": "varghulf",
+  "folder": "Undead Beasts",
+  "name": "Varghulf",
+  "type": "creature",
+  "species": "Varghulf",
+  "stats": {
+    "m": 8,
+    "ws": 55,
+    "bs": 0,
+    "s": 55,
+    "t": 55,
+    "i": 30,
+    "ag": 50,
+    "dex": 20,
+    "int": 10,
+    "wp": 60,
+    "fel": 0
+  },
+  "wounds": 42,
+  "skills": [
+    {
+      "ref": "skill.athletics",
+      "total": 60,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 60,
+      "characteristic": "ag"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.armour",
+      "specification": "1"
+    },
+    {
+      "ref": "trait.bestial"
+    },
+    {
+      "ref": "trait.bite",
+      "specification": "+8"
+    },
+    {
+      "ref": "trait.darkVision"
+    },
+    {
+      "ref": "trait.fear",
+      "specification": "4"
+    },
+    {
+      "ref": "trait.hatred",
+      "specification": "Living"
+    },
+    {
+      "ref": "trait.hungry"
+    },
+    {
+      "ref": "trait.regenerate"
+    },
+    {
+      "ref": "trait.size",
+      "specification": "Large"
+    },
+    {
+      "ref": "trait.terror",
+      "specification": "3"
+    },
+    {
+      "ref": "trait.undead"
+    },
+    {
+      "ref": "trait.vampiric"
+    },
+    {
+      "ref": "trait.weapon",
+      "specification": "+9"
+    }
+  ]
+}

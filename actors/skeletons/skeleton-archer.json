@@ -1,0 +1,61 @@
+{
+  "id": "skeleton-archer",
+  "folder": "Skeletons",
+  "name": "Skeleton Archer",
+  "type": "creature",
+  "species": "Skeleton Archer",
+  "stats": {
+    "m": 4,
+    "ws": 25,
+    "bs": 35,
+    "s": 30,
+    "t": 30,
+    "i": 25,
+    "ag": 25,
+    "dex": 25,
+    "int": 0,
+    "wp": 0,
+    "fel": 0
+  },
+  "wounds": 12,
+  "skills": [
+    {
+      "ref": "skill.rangedBow",
+      "total": 35,
+      "characteristic": "bs"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.construct"
+    },
+    {
+      "ref": "trait.darkVision"
+    },
+    {
+      "ref": "trait.painless"
+    },
+    {
+      "ref": "trait.undead"
+    },
+    {
+      "ref": "trait.unstable"
+    },
+    {
+      "ref": "trait.fear",
+      "specification": "2"
+    },
+    {
+      "ref": "gear.bow",
+      "equipped": true
+    },
+    {
+      "ref": "gear.arrow",
+      "quantity": 12
+    },
+    {
+      "ref": "gear.sword",
+      "equipped": false
+    }
+  ]
+}

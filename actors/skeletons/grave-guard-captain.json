@@ -1,0 +1,82 @@
+{
+  "id": "grave-guard-captain",
+  "folder": "Skeletons",
+  "name": "Grave Guard Captain",
+  "type": "creature",
+  "species": "Grave Guard Captain",
+  "stats": {
+    "m": 4,
+    "ws": 55,
+    "bs": 25,
+    "s": 45,
+    "t": 45,
+    "i": 35,
+    "ag": 30,
+    "dex": 30,
+    "int": 30,
+    "wp": 50,
+    "fel": 15
+  },
+  "wounds": 22,
+  "skills": [
+    {
+      "ref": "skill.meleeBasic",
+      "total": 65,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.cool",
+      "total": 60,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.leadership",
+      "total": 45,
+      "characteristic": "fel"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.darkVision"
+    },
+    {
+      "ref": "trait.painless"
+    },
+    {
+      "ref": "trait.magical"
+    },
+    {
+      "ref": "trait.undead"
+    },
+    {
+      "ref": "trait.unstable"
+    },
+    {
+      "ref": "trait.fear",
+      "specification": "2"
+    },
+    {
+      "ref": "trait.champion"
+    },
+    {
+      "ref": "gear.sword",
+      "equipped": true
+    },
+    {
+      "ref": "gear.shield",
+      "equipped": true
+    },
+    {
+      "ref": "gear.mailCoat",
+      "worn": true
+    },
+    {
+      "ref": "gear.mailCoif",
+      "worn": true
+    },
+    {
+      "ref": "gear.plateBracers",
+      "worn": true
+    }
+  ]
+}

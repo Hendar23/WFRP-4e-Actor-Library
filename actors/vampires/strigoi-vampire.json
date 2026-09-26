@@ -1,0 +1,75 @@
+{
+  "id": "strigoi-vampire",
+  "folder": "Vampires",
+  "name": "Strigoi Vampire",
+  "type": "creature",
+  "species": "Strigoi Vampire",
+  "stats": {
+    "m": 6,
+    "ws": 65,
+    "bs": 0,
+    "s": 60,
+    "t": 50,
+    "i": 55,
+    "ag": 65,
+    "dex": 30,
+    "int": 30,
+    "wp": 60,
+    "fel": 10
+  },
+  "wounds": 28,
+  "skills": [
+    {
+      "ref": "skill.athletics",
+      "total": 75,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 70,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 65,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.track",
+      "total": 70,
+      "characteristic": "i"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.undead"
+    },
+    {
+      "ref": "trait.vampiric"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "trait.bite",
+      "specification": "+8"
+    },
+    {
+      "ref": "trait.fear",
+      "specification": "3"
+    },
+    {
+      "ref": "trait.hungry"
+    },
+    {
+      "ref": "trait.tracker"
+    },
+    {
+      "ref": "trait.wallcrawler"
+    },
+    {
+      "ref": "trait.weapon",
+      "specification": "+10"
+    }
+  ]
+}

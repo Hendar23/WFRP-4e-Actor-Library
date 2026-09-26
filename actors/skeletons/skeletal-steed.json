@@ -1,0 +1,54 @@
+{
+  "id": "skeletal-steed",
+  "folder": "Skeletons",
+  "name": "Skeletal Steed",
+  "type": "creature",
+  "species": "Skeletal Steed",
+  "stats": {
+    "m": 8,
+    "ws": 30,
+    "bs": 0,
+    "s": 40,
+    "t": 40,
+    "i": 25,
+    "ag": 30,
+    "dex": 0,
+    "int": 0,
+    "wp": 0,
+    "fel": 0
+  },
+  "wounds": 28,
+  "skills": [],
+  "items": [
+    {
+      "ref": "trait.construct"
+    },
+    {
+      "ref": "trait.darkVision"
+    },
+    {
+      "ref": "trait.painless"
+    },
+    {
+      "ref": "trait.undead"
+    },
+    {
+      "ref": "trait.unstable"
+    },
+    {
+      "ref": "trait.fear",
+      "specification": "2"
+    },
+    {
+      "ref": "trait.size",
+      "specification": "Large"
+    },
+    {
+      "ref": "trait.stride"
+    },
+    {
+      "ref": "trait.weapon",
+      "specification": "+7"
+    }
+  ]
+}

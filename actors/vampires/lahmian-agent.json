@@ -1,0 +1,77 @@
+{
+  "id": "lahmian-agent",
+  "folder": "Vampires",
+  "name": "Lahmian Agent",
+  "type": "creature",
+  "species": "Lahmian Agent",
+  "stats": {
+    "m": 6,
+    "ws": 50,
+    "bs": 40,
+    "s": 45,
+    "t": 40,
+    "i": 65,
+    "ag": 70,
+    "dex": 50,
+    "int": 55,
+    "wp": 65,
+    "fel": 70
+  },
+  "wounds": 20,
+  "skills": [
+    {
+      "ref": "skill.charm",
+      "total": 80,
+      "characteristic": "fel"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 75,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.intuition",
+      "total": 75,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.meleeBasic",
+      "total": 60,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.stealthUrban",
+      "total": 75,
+      "characteristic": "ag"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.undead"
+    },
+    {
+      "ref": "trait.vampiric"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "trait.bite",
+      "specification": "+8"
+    },
+    {
+      "ref": "trait.distracting"
+    },
+    {
+      "ref": "gear.dagger",
+      "equipped": true
+    },
+    {
+      "ref": "gear.sword",
+      "equipped": false
+    },
+    {
+      "ref": "gear.clothing"
+    }
+  ]
+}

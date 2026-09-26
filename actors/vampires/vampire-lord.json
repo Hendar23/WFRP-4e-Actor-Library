@@ -1,0 +1,101 @@
+{
+  "id": "vampire-lord",
+  "folder": "Vampires",
+  "name": "Vampire Lord",
+  "type": "creature",
+  "species": "Vampire Lord",
+  "stats": {
+    "m": 6,
+    "ws": 80,
+    "bs": 45,
+    "s": 60,
+    "t": 55,
+    "i": 70,
+    "ag": 75,
+    "dex": 55,
+    "int": 65,
+    "wp": 75,
+    "fel": 65
+  },
+  "wounds": 34,
+  "skills": [
+    {
+      "ref": "skill.meleeBasic",
+      "total": 90,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 80,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.cool",
+      "total": 85,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.intuition",
+      "total": 80,
+      "characteristic": "i"
+    },
+    {
+      "ref": "skill.leadership",
+      "total": 80,
+      "characteristic": "fel"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.undead"
+    },
+    {
+      "ref": "trait.vampiric"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "trait.bite",
+      "specification": "+8"
+    },
+    {
+      "ref": "trait.champion"
+    },
+    {
+      "ref": "trait.fear",
+      "specification": "3"
+    },
+    {
+      "ref": "trait.regenerate"
+    },
+    {
+      "ref": "gear.sword",
+      "equipped": true
+    },
+    {
+      "ref": "gear.shield",
+      "equipped": true
+    },
+    {
+      "ref": "gear.dagger",
+      "equipped": false
+    },
+    {
+      "ref": "gear.plateBreastplate",
+      "worn": true
+    },
+    {
+      "ref": "gear.plateHelm",
+      "worn": true
+    },
+    {
+      "ref": "gear.plateBracers",
+      "worn": true
+    },
+    {
+      "ref": "gear.plateLeggings",
+      "worn": true
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "fledgling-vampire",
+  "folder": "Vampires",
+  "name": "Fledgling Vampire",
+  "type": "creature",
+  "species": "Fledgling Vampire",
+  "stats": {
+    "m": 6,
+    "ws": 50,
+    "bs": 35,
+    "s": 45,
+    "t": 40,
+    "i": 45,
+    "ag": 60,
+    "dex": 40,
+    "int": 40,
+    "wp": 50,
+    "fel": 35
+  },
+  "wounds": 18,
+  "skills": [
+    {
+      "ref": "skill.meleeBasic",
+      "total": 55,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 65,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 50,
+      "characteristic": "i"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.undead"
+    },
+    {
+      "ref": "trait.vampiric"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "trait.bite",
+      "specification": "+8"
+    },
+    {
+      "ref": "gear.sword",
+      "equipped": true
+    },
+    {
+      "ref": "gear.clothing"
+    }
+  ]
+}

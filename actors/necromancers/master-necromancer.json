@@ -1,0 +1,77 @@
+{
+  "id": "master-necromancer",
+  "folder": "Necromancers",
+  "name": "Master Necromancer",
+  "type": "npc",
+  "species": "Human",
+  "stats": {
+    "m": 4,
+    "ws": 40,
+    "bs": 35,
+    "s": 35,
+    "t": 40,
+    "i": 50,
+    "ag": 40,
+    "dex": 45,
+    "int": 65,
+    "wp": 65,
+    "fel": 35
+  },
+  "wounds": 19,
+  "skills": [
+    {
+      "ref": "skill.channellingDhar",
+      "total": 85,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.languageMagick",
+      "total": 80,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.loreMagick",
+      "total": 75,
+      "characteristic": "int"
+    },
+    {
+      "ref": "skill.loreMagick",
+      "total": 85,
+      "characteristic": "int",
+      "name": "Lore (Necromancy)"
+    },
+    {
+      "ref": "skill.cool",
+      "total": 70,
+      "characteristic": "wp"
+    },
+    {
+      "ref": "skill.perception",
+      "total": 60,
+      "characteristic": "i"
+    }
+  ],
+  "items": [
+    {
+      "ref": "talent.arcaneMagic",
+      "specification": "Necromancy"
+    },
+    {
+      "ref": "talent.readWrite"
+    },
+    {
+      "ref": "gear.quarterstaff",
+      "equipped": true
+    },
+    {
+      "ref": "gear.dagger",
+      "equipped": false
+    },
+    {
+      "ref": "gear.robes"
+    },
+    {
+      "ref": "gear.writingKit"
+    }
+  ]
+}

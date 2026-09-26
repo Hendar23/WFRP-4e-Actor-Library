@@ -1,0 +1,93 @@
+{
+  "id": "blood-dragon-knight",
+  "folder": "Vampires",
+  "name": "Blood Dragon Knight",
+  "type": "creature",
+  "species": "Blood Dragon Knight",
+  "stats": {
+    "m": 6,
+    "ws": 75,
+    "bs": 40,
+    "s": 55,
+    "t": 50,
+    "i": 55,
+    "ag": 65,
+    "dex": 40,
+    "int": 40,
+    "wp": 60,
+    "fel": 30
+  },
+  "wounds": 28,
+  "skills": [
+    {
+      "ref": "skill.meleeBasic",
+      "total": 85,
+      "characteristic": "ws"
+    },
+    {
+      "ref": "skill.dodge",
+      "total": 70,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.rideHorse",
+      "total": 70,
+      "characteristic": "ag"
+    },
+    {
+      "ref": "skill.cool",
+      "total": 70,
+      "characteristic": "wp"
+    }
+  ],
+  "items": [
+    {
+      "ref": "trait.undead"
+    },
+    {
+      "ref": "trait.vampiric"
+    },
+    {
+      "ref": "trait.nightVision"
+    },
+    {
+      "ref": "trait.bite",
+      "specification": "+8"
+    },
+    {
+      "ref": "trait.champion"
+    },
+    {
+      "ref": "trait.fear",
+      "specification": "2"
+    },
+    {
+      "ref": "gear.sword",
+      "equipped": true
+    },
+    {
+      "ref": "gear.shield",
+      "equipped": true
+    },
+    {
+      "ref": "gear.lance",
+      "equipped": false
+    },
+    {
+      "ref": "gear.plateBreastplate",
+      "worn": true
+    },
+    {
+      "ref": "gear.plateHelm",
+      "worn": true
+    },
+    {
+      "ref": "gear.plateBracers",
+      "worn": true
+    },
+    {
+      "ref": "gear.plateLeggings",
+      "worn": true
+    }
+  ]
+}

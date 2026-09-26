@@ -23,7 +23,7 @@ https://github.com/Hendar23/WFRP-4e-Actor-Library/releases/latest/download/modul
 
 The GM's first login builds missing or outdated actors into the world compendium **WFRP4e Quick NPC Library**. Drag actors into the world or onto a scene. The module creates matching folders in the Actors directory for imported actors. Existing world copies are not automatically updated.
 
-## Included actors (122)
+## Included actors (154)
 
 | Group | Actors |
 | --- | --- |
@@ -44,6 +44,13 @@ The GM's first login builds missing or outdated actors into the world compendium
 | Gnoblars (2) | Gnoblar Scavenger, Gnoblar Slinger |
 | Hobgoblins (4) | Hobgoblin Mercenary, Hobgoblin Archer, Hobgoblin Wolf Rider, Hobgoblin Boss |
 | Mounts (3) | War Boar, Giant Wolf, Giant Spider |
+| Skeletons (9) | Skeleton Warrior, Skeleton Spearman, Skeleton Archer, Veteran Skeleton, Grave Guard, Grave Guard Captain, Wight King, Black Knight, Skeletal Steed |
+| Zombies (3) | Zombie, Plague Zombie, Armoured Zombie |
+| Ghouls (2) | Crypt Ghoul, Crypt Ghast |
+| Undead Beasts (6) | Dire Wolf, Doom Wolf, Fell Bat, Scuttling Hand, Varghulf, Nightmare |
+| Spirits (3) | Ghost, Cairn Wraith, Tomb Banshee |
+| Necromancers (2) | Necromancer, Master Necromancer |
+| Vampires (7) | Fledgling Vampire, Von Carstein Noble, Blood Dragon Knight, Lahmian Agent, Necrarch Sorcerer, Strigoi Vampire, Vampire Lord |
 
 ## Add an actor
 
