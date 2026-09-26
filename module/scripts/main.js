@@ -2,14 +2,22 @@ import { MODULE_ID, PROFILES, UUID } from "./data.js";
 
 const PACK_NAME = "wfrp4e-quick-npc-library";
 const PACK_LABEL = "WFRP4e Quick NPC Library";
-const BUILD_VERSION = 9;
+const BUILD_VERSION = 10;
 const PREVIOUS_BUILD_VERSION = 7;
 const SPECIALISATION_BUILD_VERSION = 8;
+const PROMPT_FIX_BUILD_VERSION = 9;
 const TALENT_UUIDS = new Set(Object.values(UUID.talent));
 const REPAIR_IDS = new Set(PROFILES.filter(profile =>
   profile.id === "giant-spider" || profile.items.some(item =>
     item.specification && TALENT_UUIDS.has(item.uuid))).map(profile => profile.id));
 const PROMPT_FIX_IDS = new Set(["bray-shaman", "great-bray-shaman", "giant-spider", "giant-wolf"]);
+const REPAIR_IDS_10 = new Set([
+  "giant-spider", "giant-wolf", "goblin-spearman", "goblin-wolf-rider",
+  "orc-boar-boy", "orc-boar-boy-big-un", "night-goblin-spear-carrier",
+  "ungor", "ungor-halfhorn", "hobgoblin-wolf-rider",
+  "forest-goblin-spider-rider", "forest-goblin-warrior",
+  "herbalist", "master-merchant"
+]);
 
 // Only sort actors created by this library. A folder explicitly chosen by the
 // GM always takes precedence, including when an actor is dragged into it.
@@ -129,7 +137,8 @@ Hooks.once("ready", async () => {
       const version = Number(actor?.getFlag(MODULE_ID, "buildVersion") ?? 0);
       return !actor || version < PREVIOUS_BUILD_VERSION ||
         (REPAIR_IDS.has(profile.id) && version < SPECIALISATION_BUILD_VERSION) ||
-        (PROMPT_FIX_IDS.has(profile.id) && version < BUILD_VERSION);
+        (PROMPT_FIX_IDS.has(profile.id) && version < PROMPT_FIX_BUILD_VERSION) ||
+        (REPAIR_IDS_10.has(profile.id) && version < BUILD_VERSION);
     });
     if (!pending.length) return;
 
@@ -280,9 +289,12 @@ function silenceBrokenTrainingRoll(data, entry) {
     for (const scripts of [effect.system?.scriptData, effect.flags?.wfrp4e?.scriptData]) {
       if (!Array.isArray(scripts)) continue;
       for (const script of scripts) {
-        if (typeof script?.script !== "string" || !script.script.includes('case "broken"') ||
-            !messageCall.test(script.script)) continue;
-        script.script = script.script.replace(messageCall, "");
+        if (typeof script?.script !== "string") continue;
+        const scriptId = script.script.match(/\[Script\.([A-Za-z0-9]{16})\]/)?.[1];
+        const body = scriptId ? game.wfrp4e.config.effectScripts[scriptId] : script.script;
+        if (typeof body !== "string" || !body.includes('case "broken"') ||
+            !messageCall.test(body)) continue;
+        script.script = body.replace(messageCall, "");
         modified = true;
       }
     }
@@ -432,7 +444,8 @@ async function createCompendiumActor(profile, packId) {
 // Profile characteristics describe final values, including these one-time +5 talents.
 function characteristicTalentBonus(profile, characteristic) {
   const talents = { ws: UUID.talent.warriorBorn, s: UUID.talent.veryStrong,
-    t: UUID.talent.veryResilient, int: UUID.talent.savvy };
+    t: UUID.talent.veryResilient, int: UUID.talent.savvy,
+    i: UUID.talent.sharp, dex: UUID.talent.nimbleFingered };
   return talents[characteristic] && profile.items.some(i => i.uuid === talents[characteristic]) ? 5 : 0;
 }
 

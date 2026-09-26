@@ -28,6 +28,7 @@ const profiles=files(path.join(root,'actors')).map(file=>{
  for(const value of Object.values(actor.stats))assert(Number.isInteger(value)&&value>=0,`${actor.id}: invalid stat`);
  if('wounds' in actor)assert(Number.isInteger(actor.wounds)&&actor.wounds>0,`${actor.id}: invalid printed Wounds`);
  assert(Array.isArray(actor.skills)&&Array.isArray(actor.items),`${actor.id}: skills and items must be arrays`);
+ assert(!(actor.items.some(i=>i.ref==='gear.spear'&&i.equipped)&&actor.items.some(i=>i.ref==='gear.shield'&&i.equipped)),`${actor.id}: two-handed spear cannot be equipped with a shield`);
  function resolve(entry,skill){
   assert(catalogue[entry.ref],`${actor.id}: missing reference ${entry.ref}`);
   const keys=skill?['ref','total','characteristic','name']:['ref','name','specification','quantity','worn','equipped','loaded','ugly','damage','ammoRef'];

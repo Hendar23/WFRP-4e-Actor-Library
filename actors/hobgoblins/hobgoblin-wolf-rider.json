@@ -69,7 +69,7 @@
     },
     {
       "ref": "gear.shield",
-      "equipped": true,
+      "equipped": false,
       "ugly": true
     },
     {

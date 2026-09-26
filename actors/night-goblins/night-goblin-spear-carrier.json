@@ -51,7 +51,7 @@
     {
       "ref": "gear.shield",
       "name": "Round Shield",
-      "equipped": true,
+      "equipped": false,
       "ugly": true
     }
   ]

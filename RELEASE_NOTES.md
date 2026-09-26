@@ -1,3 +1,9 @@
+## 0.3.10: Actor build corrections
+
+- Resolve the Trained Trait script reference before suppressing its automatic chat cards. Its roll and bonuses remain intact.
+- Carry shields unequipped when wielding two-handed spears, and account for Sharp and Nimble Fingered in skill totals.
+- Rebuild the affected compendium actors while preserving imported world copies.
+
 ## 0.3.9: Shaman imports
 
 - Remove the Spellcaster Trait from both Bray-Shamans to prevent the lore selection dialog. Their magic skills and Arcane Magic (Beasts) Talent remain, ready for the GM to add spells.

@@ -1972,7 +1972,7 @@ export const PROFILES = [
       },
       {
         "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
-        "equipped": true,
+        "equipped": false,
         "ugly": true
       },
       {
@@ -2175,7 +2175,7 @@ export const PROFILES = [
       },
       {
         "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
-        "equipped": true,
+        "equipped": false,
         "ugly": true
       },
       {
@@ -3094,7 +3094,7 @@ export const PROFILES = [
       {
         "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
         "name": "Rawhide Shield",
-        "equipped": true,
+        "equipped": false,
         "ugly": true
       },
       {
@@ -3158,7 +3158,7 @@ export const PROFILES = [
       {
         "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
         "name": "Rawhide Shield",
-        "equipped": true,
+        "equipped": false,
         "ugly": true
       }
     ]
@@ -3720,7 +3720,7 @@ export const PROFILES = [
       {
         "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
         "name": "Round Shield",
-        "equipped": true,
+        "equipped": false,
         "ugly": true
       },
       {
@@ -3806,7 +3806,7 @@ export const PROFILES = [
       {
         "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
         "name": "Round Shield",
-        "equipped": true,
+        "equipped": false,
         "ugly": true
       },
       {
@@ -4165,7 +4165,7 @@ export const PROFILES = [
       },
       {
         "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
-        "equipped": true,
+        "equipped": false,
         "ugly": true
       },
       {
@@ -5280,7 +5280,7 @@ export const PROFILES = [
       {
         "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
         "name": "Round Shield",
-        "equipped": true,
+        "equipped": false,
         "ugly": true
       }
     ]
@@ -6000,7 +6000,7 @@ export const PROFILES = [
       {
         "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
         "name": "Shield",
-        "equipped": true,
+        "equipped": false,
         "ugly": true
       },
       {
@@ -6096,7 +6096,7 @@ export const PROFILES = [
       {
         "uuid": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr",
         "name": "Shield",
-        "equipped": true,
+        "equipped": false,
         "ugly": true
       },
       {

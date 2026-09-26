@@ -78,7 +78,7 @@
     {
       "ref": "gear.shield",
       "name": "Rawhide Shield",
-      "equipped": true,
+      "equipped": false,
       "ugly": true
     },
     {
