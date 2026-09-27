@@ -2,7 +2,7 @@ import { MODULE_ID, PROFILES, UUID } from "./data.js";
 
 const PACK_NAME = "wfrp4e-quick-npc-library";
 const PACK_LABEL = "WFRP4e Quick NPC Library";
-const BUILD_VERSION = 13;
+const BUILD_VERSION = 14;
 const EQUIPMENT_REPAIR_BUILD_VERSION = 10;
 const PREVIOUS_BUILD_VERSION = 7;
 const SPECIALISATION_BUILD_VERSION = 8;
@@ -358,6 +358,7 @@ async function createCompendiumActor(profile, packId) {
         name: profile.name,
         type: profile.type,
         ...(profile.art ? { img: `modules/${MODULE_ID}/${profile.art.portrait}` } : {}),
+        ...(profile.art?.token ? { prototypeToken: { texture: { src: `modules/${MODULE_ID}/${profile.art.token}` } } } : {}),
         system: { settings: { autoCalc: { wounds: false } } },
         flags: {
           [MODULE_ID]: {

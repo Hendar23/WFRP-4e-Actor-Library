@@ -24,9 +24,13 @@ const profiles=files(path.join(root,'actors')).map(file=>{
  assert.equal(path.basename(file),`${actor.id}.json`);
  for(const key of ['folder','name','species'])assert(typeof actor[key]==='string'&&actor[key].trim(),`${actor.id}: missing ${key}`);
  if(actor.art){
-  assert.deepEqual(Object.keys(actor.art).sort(),['portrait','version'],`${actor.id}: art must contain portrait and version`);
+  assert.deepEqual(Object.keys(actor.art).sort(),['portrait',...(actor.art.token?['token']:[]),'version'].sort(),`${actor.id}: art must contain portrait, optional token, and version`);
   assert(/^assets\/portraits\/[a-z0-9-]+\.(png|webp|jpg|jpeg)$/.test(actor.art.portrait),`${actor.id}: invalid portrait path`);
   assert(fs.existsSync(path.join(root,'module',actor.art.portrait)),`${actor.id}: portrait file is missing`);
+  if(actor.art.token){
+   assert(/^assets\/tokens\/[a-z0-9-]+\.(png|webp|jpg|jpeg)$/.test(actor.art.token),`${actor.id}: invalid token path`);
+   assert(fs.existsSync(path.join(root,'module',actor.art.token)),`${actor.id}: token file is missing`);
+  }
   assert(Number.isInteger(actor.art.version)&&actor.art.version>0,`${actor.id}: invalid art version`);
  }
  assert(['npc','creature'].includes(actor.type),`${actor.id}: invalid type`);

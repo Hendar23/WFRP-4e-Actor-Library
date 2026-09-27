@@ -1,3 +1,7 @@
+## 0.3.15: Skeleton Spearman token
+
+- Add a token crop from the contributed portrait.
+
 ## 0.3.14: Skeleton Spearman portrait
 
 - Add the first contributed actor portrait.
