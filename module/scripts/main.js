@@ -2,7 +2,7 @@ import { MODULE_ID, PROFILES, UUID } from "./data.js";
 
 const PACK_NAME = "wfrp4e-quick-npc-library";
 const PACK_LABEL = "WFRP4e Quick NPC Library";
-const BUILD_VERSION = 14;
+const BUILD_VERSION = 15;
 const EQUIPMENT_REPAIR_BUILD_VERSION = 10;
 const PREVIOUS_BUILD_VERSION = 7;
 const SPECIALISATION_BUILD_VERSION = 8;

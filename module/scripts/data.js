@@ -8449,8 +8449,8 @@ export const PROFILES = [
     "name": "Skeleton Spearman",
     "art": {
       "portrait": "assets/portraits/skeleton-spearman.png",
-      "token": "assets/tokens/skeleton-spearman.png",
-      "version": 14
+      "token": "assets/tokens/skeleton-spearman-framed.png",
+      "version": 15
     },
     "type": "creature",
     "species": "Skeleton Spearman",

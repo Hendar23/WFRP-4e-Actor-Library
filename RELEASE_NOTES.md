@@ -1,3 +1,7 @@
+## 0.3.16: Framed token
+
+- Add the supplied frame to the Skeleton Spearman token.
+
 ## 0.3.15: Skeleton Spearman token
 
 - Add a token crop from the contributed portrait.
