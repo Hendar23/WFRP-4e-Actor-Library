@@ -40,7 +40,7 @@ jobs:
               exit 0
             fi
           else
-            gh release create "$tag" --target "$GITHUB_SHA" --draft --title "WFRP 4e Actor Library $tag" --notes-file RELEASE_NOTES.md
+            gh release create "$tag" --target "$GITHUB_SHA" --draft --title "WFRP 4e - NPC Library $tag" --notes-file RELEASE_NOTES.md
           fi
           gh release upload "$tag" dist/module.json dist/wfrp4e-quick-npc-library.zip --clobber
           gh release edit "$tag" --draft=false --latest

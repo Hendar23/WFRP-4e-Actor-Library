@@ -1,3 +1,7 @@
+## 0.3.13: Module name
+
+- Rename the Foundry module to WFRP 4e - NPC Library.
+
 ## 0.3.12: Necromancer skills
 
 - Fix both necromancers failing to build because their two Lore skills shared a source reference.
