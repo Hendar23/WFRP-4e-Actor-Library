@@ -8447,6 +8447,10 @@ export const PROFILES = [
     "id": "skeleton-spearman",
     "folder": "Skeletons",
     "name": "Skeleton Spearman",
+    "art": {
+      "portrait": "assets/portraits/skeleton-spearman.png",
+      "version": 13
+    },
     "type": "creature",
     "species": "Skeleton Spearman",
     "stats": {
@@ -8498,11 +8502,7 @@ export const PROFILES = [
         "uuid": "Compendium.wfrp4e-core.items.Item.OjcHE0VOGr1aRdy9",
         "worn": true
       }
-    ],
-    "art": {
-      "portrait": "assets/portraits/skeleton-spearman.png",
-      "version": 13
-    }
+    ]
   },
   {
     "id": "skeleton-warrior",
