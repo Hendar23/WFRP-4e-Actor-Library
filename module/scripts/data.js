@@ -8102,6 +8102,11 @@ export const PROFILES = [
     "id": "black-knight",
     "folder": "Skeletons",
     "name": "Black Knight",
+    "art": {
+      "portrait": "assets/portraits/black-knight.png",
+      "token": "assets/tokens/black-knight-framed.png",
+      "version": 16
+    },
     "type": "creature",
     "species": "Black Knight",
     "stats": {
@@ -8176,6 +8181,11 @@ export const PROFILES = [
     "id": "grave-guard-captain",
     "folder": "Skeletons",
     "name": "Grave Guard Captain",
+    "art": {
+      "portrait": "assets/portraits/grave-guard-captain.png",
+      "token": "assets/tokens/grave-guard-captain-framed.png",
+      "version": 16
+    },
     "type": "creature",
     "species": "Grave Guard Captain",
     "stats": {
@@ -8258,6 +8268,11 @@ export const PROFILES = [
     "id": "grave-guard",
     "folder": "Skeletons",
     "name": "Grave Guard",
+    "art": {
+      "portrait": "assets/portraits/grave-guard.png",
+      "token": "assets/tokens/grave-guard-framed.png",
+      "version": 16
+    },
     "type": "creature",
     "species": "Grave Guard",
     "stats": {
@@ -8332,6 +8347,11 @@ export const PROFILES = [
     "id": "skeletal-steed",
     "folder": "Skeletons",
     "name": "Skeletal Steed",
+    "art": {
+      "portrait": "assets/portraits/skeletal-steed.png",
+      "token": "assets/tokens/skeletal-steed-framed.png",
+      "version": 16
+    },
     "type": "creature",
     "species": "Skeletal Steed",
     "stats": {
@@ -8386,6 +8406,11 @@ export const PROFILES = [
     "id": "skeleton-archer",
     "folder": "Skeletons",
     "name": "Skeleton Archer",
+    "art": {
+      "portrait": "assets/portraits/skeleton-archer.png",
+      "token": "assets/tokens/skeleton-archer-framed.png",
+      "version": 16
+    },
     "type": "creature",
     "species": "Skeleton Archer",
     "stats": {
@@ -8509,6 +8534,11 @@ export const PROFILES = [
     "id": "skeleton-warrior",
     "folder": "Skeletons",
     "name": "Skeleton Warrior",
+    "art": {
+      "portrait": "assets/portraits/skeleton-warrior.png",
+      "token": "assets/tokens/skeleton-warrior-framed.png",
+      "version": 16
+    },
     "type": "creature",
     "species": "Skeleton Warrior",
     "stats": {
@@ -8574,6 +8604,11 @@ export const PROFILES = [
     "id": "veteran-skeleton",
     "folder": "Skeletons",
     "name": "Veteran Skeleton",
+    "art": {
+      "portrait": "assets/portraits/veteran-skeleton.png",
+      "token": "assets/tokens/veteran-skeleton-framed.png",
+      "version": 16
+    },
     "type": "creature",
     "species": "Veteran Skeleton",
     "stats": {
@@ -8639,6 +8674,11 @@ export const PROFILES = [
     "id": "wight-king",
     "folder": "Skeletons",
     "name": "Wight King",
+    "art": {
+      "portrait": "assets/portraits/wight-king.png",
+      "token": "assets/tokens/wight-king-framed.png",
+      "version": 16
+    },
     "type": "creature",
     "species": "Wight King",
     "stats": {

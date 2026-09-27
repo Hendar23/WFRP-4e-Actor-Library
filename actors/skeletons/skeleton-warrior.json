@@ -2,6 +2,11 @@
   "id": "skeleton-warrior",
   "folder": "Skeletons",
   "name": "Skeleton Warrior",
+  "art": {
+    "portrait": "assets/portraits/skeleton-warrior.png",
+    "token": "assets/tokens/skeleton-warrior-framed.png",
+    "version": 16
+  },
   "type": "creature",
   "species": "Skeleton Warrior",
   "stats": {

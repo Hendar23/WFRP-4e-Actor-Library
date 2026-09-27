@@ -2,6 +2,11 @@
   "id": "veteran-skeleton",
   "folder": "Skeletons",
   "name": "Veteran Skeleton",
+  "art": {
+    "portrait": "assets/portraits/veteran-skeleton.png",
+    "token": "assets/tokens/veteran-skeleton-framed.png",
+    "version": 16
+  },
   "type": "creature",
   "species": "Veteran Skeleton",
   "stats": {

@@ -2,6 +2,11 @@
   "id": "wight-king",
   "folder": "Skeletons",
   "name": "Wight King",
+  "art": {
+    "portrait": "assets/portraits/wight-king.png",
+    "token": "assets/tokens/wight-king-framed.png",
+    "version": 16
+  },
   "type": "creature",
   "species": "Wight King",
   "stats": {

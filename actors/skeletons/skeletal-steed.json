@@ -2,6 +2,11 @@
   "id": "skeletal-steed",
   "folder": "Skeletons",
   "name": "Skeletal Steed",
+  "art": {
+    "portrait": "assets/portraits/skeletal-steed.png",
+    "token": "assets/tokens/skeletal-steed-framed.png",
+    "version": 16
+  },
   "type": "creature",
   "species": "Skeletal Steed",
   "stats": {

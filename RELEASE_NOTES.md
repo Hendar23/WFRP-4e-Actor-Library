@@ -1,3 +1,7 @@
+## 0.3.18
+
+- Add portraits and framed tokens for eight skeleton actors.
+
 ## 0.3.17
 
 - Shorten artwork credits.

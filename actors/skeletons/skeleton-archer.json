@@ -2,6 +2,11 @@
   "id": "skeleton-archer",
   "folder": "Skeletons",
   "name": "Skeleton Archer",
+  "art": {
+    "portrait": "assets/portraits/skeleton-archer.png",
+    "token": "assets/tokens/skeleton-archer-framed.png",
+    "version": 16
+  },
   "type": "creature",
   "species": "Skeleton Archer",
   "stats": {

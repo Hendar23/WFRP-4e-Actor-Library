@@ -2,6 +2,11 @@
   "id": "black-knight",
   "folder": "Skeletons",
   "name": "Black Knight",
+  "art": {
+    "portrait": "assets/portraits/black-knight.png",
+    "token": "assets/tokens/black-knight-framed.png",
+    "version": 16
+  },
   "type": "creature",
   "species": "Black Knight",
   "stats": {

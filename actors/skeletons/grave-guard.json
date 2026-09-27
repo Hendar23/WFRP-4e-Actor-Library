@@ -2,6 +2,11 @@
   "id": "grave-guard",
   "folder": "Skeletons",
   "name": "Grave Guard",
+  "art": {
+    "portrait": "assets/portraits/grave-guard.png",
+    "token": "assets/tokens/grave-guard-framed.png",
+    "version": 16
+  },
   "type": "creature",
   "species": "Grave Guard",
   "stats": {

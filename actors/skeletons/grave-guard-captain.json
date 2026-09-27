@@ -2,6 +2,11 @@
   "id": "grave-guard-captain",
   "folder": "Skeletons",
   "name": "Grave Guard Captain",
+  "art": {
+    "portrait": "assets/portraits/grave-guard-captain.png",
+    "token": "assets/tokens/grave-guard-captain-framed.png",
+    "version": 16
+  },
   "type": "creature",
   "species": "Grave Guard Captain",
   "stats": {
