@@ -2,6 +2,10 @@
   "id": "skeleton-spearman",
   "folder": "Skeletons",
   "name": "Skeleton Spearman",
+  "art": {
+    "portrait": "assets/portraits/skeleton-spearman.png",
+    "version": 13
+  },
   "type": "creature",
   "species": "Skeleton Spearman",
   "stats": {

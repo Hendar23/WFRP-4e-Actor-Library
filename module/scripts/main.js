@@ -2,7 +2,7 @@ import { MODULE_ID, PROFILES, UUID } from "./data.js";
 
 const PACK_NAME = "wfrp4e-quick-npc-library";
 const PACK_LABEL = "WFRP4e Quick NPC Library";
-const BUILD_VERSION = 12;
+const BUILD_VERSION = 13;
 const EQUIPMENT_REPAIR_BUILD_VERSION = 10;
 const PREVIOUS_BUILD_VERSION = 7;
 const SPECIALISATION_BUILD_VERSION = 8;
@@ -139,7 +139,8 @@ Hooks.once("ready", async () => {
       return !actor || version < PREVIOUS_BUILD_VERSION ||
         (REPAIR_IDS.has(profile.id) && version < SPECIALISATION_BUILD_VERSION) ||
         (PROMPT_FIX_IDS.has(profile.id) && version < PROMPT_FIX_BUILD_VERSION) ||
-        (REPAIR_IDS_10.has(profile.id) && version < EQUIPMENT_REPAIR_BUILD_VERSION);
+        (REPAIR_IDS_10.has(profile.id) && version < EQUIPMENT_REPAIR_BUILD_VERSION) ||
+        (profile.art && version < profile.art.version);
     });
     if (!pending.length) return;
 
@@ -356,6 +357,7 @@ async function createCompendiumActor(profile, packId) {
       [{
         name: profile.name,
         type: profile.type,
+        ...(profile.art ? { img: `modules/${MODULE_ID}/${profile.art.portrait}` } : {}),
         system: { settings: { autoCalc: { wounds: false } } },
         flags: {
           [MODULE_ID]: {

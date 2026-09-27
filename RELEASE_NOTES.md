@@ -1,3 +1,7 @@
+## 0.3.14: Skeleton Spearman portrait
+
+- Add the first contributed actor portrait.
+
 ## 0.3.13: Module name
 
 - Rename the Foundry module to WFRP 4e - NPC Library.
