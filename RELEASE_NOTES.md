@@ -1,3 +1,7 @@
+## 0.3.17
+
+- Shorten artwork credits.
+
 ## 0.3.16: Framed token
 
 - Add the supplied frame to the Skeleton Spearman token.
